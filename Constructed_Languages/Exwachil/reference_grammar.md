@@ -1,7 +1,5 @@
 # A Grammar of Exwachil
 
-###### by Mason McGrail
-
 ## Table of Contents
 
 - [A. Introduction](#introduction)

@@ -1571,10 +1571,10 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 <table>
   <tr>
-    <td>\* Plural word</td>
-    <td rowspan=2>\* Head noun</td>
+    <td>* Plural word</td>
+    <td rowspan=2>Head noun</td>
     <td colspan=2>Adjective phrase</td>
-    <td colspan=2>\* Classifier phrase</td>
+    <td colspan=2>* Classifier phrase</td>
     <td rowspan=2>Genitive</td>
     <td rowspan=2>Determiner</td>
     <td rowspan=2>Relative clause</td>

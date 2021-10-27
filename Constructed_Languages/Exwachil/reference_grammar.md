@@ -1,7 +1,4 @@
-<!--
-On GitHub, it seems that all of the <h> tags are spread out evenly in terms of size, but they're also not very easy to tell apart when not next to each other.
-It's probably best to manually prefix sections and subsections with the appropriate numbers to maximally distinguish them.
--->
+<head><title>Exwachil Grammar</title></head>
 
 # A Grammar of Exwachil
 

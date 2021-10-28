@@ -20,9 +20,9 @@
 
 ## <a name="introduction"></a>A. Introduction
 
-This is a reference grammar for Exwachil, a constructed language (conlang) that appears in \[fictional setting\], along with seven other languages. My goal for the language was for it to be naturalistic, having all of the complexities and features that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally would be enjoyable and interesting to read for an audience that is interested in conlangs. While Exwachil is still an ongoing project, I am satisfied with the grammar, which is basically stable. Anything marked with "(?)" needs more attention and may be subject to change, and each section and subsection is prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
+This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. My goal for the language was for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. While Exwachil is still an ongoing project, I am satisfied with the grammar, which is basically stable. Anything marked with "(?)" needs more attention and may be subject to change, and each section and subsection is prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
 
-This work is meant to be descriptive and not pedagogical; rather than being a resource for a hypothetical learner of the language, it is intended to thoroughly show its structure to an audience that is at least somewhat familiar with linguistics. To that end, I will be using technical terminology whenever it would make a description more precise and concise.
+This work is meant to be descriptive and not pedagogical; rather than being a resource for a hypothetical learner of the language, it is intended to thoroughly show its structure to an audience that is at least somewhat familiar with linguistics. To that end, I will be using technical terminology whenever it would make a description shorter and more precise.
 
 This document is divided into X sections. Section A is a brief overview of the language's typology and speakers. Section A describes the phonology and the romanization used throughout this document. Sections A, A, and A cover noun morphology, verb morphology, and adjective morphology, respectively. Section A deals with pronouns. Section A discusses prepositions and particles. Section A describes numerals and classifiers. Sections A and A respectively deal with noun phrases and verb phrases. Section A discusses coordination. Section A describes relative clauses. Lastly, section A covers the lexicon, and section A contains sample texts in Exwachil, some original, others translations.
 
@@ -61,7 +61,7 @@ Verbs are not marked for tense, so this may refer to a past or future event. Bar
 There are a number of conventions used in this document that exist to make the glosses easier to read, which are listed below:
 
 - Most of the time, verbs in the perfective aspect refer to past events, so they will be translated as being in the past tense. Verbs in the imperfective aspects will be translated as being in the present tense.
-- Adjectives, which are essentially similar to stative verbs such as ??? ('to be excited') and ??? ('to be small'), will only be glossed as 'be.\[adjective\]' when they are acting predicatively. When used attributively, they will be glossed without 'be'.
+- Adjectives, which are essentially similar to stative verbs such as _???_ (?) ('to be excited') and _???_ (?) ('to be small'), will be glossed without 'be' when they are being used attributively.
 - Animate nominals will be translated as being definite, and inanimate nominals will be translated as being both definite and singular.
 
 Below is the gloss from above written using these additional conventions:
@@ -125,9 +125,12 @@ This chapter is a brief outline of _???_ (?).
 
 ### A.B. Geographic and demographic information
 
+(?)
+<!--
 \[Exwachil is a member of the _???_ (?) language family, and it is spoken by approximately _???_ (?) people on the island nation of _???_ (?). The total number of languages in the _???_ (?) family ranges from dozens to the low hundreds, depending on the definition used to distinguish languages from dialects. _???_ (?) is somewhat distant from other landmasses, and due to this as well the nature of surrounding ocean currents, it has no contact with the outside world as of yet.
 
 Within the _???_ (?) language family, Exwachil is the most widely spoken, and it acts as a de facto lingua franca on ????.\]
+-->
 
 ### A.B. Overview of Exwachil grammar
 
@@ -487,7 +490,7 @@ The consonant inventory of Exwachil is shown below in Table A-B.
 
 - /m/ assimilates in place before alveolar consonants
 - /n/ assimilates in place before all (?) consonants
-- Voiceless stops may be slightly aspirated word-initally
+- Voiceless stops may be slightly aspirated word-initially
 - Voiced stops are fully voice in all positions, including word-initially
 - /l/ may be pronounced as \[ɾ\] before front vowels in free variation
 
@@ -591,9 +594,9 @@ Some examples of possible syllables are listed below:
     CAV     ???     '[word]'
     CAV?    ????    '[word]'
 
-#### A.B.C. Phonotatic restrictions
+#### A.B.C. Phonotactic restrictions
 
-In the onset of a syllable, a second consonant is only permitted if the first has no secondary articulation and is not an alveo-palatal/palatal consonant, nasal, or approximant. In addition, there is no contrast between labialized and plain consonants before rounded vowels. In the coda, /j/ is only permitted if the preceding vowel is non-high. _\[there should be a chart here\]_ (?)
+In the onset of a syllable, a second consonant is only permitted if the first has no secondary articulation and is not an alveo-palatal/palatal consonant, nasal, or approximant. In addition, there is no contrast between labialized and plain consonants before rounded vowels. In the coda, /j/ is only permitted if the preceding vowel is not close. _\[insert a chart to illustrate this more clearly\]_ (?)
 
 ### A.B. Sibilant harmony
 
@@ -786,15 +789,28 @@ These suffixes do not attract stress, which stays on the preceding syllable.
 
 #### A.B.C. Derivational affixes
 
+(?)
+<!--
 _\[would have one or two methods (probably one) of forming intransitive verbs from nouns. Probably affixal, but it could also be done with reduplication. The example given for Tzeltal is "song" goes to "to sing", so it might be something like "do \[noun\]"\]_ (?)
+-->
 
 #### A.B.C. Compounding
 
-When a compound is endocentric, meaning that one noun functions as the head and the other functions as a modifier, the head noun precedes. For example, in the English compound 'bedbug', 'bug' is the head of the compound and 'bed' is its modifier. \[the head noun might also have a possessive suffix, so the compound is basically just two words pronounced as one, as in Turkish\] (?)
+Endocentric compounds consisting of a head noun and an attributive adjective are always head-initial.
 
-    AAA-BBB    'mountain tiger', from AAA 'tiger' and BBB 'mountain'
-    AAA-BBB    'flying squirrel', from AAA 'squirrel' and BBB 'blanket'
-    AAA-BBB    'peach fuzz', from AAA 'facial hair' and BBB 'peach'
+    AAA-BBB        'blue heron(?)', from AAA 'heron' and BBB 'blue'
+    AAA-BBB        'green parrot(?)', from AAA 'parrot' and BBB 'green'
+    AAA-BBB-CCC    'barn owl', from AAA 'mask', BBB 'white', and CCC 'owl'
+
+For endocentric compounds consisting of a head and one or more modifiers, the head generally precedes any modifiers. However, there are two different kinds of endocentric noun-noun compounds, which differ in head placement. Noun-noun compounds formed by simple juxtaposition are head-final.
+
+    AAA-BBB    'mountain tiger', from AAA 'mountain' and BBB 'tiger'
+    AAA-BBB    'flying squirrel(?)', from AAA 'squirrel' and BBB 'blanket'
+
+Diachronically, these compounds are older and reflect a stage in the language where genitives preceded their heads, and such compounds are a closed class, with many of them synchronically analyzed as being monomorphemic due to sound changes obscuring the etymology. The other kind of noun-noun compound is head-initial, and it is formed by a head with a possessive suffix and its possessor. These have been analyzed as compounds because in terms of pronunciation and syntax, they behave as single words. This kind of compounding is more productive, and new compounds are able to be formed using the above strategy.
+
+    AAA-A3SG-BBB             'peach fuzz', from AAA 'facial hair' and BBB 'peach'
+    AAA-A3SG-BBB-A3SG-CCC    'ant-mimicking spider', from AAA 'spider, BBB 'shape', CCC 'ant'
 
 ## <a name="verb_morphology"></a>A. Verb morphology
 
@@ -806,9 +822,11 @@ When a compound is endocentric, meaning that one noun functions as the head and 
 
 (?)
 
+<!--
 \[would be good to have nominalizations for agents and patients\]
 
 \[a fun derivation in Tzeltal is "place where X happens", which has one version for agents and another for patients. For simplicity, subjects of intransitive verbs could pattern like objects of transitives, or intransitives might be split on an unergative/unaccusative divide (as done in Tzeltal)\]
+-->
 
 ### A.B. _Verbal template_ (?)
 
@@ -816,9 +834,8 @@ A template for transitive verbs in Exwachil is given below. _\[indicative/subjun
 
     Aspect - Patient - Root - Agent/Voice
 
-Subjects and patients are indexed on the verb using the patient slot, and suffixes are used to index agents onto the verb as well as to mark voice.
+Subjects and patients are indexed on the verb using the patient slot, and suffixes are used to index agents onto the verb as well as to mark voice. Pronominal agent suffixes on verbs and possessive suffixes on nouns are formally identical, as can be seen by the examples below.
 
-_The agent markers are formally identical with the pronominal possessive affixes, as can be seen by the examples below. \[needs rewording\]_ (?)
     ???????     -???  ???    -???
     PFV:P3SG:see-A1SG husband-A1SG
     'I saw my husband'
@@ -947,7 +964,7 @@ The cessative aspect (also known as the terminative aspect) is used to refer to 
 
 ### A.B. Negation
 
-Verbal negation is done with the particle _??_ (?), which immediately precedes the verb and any aspect or mood particles that may be accompanying it.
+Verbal negation is done with the particle _???_ (?), which immediately precedes the verb and any aspect or mood particles that may be accompanying it.
 
     ???            ??? ?????????            ???
     fortunately(?) NEG PFV:P3PL:notice:A3SG shark

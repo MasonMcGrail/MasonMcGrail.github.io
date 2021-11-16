@@ -20,7 +20,7 @@
 
 ## <a name="introduction"></a>A. Introduction
 
-This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. My goal for the language was for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. While Exwachil is still an ongoing project, I am satisfied with the grammar, which is basically stable. Anything marked with "(?)" needs more attention and may be subject to change, and each section and subsection is prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
+This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. I made Exwachil because the process was very enjoyable in its own right, and it allowed me to explore and learn about various concepts in linguistics. My goal for the language was for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. While Exwachil is still an ongoing project, I am satisfied with the grammar, which is basically stable. Anything marked with "(?)" needs more attention and may be subject to change, and each section and subsection is prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
 
 This work is meant to be descriptive and not pedagogical; rather than being a resource for a hypothetical learner of the language, it is intended to thoroughly show its structure to an audience that is at least somewhat familiar with linguistics. To that end, I will be using technical terminology whenever it would make a description shorter and more precise.
 
@@ -46,17 +46,17 @@ Most of the time, I will not divide the words in the first line into their const
     PFV:P3SG:see:A1SG daughter-A2PL yesterday
     'I saw your daughter yesterday'
 
-Additionally, regarding the translation given in the third line, naturalness of the translation will be prioritized over accuracy. For instance, first person plural pronominal and verb agreement patterns in Exwachil have a clusivity distinction, but this distinction will be ignored in translations, which will not say 'we/us (inclusive)', 'we/us (not including you)', etc.
+Additionally, regarding the translation given in the third line, naturalness will be prioritized over accuracy. For instance, first person plural pronominal and verb agreement patterns in Exwachil have a clusivity distinction, but this distinction will generally be ignored in translations, which will not say 'we/us (inclusive)', 'we/us (not including you)', etc.
 
 #### A.B.C. Additional conventions
 
-For most sentences in Exwachil, there is more than one way that they may be interpreted. Consider the following gloss:
+For many sentences in Exwachil, they may be interpreted in more than one way. Consider the following gloss:
 
-    ???????             ???   ???   ???
-    PFV:P3SG:throw:A3SG spear woman be.determined
-    '(The/A) woman that (was/is/will be) determined (threw/will throw) (the/a/some) spear(s)'
+    ?????????            ???   ???   ???
+    PROG:P3SG:throw:A3SG spear woman be.determined
+    '(The/A) determined woman (was/is/will be) throwing (the/a/some) spear(s)'
 
-Verbs are not marked for tense, so this may refer to a past or future event. Bare nouns may be either definite or indefinite, and bare inanimate nouns may additionally be either singular or plural. Thus, 'A determined woman will throw the spears' and 'The determined woman threw a spear' are both valid interpretations of the above sentence given proper context. However, all of the parenthetical information in the third line makes the gloss needlessly hard to read, and it obfuscates whatever feature of the language that the gloss is meant to demonstrate.
+Verbs are not marked for tense, so this may refer to a past, present, or future event. Bare nouns may be either definite or indefinite, and bare inanimate nouns may additionally be either singular or plural. Thus, 'A determined woman was throwing the spears' and 'The determined woman is throwing a spear' are both valid translations for the above gloss given proper context. However, all of the parenthetical information in the third line makes the gloss needlessly hard to read, and it obfuscates whatever feature of the language that the gloss is meant to demonstrate.
 
 There are a number of conventions used in this document that exist to make the glosses easier to read, which are listed below:
 
@@ -67,23 +67,23 @@ There are a number of conventions used in this document that exist to make the g
 
 Below is the gloss from above written using these additional conventions:
 
-    ???????             ???   ???   ???
-    PFV:P3SG:throw:A3SG spear woman determined
-    'The determined woman threw the spear'
+    ?????????            ???   ???   ???
+    PROG:P3SG:throw:A3SG spear woman determined
+    'The determined woman is throwing the spear'
 
 Of course, these conventions are only used when they would be sensible to use. Events that clearly take place in the future will be translated as being in the future tense, and nouns that are clearly indefinite or plural will be translated accordingly. When a gloss is being used to demonstrate some feature of the language, such as marking of aspect or definiteness, the gloss will contain all of the information that it needs to fulfill its purpose.
 
 #### A.B.C. A note on the terms 'subject' and 'agent'
 
-The term 'subject', as it is commonly used, usually groups intransitive subjects and transitive agents together because the term was created with nominative-accusative languages in mind. However, this does not work so well when discussing a predominantly ergative language such as Exwachil. In this work, I will be following Comrie (1981), using the term 'subject' only for the sole argument of an intransitive verb, the term 'agent' only for the subject of a transitive verb and the term 'patient' for the direct object of a transitive verb; these terms may respectively be abbreviated to 'S', 'A', and 'P'. These labels in this work refer to syntactic roles instead of semantic roles; semantic agents and patients will be described as 'agentive' and 'patientive' where the distinction must be made.
+The term 'subject', as it is commonly used, usually groups intransitive subjects and transitive agents together because the term was created with nominative-accusative languages in mind. However, this terminology works poorly when discussing a predominantly ergative language such as Exwachil. In this work, I will be following Comrie (1981), using the term 'subject' only for the sole argument of an intransitive verb, the term 'agent' only for the subject of a transitive verb and the term 'patient' for the direct object of a transitive verb; these terms may respectively be abbreviated to 'S', 'A', and 'P'. These labels in this work refer to syntactic roles instead of semantic roles; semantic agents and patients will be described as 'agentive' and 'patientive' where the distinction must be made.
 
 ### A.B. Abbreviations
 
 |   |   |
 | - | - |
-| \- | separator for segmentable morphemes, e.g., English _walked_ (walk-PST) |
+| \- | separator for segmentable morphemes, e.g., English _walk-ed_ (walk-PST) |
 | \~ | separator for a reduplicated element and its stem |
-| = | clitic boundary, e.g., English _we'll_ (1PL.NOM=FUT) |
+| = | clitic boundary, e.g., English _we='ll_ (1PL.NOM=FUT) |
 | . | separator for irreducible morphemes that are represented by multiple glosses, e.g., English _we_ (1PL.NOM). Not used between abbreviations for person, number, and role, so 1PL is used for 1.PL,  2SG for 2.SG, etc., and A3PL is used for 3.PL.A, P3SG for 3.SG.P, etc. |
 | : | separates morphemes where segmentation is irrelevant, usually for brevity |
 

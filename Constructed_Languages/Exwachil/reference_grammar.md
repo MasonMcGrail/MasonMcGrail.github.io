@@ -1048,11 +1048,11 @@ The contrast between proximal/medial/distal is based on physical distance away f
 
 ### A.B. Reflexive pronouns
 
-For reflexive constructions the verb remains transitive and is always indexed for a third person singular object, corresponding to the reflexive pronoun (?), which is possessed by the A argument.
+For reflexive constructions, the verb remains transitive and is always indexed for a third person singular object, corresponding to the reflexive pronoun (?), which is possessed by the A argument.
 
-    ?????????             ???    ???
-    ???:P1SG:[root(?)]:AP OBL(?) REFL
-    'I [root(?)] myself'
+    ???????            ???  ???
+    PFV:P3SG:wash:A1SG REFL:A1SG
+    'I washed myself'
 
 Additionally, (?) can be used as an intensifier, in which case it can be used adnominally or adverbally. _\[adverbial syntax is still undecided\]_ (?)
 

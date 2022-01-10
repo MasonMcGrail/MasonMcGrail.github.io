@@ -18,7 +18,7 @@
 - [A. Lexicon](#lexicon)
 - [A. Texts](#texts)
 
-## <a name="introduction"></a>A. Introduction [^](#table_of_contents)
+## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
 
 This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. I made Exwachil because the process was very enjoyable in its own right, and it allowed me to explore and learn about various concepts in linguistics. My goal for the language was for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. While Exwachil is still an ongoing project, I am satisfied with the grammar, which is basically stable. Anything marked with "(?)" needs more attention and may be subject to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
 
@@ -134,7 +134,7 @@ The term 'subject', as it is commonly used, usually groups intransitive subjects
 
 <sup>1</sup> _'Set A' and 'Set P' are respectively named in the same manner as the 'Set A' and 'Set B' person markers in Mayan linguistics because they are basically similar in form and function. These sets were named 'A' for 'agent' and 'P' for 'patient' to be more transparent to those who are unfamiliar with Mayan linguistics, as well as to distance Exwachil from the Mayan language family, of which it is not a member._
 
-## <a name="overview"></a>A. Overview [^](#table_of_contents)
+## <a name="overview"></a>A. Overview <a href="#table_of_contents">^</a>
 
 This chapter is a brief outline of (?).
 
@@ -443,7 +443,7 @@ Comparatives are expressed using the preposition (?), 'from'.
     P1SG:ITV:be.old from 2SG
     'I am much older than you'
 
-## <a name="phonology"></a>A. Phonology [^](#table_of_contents)
+## <a name="phonology"></a>A. Phonology <a href="#table_of_contents">^</a>
 
 ### A.B. Phonemic inventory and romanization
 
@@ -643,7 +643,7 @@ While there are no counterexamples of root-internal harmony in the corpus, some 
     ??-???    '[compound with /s/ followed by /tʃ/]'
     ??-???    '[compound with /dʒ/ followed by /s/]'
 
-## <a name="noun_morphology"></a>A. Noun morphology [^](#table_of_contents)
+## <a name="noun_morphology"></a>A. Noun morphology <a href="#table_of_contents">^</a>
 
 ### A.B. Nominal inflection
 
@@ -714,7 +714,7 @@ Noun-noun compounds where modifying noun is a nationality are also head-initial,
 
     AAA-BBB                   '???', from AAA '???' and BBB '???'
 
-## <a name="verb_morphology"></a>A. Verb morphology [^](#table_of_contents)
+## <a name="verb_morphology"></a>A. Verb morphology <a href="#table_of_contents">^</a>
 
 ### A.B. Verbal inflection
 
@@ -934,7 +934,7 @@ Negative imperatives, sometimes called 'prohibitives', are constructed different
     NEG SUBJ-P2SG:go
     'Don't go!'
 
-## <a name="adjective_morphology"></a>A. Adjective morphology [^](#table_of_contents)
+## <a name="adjective_morphology"></a>A. Adjective morphology <a href="#table_of_contents">^</a>
 
 ### A.B. Predicative adjectives
 
@@ -988,7 +988,7 @@ Adjectives appearing without their head nouns take one of two nominalizing prefi
     P3PL:ITV:be.dangerous PL  NMLZ-big
     'Big ones are very dangerous'
 
-## <a name="pronouns"></a>A. Pronouns [^](#table_of_contents)
+## <a name="pronouns"></a>A. Pronouns <a href="#table_of_contents">^</a>
 
 ### A.B. Personal pronouns
 
@@ -1333,7 +1333,7 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
    'any~who ABIL:P3SG:solve:A3SG problem this'
 -->
 
-## <a name="prepositions_particles"></a>A. Prepositions and particles [^](#table_of_contents)
+## <a name="prepositions_particles"></a>A. Prepositions and particles <a href="#table_of_contents">^</a>
 
 ### A.B. Prepositions
 
@@ -1421,7 +1421,7 @@ The particle (?) is used to form polar questions.
     after DEF.SG storm PFV:P3SG:return LOC(?) village:A3SG SBJV:P3SG:know:A3SG Q   P3PL:be.safe(?) PL  family.member:A3SG
     'After the storm, she returned to her village to see if her relatives were safe'
 
-## <a name="numerals_classifiers"></a>A. Numerals and classifiers [^](#table_of_contents)
+## <a name="numerals_classifiers"></a>A. Numerals and classifiers <a href="#table_of_contents">^</a>
 
 ### A.B. Numerals
 
@@ -1573,7 +1573,7 @@ The only nouns that do not need classifiers to be quantified with numerals are t
       Intended: 'five hour's worth of hunting'
       Actual: 'hunting for five hours'
 
-## <a name="noun_phrases"></a>A. Noun phrases [^](#table_of_contents)
+## <a name="noun_phrases"></a>A. Noun phrases <a href="#table_of_contents">^</a>
 
 ### A.B. Noun phrase structure
 
@@ -1618,7 +1618,7 @@ The additive _and associative_ (?) plural particles (?) and (?) cannot occur in 
 
 _\[use of a demonstrative for both the head noun and the genitive is not attested in the corpus; possibly allowed, but unnatural and highly pragmatically marked at best\]_ (?)
 
-## <a name="verb_phrases"></a>A. Verb phrases [^](#table_of_contents)
+## <a name="verb_phrases"></a>A. Verb phrases <a href="#table_of_contents">^</a>
 
 ### A.B. Verb phrase structure
 
@@ -1694,7 +1694,7 @@ There are also the locative copulas (?), (?), and (?), which are used to express
     P3PL:COP.INAN eye three CLF.INAN
     'There are three eyes'
 
-## <a name="coordination"></a>A. Coordination [^](#table_of_contents)
+## <a name="coordination"></a>A. Coordination <a href="#table_of_contents">^</a>
 
 ### A.B. _Content of this section_ (?)
 
@@ -1748,7 +1748,7 @@ This pattern of coordination is a direct result of the fact that S and A argumen
     PFV:P3SG:bite:A3SG DEF.SG scorpion DEF.SG lizard and PFV:P3SG:pierce:A3SG DEF.SG lizard DEF.SG scorpion
     'The lizard bit the scorpion and the scorpion stung the lizard'
 
-## <a name="relative_clauses"></a>A. Relative clauses [^](#table_of_contents)
+## <a name="relative_clauses"></a>A. Relative clauses <a href="#table_of_contents">^</a>
 
 ### A.B. _Content of this section_ (?)
 
@@ -1834,7 +1834,7 @@ While the above examples happen to show this with a transitive verb, the same re
 
 Of these two strategies, antipassivization is more pragmatically marked than just changing the order of the constituents.
 
-## <a name="lexicon"></a>A. Lexicon [^](#table_of_contents)
+## <a name="lexicon"></a>A. Lexicon <a href="#table_of_contents">^</a>
 
 ### A.B. _Content of this section_
 
@@ -2012,7 +2012,7 @@ Figure A. <i>A comparison of kinship terms in Exwachil and English. The left hal
 
 Figure A. _Exwachil terms which describe different relations based on ego's gender._
 
-## <a name="texts"></a>A. Texts [^](#table_of_contents)
+## <a name="texts"></a>A. Texts <a href="#table_of_contents">^</a>
 
 ### A.B. _Content of this section_
 

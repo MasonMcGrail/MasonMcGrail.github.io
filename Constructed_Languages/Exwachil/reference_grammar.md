@@ -30,18 +30,21 @@ This document is divided into (?) sections. Section A is a brief overview of the
 
 The interlinear glosses used for examples in this document are basically consistent with the Leipzig Glossing Rules. They will be formatted in the following way:
 
-    Line 1: the text in the romanization for Exwachil
-    Line 2: a morpheme-by-morpheme gloss of the above text
-    Line 3: an English translation of the above text, in quotes
+    Line 1: the text in the romanization for Exwachil (in italics)
+    Line 2: the words in the above text broken up into morphemes (in italics)
+    Line 3: a morpheme-by-morpheme gloss of the above text
+    Line 4: an English translation of the above text, in quotes
 
 For example:
 
+    ??????? ????? ???
     ???????            ?????         ???
     PFV:P3SG:meet:A1SG daughter:A2PL yesterday
     'I saw (met with) your daughter yesterday'
 
 Most of the time, I will not divide the words in the first line into their constituent morphemes. Doing so makes the examples harder to read, and it makes it harder to find words or morphemes that the gloss may be meant to highlight. When particular morphemes or words are being highlighted, they will be separated from other morphology using hyphens and vertically aligned with what they correspond to on the second line. The following draws attention to the possessive suffix in the above example:
 
+    ??????? ????? ???
     ???????            ???     -??   ???
     PFV:P3SG:meet:A1SG daughter-A2PL yesterday
     'I saw (met with) your daughter yesterday'
@@ -52,26 +55,28 @@ Additionally, regarding the translation given in the third line, naturalness wil
 
 Many sentences in Exwachil can be interpreted in more than one way out of context. Consider the following gloss:
 
-    ?????????            ???   ???   ???
-    PROG:P3SG:throw:A3SG spear woman be.determined
-    '(The/A) determined woman (was/is/will be) throwing (the/a/some) spear(s)'
+    ????????? ??? ??? ??? ???
+    ?????????              ???   ??? ???   ???
+    PROG:P3PL:pick.up:A3SG spear and arrow be.small
+    '(He/she/it) (was/is/will be) picking up spear(s) and small arrow(s)'
 
-Verbs are not marked for tense, so this may refer to a past, present, or future event. Bare nouns may be either definite or indefinite, and bare inanimate nouns may additionally be either singular or plural. Thus, 'A determined woman was throwing the spears' and 'The determined woman is throwing a spear' are both valid translations for the above gloss given proper context. However, all of the parenthetical information in the third line makes the gloss needlessly hard to read, and it obfuscates whatever feature of the language that the gloss is meant to demonstrate.
+Verbs are not marked for tense, so this may refer to a past, present, or future event, and they don't mark the gender of their referents. Also, bare inanimate nouns may be either singular or plural. Thus, 'He was picking up a spear and small arrows' and 'She is picking up spears and a small arrow' are both valid translations for the above gloss given proper context. However, all of the parenthetical information in the third line makes the gloss needlessly hard to read, and it gets in the way of the gloss fulfilling its purpose clearly.
 
 There are a number of conventions used in this document that exist to make the glosses easier to read, which are listed below:
 
 - Most of the time, verbs in the perfective aspect refer to past events, so they will be translated as being in the past tense. Verbs in the imperfective aspects will be translated as being in the present tense.
 - Adjectives, which are essentially similar to stative verbs such as (?) ('to be excited') and (?) ('to be small'), will be glossed without 'be' when they are being used attributively.
-- Animate nominals will be translated as being definite, and inanimate nominals will be translated as being both definite and singular.
+- Inanimate nominals will be translated as singular when they are ambiguous with regards to number.
 - Third person singular human referents of unknown gender will be variously glossed as 'he', 'she', 'him', 'her', etc.
 
 Below is the gloss from above written using these conventions:
 
+    ????????? ??? ??? ???
     ?????????            ???   ???   ???
     PROG:P3SG:throw:A3SG spear woman determined
     'The determined woman is throwing the spear'
 
-Of course, these conventions are only used when they would be sensible to use. Events that clearly take place in the future will be translated as being in the future tense, and nouns that are clearly indefinite or plural will be translated accordingly. When a gloss is being used to demonstrate some feature of the language, such as marking of aspect or definiteness, the gloss will contain all of the information that it needs to fulfill its purpose.
+Of course, these conventions are only used when they would be sensible to use. Events that clearly take place in the future will be translated as being in the future tense, and nouns that are clearly plural will be translated accordingly. When a gloss is being used to demonstrate some feature of the language, such as marking of aspect or number, the gloss will contain all of the information that it needs to fulfill its purpose.
 
 #### A.B.C. A note on terms for syntactic arguments
 
@@ -83,6 +88,8 @@ The term 'subject', as it is commonly used, usually groups intransitive subjects
 | 'agent'   | A      | subject of a transitive verb     |
 | 'object'  | O      | object of an intransitive verb   |
 | 'patient' | P      | any absolutive argument (S or O) |
+
+\[should have a triangular diagram to clearly show all of the above(?)\]
 
 ### A.B. Abbreviations
 
@@ -101,24 +108,25 @@ The term 'subject', as it is commonly used, usually groups intransitive subjects
 | 2    | second person                | INAN | inanimate                   |
 | 3    | third person                 | INCH | inchoative aspect           |
 | A    | set A (ergative, possessive)<sup>1</sup>  | IND  | indicative mood             |
-| ABIL | abilitative mood             | INTR | _intransitive_              |
-| ACT  | active voice                 | ITV  | intensive/iterative         |
-| ADV  | _adverb_                     | M    | _masculine_                 |
-| ANIM | animate                      | MED  | medial                      |
-| AP   | antipassive voice            | NEG  | negation, negative          |
-| ASC  | associative plural           | NHAN | non-human animate           |
-| AUG  | augmentative                 | NMZ  | nominalizer, nominalization |
+| ABIL | abilitative mood             | ITV  | intensive/iterative         |
+| ACT  | active voice                 | M    | _masculine_                 |
+| ADV  | _adverb_                     | MED  | medial                      |
+| ANIM | animate                      | NEG  | negation, negative          |
+| AP   | antipassive voice            | NHAN | non-human animate           |
+| ASC  | associative plural           | NMZ  | nominalizer, nominalization |
+| AUG  | augmentative                 | NTR  | intransitive                |
 | AUX  | auxiliary verb               | P    | set P (absolutive)<sup>1</sup>           |
 | CAUS | causative                    | PFV  | perfective aspect           |
 | CESS | cessative aspect             | PL   | plural                      |
 | CLF  | classifier                   | PROG | progressive aspect          |
 | COMP | complementizer               | PROX | proximal                    |
 | COP  | copula                       | Q    | question word               |
-| DEM  | demonstrative                | REFL | reflexive                   |
-| DET  | _determiner_                 | REL  | relative, relativizer       |
-| DIM  | diminutive                   | SG   | singular                    |
-| DIST | distal                       | STAT | _stative verb_              |
-| EX   | exclusive                    | SBJV | subjunctive mood            |
+| DEF  | definite                     | REFL | reflexive                   |
+| DEM  | demonstrative                | REL  | relative, relativizer       |
+| DET  | _determiner_                 | SG   | singular                    |
+| DIM  | diminutive                   | STAT | _stative verb_              |
+| DIST | distal                       | SBJV | subjunctive mood            |
+| EX   | exclusive                    | TR   | transitive                  |
 | F    | _feminine_                   | VBZ  | _verbalizer_                |
 | FOC  | focus                        |      |                             |
 | HAB  | habitual aspect              |      |                             |
@@ -133,11 +141,10 @@ This chapter is a brief outline of (?).
 ### A.B. Geographic and demographic information
 
 (?)
-<!--
-\[Exwachil is a member of the (?) language family, and it is spoken by approximately (?) people on the island nation of (?). The total number of languages in the (?) family ranges from dozens to the low hundreds, depending on the definition used to distinguish languages from dialects. (?) is somewhat distant from other landmasses, and due to this as well the nature of surrounding ocean currents, it has no contact with the outside world as of yet.
 
-Within the (?) language family, Exwachil is the most widely spoken, and it acts as a de facto lingua franca on (?).\]
--->
+\[Exwachil is a member of the (?) language family, and it is spoken by approximately (?) people on the island nation of (?). The total number of languages in the (?) family ranges from dozens to the low hundreds, depending on the definition used to distinguish languages from dialects. (?) is somewhat distant from other landmasses, and due to this as well the nature of surrounding ocean currents, it has no contact with the outside world as of yet.\]
+
+\[Within the (?) language family, Exwachil is the most widely spoken, and it acts as a de facto lingua franca on (?).\]
 
 ### A.B. Overview of Exwachil grammar
 
@@ -374,22 +381,26 @@ The language is predominantly head-marking, with verbal predicates agreeing with
 
 Verb agreement patterns in Exwachil are uniformly ergative-absolutive.
 
+    ?????
     ∅  -??-  ???
     PFV-P2SG-sleep
     'You slept'
 
+    ???????
     ∅  -??-  ?????
     PFV-P2SG-wait:A1PL.EX
     'We waited for you'
 
 There is no case marking, and when there are multiple explicit arguments, their roles are made clear through word order.
 
-    ?????????            ???       ???
-    PROG:P3SG:chase:A3SG hunter(?) tiger(?)
+    ????????? ??? ??? ??? ???
+    ?????????            ???    ???       ???    ???
+    PROG:P3SG:chase:A3SG DEF.SG hunter(?) DEF.SG tiger(?)
     'The tiger is chasing the hunter'
 
-    ?????????            ???      ???
-    PROG:P3SG:chase:A3SG tiger(?) hunter(?)
+    ????????? ??? ??? ??? ???
+    ?????????            ???    ???       ???    ???
+    PROG:P3SG:chase:A3SG DEF.SG hunter(?) DEF.SG tiger(?)
     'The hunter is chasing the tiger'
 
 \[unclear what the derivational morphology is for turning intransitive verbs transitive and vice versa, which is different than just using the antipassive\] (?)
@@ -398,30 +409,36 @@ There is no case marking, and when there are multiple explicit arguments, their 
 
 Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?), 'and'.
 
+    ??? ??? ???
     ???   ??? ???
     blood and sweat
     'blood and sweat'
 
-    ???????            ??? ?????       ??? ???  ?????
-    PFV:P3SG:call:A3SG boy mother:A1SG and INCH PFV:P3SG:escape
-    'My mother called out to the boy and (he) started to run away'
+    ??????? ??? ??? ?????
+    ???????             ??? ???  ?????
+    PFV:P3SG:stand:A3SG and INCH PFV:P3SG:walk
+    'He stood and started to walk away'
 
-    ???????                 ???  ??? Oshã   ?????        ???    ???
-    PFV:P3SG:open(tr.):A1SG door and (name) PFV:P3SG:run LOC(?) 1SG
+    ??????? ??? ??? ??? Oshã ????? ??? ???
+    ???????                 ???    ???  ??? Oshã   ?????        ???    ???
+    PFV:P3SG:open.TR(?):A1SG DEF.SG door and (name) PFV:P3SG:run LOC(?) 1SG
     'I opened the door and Oshã ran up to me'
 
 Polar questions are marked by the interrogative particle ??? at the beginning of the clause, and interrogative words in content questions are fronted.
 
-    ??? ?????       ???    ???¿
+    ??? ????? ??? ???¿
+    ??? ?????       ???    ???
     Q   PFV:P3SG:go LOC(?) island
-    'Did he go to the island?'
+    'Did she go to the island?'
 
-    ???  ?????????¿
+    ??? ?????????¿
+    ???  ?????????
     what PROG:P3SG:eat:A2SG
     'What are you eating?'
 
 Comparatives are expressed using the preposition (?), 'from'.
 
+    ??????? ??? ???
     ???????         ???  ???
     P1SG:ITV:be.old from 2SG
     'I am much older than you'
@@ -432,7 +449,7 @@ Comparatives are expressed using the preposition (?), 'from'.
 
 The consonant and vowel inventories of Exwachil are outlined in the following two sections in terms of both the IPA and the romanization. If the symbols used to represent a phoneme in the IPA and the romanization are the same, they are not repeated; otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
 
-The romanization is basically phonetic, with the only correspondences of note being that /ŋ/ and /x/ are written using their IPA symbols. ⟨ŋ⟩ and ⟨x⟩ were chosen over the more common ⟨ng⟩ and ⟨kh⟩/⟨ch⟩ to prevent the necessity of /ŋg/ being written as ⟨ngg⟩ and the existence of the trigraphs ⟨ngw⟩ and ⟨khw⟩/⟨chw⟩ to represent the single phonemes /ŋʷ/ and /xʷ/.
+The romanization is basically phonetic, with the only correspondence of note being that /x/ is written using its IPA symbol. This was chosen over the more common representation of ⟨kh⟩ predominantly for aesthetic reasons, as well as to prevent the existence of the trigraph ⟨khw⟩ for the single phoneme /xʷ/. This usage of ⟨x⟩ for /x/ is also found in the Latin alphabets for Ajerbaijani and the Kurdish languages.
 
 ### A.B. Consonants
 
@@ -457,8 +474,8 @@ The consonant inventory of Exwachil is shown below in Table A-B.
     <th>m</th>
     <th>n</th>
     <th>ɲ ⟨ny⟩</th>
-    <th>ŋ</th>
-    <th>ŋʷ ⟨ŋw⟩</th>
+    <th>ŋ ⟨ng⟩</th>
+    <th>ŋʷ ⟨ngw⟩</th>
   </tr>
   <tr>
     <th rowspan=2>Stop/<br>Affricate</th>
@@ -501,6 +518,7 @@ The consonant inventory of Exwachil is shown below in Table A-B.
 - /n/ assimilates in place before all(?) consonants
 - Voiceless stops may be slightly aspirated word-initially
 - Voiced stops are fully voice in all positions, including word-initially
+- /dʒ/ may be pronounced as [ʒ] in free variation (?).
 - /l/ may be pronounced as \[ɾ\] before front vowels in free variation
 
 ### A.B. Vowels
@@ -678,8 +696,8 @@ _\[would have one or two methods (probably one) of forming intransitive verbs fr
 
 Endocentric compounds consisting of a head noun and an attributive adjective are always head-initial.
 
-    AAA-BBB        'blue heron(?)', from AAA 'heron' and BBB 'blue'
-    AAA-BBB        'green parrot(?)', from AAA 'parrot' and BBB 'green'
+    AAA-BBB    'blue heron(?)', from AAA 'heron' and BBB 'blue'
+    AAA-BBB    'green parrot(?)', from AAA 'parrot' and BBB 'green'
 
 For endocentric compounds consisting of a head and one or more modifiers, the head generally precedes any modifiers. However, there are two different kinds of endocentric noun-noun compounds, which differ in head placement. Noun-noun compounds formed by simple juxtaposition are head-final.
 
@@ -720,11 +738,13 @@ A template for transitive verbs in Exwachil is given below. _\[indicative/subjun
 
 Subjects and patients are indexed on the verb using the patient slot, and suffixes are used to index agents onto the verb as well as to mark voice. Pronominal agent suffixes on verbs and possessive suffixes on nouns are formally identical, as can be seen by the examples below.
 
+    ??????? ?????
     ?????        -???  ???    -???
     PFV:P3SG:wake-A1SG husband-A1SG
     'I woke up my husband'
 
-    ??? ?????        -???  ???  -???
+    ??? ??????? ?????¿
+    ??? ??????? ?????
     Q   PFV:P3SG:find-A2SG spear-A2SG
     'Did you find your spear?'
 
@@ -736,96 +756,114 @@ Dynamic verbs may be marked for one or more of the following six aspects: perfec
 
 The perfective aspect is used to refer to events that are conceived of as a bounded whole without interior composition. It is unmarked on the verb morphologically.
 
+    ??????? ???
     ∅-  ???????       ???
     PFV-P3SG:buy:A1SG goat(?)
-    'I bought the goat'
+    'I bought a goat'
 
 #### A.B.C. Progressive aspect
 
 The progressive aspect is generally used to refer to events that are incomplete, in progress, or otherwise ongoing. It is marked by the prefix (?).
 
+    ??? ????? ????? ??? ???????
     ???    ?????      ?????         ???  ??-  ?????
     LOC(?) sight:A1SG P3SG:COP.INAN COMP PROG-P3SPL:laugh
     'I see them laughing'
 
-    ??-  ???????       ???     ???      ???
-    PROG-P3SG:don:A3SG robe(?) CLF.NHAN woman
+    ????????? ??? ??? ???
+    ??-  ???????       ???     ???    ???
+    PROG-P3SG:don:A3SG robe(?) DEF.SG woman
     'The woman is putting on a robe(?)'
 
-    ??-  ?????               ???
-    PROG-P3SG:cook(intr.)(?) rice(?)
+    ??????? ??? ???
+    ??-  ?????               ???    ???
+    PROG-P3SG:cook.NTR(?) DEF.SG rice(?)
     'The rice is cooking'
 
 For verbs that refer to mental states, such as (?) 'to know' or (?) 'to like', the progressive is used to refer to being in that mental state. Using one of these verbs in the perfective aspect refers to entry into its state.
 
-    ??? ??-  ???????        ???????             ???¿
-    Q   PROG-P3SG:know:A2PL method(?):make:A3SG fire
-    'Do you know how to make a fire?'
+    ??? ????????? ???????¿
+    ??? ??-  ???????        ???????
+    Q   PROG-P3SG:know:A2PL method(?):make:A3SG
+    'Do you know how to make it?'
 
-    ??-  ???????        ??? ?????     ???
-    PROG-P3PL:like:A3SG PL  bird:A3SG here(?)
+    ????????? ??? ????? ???
+    ??-  ???????        ???     ?????     ???
+    PROG-P3PL:like:A3SG DEF.PL  bird:A3SG here(?)
     'She likes the birds in this area'
 
-    ∅-  ???????           ???  ???    ?????????                  Jibyakos.
-    PFV-P3SG:know:A1PL.EX COMP island P3SG:say[:HAB(?)]:A3PL_(?) (name)
-    'We learned that the island was called Jibyakos'
+    ??????? ??? ????? ???
+    ∅-  ???????           ???  ?????         ???
+    PFV-P3SG:know:A1PL.EX COMP PFV:P3PL:come yesterday
+    'We learned that they came yesterday'
 
 #### A.B.C. Iterative aspect
 
 The iterative aspect is used to refer to repetitions of an event, which may be of short duration or persist for some time. It might variously be translated into English using phrases such as "repeatedly", "over and over", or "for a while", depending on the semantics of the verb. It is marked by full reduplication of the verb stem. _\[unclear on whether this can combine with the other aspects, but the answer is probably yes\]_ (?)
 
+    ???????? ??? ??? ????? ???
     ??? -???~???  ??? ??? ?????         ???
     P1SG-ITV~call but NEG P3SG:COP.INAN response
     'I called and called, but there was no response'
     
+    ??????? ???
     ??? -???~???   ???
-    P3SG-ITV~blink fast
+    P3SG-ITV~blink fast(?)
     'She blinked rapidly'
 
 This reduplication marks the iterative aspect only for telic verbs. Its other function, which is available to both telic and atelic verbs, is to intensify the verb. Whether the verb is to be read as happening multiple times or intensely is dependent on its telicity as well as context.
 
+    ?????????? ??? ??? ???
     ??? -???~?????      ???  ???     ???
     P3PL-ITV~throw:A3SG rock into(?) lake
-    'She threw rocks into the lake for a while', or 'She hurled rocks into the lake'
+    'She threw rocks into a lake for a while', or 'She hurled rocks into a lake'
     
+    ????????
     ??? -???~???
     P3PL-ITV~be.afraid
     'They were very afraid', not *'They were afraid repeatedly'
 
 #### A.B.C. Habitual aspect
 
-The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem (?).
+The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the rhyme of the last syllable being reduplicated to its right. \[*-lak- > *-lakak-, *-amé- > *-ameé-, etc. (?)\]
 
-    ???????            ?????       ???    ???
-    P3SG:wake.up[~ITV] mother:A1SG LOC(?) sunrise(?)
+    ??????? ????? ??? ???
+    ?????       ~??? ?????       ???    ???
+    P3SG:wake.up~HAB mother:A1SG LOC(?) sunrise(?)
     'My mother wakes up at sunrise'
 
-    ???          ?????????                        ?????
-    last.year(?) P3SG:carry.on.back(?)[~ITV]:A2SG son:A2SG
+    ??? ????????? ?????
+    ???          ?????                ~???- ??  ?????
+    last.year(?) P3SG:carry.on.back(?)~HAB:A2SG son:A2SG
     'Last year, you would carry your son on your back'
 
 When the subject or agent of the verb is topicalized, this aspect can be interpreted as habitual or gnomic, expressing general truths. A gnomic reading is blocked by the presence of a temporal adverbial and is otherwise conditioned by context.
 
-    ???     ?????~???
-    wolf(?) P3SG:howl[~HAB(?)]
+    ??? ??? ???????
+    ??? ???     ?????    ~???
+    DEF.SG wolf(?) P3SG:howl~HAB
     'The wolf howls', or 'Wolves howl'
 
-    ???        ???     ?????~???
-    last.month wolf(?) P3SG:howl[~HAB(?)]
+    ??? ??? ??? ???????
+    ???        ???    ???     ?????    ~???
+    last.month DEF.SG wolf(?) P3SG:howl~HAB
     'Last month, the wolf would howl', not *'Last month, wolves howl (as a general truth)'
 
 #### A.B.C. Inchoative aspect
 
 The inchoative aspect is used to refer to events that are beginning or starting. This aspect is expressed with a preceding word, and it can be combined with other aspects to make more granular distinctions. For stative verbs, it indicates entry into that state and has a meaning similar to the English "to become".
 
-    ???  ?????        ???
-    INCH PFV:P3SG:run girl
+    ??? ????? ??? ???
+    ???  ?????        ???    ???
+    INCH PFV:P3SG:run DEF.SG girl
     'The girl started to run'
 
-    ???  ???????       ???
-    INCH PROG:P3SG:run girl
+    ??? ??????? ??? ???
+    ???  ???????       ???    ???
+    INCH PROG:P3SG:run DEF.SG girl
     'The girl is starting to run'
 
+    ??? ?????
     ???  ?????
     INCH P3PL:be.afraid
     'They become afraid/fearful'
@@ -834,14 +872,17 @@ The inchoative aspect is used to refer to events that are beginning or starting.
 
 The cessative aspect (also known as the terminative aspect) is used to refer to events that are ending. This aspect has the same syntactic properties as the inchoative aspect, and it can likewise be used with other aspects.
 
-    ???  ?????        ???
-    CESS PFV:P3SG:run girl
+    ??? ????? ??? ???
+    ???  ?????        ???    ???
+    CESS PFV:P3SG:run DEF.SG girl
     'The girl stopped running'
 
-    ???  ???????       ???
-    CESS PROG:P3SG:run girl
+    ??? ??????? ??? ???
+    ???  ???????       ???    ???
+    CESS PROG:P3SG:run DEF.SG girl
     'The girl is ceasing to run'
 
+    ??? ?????
     ???  ?????
     CESS P3PL:be.afraid
     'They stopped being afraid/fearful'
@@ -850,38 +891,45 @@ The cessative aspect (also known as the terminative aspect) is used to refer to 
 
 Verbal negation is done with the particle (?), which immediately precedes the verb and any aspect or mood particles that may be accompanying it.
 
-    ???            ??? ???????              ???
-    fortunately(?) NEG PFV:P3PL:notice:A3SG shark
+    ??? ??? ??????? ???
+    ???            ??? ???????              ???    ???
+    fortunately(?) NEG PFV:P3PL:notice:A3SG DEF.SG shark
     'Fortunately, the shark didn't notice them'
 
+    ??? ????? ??? ???
     ??? ?????                ???  ???
     NEG PFV:P3SG:precipitate rain yesterday
     'It didn't rain yesterday'
 
 In clauses containing negative indefinite pronouns, the predicate is also negated.
 
-    ??? ?????        ???  ???
-    NEG P3SG(?):come even who
+    ??? ??? ??? ?????
+    ???  ??? ??? ?????
+    even who NEG PFV:P3SG(?):come
     'No one came'
 
-    ??? ???????              ???  ???
-    NEG PFV:P3SG:eat:A1PL.EX even what
-    'We didn't eat anything'
+    ??? ??? ??? ??????? ??? ?????
+    ???  ??? ??? ???????             ???  ?????
+    even who NEG PFV:P3SG(?):wait:AP with PL:that
+    'No one waited for them'
 
 Additionally, this particle is used to negate nominal predicates as well as adjectives.
 
+    ??? ??? ???
     ???  ??? ???
     that NEG lion(?)
     'That isn't a lion(?)'
 
-    ???  ?????         ???  ??? ???    ???   ???
-    INCH PFV:P3SG:walk bear NEG afraid to(?) 1PL.EX
+    ??? ????? ??? ??? ??? ??? ??? ???
+    ???  ?????         ???    ???  ??? ???    ???   ???
+    INCH PFV:P3SG:walk DEF.SG bear NEG afraid to(?) 1PL.EX
     'The unafraid bear started to walk towards us'
 
 #### A.B.C. Negative imperatives
 
 Negative imperatives, sometimes called 'prohibitives', are constructed differently than both negative indicative statements and affirmative imperatives. The verb is in the subjunctive mood, and the negative particle is different than in indicative statements.
 
+    ??? ???????!
     ??? ???- ?????
     NEG SUBJ-P2SG:go
     'Don't go!'
@@ -892,10 +940,12 @@ Negative imperatives, sometimes called 'prohibitives', are constructed different
 
 When used predicatively, adjectives are syntactically and morphologically identical to stative verbs.
 
-    ??? ???????          ???   ??? ?????????
-    EPI PS3G:ITV:be.wide house REL PROG:P3SG:build:A2PL
+    ??? ??????? ??? ??? ??? ?????????
+    ??? ???????          ???    ???   ??? ?????????
+    EPI PS3G:ITV:be.wide DEF.SG house REL PROG:P3SG:build:A2PL
     'It looks like the house that you're building will be very spacious'
 
+    ??? ???????!
     ??? ???????
     NEG SBJV:2SG:be.stubborn
     'Don't be stubborn!'
@@ -904,33 +954,39 @@ When used predicatively, adjectives are syntactically and morphologically identi
 
 When acting attributively, adjectives lose most verb morphology, including agreement morphology and aspect marking, and they must follow the noun that they modify. However, they are able to be negated and intensified using the same morphology as verbs.
 
+    ??? ??? ???
     ??? ???   ???
     PL  woman tall
     'tall women'
 
+    ??? ??? ???
     ???   ??? ???
     water NEG clean
     'unclean water'
 
+    ??? ?????
     ??? ???~???
     day ITV~hot
     'very hot day'
 
 ### Adjectival derivation
 
-Adjectives appearing without their head nouns take one of two nominalizing prefixes, (?) or (?), based on the animacy of the omitted noun. _\[these come from the general and animate classifiers\]_ (?)
+Adjectives appearing without their head nouns take one of two nominalizing prefixes, (?) or (?), based on the animacy of the omitted noun. _\[these come from the general and nonhuman animate classifiers\]_ (?)
 
-    ?????????          ???- ?????
-    IMP:P3SG:give:A2SG NMLZ-red:A1SG(?)
+    ????????? ??? ???????
+    ?????????          ???    ???- ?????
+    IMP:P3SG:give:A2SG DEF.SG NMLZ-red:A1SG(?)
     'Give me the red one'
 
-    ???- ???   ?????             ???  ?????
-    NMLZ-small P3PL:be.delicious from PL:that
+    ??? ????? ????? ??? ?????
+    ???    ???- ???   ?????             ???  ?????
+    DEF.PL NMLZ-small P3PL:be.delicious from PL:that
     'The small ones taste better than those'
 
+    ??????? ??? ?????
     ???????               ??? ???- ???
     P3PL:ITV:be.dangerous PL  NMLZ-big
-    'The big ones are very dangerous'
+    'Big ones are very dangerous'
 
 ## <a name="pronouns"></a>A. Pronouns
 
@@ -1020,50 +1076,60 @@ The demonstrative pronouns are the same as the third person pronouns from the pr
 
 These demonstratives have a three-way distance contrast of proximal/medial/distal, which basically correspond to the English demonstratives 'this', 'that', and dated/dialectal 'yon'. Because 'yon' is not recognizable to most English speakers, (?)/(?) will be translated as 'that/those over there', but for brevity they will still be glossed as 'yon'.
 
+    ??? ??? ?????
     ???      ??? ?????
     mushroom red PL:this
     'these red mushrooms'
 
+    ????????? ???
     ?????????          ???
     IMP:P3SG:take:A2SG this
     'Take this'
 
+    ??????? ??? ??? ???
     ???????          ???     ???   ???
     P3SG:ITV:be.big wolf(?) white that
     'That white wolf is very big'
 
+    ????? ?????
     ?????   ?????
     PL:that P3PL:be.pretty
     'Those/They are pretty'
 
+    ??? ????? ??? ??? ??? ?????¿
     ??? ?????         ???  ??? ???    ?????
     Q   P3SG:COP.INAN hill yon LOC(?) sight:A2PL
     'Do you see that mountain over there?'
 
+    ??? ?????
     ???      ?????
     PL:yon
     'those over there'
 
-The contrast between proximal/medial/distal is based on physical distance away from the speaker and doesn't account for the listener's position. In practice, the medial demonstratives are used most commonly for referents near the listener because the listener is rarely far enough away that the distal forms would be appropriate. The medial demonstratives are also used to refer to things that have already been mentioned in discourse.
+The contrast between proximal/medial/distal is based on physical distance away from the speaker and doesn't account for the listener's position. In practice, the medial demonstratives are used most commonly for referents near the listener because the listener is rarely close or far enough away that the other forms would be appropriate. The medial demonstratives are also commonly used to refer to things that have already been mentioned in discourse.
 
 ### A.B. Reflexive pronouns
 
 For reflexive constructions, the verb remains transitive and is always indexed for a third person singular object, corresponding to the reflexive pronoun (?), which is possessed by the A argument.
 
+    ??????? ??? ???
     ???????            ???  ???
     PFV:P3SG:wash:A1SG REFL:A1SG
     'I washed myself'
 
 Additionally, (?) can be used as an intensifier, in which case it can be used adnominally or adverbally. _\[adverbial syntax is still undecided\]_ (?)
 
+    ????? ??? ??? ????????? ?????
     ?????       ???  ???  ?????????              ?????
     sister:A1SG REFL INCH PROG:P3SG:grow(?):A3SG bamboo.forest(?):A3SG
     'My sister is starting to grow her own bamboo forest(?)'
 
+    ??? ??? ??????? ??? ???
     ???   ???  ???????            ??? ???
     chief REFL PFV:P3SG:cook:A3SG for 1PL.IN
     'The chief himself cooked it for us'
 
+    ??? ??????? ??? ??? ???
     ???   ???????            ??? ???    ???
     chief PFV:P3SG:cook:A3SG for 1PL.IN REFL(?)
     'The chief cooked it for us himself'
@@ -1128,10 +1194,12 @@ Indefinite pronouns in Exwachil are identical to or otherwise derived from the i
 
 This corresponds to Haspelmath's 'specific known' category. Covering only one function, this series is the narrowest in scope. These pronouns are used to refer to indefinites that are both specific and known to the speaker. In Exwachil, this use case is marked only by the A-series, which is formed by taking a B-series pronoun and following it with an appropriate classifier.
 
+    ??????? ??? ??? ??? ??? ??? ???
     ???????            ???  ???      ???      ???   ???  ???
     PFV:P3SG:find:A3PL what CLF.NHAN fearsome in(?) cave that
     'They found something fearsome in that cave'
 
+    ??????? ??? ??????? ??? ??? ??? ?????
     ???????                ???  ???????       ??? ???     ???  ?????
     PFV:P3SG:watch(?):A1SG COMP PROG:P3SG:run who CLF.HUM from house:A3SG
     'I watched someone running out of his house'
@@ -1140,56 +1208,67 @@ This corresponds to Haspelmath's 'specific known' category. Covering only one fu
 
 The B-series corresponds to four of Haspelmath's categories: 'specific unknown', 'irrealis non-specific', 'polar question', and 'conditional protasis'. The pronouns of this series are identical in form to interrogative pronouns. Like its name suggests, the 'specific unknown' category refers to indefinites that are specific but unknown to the speaker.
 
+    ????? ??? ????? ???
     ?????      ???  ?????         ???
     sound:A3SG COMP PFV:P3SG:fall what
-    'the sound of something falling'
+    'sound of something falling'
 
+    ??? ????????? ???
     ??? ?????????                  ???
     EPI PROG:P3SG:look.for(?):A3SG who
     'She must be looking for someone'
 
 The 'irrealis non-specific' category refers to indefinites that are both non-specific and unknown to the speaker.
 
+    ??? ??? ????????? ???
     ??? ??? ?????????             ???
     Q   DEO SBJV(?):P3SG:eat:A1SG what
     'I wonder if I should eat something'
 
+    ????? ????????? ???
     ?????        ?????????              ???
     P1SG:want(?) SBJV:P3SG:meet(?):A1SG when
     'I want to see her again sometime'
 
 The 'polar question' category refers to indefinites that are used in affirmative polar questions.
 
-    ?????!    ??? ?????¿       ??? ??? ???????¿
+    ?????! ??? ?????¿ ??? ??? ???????¿
+    ?????     ??? ?????        ??? ??? ???????
     face:A2SG Q   P2SG:be.good Q   who PFV:P2SG:hurt:A3SG(?)
     'Your face! Are you okay? Did someone hurt you?'
 
+    ??? ??????? ??? ???  ??? ???¿
     ??? ???????                ???         ???  ??? ???
     Q   PFV:P3SG:enter:A3SG(?) building(?) that who suspicious
     'Did anyone suspicious enter that building?'
 
 The 'conditional protasis' category refers to indefinites that are used within a protasis.
 
+    ??? ??????? ??? ??? ?????????
     ??? ???????              ???  ???       ?????????
     if  ???(?):P3SG:COP.NHAN what dangerous IMP(?):P1PL.EX:call:A2PL
     'If there is anything dangerous, call out for us'
 
-    ???  ??? ??? ???????                  ?????     ???     ??? ???????
-    even if  who PFV:P3SG:cut.off(?):A3SG head:A3SG monster EPI SBJV(?):P3SG:survive
+    ??? ??? ??? ??????? ????? ??? ??? ??? ???????
+    ???  ??? ??? ???????                  ?????     ???    ???     ??? ???????
+    even if  who PFV:P3SG:cut.off(?):A3SG head:A3SG DEF.SG monster EPI SBJV(?):P3SG:survive
     'Even if someone cut off the monster's head, it should survive'
 
 #### A.B.C. The C-series
 
 The C-series corresponds to Haspelmath's 'indirect negation' and 'direction negation' categories, and its pronouns are formed by preceding B-series pronouns with the particle (?), 'even'. In both instances, the indefinite pronoun is within the scope of negation.
 
+    ??? ??????? ??? ??? ??? ???
     ??? ???????              ???  ???  ???    ???
     NEG PFV:P3SG:buy:A1PL.EX even what LOC(?) there
     'We didn't buy anything there'
 
+    ??? ??? ????????? ??? ????????? ??? ??? ??? ???¿
     ??? ??? ?????????              ???  ?????????               ???      ??? ???  ???
     Q   NEG ???(?):P3SG:think:A2SG COMP ABIL:P3SG:climb:P3SG(?) mountain yon even who
     'You don't think that anyone can climb that mountain?'
 
+    ??? ????? ??? ??? ??? ??? ????????? ??? ????
     ??? ?????         ???    ???  ??? ??? ?????????              ???  ????
     LOC where:A3SG(?) forest even who NEG PROG:P3SG:know:A3SG(?) Q    P3PL:COP.HUM
     'No one knows where they are in the forest'
@@ -1198,18 +1277,20 @@ The C-series corresponds to Haspelmath's 'indirect negation' and 'direction nega
 
 The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choice' categories, and its pronouns are formed by fully reduplicating B-series pronouns. _\[Unlike the other series, these pronouns are grammatically plural.\]_ (?)
 
-    ?????       ?????        ???  ???  ???~???-??        ???
-    P3SG:be.old town:A1PL.EX this from any~where-A3SG(?) mainland
-    'This town of ours is older than anywhere (else) on the mainland'
+    ????? ????? ??? ??? ??????? ???
+    ?????       ?????        ???  ???  ???~???
+    P3SG:be.old town:A1PL.EX this from any~where
+    'This town of ours is older than anywhere (else)'
 
+    ????????? ????? ???~???
     ?????????               ?????           ???~???
     ABIL:P3SG:learn:A3PL(?) method(?):weave any~who
     'Anyone can learn how to weave'
 
-    ?????         ???   ???????            ???  ???~??? ??? ?????????
-    daughter:A1SG young P3SG:talk[:HAB(?)] with any~who REL SBJV:P3PL:listen:AP
+    ????? ??? ??????? ??? ????? ??? ?????????
+    ?????         ???   ???????       ???  ???~??? ??? ?????????
+    daughter:A1SG young P3SG:talk:HAB with any~who REL SBJV:P3PL:listen:AP
     'My young daughter talks to whoever will listen (to her)'
-
 
 <!--
 \['someone', 'something', etc. are based on interrogative words. These are likely formed by reduplication, though the kind of reduplication is not yet known, and the end result might be rendered as two separate words if it's full reduplication\]
@@ -1258,58 +1339,86 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
 
 ### A.B. Particles
 
+#### A.B.C. The definite articles (?) and (?)
+
+\[these articles are used for both strong and weak definites, but not with nouns that are modified by a determiner or possessed(?)\]
+
+The article (?) is identical to (?) in every way, except the former is used for plural referents.
+
 #### A.B.C. The additive plural particle (?)
 
-The particle (?) is used to make animate nouns plural, and its use is mandatory when plural reference is intended for them.
+The particle (?) is used to pluralize animate nouns that are not modified by any determiners. Its use is mandatory when plural reference is intended for them.
 
-    ???  ?????           ???
-    INCH PFV:P3SG:escape bear
-    'The bear is escaping!'
+    ??????? ???
+    ???????              ???
+    PFV:P3SG:pierce:A3SG bee
+    'A bee stung him'
 
-    ???  ?????           ??? ???
-    INCH PFV:P3PL:escape PL  bear
-    'The bears are escaping!'
+    ??????? ??? ???
+    ???????              ??? ???
+    PFV:P3SG:pierce:A3SG PL  bee
+    'Bees stung him'
+
+    ??? ????? ??? ?????
+    ??? ?????       ??? ?????
+    PL  sister:A1SG and husband:A1SG
+    'my sisters and my husband'
+
+    (???) ??? ??? ???
+    (???)    ??? ???   ???
+    (DEF.PL) bug three CLF
+    '(the) three bugs'
+
+    * ??? ??? ??? ???
+      ??? ??? ???   ???
+      PL  bug three CLF
+      Intended: 'three bugs'
 
 While (?) is obligatory for animate nouns, it is not permitted for inanimate nouns.
 
-    ???????             ???  ???  ???    ???
-    PFV:P1PL.EX:make:AP with bowl LOC market
-    'We made the bowl(s) at the market'
+    ??????? ??? ??? ??? ???
+    ???????               ???  ???    ???  ???
+    PFV:P3SG:make:A1PL.EX bowl LOC(?) room that
+    'We made a bowl in that room'
 
-    * ???????             ???  ??? ???  ??? ???
-      PFV:P1PL.EX:make:AP with PL  bowl LOC market
-      Intended: 'We made the bowls at the market'
+    * ??????? ??? ??? ??? ??? ???
+      ???????               ??? ???  ???    ???  ???
+      PFV:P3PL:make:A1PL.EX PL  bowl LOC(?) room that
+      Intended: 'We made bowls in that room'
 
-_\[it's not currently decided whether the oblique preposition in this construction would be instrumental or ablative.\]_ (?) Singular/plural ambiguity may be resolved by quantifying the noun with a numeral or a word such as (?), 'many', but in most cases, it is avoided by some combination of context and verb agreement.
-    
-    ∅  -???- ?????        ???  ??? ???
-    PFV-P3SG-make:A1PL.EX bowl LOC market
-    'We made the bowl at the market'
+    ?????
+    ?????
+    machete:A3PL
+    'their machete(s)'
 
-    ∅  -???- ?????        ???  ??? ???
-    PFV-P3PL-make:A1PL.EX bowl LOC market
-    'We made the bowls at the market'
+    * ??? ?????
+      ??? ?????
+      PL  machete:A3PL
+      Intended: 'their machetes'
 
 #### A.B.C. The associative plural particle (?)    
 
-The particle (?) is used to refer to form an associative plural construction, which refers to a heterogenous set consisting of an individual and their associates. Basically anyone can be associated with the referential individual in the group, including family, friends, and people who are of only casual or transient acquaintance. This is most commonly used with proper names and kinship terms, and like the additive plural, it is restricted to animate nouns.
+The particle (?) is used to refer to form an associative plural construction, which refers to a heterogenous set consisting of an individual and their associates. Basically anyone can be associated with the referential individual in the group, including family, friends, and people who are of only casual or transient acquaintance. This is most commonly used with proper names and kinship terms, and like the additive plural particle, it is restricted to animate nouns.
 
+    ????? ??? ?????
     ?????           ??? ?????
     PFV:P3PL:arrive ASC wife:A1SG
     'My wife and her family/friends/associates arrived', or more simply, 'My wife and others arrived'
 
-This particle is also transparently related to the plural forms of the personal pronouns.
+\[possibly, the definite article used in conjunction with a surname specifically indicates a family(?)\]
 
 #### A.B.C. The polar question particle (?)
 
 The particle (?) is used to form polar questions.
 
+    ??? ????? ??? ???¿
     ??? ?????        ???    ???
     Q   P3PL:COP.HUM LOC(?) here
     'Are they here?'
 
-    ???   ???,  ?????           ???    ?????        ?????????           ??? ?????           ??? ?????
-    after storm PFV:P3SG:return LOC(?) village:A3SG SBJV:P3SG:know:A3SG Q   P3PL:be.safe(?) PL  family.member:A3SG
+    ??? ??? ???, ????? ??? ????? ????????? ??? ????? ??? ?????
+    ???   ???    ???   ?????           ???    ?????        ?????????           ??? ?????           ??? ?????
+    after DEF.SG storm PFV:P3SG:return LOC(?) village:A3SG SBJV:P3SG:know:A3SG Q   P3PL:be.safe(?) PL  family.member:A3SG
     'After the storm, she returned to her village to see if her relatives were safe'
 
 ## <a name="numerals_classifiers"></a>A. Numerals and classifiers
@@ -1391,9 +1500,11 @@ Exwachil has (?) (currently 7) classifiers, which are summarized in Table (?) be
 All classifiers can be directly quantified by numerals, and a numeral-classifier phrase can itself quantify a noun that precedes it.
 
     ??? ???
+    ??? ???
     two CLF.HUM
     'two people'
 
+    ??? ??? ???
     ???   ???   ???
     house three CLF.INAN
     'three houses'
@@ -1401,31 +1512,37 @@ All classifiers can be directly quantified by numerals, and a numeral-classifier
 When a noun is quantified by a numeral-classifier phrase, it may not be preceded by the additive plural particle (?), even when the numeral is greater than 1.
 
     ??? ???
+    ??? ???
     PL  child
     'children'
 
-    * ??? ???   ???   ???
+    * ??? ??? ??? ???
+      ??? ???   ???   ???
       PL  child three CLF.HUM
       Intended: 'three children'
 
 When the numeral is greater than 1, the noun is still semantically and grammatically plural, as can be seen in verb agreement patterns.
 
+    ????????? ??? ??? ??? ?????
     ??? -???- ?????          ???  ??? ???      ?????
     PROG-P3PL-follow:A1PL.EX bird two CLF.NHAN PL:that
     'We're following those two birds'
 
-All words can take at least one classifier, though some take multiple. All nonhuman animates usually take the classifier (?), but they take (?) if they are not alive at the point of reference.
+All nouns can take at least one classifier, though some take multiple. All nonhuman animates usually take the classifier (?), but they take (?) if they are not alive at the point of reference.
 
-    ???????           ???   ???  ???      ???
-    PFV:P3PL:eat:A3SG three fish CLF.INAN bird
+    ??????? ??? ??? ??? ??? ???
+    ???????           ???   ???  ???      ???    ???
+    PFV:P3PL:eat:A3SG three fish CLF.INAN DEF.SG bird
     'The bird ate three fish (which were already dead)'
 
-    ???????           ???   ???  ???      ???
-    PFV:P3PL:eat:A3SG three fish CLF.NHAN bird
+    ??????? ??? ??? ??? ???
+    ???????           ???   ???  ???      ???    ???
+    PFV:P3PL:eat:A3SG three fish CLF.NHAN DEF.SG bird
     'The bird ate three fish (alive)'
 
 Additionally, nonhuman animates that are essentially one- or two-dimensional can take the shape-based classifiers (?) and (?), respectively, with little change in meaning, aside from the fact that animals quantified with them may be alive or dead.
 
+    ????? ??? ??? ???/??? ??? ??? ?????!
     ?????         ???       ??? ???/???           ??? ???   ?????
     P3SG:COP.NHAN manta.ray one CLF.NHAN/CLF.flat LOC under boat:A2PL
     'There's a manta ray under your boat!'
@@ -1434,34 +1551,27 @@ Anything that is especially close to being one- or two-dimensional can always ta
 
 #### A.B.C. Classifiers without numerals
 
-Classifiers have two main uses outside of pairing with numerals to quantify nouns. The first is that they can quantify a noun without a numeral, which causes the noun to be interpreted as indefinite and singular.
+Classifiers have one main use outside of pairing with numerals to quantify nouns. An interrogative word followed by a classifier is used to form an indefinite pronoun, which refers to something specific and known to the speaker.
 
-    ???????               ???      ???
-    PFV:P3SG:pick.up:A1SG mushroom CLF.plant
-    'I picked up a mushroom', not *'I picked up the/some mushroom(s)'
-
-<!--
-_\[possibly, the presence of the numeral 1 in such a construction is used to communicate a specific indefinite, with a meaning similar to 'a certain'\]_
--->
-
-The second is that an interrogative word followed by a classifier is used to form an indefinite pronoun, which refers to something specific and known to the speaker.
-
-    ???????            ???  ???      ??????             ???    ???   ???
-    PFV:P3SG:find:A1SG what CLF.INAN ITV:interesting(?) LOC(?) river yesterday
+    ??????? ??? ??? ?????? ??? ??? ??? ???
+    ???????            ???  ???      ??????             ???    ???    ???   ???
+    PFV:P3SG:find:A1SG what CLF.INAN ITV:interesting(?) LOC(?) DEF.SG river yesterday
     'I found something very interesting in the river yesterday'
 
 #### A.B.C. Quantifying time
 
-The only nouns that do not need classifiers to be quantified with numerals are those for units of time, such as 'hour', 'day', 'year', etc. While these words are like classifiers in that they can be directly quantified by numerals, they cannot be used to quantify a noun.
+The only nouns that do not need classifiers to be quantified with numerals are those for units of time, such as 'hour', 'day', 'year', etc. While these words are like classifiers in that they can be directly quantified by numerals, which precede them, they cannot be used to quantify a noun.
 
+    ??? ???
     ???  ???
     four day
     'four days'
     
-    * ?????         ???  ???
+    * ????? ??? ???
+      ?????         ???  ???
       [(?)NMZ:]hunt five hour
       Intended: 'five hour's worth of hunting'
-      [Possibly grammatical for 'hunting for five hours', unclear if it needs a preposition(?)]
+      Actual: 'hunting for five hours'
 
 ## <a name="noun_phrases"></a>A. Noun phrases
 
@@ -1471,16 +1581,15 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 <table>
   <tr>
-    <td>* Plural word</td>
+    <td rowspan=2>* Article or<br>plural word</td>
     <td rowspan=2>Head noun</td>
     <td colspan=2>Adjective phrase</td>
     <td colspan=2>* Classifier phrase</td>
     <td rowspan=2>Genitive</td>
-    <td rowspan=2>Determiner</td>
+    <td rowspan=2>Demonstrative</td>
     <td rowspan=2>Relative clause</td>
   </tr>
   <tr>
-    <td>_??_ or _??_ (?)</td>
     <td>Adjective</td>
     <td>Degree word</td>
     <td>Numeral</td>
@@ -1488,23 +1597,26 @@ The order of words in a noun phrase that has all possible modifiers is given bel
   </tr>
 </table>
 
+    ????? ??? ??? ??? ??? ??? ????? ??? ?????
     ?????       ???   ??? ???   ???      ???  ?????   ??? ?????
     branch:A3SG heavy too three CLF.long tree PL:this REL PFV:P3PL:fall
-    'these three too-heavy branches of the tree that fell'
-
-    ?????     ???   ??? ?????         ???    ?????
-    face:A3SG woman REL P3SG:COP.INAN LOC(?) sight:A1SG
-    'the face of the woman who I saw', or 'the woman's face that I saw'
+    'these three too-heavy branches of a tree that fell'
 
 #### A.B.C. Relationships between elements
 
-The additive _and associative_ (?) plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase. When both a genitive is present along with a determiner, relative clause, or both, it is ambiguous as to whether the determiner and/or relative clause is modifying the genitive or the head of the noun phrase.
+The additive _and associative_ (?) plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase. When both a genitive is present along with a demonstrative, relative clause, or both, it is ambiguous as to whether the demonstrative and/or relative clause is modifying the genitive or the head of the noun phrase.
 
+    ????? ??? ??? ???
     ?????    ???   ??? ???
     dog(?):A3SG black man that
     'that man's black dog(?)' or 'that black dog(?) of (a/the) man'
 
-_\[use of a determiner for both the head noun and the genitive is not attested in the corpus; possibly allowed, but unnatural and highly pragmatically marked at best\]_ (?)
+    ????? ??? ??? ?????
+    ?????     ???   ??? ?????
+    face:A3SG woman REL P3SG:be.beautiful
+    'the face of the woman who is beautiful', or 'the woman's face that is beautiful'
+
+_\[use of a demonstrative for both the head noun and the genitive is not attested in the corpus; possibly allowed, but unnatural and highly pragmatically marked at best\]_ (?)
 -->
 ## <a name="verb_phrases"></a>A. Verb phrases
 
@@ -1516,24 +1628,29 @@ The order of words in a verb phrase that has all possible modifiers is given bel
 
 To express that two things are the same, they are usually simply juxtaposed without an overt copula. Like with verbal predicates, the subject often follows but can be fronted with topicalization, and they are ambiguous with regards to tense.
 
+    ??? ?????
     ???    ?????
     shaman father:A1SG
     'My father was/is/will be a shaman'
 
-    ???    ???       ???
-    animal dangerous wolf(?)
+    ??? ??? ??? ???
+    ???    ???       ???     ???
+    animal dangerous DEF.SG. wolf(?)
     'Wolves were/are/will be dangerous animals'
 
 In line with other stative predicates, they will generally be translated as being in the present tense throughout the rest of this document except in the examples immediately above. Even without an overt copula, the nominal predicate takes non-inflectional verb morphology, including the negative particle (?), the inchoative aspect particle (?), and the mood particles (?) and (?).
 
-    ?????         ??? ???  ???    ???
-    daughter:A2PL EPI INCH leader noble
+    ??? ??? ??? ??? ?????
+    ??? ???  ???    ???   ?????
+    EPI INCH leader noble daughter:A2PL
     'Your daughter will probably be a noble leader'
 
+    ??? ??? ??? ???
     ??? ??? ???   ???
     NEG DEO thief 2SG
     'You shouldn't be a thief'
 
+    (???) ?????
     (???)  ?????
     (that) responsibility:A1PL.EX
     'our responsibility', or 'It is our responsibility'
@@ -1541,31 +1658,38 @@ In line with other stative predicates, they will generally be translated as bein
 Third person singular pronominal topics are usually omitted, but they can be explicitly stated to reduce ambiguity. This is especially important when the first noun is possessed and the following noun could be interpreted as its genitive.
 
     ??? ???
+    ??? ???
     NEG joke
     'You're kidding me', 'You can't be serious', etc. (lit. '(That's) not a joke')
 
+    ????? ?????
     ?????       ?????
     mother:A3SG friend:A1SG
     'my friend's mother', marginally acceptable for 'My friend is his mother'
 
-    ?????,      ???  ?????
+    ?????, ???  ?????
+    ?????       ???  ?????
     mother:A3SG that friend:A1SG
-    'My friend is his mother'
+    'My friend is his mother'(?)
 
 There are also the locative copulas (?), (?), and (?), which are used to express predicative possession as well as existential predication. The first is used for humans, the second for non-human animates, and the third for inanimates. In the case of possession, pronominal possessors are expressed only by their corresponding possessive affixes.
 
+    ????? ????? ???  ???
     ?????        ?????      ???  ???
     P3PL:COP.HUM child:A1SG five CLF.HUM
     'I have five children'
 
+    ??? ??? ??? ????? ??? ????? ???
     ???     ???  ??? ?????         ???    ?????     ???
     bear(?) that EPI P3SG:COP.NHAN LOC(?) cave:A3SG now
-    'That bear(?) should be in its cave now'
+    'That bear should be in its cave now'
 
+    ??? ??? ??? ????? ????? ??? ???
     ???    ???  ???  ?????         ?????    ???   ???
     LOC(?) fish this P3PL:COP.INAN eye:A3SG three CLF.INAN
     'This fish has three eyes'
 
+    ????? ??? ??? ???
     ?????         ??? ???   ???
     P3PL:COP.INAN eye three CLF.INAN
     'There are three eyes'
@@ -1580,40 +1704,48 @@ The conjunction (?) 'and' coordinates two or more noun phrases, verb phrases, or
 
 In unmarked constructions, when two coordinated clauses share a common NP, it can only be deleted in the second clause when it is a P argument in both clauses. In other words, clausal coordination in unmarked constructions is syntactically ergative.
 
-    ?????????           ??? ???   ??? ???????
-    PROG:P3SG:hold:A3SG man woman and PROG:P3SG:smile
+    ????????? ??? ??? ??? ??? ??? ???????
+    ?????????           ???    ??? ???    ???   ??? ???????
+    PROG:P3SG:hold:A3SG DEF.SG man DEF.SG woman and PROG:P3SG:smile
     'The woman is hugging the man and (he is) smiling'
 
-    ???????           ???  ???        ??? ?????
-    PFV:P3SG:hit:A3SG wall boulder(?) and PFV:P3SG:break.INTR(?)
-    'The boulder hit the wall and (the wall) broke'
+    ??????? ??? ??? ??? ??? ?????
+    ???????           ???  ???    ???        ??? ?????
+    PFV:P3SG:hit:A3SG wall DEF.SG boulder(?) and PFV:P3SG:break.INTR(?)
+    'The boulder hit a wall and (the wall) broke'
 
-    ?????                 ???       ??? ???????            ???
-    PFV:P3SG:fall.down(?) hunter(?) and PFV:P3SG:kill:A3SG bear
+    ????? ??? ??? ??? ??????? ???
+    ?????                 ???    ???       ??? ???????            ???    ???
+    PFV:P3SG:fall.down(?) DEF.SG hunter(?) and PFV:P3SG:kill:A3SG DEF.SG bear
     'The hunter fell down and the bear killed him'
 
 However, when an S or A argument is topicalized, it is that argument that can be deleted in the second clause.
 
-    ???   ?????????           ??? ??? ???????
-    woman PROG:P3SG:hold:A3SG man and PROG:P3SG:smile
+    ??? ??? ????????? ??? ??? ??? ???????
+    ???    ???   ?????????           ???    ??? ??? ???????
+    DEF.SG woman PROG:P3SG:hold:A3SG DEF.SG man and PROG:P3SG:smile
     'The woman is hugging the man and (she is) smiling'
 
-    ???        ???????           ???  ??? ?????
-    boulder(?) PFV:P3SG:hit:A3SG wall and PFV:P3SG:break.INTR(?)
+    ??? ??? ??????? ??? ??? ?????
+    ???    ???        ???????           ???  ??? ?????
+    DEF.SG boulder(?) PFV:P3SG:hit:A3SG wall and PFV:P3SG:break.INTR(?)
     'The boulder hit the wall and (the boulder) broke'
 
-    ???       ?????                 ??? ???????            ???
-    hunter(?) PFV:P3SG:fall.down(?) and PFV:P3SG:kill:A3SG bear
+    ??? ??? ????? ??? ??????? ??? ???
+    ???    ???       ?????                 ??? ???????            ???    ???
+    DEF.SG hunter(?) PFV:P3SG:fall.down(?) and PFV:P3SG:kill:A3SG DEF.SG bear
     'The hunter fell down and killed the bear'
 
 This pattern of coordination is a direct result of the fact that S and A arguments, as well as adjuncts, can be topicalized while O arguments cannot. In the case where the shared NP is an O in the first clause and an A in the second, it may be deleted if the verb in the second clause is rendered in the antipassive voice, but it is equally possible to just restate the argument.
 
     ??????? ??? ??? ??? ???????
+    ???????            ???      ???    ??? ???????
     PFV:P3SG:bite:A3SG scorpion lizard and PFV:P3SG:pierce:AP
-    'The lizard bit the scorpion and the scorpion stung (it)'
+    'A lizard bit a scorpion and the scorpion stung (it)'
 
-    ??????? ??? ??? ??? ??????? ??? ???
-    PFV:P3SG:bite:A3SG scorpion lizard and PFV:P3SG:pierce:A3SG lizard scorpion
+    ??????? ??? ??? ??? ??? ??? ??????? ??? ??? ??? ???
+    ???????            ???    ???      ???    ???    ??? ???????              ???    ???    ???    ???
+    PFV:P3SG:bite:A3SG DEF.SG scorpion DEF.SG lizard and PFV:P3SG:pierce:A3SG DEF.SG lizard DEF.SG scorpion
     'The lizard bit the scorpion and the scorpion stung the lizard'
 
 ## <a name="relative_clauses"></a>A. Relative clauses
@@ -1624,41 +1756,49 @@ For the rest of this section, relativized NPs will be surrounded by square brack
 
 Relative clauses in Exwachil are placed after the nouns they modify, and they are separated by the relativizer (?) (which possibly agrees with the head noun in some way)_ (?). When the head noun is the subject or patient of the verb in the relative clause, it is not expressed in the clause as a pronoun.
 
+    ??? ??? ???????
     ???  ??? ???????
     tree REL PROG:P3SG:fall
-    'the tree that is falling'
+    'tree that is falling'
 
+    ??? ??? ???????
     ???  ??? ???????
     girl REL PFV:PS3G:praise:A1PL.EX
-    'the girl that we praised'
+    'girl that we praised'
 
     ??? ??? ?????????
+    ??? ??? ?????????
     man REL PROG:PS3G:carrying:A2PL
-    'the man that you are carrying'
+    'man that you are carrying'
 
 Agents cannot be directly relativized. In order to relativize an agent, it must first be promoted to the role of subject by rendering the verb in the antipassive voice. The patient, which is no longer indexed on the verb, can optionally be expressed as an oblique argument.
 
+    ??? ??? ??????? (??? ???)
     ???  ??? ???????            (??? ???)
     girl REL PFV:P3SG:praise:AP (OBL 1PL.EX)
-    'the girl who praised (us)'
+    'girl who praised (us)'
 
+    ??? ??? ????????? (??? ???)
     ??? ??? ?????????          (??? ???)
     man REL PROG:P3SG:carry:AP (OBL 2PL)
-    'the man who is carrying (you)
+    'man who is carrying (you)
 
 When the head noun is of any other role, such as the destination of a verb of motion, an indirect object, or an instrument, the head noun is explicitly expressed in the relative clause by a resumptive pronoun that is inserted in situ, or in the case of a relativized genitive, indexed on a possessed noun.
 
+    ??? ??? ????? ??? ???
     ???   ??? ?????       ??? ???
     field REL PFV:P1SG:go LOC yon
-    'the field that I went to'
+    'field that I went to'
 
-    ???   ??? ?????????             ?????       ???  ???
-    spear REL P3SG:hunt[:HAB(?)]:AP sister:A2SG with that
-    'the spear that your sister hunts with'
+    ??? ??? ????????? ????? ???  ???
+    ???   ??? ?????????        ?????       ???  ???
+    spear REL P3SG:hunt:HAB:AP sister:A2SG with that
+    'spear that your sister hunts with'
 
-    ???    ??? ???-??      ???????           ??? ???
-    boy(?) REL father-A3SG PFV:P3SG:buy:AS3G pig CLF.NHAN
-    'the boy whose father bought a pig'
+    ??? ??? ??????? ??? ?????
+    ???    ??? ???????           ??? ???-??
+    boy(?) REL PFV:P3SG:buy:AS3G pig father-A3SG
+    'boy whose father bought a pig'
 
 ### A.B. Relative clauses and shifting
 
@@ -1666,33 +1806,31 @@ NPs containing relative clauses often influence the order in which constituents 
 
 The examples below demonstrate this principle. The basic, unmarked order of constituents in a clause containing a transitive verb and an adjunct is verb-patient-agent-adjunct.
 
-    ???????            ?????     ??? ??? ???    ???
-    PFV:P3SG:push:A3PL boat:A3PL PL  man LOC(?) river
-    'The men pushed their boat into the river'
+    ??????? ????? ??? ??? ??? ??? ???
+    ???????            ?????     ??? ???    ??? ???    ???
+    PFV:P3SG:push:A3PL boat:A3PL PL  DEF.SG man LOC(?) river
+    'The men pushed their boat into a river'
 
-The agent may be fronted and precede the verb due to being topicalized or focused, and the adjunct by occur in any position between phrases, but the example above gives the most basic word order. The only ungrammatical ordering of the above would be verb-agent-patient.
+The agent may be fronted and precede the verb due to being topicalized or focused without any additional marking, and the adjunct by occur in any position between phrases, but the example above gives the most pragmatically neutral word order. When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the agent to be fronted and appear before the verb, though the adjunct is only somewhat more likely to precede the heavy NP than before.
 
-    * ???    ???   ???????            ??? ??? ?????
-      LOC(?) river PFV:P3SG:push:A3PL PL  man boat:A3PL
-      Intended: 'Into the river the men pushed their boat'
-
-When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the agent to be fronted and appear before the verb, though the adjunct is only somewhat more likely to precede the heavy NP than before.
-
-    ??? ??? ???????            [?????     ??? ??? ???????]           ???    ???
-    PL  man PFV:P3SG:push:A3PL [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
-    'The men pushed their new boat that they bought into the river'
+    ??? ??? ??????? ????? ??? ??? ??????? ??? ???
+    ???    ??? ???????            [?????     ??? ??? ???????]           ???    ???
+    DEF.PL man PFV:P3SG:push:A3PL [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
+    'The men pushed their new boat that they bought into a river'
 
 When the relative clause above is especially heavy, containing adjuncts or its own relative clauses, the adjunct is fronted and appears before it.
 
-    ??? ??? ???????            ???    ???   [?????     ??? ??? ???????           ???    [???  ??? ?????????]]
-    PL  man PFV:P3SG:push:A3PL LOC(?) river [boat:A3PL new REL PFV:P3SG:buy:A3PL LOC(?) [town REL P3SG:visit[:HAB(?)]:A3PL]]
-    'The men pushed into the river their new boat that they bought in the town that they often visit'
+    ??? ??? ??????? ??? ??? ????? ??? ??? ??????? ??? ??? ??? ??? ?????????
+    ??? ??? ???????            ???    ???   [?????     ??? ??? ???????           ???    [???    ???  ??? ?????????]]
+    PL  man PFV:P3SG:push:A3PL LOC(?) river [boat:A3PL new REL PFV:P3SG:buy:A3PL LOC(?) [DEF.SG town REL P3SG:visit:HAB:A3PL]]
+    'The men pushed into a river their new boat that they bought in the town that they often visit'
 
-While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more explicit arguments or adjuncts. Additionally, the non-pronominal agent is simply shifted to be before the verb in the above examples, but its position may also be shifted using the antipassive voice.
+While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more overt arguments or adjuncts. Additionally, the non-pronominal agent is simply shifted to be before the verb in the above examples, but its position may also be shifted using the antipassive voice.
 
+    ??????? ??? ??? ??? ????? ??? ??? ??????? ??? ???
     ???????          ??? ??? ???  [?????     ??? ??? ???????]           ???    ???
     PFV:P3PL:push:AP PL  man with [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
-    'The men pushed their new boat that they bought into the river'
+    'The men pushed their new boat that they bought into a river'
 
 Of these two strategies, antipassivization is more pragmatically marked than just changing the order of the constituents.
 
@@ -1704,10 +1842,178 @@ Of these two strategies, antipassivization is more pragmatically marked than jus
 
 \[Basic color terms, derived color terms, more specific color terminology\]
 
-### A.B. Kin terms
+### A.B. Kinship terminology
 
-The kinship terminology of Exwachil reflects a cultural practice of grouping families by matrilineal descent groups, following basically an Iroquois system.
+The kinship terminology of Exwachil reflects a cultural practice of grouping families by matrilineal descent groups, following basically an Iroquois system. The abbreviations used for relationship terms in this section are the standard ones used when discussing kinship terminology. Those used here are listed below.
+
+| Term   | Symbol | Term     | Symbol |
+| ------ | ------ | -------- | ------ |
+| mother | M      | sister   | Z      |
+| father | F      | brother  | B      |
+| parent | P      | daughter | D      |
+| child  | C      | son      | S      |
+
+The charts on the next two pages compare the kin terms used in Exwachil to their corresponding terms in English. The terms are grouped by the following list of priorities, with priorities higher on the list outranking those below them.
+
+1. Members of the same generation are grouped together
+2. Terms for members of ego's clan come before non-members
+3. Terms for female relatives come before terms for male relatives
+4. Terms for closer relatives come before others
+
+\[unclear what the deal is with cousins removed\] (?)
+
+<table>
+    <tr>
+        <th colspan=6>Exwachil and English kinship terms</th>
+    </tr>
+    <tr>
+        <th colspan=3>Grouped by Exwachil terms</th>
+        <th colspan=3>Grouped by English terms</th>
+    </tr>
+    <tr>
+        <th>Kin<br>term</th>
+        <th>Kin<br>type</th>
+        <th>English Term</th>
+        <th>Kin<br>term</th>
+        <th>Kin<br>type</th>
+        <th>English Term</th>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (A)</td>
+        <td>MM</td>
+        <td>grandmother</td>
+        <td>(?) (A)</td>
+        <td>MM</td>
+        <td rowspan=2>grandmother</td>
+    </tr>
+    <tr>
+        <td>MMZ</td>
+        <td>great aunt</td>
+        <td>(?) (B)</td>
+        <td>FM</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (B)</td>
+        <td>FM</td>
+        <td>grandmother</td>
+        <td>(?) (C)</td>
+        <td>PF</td>
+        <td>grandfather</td>
+    </tr>
+    <tr>
+        <td>FMZ</td>
+        <td>great aunt</td>
+        <td>(?) (A)</td>
+        <td>MMZ</td>
+        <td rowspan=2>great aunt</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (C)</td>
+        <td>PF</td>
+        <td>grandfather</td>
+        <td>(?) (B)</td>
+        <td>FMZ</td>
+    </tr>
+    <tr>
+        <td>PFB</td>
+        <td>great uncle</td>
+        <td>(?) (C)</td>
+        <td>PFB</td>
+        <td>great uncle</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (D)</td>
+        <td>M</td>
+        <td>mother</td>
+        <td>(?) (D)</td>
+        <td>M</td>
+        <td>mother</td>
+    </tr>
+    <tr>
+        <td>MZ</td>
+        <td>aunt</td>
+        <td>(?) (F)</td>
+        <td>F</td>
+        <td>father</td>
+    </tr>
+    <tr>
+        <td>(?) (E)</td>
+        <td>MB</td>
+        <td>uncle</td>
+        <td>(?) (D)</td>
+        <td>MZ</td>
+        <td rowspan=2>aunt</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (F)</td>
+        <td>F</td>
+        <td>father</td>
+        <td>(?) (G)</td>
+        <td>FZ</td>
+    </tr>
+    <tr>
+        <td>FB</td>
+        <td>uncle</td>
+        <td>(?) (E)</td>
+        <td>MB</td>
+        <td rowspan=2>uncle</td>
+    </tr>
+    <tr>
+        <td>(?) (G)</td>
+        <td>FZ</td>
+        <td>aunt</td>
+        <td>(?) (F)</td>
+        <td>FB</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (H)</td>
+        <td>Z</td>
+        <td>sister</td>
+        <td>(?) (H)</td>
+        <td>Z</td>
+        <td>sister</td>
+    </tr>
+    <tr>
+        <td>M<sup>n</sup>ZD<sup>n</sup></td>
+        <td>cousin</td>
+        <td>(?) (I)</td>
+        <td>B</td>
+        <td>brother</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (I)</td>
+        <td>B</td>
+        <td>brother</td>
+        <td>(?) (H)</td>
+        <td>M<sup>n</sup>ZD<sup>n</sup></td>
+        <td rowspan=4>cousin</td>
+    </tr>
+    <tr>
+        <td>F<sup>n</sup>BS<sup>n</sup></td>
+        <td>cousin</td>
+        <td>(?) (I)</td>
+        <td>F<sup>n</sup>BS<sup>n</sup></td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (J)</td>
+        <td>MBC</td>
+        <td rowspan=2>cousin</td>
+        <td rowspan=2>(?) (J)</td>
+        <td>MBC</td>
+    </tr>
+    <tr>
+        <td>FZC</td>
+        <td>FZC</td>
+    </tr>
+</table>
+Figure A. <i>A comparison of kinship terms in Exwachil and English. The left half of this table groups by Exwachil terms as much as possible, and the right half does so with English terms. For 'M<sub>n</sub>ZD<sub>n</sub>' and 'F<sub>n</sub>BS<sub>n</sub>', the superscript indicates that the first and third relations are repeated the same number of times, such as in MZD, FFBSS, MMMZDDD, etc..</i>
+
+\[chart for terms differing based on ego(?)\]
+
+Figure A. _Exwachil terms which describe different relations based on ego's gender._
 
 ## <a name="texts"></a>A. Texts
 
 ### A.B. _Content of this section_
+
+(?)

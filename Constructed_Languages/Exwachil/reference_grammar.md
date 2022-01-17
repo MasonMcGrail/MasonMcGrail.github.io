@@ -20,7 +20,7 @@
 
 ## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
 
-This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. I made Exwachil because the process was very enjoyable in its own right, and it allowed me to explore and learn about various concepts in linguistics. My goal for the language was for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. While Exwachil is still an ongoing project, I am satisfied with the grammar, which is basically stable. Anything marked with "(?)" needs more attention and may be subject to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
+This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. I am making Exwachil because the process has been very enjoyable in its own right, and it has allowed me to explore and learn about various concepts in linguistics. My primary goal for the language is for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. Exwachil is very much an ongoing project, and while the core of the grammar will change little or not at all, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
 
 This work is meant to be descriptive and not pedagogical; rather than being a resource for a hypothetical learner of the language, it is intended to thoroughly show its structure to an audience that is at least somewhat familiar with linguistics. To that end, I will be using technical terminology whenever it would make a description shorter and more precise.
 
@@ -108,27 +108,27 @@ The term 'subject', as it is commonly used, usually groups intransitive subjects
 | 2    | second person                | INAN | inanimate                   |
 | 3    | third person                 | INCH | inchoative aspect           |
 | A    | set A (ergative, possessive)<sup>1</sup>  | IND  | indicative mood             |
-| ABIL | abilitative mood             | ITV  | intensive/iterative         |
-| ACT  | active voice                 | M    | _masculine_                 |
-| ADV  | _adverb_                     | MED  | medial                      |
-| ANIM | animate                      | NEG  | negation, negative          |
-| AP   | antipassive voice            | NHAN | non-human animate           |
-| ASC  | associative plural           | NMZ  | nominalizer, nominalization |
-| AUG  | augmentative                 | NTR  | intransitive                |
-| AUX  | auxiliary verb               | P    | set P (absolutive)<sup>1</sup>           |
-| CAUS | causative                    | PFV  | perfective aspect           |
-| CESS | cessative aspect             | PL   | plural                      |
-| CLF  | classifier                   | PROG | progressive aspect          |
-| COMP | complementizer               | PROX | proximal                    |
-| COP  | copula                       | Q    | question word               |
-| DEF  | definite                     | REFL | reflexive                   |
-| DEM  | demonstrative                | REL  | relative, relativizer       |
-| DET  | _determiner_                 | SG   | singular                    |
-| DIM  | diminutive                   | STAT | _stative verb_              |
-| DIST | distal                       | SBJV | subjunctive mood            |
-| EX   | exclusive                    | TR   | transitive                  |
-| F    | _feminine_                   | VBZ  | _verbalizer_                |
-| FOC  | focus                        |      |                             |
+| ABIL | abilitative mood             | INTR | intransitive                |
+| ACT  | active voice                 | ITV  | intensive/iterative         |
+| ADV  | _adverb_                     | M    | _masculine_                 |
+| ANIM | animate                      | MED  | medial                      |
+| AP   | antipassive voice            | NEG  | negation, negative          |
+| ASC  | associative plural           | NHAN | non-human animate           |
+| AUG  | _augmentative_               | NMZ  | nominalizer, nominalization |
+| AUX  | auxiliary verb               | OBL  | oblique                     |
+| CAUS | causative                    | P    | set P (absolutive)<sup>1</sup>           |
+| CESS | cessative aspect             | PFV  | perfective aspect           |
+| CLF  | classifier                   | PL   | plural                      |
+| COMP | complementizer               | PROG | progressive aspect          |
+| COP  | copula                       | PROX | proximal                    |
+| DEF  | definite                     | Q    | question word               |
+| DEM  | demonstrative                | REFL | reflexive                   |
+| DET  | _determiner_                 | REL  | relative, relativizer       |
+| DIM  | diminutive                   | SG   | singular                    |
+| DIST | distal                       | STAT | _stative verb_              |
+| EX   | exclusive                    | SBJV | subjunctive mood            |
+| F    | _feminine_                   | TR   | transitive                  |
+| FOC  | focus                        | VBZ  | _verbalizer_                |
 | HAB  | habitual aspect              |      |                             |
 | HUM  | human                        |      |                             |
 
@@ -140,11 +140,7 @@ This chapter is a brief outline of (?).
 
 ### A.B. Geographic and demographic information
 
-(?)
-
-\[Exwachil is a member of the (?) language family, and it is spoken by approximately (?) people on the island nation of (?). The total number of languages in the (?) family ranges from dozens to the low hundreds, depending on the definition used to distinguish languages from dialects. (?) is somewhat distant from other landmasses, and due to this as well the nature of surrounding ocean currents, it has no contact with the outside world as of yet.\]
-
-\[Within the (?) language family, Exwachil is the most widely spoken, and it acts as a de facto lingua franca on (?).\]
+Exwachil is one of the seven members of the (?) language family, and it is spoken by approximately (?) people on the landmass of (?) which is roughly the size of Australia, and like Australia, straddles the line between being a large island and a small continent. (?) is somewhat distant from other landmasses, and due to this as well the nature of surrounding ocean currents, it has no contact with the outside world as of yet.
 
 ### A.B. Overview of Exwachil grammar
 
@@ -213,7 +209,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, alveolar,
     <th colspan=2 rowspan=2></th>
     <th rowspan=2>Bilabial</th>
     <th rowspan=2>Alveolar</th>
-    <th rowspan=2>Post-<br>Alveolar/<br>Palatal</th>
+    <th rowspan=2>Post-<br>alveolar/<br>Palatal</th>
     <th colspan=2>Velar</th>
     <th rowspan=2>Glottal</th>
   </tr>
@@ -308,7 +304,7 @@ _\[Needs a proper title labelling it as being for nominal possession\]_
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>-??</td>
+    <td>-(l)o</td>
     <td>-??</td>
   </tr>
 </table>
@@ -360,9 +356,9 @@ Verbs are inflected for aspect, mood, and voice, and they agree in person and nu
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>s(V)-</td>
+    <td>(e)s-</td>
     <td>??-</td>
-    <td>-??</td>
+    <td>-(l)o</td>
     <td>-??</td>
   </tr>
 </table>
@@ -462,7 +458,7 @@ The consonant inventory of Exwachil is shown below in Table A-B.
     <th colspan=2 rowspan=2></th>
     <th rowspan=2>Bilabial</th>
     <th rowspan=2>Alveolar</th>
-    <th rowspan=2>Post-<br>Alveolar/<br>Palatal</th>
+    <th rowspan=2>Post-<br>alveolar/<br>Palatal</th>
     <th colspan=2>Velar</th>
   </tr>
   <tr>
@@ -512,14 +508,26 @@ The consonant inventory of Exwachil is shown below in Table A-B.
   </tr>
 </table>
 
-#### A.B.C Allophonic variation
+#### A.B.C Allophonic variation in consonants
 
-- /m/ assimilates in place before alveolar consonants
-- /n/ assimilates in place before all(?) consonants
-- Voiceless stops may be slightly aspirated word-initially
-- Voiced stops are fully voice in all positions, including word-initially
-- /dʒ/ may be pronounced as [ʒ] in free variation (?).
-- /l/ may be pronounced as \[ɾ\] before front vowels in free variation
+- /m/ assimilates in place before alveolar consonants.
+- /n/ assimilates in place before all(?) consonants.
+- /nj/ and /ŋj/ simplify to /ɲ/.
+- Plain velars are labialized before rounded vowels.
+- Voiceless stops may be slightly aspirated word-initially.
+- Coda voiceless stops become voiced when they precede voiced stops and affricates.
+- /t/ before /l/ debuccalizes and becomes /ʔ/.
+- Voiced stops are fully voice in all positions, including word-initially.
+- /dʒ/ may be pronounced [ʒ] in free variation (?).
+- /l/ may be pronounced \[ɾ\] before front vowels in free variation.
+
+#### A.B.C. Romanization notes for consonants
+
+- Nasal assimilation will be indicated, so sequences such as ⟨mt⟩ and ⟨nk⟩ will not occur word-medially as a result of affixation of compounding, instead reflecting their surface forms as ⟨nt⟩ and ⟨ngk⟩.
+- Likewise, voicing assimilation in coda stops will be indicated, so /ipga/, pronounced \[ibga\], will be spelled as ⟨ibga⟩ and not ⟨ipga⟩.
+- Because /nj/ is pronounced \[ɲ\], it will be spelled ⟨ny⟩
+- Plain velars are phonetically labialized before rounded vowels and do not contrast with phonemically labialized velars. Velars preceding rounded vowels will be spelled without ⟨w⟩, resulting in spellings such as ⟨ko⟩ and ⟨gu⟩, but never ones such as ⟨kwo⟩ or ⟨gwu⟩.
+- /ŋ/ is always spelled ⟨ng⟩, regardless of environment. For example, ⟨inge⟩, ⟨angko⟩, and ⟨unggwa⟩ respectively represent /iŋe/, /aŋko/, and /uŋgʷa/.
 
 ### A.B. Vowels
 
@@ -583,13 +591,18 @@ The vowel inventory of Exwachil is shown below in Table A-B.
 
 Nasal vowels contrast with oral vowels. The phonemes /ĩ/, /ã/, and /ũ/ are phonetically realized as \[ɪ̃\], \[ɐ̃\], and \[ʊ̃\], respectively.
 
-#### A.B.C. Allophonic variation
+#### A.B.C. Allophonic variation in vowels
 
 The distinction between open-mid /e/ and /o/ with their close-mid counterparts /ɛ/ and /ɔ/ is neutralized in unstressed syllables, where they are realized as \[e̞\] and \[o̞\] by default, but their quality depends on a number of factors. They are commonly pronounced as \[e\] and \[o\] when they are near /i/, /e/, /o/, or /u/ or when they are in open syllables. Conversely, they are commonly pronounced as \[ɛ\] and \[ɔ\] when they are near  /ɛ/, /a/, /ɔ/, or nasal vowels, or when they are in closed syllables, especially those with velar consonants as codas.
 
 #### A.B.C. Diphthongs
 
-There are two phonetic diphthongs in Exwachil: \[aɪ\] and \[oɪ\] (\[o̞ɪ\] when unstressed). However, they are never followed by coda consonants, and the phonotactics allow only up to one consonant in the coda position. They are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/, forming closed syllables. In accordance with this analysis, they will be romanized as ⟨ay⟩ and ⟨oy⟩ and written in broad transcription as /aj/ and /oj/.
+Every oral vowel other than /i/ and /e/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. The nasal vowels /ã/ and /ũ/ can do the same, nasalizing \[i̯\] and resulting in \[ɐ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription as /j/.
+
+#### A.B.C. Romanization for vowels
+
+- Unstressed /e ~ ɛ/ and /o ~ ɔ/ will be respectively romanized as ⟨e⟩ and ⟨o⟩.
+- In accordance with the analysis in the last section, phonetic diphthongs will have their second element spelled as ⟨y⟩, such as in ⟨ay⟩, ⟨oy⟩, and ⟨uy⟩.
 
 ### A.B. Word stress
 
@@ -603,12 +616,12 @@ The possessive suffixes on nouns and the agent agreement suffixes on verbs, whic
 
 The syllable structure of Exwachil is as follows:
 
-    (C)(A)V(B/A)
+    (C)(A)V(A/B)
 
     C = any consonant
     A = any approximant (/l/ or /j/)
     V = any vowel
-    B = any nasal (?) or voiceless obstruent with no secondary articulation (?)
+    B = /m/, /n/, /ŋ/, or any voiceless obstruent with no secondary articulation
 
 Some examples of possible syllables are listed below:
 
@@ -621,7 +634,57 @@ Some examples of possible syllables are listed below:
 
 #### A.B.C. Phonotactic restrictions
 
-In the onset of a syllable, a second consonant is only permitted if the first has no secondary articulation and is not an alveo-palatal/palatal consonant, a nasal, or an approximant. In addition, there is no contrast between labialized and plain consonants before rounded vowels. In the coda, /j/ is only permitted if the preceding vowel is not close. _\[insert a chart to illustrate this more clearly\]_ (?)
+In the onset of a syllable, initial /m/, /p/, /b/, /k/, and /g/ may be followed by /l/ or /j/, and /t/, /d/, and /s/ may only be followed by /j/. In the coda, /j/ is only permitted if the preceding vowel is not /i/, /e/, or /ĩ/.
+
+<table>
+    <tr>
+        <th colspan=2>Onset</th>
+    </tr>
+    <tr>
+        <th>(C)</th>
+        <th>(A)</th>
+    </tr>
+    <tr>
+        <td>/m/, /p/, /b/, /k/, /g/</td>
+        <td>/l/, /j/</td>
+    </tr>
+    <tr>
+        <td>/t/, /d/, /s/</td>
+        <td>/j/</td>
+    </tr>
+    <tr>
+        <td>/n/, /l/, /ɲ/, /tʃ/, /dʒ/, /ʃ/, /j/,<br>/ŋ/, /ŋʷ/, /kʷ/, /gʷ/, /x/, /xʷ/</td>
+        <td>-</td>
+    </tr>
+</table>
+Figure A. _Possible non-null syllable onsets in Exwachil._
+
+<!-- Table immediately below with height set so that the cells span equally (enough) -->
+<table>
+    <tr>
+        <th>Onset</th>
+        <th>Nucleus</th>
+        <th>Coda</th>
+    </tr>
+    <tr>
+        <th>(C (A))</th>
+        <th>V</th>
+        <th>(A/B)</th>
+    </tr>
+    <tr style='height: 2rem'>
+        <td rowspan=2>onset not ending with /j/</td>
+        <td>/i/, /ĩ/, /e/</td>
+        <td>/l/, B</td>
+    </tr>
+    <tr style='height: 2rem'>
+        <td rowspan=2>/ɛ/, /a/, /ã/,<br>/ɔ/, /o/, /u/, /ũ/</td>
+        <td rowspan=2>/l/, /j/, B</td>
+    </tr>
+    <tr style='height: 2rem'>
+        <td>onset ending with /j/</td>
+    </tr>
+</table>
+Figure A. _Possible syllable rimes in Exwachil, which differ based on their preceding onsets._
 
 ### A.B. Sibilant harmony
 
@@ -632,7 +695,7 @@ A well-formed root in Exwachil contains sibilants of only one type: they are eit
     ???     '[root with /ʃ/]' (?)
     *???    '[example root that is disallowed]' (?)
 
-For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any post-alveolar consonants, regardless of the number of intervening segments. Prefixes containing the post-alveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become alveolar in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /s(V)/, where (V) is the same vowel as in the following syllable if the following syllable begins with a consonant.
+For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any post-alveolar consonants, regardless of the number of intervening segments. Prefixes containing the post-alveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become alveolar in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /(e)s/.
 
     ??-???    '[root with no sibilants]'
     ??-???    '[root with /s/]'
@@ -674,12 +737,12 @@ Nouns in Exwachil do not inflect for most grammatical categories, including case
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>-??</td>
+    <td>-(l)o</td>
     <td>-??</td>
   </tr>
 </table>
 
-These suffixes do not attract stress, which stays on the final syllable of the stem.
+These suffixes do not attract stress, which stays on the final syllable of the stem. For suffixes that contain a segment in parentheses, that segment is only present when attaching to stems that end in open syllables.
 
 ### A.B. Nominal derivation
 
@@ -715,6 +778,10 @@ Noun-noun compounds where modifying noun is a nationality are also head-initial,
     AAA-BBB                   '???', from AAA '???' and BBB '???'
 
 ## <a name="verb_morphology"></a>A. Verb morphology <a href="#table_of_contents">^</a>
+
+### A.B. Content of this section
+
+\[in describing different classes of verbs, it should be mentioned that 'to see' and 'to hear', currently, are stative in that they don't take aspect morphology; at least in Mopan, 'to hear' is transitive, but it still takes aspect marking, so this might not hold(?)\]
 
 ### A.B. Verbal inflection
 
@@ -765,10 +832,10 @@ The perfective aspect is used to refer to events that are conceived of as a boun
 
 The progressive aspect is generally used to refer to events that are incomplete, in progress, or otherwise ongoing. It is marked by the prefix (?).
 
-    ??? ????? ????? ??? ???????
-    ???    ?????      ?????         ???  ??-  ?????
-    LOC(?) sight:A1SG P3SG:COP.INAN COMP PROG-P3SPL:laugh
-    'I see them laughing'
+    ??????? ??? ??????? ??? ?????
+    ???????       ???  ??-  ?????      ??? ?????
+    P3SG:see:A1SG COMP PROG-P3PL:laugh PL  child:A3PL
+    'I see their children laughing'
 
     ????????? ??? ??? ???
     ??-  ???????       ???     ???    ???
@@ -777,7 +844,7 @@ The progressive aspect is generally used to refer to events that are incomplete,
 
     ??????? ??? ???
     ??-  ?????               ???    ???
-    PROG-P3SG:cook.NTR(?) DEF.SG rice(?)
+    PROG-P3SG:cook.INTR(?) DEF.SG rice(?)
     'The rice is cooking'
 
 For verbs that refer to mental states, such as (?) 'to know' or (?) 'to like', the progressive is used to refer to being in that mental state. Using one of these verbs in the perfective aspect refers to entry into its state.
@@ -840,7 +907,7 @@ The habitual aspect is used to refer to events that happen habitually or customa
 When the subject or agent of the verb is topicalized, this aspect can be interpreted as habitual or gnomic, expressing general truths. A gnomic reading is blocked by the presence of a temporal adverbial and is otherwise conditioned by context.
 
     ??? ??? ???????
-    ??? ???     ?????    ~???
+    ???    ???     ?????    ~???
     DEF.SG wolf(?) P3SG:howl~HAB
     'The wolf howls', or 'Wolves howl'
 
@@ -903,14 +970,14 @@ Verbal negation is done with the particle (?), which immediately precedes the ve
 
 In clauses containing negative indefinite pronouns, the predicate is also negated.
 
-    ??? ??? ??? ?????
-    ???  ??? ??? ?????
-    even who NEG PFV:P3SG(?):come
-    'No one came'
+    ??? ????? ??? ???
+    ??? ?????       ???  ???
+    NEG PFV:P3SG:go even where
+    'It didn't go anywhere'
 
     ??? ??? ??? ??????? ??? ?????
-    ???  ??? ??? ???????             ???  ?????
-    even who NEG PFV:P3SG(?):wait:AP with PL:that
+    ???  ??? ??? ???????             ??? ?????
+    even who NEG PFV:P3SG(?):wait:AP OBL PL:that
     'No one waited for them'
 
 Additionally, this particle is used to negate nominal predicates as well as adjectives.
@@ -918,11 +985,11 @@ Additionally, this particle is used to negate nominal predicates as well as adje
     ??? ??? ???
     ???  ??? ???
     that NEG lion(?)
-    'That isn't a lion(?)'
+    'That isn't a lion'
 
     ??? ????? ??? ??? ??? ??? ??? ???
-    ???  ?????         ???    ???  ??? ???    ???   ???
-    INCH PFV:P3SG:walk DEF.SG bear NEG afraid to(?) 1PL.EX
+    ???  ?????         ???    ???     ??? ???    ???   ???
+    INCH PFV:P3SG:walk DEF.SG bear(?) NEG afraid to(?) 1PL.EX
     'The unafraid bear started to walk towards us'
 
 #### A.B.C. Negative imperatives
@@ -969,7 +1036,9 @@ When acting attributively, adjectives lose most verb morphology, including agree
     day ITV~hot
     'very hot day'
 
-### Adjectival derivation
+### A.B. Adjectival inflection
+
+#### A.B.C. Nominal inflection
 
 Adjectives appearing without their head nouns take one of two nominalizing prefixes, (?) or (?), based on the animacy of the omitted noun. _\[these come from the general and nonhuman animate classifiers\]_ (?)
 
@@ -987,6 +1056,20 @@ Adjectives appearing without their head nouns take one of two nominalizing prefi
     ???????               ??? ???- ???
     P3PL:ITV:be.dangerous PL  NMLZ-big
     'Big ones are very dangerous'
+
+#### A.B.C. Adverbial inflection
+
+The prefix (?) is used to form manner adverbs from adjectives.
+
+    ????? ????? ??? ??? ???
+    ?????        ???-???  ???     ???    ???
+    PFV:P3PL:run ADV-fast PREP(?) DEF.SG river
+    'They ran quickly out of the river'
+
+    ??? ??? ??? ????????? ????? ?????
+    ???     ???     ??? ?????????           ???-???     ?????
+    DEF.PL	child	EPI	PROG:P3SG:wait:A3PL	ADV-patient	friend:A3PL
+    'The children seem to be patiently waiting for their friend'
 
 ## <a name="pronouns"></a>A. Pronouns <a href="#table_of_contents">^</a>
 
@@ -1097,9 +1180,9 @@ These demonstratives have a three-way distance contrast of proximal/medial/dista
     'Those/They are pretty'
 
     ??? ????? ??? ??? ??? ?????¿
-    ??? ?????         ???  ??? ???    ?????
-    Q   P3SG:COP.INAN hill yon LOC(?) sight:A2PL
-    'Do you see that mountain over there?'
+    ??? ???????         ???  ???
+    Q   P3SG:see:A2PL   hill yon
+    'Do you see that hill over there?'
 
     ??? ?????
     ???      ?????
@@ -1151,7 +1234,7 @@ Indefinite pronouns in Exwachil are identical to or otherwise derived from the i
     <th>A<br>'some-'</th>
     <th>B<br>'some-', 'any-'</th>
     <th>C<br>'no-', 'any-'</th>
-    <th>C<br>'-ever', 'any-'</th>
+    <th>D<br>'-ever', 'any-'</th>
   </tr>
   <tr>
     <th>human</th>
@@ -1175,14 +1258,7 @@ Indefinite pronouns in Exwachil are identical to or otherwise derived from the i
     <td><i>???~???</i><br>'wherever'<br>'anywhere'</td>
   </tr>
   <tr>
-    <th>time (past)</th>
-    <td><i>??? [CLF.INAN]</i><br>'sometime'</td>
-    <td><i>???</i><br>'sometime'<br>'anytime'</td>
-    <td><i>??? ???</i><br>'never'<br>'(not) anytime'</td>
-    <td><i>???~???</i><br>'whenever'<br>'anytime'</td>
-  </tr>
-  <tr>
-    <th>time (future)</th>
+    <th>time</th>
     <td><i>??? [CLF.INAN]</i><br>'sometime'</td>
     <td><i>???</i><br>'sometime'<br>'anytime'</td>
     <td><i>??? ???</i><br>'never'<br>'(not) anytime'</td>
@@ -1347,7 +1423,7 @@ The article (?) is identical to (?) in every way, except the former is used for 
 
 #### A.B.C. The additive plural particle (?)
 
-The particle (?) is used to pluralize animate nouns that are not modified by any determiners. Its use is mandatory when plural reference is intended for them.
+The particle (?) is used to pluralize animate nouns that are not modified by any determiners. Its use is mandatory when plural reference is intended for such nouns.
 
     ??????? ???
     ???????              ???
@@ -1467,7 +1543,7 @@ _\[because there's no writing, it's likely that there's no word for zero\]_ (?)
 
 #### A.B.C. Ordinal numbers
 
-(?)
+\[ordinal numbers follow some regular pattern except for 'first', which is suppletive likely derives from something meaning 'before'\]
 
 #### A.B.C. Fractions
 
@@ -1521,11 +1597,11 @@ When a noun is quantified by a numeral-classifier phrase, it may not be preceded
       PL  child three CLF.HUM
       Intended: 'three children'
 
-When the numeral is greater than 1, the noun is still semantically and grammatically plural, as can be seen in verb agreement patterns.
+When the numeral is greater than 1, the noun is still semantically and grammatically plural, as can be seen in agreement patterns of both verbs and demonstratives.
 
     ????????? ??? ??? ??? ?????
-    ??? -???- ?????          ???  ??? ???      ?????
-    PROG-P3PL-follow:A1PL.EX bird two CLF.NHAN PL:that
+    ??? -???- ?????          ???  ??? ???      ???-???
+    PROG-P3PL-follow:A1PL.EX bird two CLF.NHAN PL- that
     'We're following those two birds'
 
 All nouns can take at least one classifier, though some take multiple. All nonhuman animates usually take the classifier (?), but they take (?) if they are not alive at the point of reference.
@@ -1581,7 +1657,7 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 <table>
   <tr>
-    <td rowspan=2>* Article or<br>plural word</td>
+    <td rowspan=2>Article or<br>* plural word</td>
     <td rowspan=2>Head noun</td>
     <td colspan=2>Adjective phrase</td>
     <td colspan=2>* Classifier phrase</td>
@@ -1604,12 +1680,12 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 #### A.B.C. Relationships between elements
 
-The additive _and associative_ (?) plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase. When both a genitive is present along with a demonstrative, relative clause, or both, it is ambiguous as to whether the demonstrative and/or relative clause is modifying the genitive or the head of the noun phrase.
+The additive and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase. When both a genitive is present along with a demonstrative, relative clause, or both, it is ambiguous as to whether the demonstrative and/or relative clause is modifying the genitive or the head of the noun phrase.
 
     ????? ??? ??? ???
     ?????    ???   ??? ???
     dog(?):A3SG black man that
-    'that man's black dog(?)' or 'that black dog(?) of (a/the) man'
+    'that man's black dog' or 'that black dog of (a/the) man'
 
     ????? ??? ??? ?????
     ?????     ???   ??? ?????
@@ -1622,7 +1698,7 @@ _\[use of a demonstrative for both the head noun and the genitive is not atteste
 
 ### A.B. Verb phrase structure
 
-The order of words in a verb phrase that has all possible modifiers is given below. _Some of these elements are mutually exclusive and do not occur together in the same verb phrase._ (?)
+The order of words in a verb phrase that has all possible modifiers is given below. _\[Some of these elements are mutually exclusive and do not occur together in the same verb phrase.\]_ (?)
 
 ### A.B. Copular constructions
 
@@ -1711,8 +1787,8 @@ In unmarked constructions, when two coordinated clauses share a common NP, it ca
 
     ??????? ??? ??? ??? ??? ?????
     ???????           ???  ???    ???        ??? ?????
-    PFV:P3SG:hit:A3SG wall DEF.SG boulder(?) and PFV:P3SG:break.INTR(?)
-    'The boulder hit a wall and (the wall) broke'
+    PFV:P3SG:hit:A3SG wall DEF.SG boulder(?) and PFV:P3SG:shatter.INTR(?)
+    'The boulder hit a wall and (the wall) shattered'
 
     ????? ??? ??? ??? ??????? ???
     ?????                 ???    ???       ??? ???????            ???    ???
@@ -1728,8 +1804,8 @@ However, when an S or A argument is topicalized, it is that argument that can be
 
     ??? ??? ??????? ??? ??? ?????
     ???    ???        ???????           ???  ??? ?????
-    DEF.SG boulder(?) PFV:P3SG:hit:A3SG wall and PFV:P3SG:break.INTR(?)
-    'The boulder hit the wall and (the boulder) broke'
+    DEF.SG boulder(?) PFV:P3SG:hit:A3SG wall and PFV:P3SG:shatter.INTR(?)
+    'The boulder hit the wall and (the boulder) shattered'
 
     ??? ??? ????? ??? ??????? ??? ???
     ???    ???       ?????                 ??? ???????            ???    ???
@@ -1754,7 +1830,7 @@ This pattern of coordination is a direct result of the fact that S and A argumen
 
 For the rest of this section, relativized NPs will be surrounded by square brackets when they appear in glosses containing more than just that NP.
 
-Relative clauses in Exwachil are placed after the nouns they modify, and they are separated by the relativizer (?) (which possibly agrees with the head noun in some way)_ (?). When the head noun is the subject or patient of the verb in the relative clause, it is not expressed in the clause as a pronoun.
+Relative clauses in Exwachil are placed after the nouns they modify, and they are separated by the relativizer (?) _\[which possibly agrees with the head noun in some way\]_ (?). When the head noun is the subject or patient of the verb in the relative clause, it is not expressed in the clause as a pronoun.
 
     ??? ??? ???????
     ???  ??? ???????
@@ -1791,8 +1867,8 @@ When the head noun is of any other role, such as the destination of a verb of mo
     'field that I went to'
 
     ??? ??? ????????? ????? ???  ???
-    ???   ??? ?????????        ?????       ???  ???
-    spear REL P3SG:hunt:HAB:AP sister:A2SG with that
+    ???   ??? ?????????        ?????       ??? ???
+    spear REL P3SG:hunt:HAB:AP sister:A2SG OBL that
     'spear that your sister hunts with'
 
     ??? ??? ??????? ??? ?????
@@ -1828,8 +1904,8 @@ When the relative clause above is especially heavy, containing adjuncts or its o
 While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more overt arguments or adjuncts. Additionally, the non-pronominal agent is simply shifted to be before the verb in the above examples, but its position may also be shifted using the antipassive voice.
 
     ??????? ??? ??? ??? ????? ??? ??? ??????? ??? ???
-    ???????          ??? ??? ???  [?????     ??? ??? ???????]           ???    ???
-    PFV:P3PL:push:AP PL  man with [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
+    ???????          ??? ??? ??? [?????     ??? ??? ???????]           ???    ???
+    PFV:P3PL:push:AP PL  man OBL [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
     'The men pushed their new boat that they bought into a river'
 
 Of these two strategies, antipassivization is more pragmatically marked than just changing the order of the constituents.
@@ -2006,10 +2082,88 @@ The charts on the next two pages compare the kin terms used in Exwachil to their
         <td>FZC</td>
     </tr>
 </table>
-Figure A. <i>A comparison of kinship terms in Exwachil and English. The left half of this table groups by Exwachil terms as much as possible, and the right half does so with English terms. For 'M<sup>n</sup>ZD<sup>n</sup>' and 'F<sup>n</sup>BS<sup>n</sup>', the superscript indicates that the first and third relations are repeated the same number of times, such as in MZD, FFBSS, MMMZDDD, etc..</i>
+Figure A. <i>A comparison of kinship terms in Exwachil and English. The left half of this table groups by Exwachil terms as much as possible, and the right half does so with English terms. For 'M<sup>n</sup>ZD<sup>n</sup>' and 'F<sup>n</sup>BS<sup>n</sup>', the superscript indicates that the first and third relations are repeated the same number of times, such as in MZD, FFBSS, MMMZDDD, etc.</i>
 
-\[chart for terms differing based on ego(?)\]
-
+<table>
+    <tr>
+        <th colspan=5>Exwachil and English kinship terms that differ based on ego</th>
+    </tr>
+    <tr>
+        <th>Kin term<br>(female ego)</th>
+        <th>Kin<br>type</th>
+        <th>English term</th>
+        <th>Kin<br>type</th>
+        <th>Kin term<br>(male ego)</th>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (K)</td>
+        <td>D</td>
+        <td>daughter</td>
+        <td>D</td>
+        <td rowspan=2>(?) (K)</td>
+    </tr>
+    <tr>
+        <td>ZD</td>
+        <td rowspan=2>niece</td>
+        <td>BD</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (L)</td>
+        <td>BD</td>
+        <td>ZD</td>
+        <td rowspan=2>(?) (L)</td>
+    </tr>
+    <tr>
+        <td>BS</td>
+        <td rowspan=2>nephew</td>
+        <td>ZS</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (M)</td>
+        <td>ZS</td>
+        <td>BS</td>
+        <td rowspan=2>(?) (M)</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>son</td>
+        <td>S</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (N)</td>
+        <td>CD</td>
+        <td>granddaughter</td>
+        <td>CD</td>
+        <td rowspan=2>(?) (N)</td>
+    </tr>
+    <tr>
+        <td>ZCD</td>
+        <td rowspan=2>great niece</td>
+        <td>BCD</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (O)</td>
+        <td>BCD</td>
+        <td>ZCD</td>
+        <td rowspan=2>(?) (O)</td>
+    </tr>
+    <tr>
+        <td>BCS</td>
+        <td rowspan=2>great nephew</td>
+        <td>ZCS</td>
+    </tr>
+    <tr>
+        <td rowspan=2>(?) (P)</td>
+        <td>ZCS</td>
+        <td>BCS</td>
+        <td rowspan=2>(?) (P)</td>
+    </tr>
+    <tr>
+        <td>CS</td>
+        <td>grandson</td>
+        <td>CS</td>
+    </tr>
+</table>
 Figure A. _Exwachil terms which describe different relations based on ego's gender._
 
 ## <a name="texts"></a>A. Texts <a href="#table_of_contents">^</a>

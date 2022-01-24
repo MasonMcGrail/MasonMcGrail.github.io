@@ -304,7 +304,7 @@ _\[Needs a proper title labelling it as being for nominal possession\]_
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>-(l)o</td>
+    <td>-(l)a</td>
     <td>-??</td>
   </tr>
 </table>
@@ -358,7 +358,7 @@ Verbs are inflected for aspect, mood, and voice, and they agree in person and nu
     <th colspan=2>3rd person</th>
     <td>(e)s-</td>
     <td>??-</td>
-    <td>-(l)o</td>
+    <td>-(l)a</td>
     <td>-??</td>
   </tr>
 </table>
@@ -512,11 +512,11 @@ The consonant inventory of Exwachil is shown below in Table A-B.
 
 - /m/ assimilates in place before alveolar consonants.
 - /n/ assimilates in place before all(?) consonants.
-- /nj/ and /ŋj/ simplify to /ɲ/.
+- /nj/ and /ŋj/ simplify to \[ɲ\].
 - Plain velars are labialized before rounded vowels.
 - Voiceless stops may be slightly aspirated word-initially.
 - Coda voiceless stops become voiced when they precede voiced stops and affricates.
-- /t/ before /l/ debuccalizes and becomes /ʔ/.
+- /t/ before /l/ debuccalizes and becomes \[ʔ\] (?).
 - Voiced stops are fully voice in all positions, including word-initially.
 - /dʒ/ may be pronounced [ʒ] in free variation (?).
 - /l/ may be pronounced \[ɾ\] before front vowels in free variation.
@@ -737,7 +737,7 @@ Nouns in Exwachil do not inflect for most grammatical categories, including case
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>-(l)o</td>
+    <td>-(l)a</td>
     <td>-??</td>
   </tr>
 </table>
@@ -1067,8 +1067,8 @@ The prefix (?) is used to form manner adverbs from adjectives.
     'They ran quickly out of the river'
 
     ??? ??? ??? ????????? ????? ?????
-    ???     ???     ??? ?????????           ???-???     ?????
-    DEF.PL	child	EPI	PROG:P3SG:wait:A3PL	ADV-patient	friend:A3PL
+    ???    ???   ??? ?????????           ???-???     ?????
+    DEF.PL child EPI PROG:P3SG:wait:A3PL ADV-patient friend:A3PL
     'The children seem to be patiently waiting for their friend'
 
 ## <a name="pronouns"></a>A. Pronouns <a href="#table_of_contents">^</a>

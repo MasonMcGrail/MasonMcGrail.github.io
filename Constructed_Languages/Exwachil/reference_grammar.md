@@ -516,7 +516,7 @@ The consonant inventory of Exwachil is shown below in Table A-B.
 - Plain velars are labialized before rounded vowels.
 - Voiceless stops may be slightly aspirated word-initially.
 - Coda voiceless stops become voiced when they precede voiced stops and affricates.
-- /t/ before /l/ debuccalizes and becomes \[ʔ\] (?).
+- When an alveolar stop followed by /l/, /l/ is realized as an alveolar flap and the stop dissimilates to become dental \[t̪\] or \[d̪\], so the cluster is realized as \[t̪ɾ\] or \[d̪ɾ\].
 - Voiced stops are fully voice in all positions, including word-initially.
 - /dʒ/ may be pronounced [ʒ] in free variation (?).
 - /l/ may be pronounced \[ɾ\] before front vowels in free variation.

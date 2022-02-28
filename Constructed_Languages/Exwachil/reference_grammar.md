@@ -20,11 +20,21 @@
 
 ## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
 
-This is a reference grammar for Exwachil, a constructed language (conlang) that appears in a fictional setting along with seven other languages. I am making Exwachil because the process has been very enjoyable in its own right, and it has allowed me to explore and learn about various concepts in linguistics. My primary goal for the language is for it to be naturalistic, having all of the complexities and idiosyncrasies that natural languages have as they change over time. I have written this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. Exwachil is very much an ongoing project, and while the core of the grammar will change little or not at all, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
+This is a reference grammar for Exwachil, a constructed language (conlang) that appears as the main representative of its language family within a larger worldbuilding project. I am writing this grammar to have all of the information in one place, presented in a way that, ideally, would be enjoyable and interesting to read for an audience that is interested in conlangs. Exwachil is very much an ongoing project, and while the core of the grammar will change little or not at all, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. because the number of sections is not yet known. Additionally, the lexicon is severely underdeveloped (see: nonexistent), and strings of question marks are used in place of the words themselves while they have yet to be made.
 
 This work is meant to be descriptive and not pedagogical; rather than being a resource for a hypothetical learner of the language, it is intended to thoroughly show its structure to an audience that is at least somewhat familiar with linguistics. To that end, I will be using technical terminology whenever it would make a description shorter and more precise.
 
 This document is divided into (?) sections. Section A is a brief overview of the language's typology and speakers. Section A describes the phonology and the romanization used throughout this document. Sections A, A, and A cover noun morphology, verb morphology, and adjective morphology, respectively. Section A deals with pronouns. Section A discusses prepositions and particles. Section A describes numerals and classifiers. Sections A and A respectively deal with noun phrases and verb phrases. Section A discusses coordination. Section A describes relative clauses. Lastly, section A covers the lexicon, and section A contains sample texts in Exwachil, some original, others translations.
+
+### A.B. Goals and use of the language
+
+The primary goal of Exwachil is for it to be a naturalistic language. In practice, it is a personal language that I will occasionally use as a naming language. It is the first of 8 languages in its setting that I intend to flesh out, as well as my first conlang that is more than a sketch. To make it stand out from the other 7 languages, I outlined some defining features of the grammar, most of which are described in more detail in section (?). It was intended that Exwachil be:
+
+* Highly ergative, as well as syntactically ergative for many constructions;
+* Mostly head-marking with polypersonal agreement, but not polysynthetic;
+* Extremely head-initial, as well as verb-initial, with fronting of non-heads only allowed for pragmatic reasons such as * topicalization or focus;
+* Comparatively easy to pronounce in terms of phonology and phonotactics;
+* Mostly regular, being roughly as irregular as a language such as Japanese.
 
 ### A.B. Interlinear glosses
 
@@ -124,11 +134,12 @@ The term 'subject', as it is commonly used, usually groups intransitive subjects
 | DEF  | definite                     | Q    | question word               |
 | DEM  | demonstrative                | REFL | reflexive                   |
 | DET  | _determiner_                 | REL  | relative, relativizer       |
-| DIM  | diminutive                   | SG   | singular                    |
+| DIM  | _diminutive_                 | SG   | singular                    |
 | DIST | distal                       | STAT | _stative verb_              |
 | EX   | exclusive                    | SBJV | subjunctive mood            |
 | F    | _feminine_                   | TR   | transitive                  |
-| FOC  | focus                        | VBZ  | _verbalizer_                |
+| FRAC | fractional number            | VBZ  | _verbalizer_                |
+| FOC  | focus                        |      |                             |
 | HAB  | habitual aspect              |      |                             |
 | HUM  | human                        |      |                             |
 
@@ -136,7 +147,7 @@ The term 'subject', as it is commonly used, usually groups intransitive subjects
 
 ## <a name="overview"></a>A. Overview <a href="#table_of_contents">^</a>
 
-This chapter is a brief outline of (?).
+This section is a brief outline of Exwachil.
 
 ### A.B. Geographic and demographic information
 
@@ -144,7 +155,7 @@ Exwachil is one of the seven members of the (?) language family, and it is spoke
 
 ### A.B. Overview of Exwachil grammar
 
-This section briefly details the features of the typology of Exwachil that make it distinct from other languages. These include summaries of its phonology, morphology, and syntax, all of which are discussed in greater detail in later chapters.
+This section briefly details the features of the typology of Exwachil that make it distinct from other languages. These include summaries of its phonology, morphology, and syntax, all of which are discussed in greater detail in later sections.
 
 #### A.B.C. Phonology and morphophonology
 
@@ -201,14 +212,15 @@ Grey Orcish has 10 vowel phonemes, 7 of them oral and the remaining 3 nasal. The
     <th></th>
   </tr>
 </table>
+Figure A. _Vowel phonemes._
 
-There are 21 consonant phonemes in 4 places of articulation (bilabial, alveolar, post-alveolar/palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
+There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, postalveolar/palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
 
 <table>
   <tr>
     <th colspan=2 rowspan=2></th>
     <th rowspan=2>Bilabial</th>
-    <th rowspan=2>Alveolar</th>
+    <th rowspan=2>Dental</th>
     <th rowspan=2>Post-<br>alveolar/<br>Palatal</th>
     <th colspan=2>Velar</th>
     <th rowspan=2>Glottal</th>
@@ -264,22 +276,21 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, alveolar,
     <th></th>
   </tr>
 </table>
+Figure A. Vowel phonemes.
 
 Syllables in the language are maximally (C)(C)V(C). Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
 
-There is limited sibilant harmony present throughout the language. If multiple sibilants occur root-internally, they have the same place of articulation (either all alveolar /s/ or all post-alveolar /ʃ/, /tʃ/, or /dʒ/), and /s/ in prefixes assimilates to /ʃ/ before a root containing any post-alveolars.
+There is limited sibilant harmony present throughout the language. If multiple sibilants occur root-internally, they have the same place of articulation (either all dental /s/ or all postalveolar /ʃ/, /tʃ/, or /dʒ/), and /s/ in prefixes assimilates to /ʃ/ before a root containing any postalveolars.
 
     ??-???    '[root with no sibilants](?)'
     ??-???    '[root with /s/](?)'
-    ??-???    '[root with a post-alveolar sibilant](?)'
+    ??-???    '[root with a postalveolar sibilant](?)'
 
 #### A.B.C. Morphology
 
 Exwachil is a predominantly agglutinative and prefixing language, though the few inflectional suffixes that do exist are very common. Verbs are rarely bare, so they can usually be readily distinguished from other parts of speech both syntactically and morphologically.
 
-Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number (singular/plural) is either indexed on the verb, and if animate, is also indicated using a preceding particle. Its role is either indexed on the verb or indicated using prepositions.
-
-_\[Needs a proper title labelling it as being for nominal possession\]_
+Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number (singular/plural) is indexed on the verb if it is a core argument, and if animate, it is also pluralized using a preceding particle. A noun's role is either indexed on the verb or indicated using prepositions.
 
 <table>
   <tr>
@@ -308,19 +319,21 @@ _\[Needs a proper title labelling it as being for nominal possession\]_
     <td>-??</td>
   </tr>
 </table>
+Figure A. _Pronominal possessive suffixes._
 
-Verbs are inflected for aspect, mood, and voice, and they agree in person and number with their subjects, agents, and patients. The affixes for these categories are given below with the example verb (?), 'to eat', translated in accordance with the glossing rules outlined in section A.B. (?). Other distinctions of aspect and mood are indicated periphrastically.
+Verbs inflect for aspect, mood, and voice, and they agree in person and number with their subjects, agents, and patients. The affixes for these categories are given below with the example verb (?), 'to throw', translated in accordance with the glossing rules outlined in section A.B. (?). Other distinctions of aspect and mood are indicated periphrastically.
 
-| Aspect/Mood/Voice  | Marking               | Example   | Translation             |
-| ------------------ | --------------------- | --------- | ----------------------- |
-| Perfective aspect  | ∅                     | _???????_ | 'I ate it'              |
-| Progressive aspect | ??-                   | _???????_ | 'I am eating it'        |
-| Habitual aspect    | partial reduplication | _???????_ | 'I eat it'              |
-| Iterative aspect   | full reduplication    | _???????_ | 'I eat it (repeatedly)' |
-| Abilitative mood   | ??-                   | _???????_ | 'I can eat it'          |
-| Subjunctive mood   | ??-                   | _???????_ | 'I would eat it'        |
-| Imperative mood    | ??-                   | _???????_ | 'Eat it'                |
-| Antipassive voice  | -??                   | _???????_ | 'I ate (something)'     |
+| Aspect/Mood/Voice  | Marking               | Example   | Translation               |
+| ------------------ | --------------------- | --------- | ------------------------- |
+| Perfective aspect  | ∅                     | _???????_ | 'I threw it'              |
+| Progressive aspect | ??-                   | _???????_ | 'I am throwing it'        |
+| Habitual aspect    | partial reduplication | _???????_ | 'I throw it'              |
+| Iterative aspect   | full reduplication    | _???????_ | 'I throw it (repeatedly)' |
+| Abilitative mood   | ??-                   | _???????_ | 'I can throw it'          |
+| Subjunctive mood   | ??-                   | _???????_ | 'I would throw it'        |
+| Imperative mood    | ??-                   | _???????_ | 'Throw it'                |
+| Antipassive voice  | -??                   | _???????_ | 'I threw (something)'     |
+Figure A. _Examples of aspect, mood, and voice marking with the verb ???, 'to throw'._
 
 <table>
   <tr>
@@ -362,10 +375,11 @@ Verbs are inflected for aspect, mood, and voice, and they agree in person and nu
     <td>-??</td>
   </tr>
 </table>
+Figure A. Verb agreement affixes for core arguments.
 
 Of note is that the suffixes for pronominal possession on nouns and agent marking on verbs have identical morphology.
 
-Adjectives are morphologically identical to stative verbs when used predicatively, though unlike some stative verbs and all dynamic verbs, they can be placed after nouns without relativizing morphology or agreement morphology to be used attributively.
+Adjectives are morphologically identical to stative verbs when used predicatively, though unlike some(?) stative verbs and all dynamic verbs, they can be placed after nouns without relativizing  or agreement morphology to be used attributively.
 
 Other parts of speech undergo little inflection or derivation.
 
@@ -410,9 +424,9 @@ Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?
     blood and sweat
     'blood and sweat'
 
-    ??????? ??? ??? ?????
-    ???????             ??? ???  ?????
-    PFV:P3SG:stand:A3SG and INCH PFV:P3SG:walk
+    ????? ??? ??? ?????
+    ?????          ??? ???  ?????
+    PFV:P3SG:stand and INCH PFV:P3SG:walk
     'He stood and started to walk away'
 
     ??????? ??? ??? ??? Oshã ????? ??? ???
@@ -449,15 +463,13 @@ The romanization is basically phonetic, with the only correspondence of note bei
 
 ### A.B. Consonants
 
-The consonant inventory of Exwachil is shown below in Table A-B.
-
-**_Table A-B._** _Consonants._
+The consonant inventory of Exwachil is shown below.
 
 <table>
   <tr>
     <th colspan=2 rowspan=2></th>
     <th rowspan=2>Bilabial</th>
-    <th rowspan=2>Alveolar</th>
+    <th rowspan=2>Dental</th>
     <th rowspan=2>Post-<br>alveolar/<br>Palatal</th>
     <th colspan=2>Velar</th>
   </tr>
@@ -507,16 +519,17 @@ The consonant inventory of Exwachil is shown below in Table A-B.
     <th></th>
   </tr>
 </table>
+Figure A. _Consonant phonemes._
 
 #### A.B.C Allophonic variation in consonants
 
-- /m/ assimilates in place before alveolar consonants.
+- /m/ assimilates to /n/ before dental consonants.
 - /n/ assimilates in place before all(?) consonants.
 - /nj/ and /ŋj/ simplify to \[ɲ\].
 - Plain velars are labialized before rounded vowels.
 - Voiceless stops may be slightly aspirated word-initially.
 - Coda voiceless stops become voiced when they precede voiced stops and affricates.
-- When an alveolar stop followed by /l/, /l/ is realized as an alveolar flap and the stop dissimilates to become dental \[t̪\] or \[d̪\], so the cluster is realized as \[t̪ɾ\] or \[d̪ɾ\].
+- When an dental stop is followed by /l/, /l/ is realized as an alveolar flap, and the cluster is realized as \[t̪ɾ\] or \[d̪ɾ\].
 - Voiced stops are fully voice in all positions, including word-initially.
 - /dʒ/ may be pronounced [ʒ] in free variation (?).
 - /l/ may be pronounced \[ɾ\] before front vowels in free variation.
@@ -586,6 +599,7 @@ The vowel inventory of Exwachil is shown below in Table A-B.
     <th></th>
   </tr>
 </table>
+Figure A. _Vowel phonemes._
 
 #### A.B.C. Nasal vowels
 
@@ -657,7 +671,7 @@ In the onset of a syllable, initial /m/, /p/, /b/, /k/, and /g/ may be followed 
         <td>-</td>
     </tr>
 </table>
-Figure A. _Possible non-null syllable onsets in Exwachil._
+Figure A. _Possible non-null syllable onsets._
 
 <!-- Table immediately below with height set so that the cells span equally (enough) -->
 <table>
@@ -684,18 +698,18 @@ Figure A. _Possible non-null syllable onsets in Exwachil._
         <td>onset ending with /j/</td>
     </tr>
 </table>
-Figure A. _Possible syllable rimes in Exwachil, which differ based on their preceding onsets._
+Figure A. _Possible syllable rimes, which differ based on their preceding onsets._
 
 ### A.B. Sibilant harmony
 
-A well-formed root in Exwachil contains sibilants of only one type: they are either all alveolar or post-alveolar.
+A well-formed root in Exwachil contains sibilants of only one type: they are either all dental or all postalveolar.
 
     ???     '[root with no sibilants]' (?)
     ???     '[root with /s/]' (?)
     ???     '[root with /ʃ/]' (?)
     *???    '[example root that is disallowed]' (?)
 
-For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any post-alveolar consonants, regardless of the number of intervening segments. Prefixes containing the post-alveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become alveolar in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /(e)s/.
+For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any postalveolar consonants, regardless of the number of intervening segments. Prefixes containing the postalveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become dental in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /(e)s/.
 
     ??-???    '[root with no sibilants]'
     ??-???    '[root with /s/]'
@@ -741,6 +755,7 @@ Nouns in Exwachil do not inflect for most grammatical categories, including case
     <td>-??</td>
   </tr>
 </table>
+Figure A. _Pronominal possessive suffixes._
 
 These suffixes do not attract stress, which stays on the final syllable of the stem. For suffixes that contain a segment in parentheses, that segment is only present when attaching to stems that end in open syllables.
 
@@ -1115,6 +1130,7 @@ The personal pronouns of Exwachil are summarized in Table _X_ (?) below:
     <td>???</td>
   </tr>
 </table>
+Figure A. _Personal pronouns._
 
 The third person pronouns are morphologically and syntactically identical to demonstrative pronouns, which are described in detail in the following section.
 
@@ -1156,6 +1172,7 @@ The demonstrative pronouns are the same as the third person pronouns from the pr
     <td>???</td>
   </tr>
 </table>
+Figure A. _Demonstratives._
 
 These demonstratives have a three-way distance contrast of proximal/medial/distal, which basically correspond to the English demonstratives 'this', 'that', and dated/dialectal 'yon'. Because 'yon' is not recognizable to most English speakers, (?)/(?) will be translated as 'that/those over there', but for brevity they will still be glossed as 'yon'.
 
@@ -1175,8 +1192,8 @@ These demonstratives have a three-way distance contrast of proximal/medial/dista
     'That white wolf is very big'
 
     ????? ?????
-    ?????   ?????
-    PL:that P3PL:be.pretty
+    ????? ?????
+    P3PL:be.pretty PL:that
     'Those/They are pretty'
 
     ??? ????? ??? ??? ??? ?????¿
@@ -1265,6 +1282,7 @@ Indefinite pronouns in Exwachil are identical to or otherwise derived from the i
     <td><i>???~???</i><br>'whenever'<br>'anytime'</td>
   </tr>
 </table>
+Figure A. _Indefinite pronouns._
 
 #### A.B.C. The A-series
 
@@ -1273,7 +1291,7 @@ This corresponds to Haspelmath's 'specific known' category. Covering only one fu
     ??????? ??? ??? ??? ??? ??? ???
     ???????            ???  ???      ???      ???   ???  ???
     PFV:P3SG:find:A3PL what CLF.NHAN fearsome in(?) cave that
-    'They found something fearsome in that cave'
+    'Something fearsome was found in that cave'
 
     ??????? ??? ??????? ??? ??? ??? ?????
     ???????                ???  ???????       ??? ???     ???  ?????
@@ -1413,11 +1431,13 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
 
 ### A.B. Prepositions
 
+\[one of the locative prepositions is used for possession, and it is also used to form, for lack of a better term, 'bare genitives' as in "X is Y's"\]
+
 ### A.B. Particles
 
 #### A.B.C. The definite articles (?) and (?)
 
-\[these articles are used for both strong and weak definites, but not with nouns that are modified by a determiner or possessed(?)\]
+\[these articles are used for both strong and weak definites, but not with nouns that are modified by a determiner or possessed(?); the plural article is not used with indefinites at all\]
 
 The article (?) is identical to (?) in every way, except the former is used for plural referents.
 
@@ -1505,7 +1525,7 @@ The counting system of Exwachil is vigesimal, using ten as a sub-base.
 
 #### A.B.C. Cardinal numbers
 
-Below are the cardinal numbers from 1 to 20:
+Below are the patterns for the cardinal numbers. For the numbers beyond twenty, they are currently replaced with placeholders for what those numbers will be when the lexemes exist.
 
 |    |     |    |     |
 | -- | --- | -- | --- |
@@ -1519,35 +1539,68 @@ Below are the cardinal numbers from 1 to 20:
 | 8  | ??? | 18 | ??? |
 | 9  | ??? | 19 | ??? |
 | 10 | ??? | 20 | ??? |
+Figure A. _Cardinal numbers from one to twenty._
 
-|     |     |      |     |
-| --- | --- | ---- | --- |
-| 21  | ??? | 399  | ??? |
-| 22  | ??? | 400  | ??? |
-| 23  | ??? | 401  | ??? |
-| ... | ... | ...  | ... |
-| 39  | ??? | 999  | ??? |
-| 40  | ??? | 1000 | ??? |
-| 41  | ??? | 1001 | ??? |
-| ... | ... | ...  | ... |
-| 99  | ??? | 7999 | ??? |
-| 100 | ??? | 8000 | ??? |
-| 101 | ??? | 8001 | ??? |
+|     |             |      |                     |
+| --- | ----------- | ---- | ------------------- |
+| 21  | \[20-1\]    | 399  | \[19-20-19\]        |
+| 22  | \[20-2\]    | 400  | \[400\]             |
+| 23  | \[20-3\]    | 401  | \[400-1\]           |
+| ... | ...         | ...  | ...                 |
+| 39  | \[20-19\]   | 999  | \[2-400-9-20-19\]   |
+| 40  | \[2-20\]    | 1000 | \[2-400-10-20\]     |
+| 41  | \[2-20-1\]  | 1001 | \[2-400-10-20-1\]   |
+| ... | ...         | ...  | ...                 |
+| 99  | \[4-20-19\] | 7999 | \[19-400-19-20-19\] |
+| 100 | \[5-20\]    | 8000 | \[8000\]            |
+| 101 | \[5-20-1\]  | 8001 | \[8000-1\]          |
+Figure A. _Cardinal numbers from 21 to 8001._
 
-_\[the numbers 11-19 are derived from 10 and 1-9, though the morpheme for the numeral for 10 is reduced and each is a single word\]_ (?)
+_\[the numbers 11-19 are derived from 10 and 1-9, but the morpheme for the numeral for 10 is reduced and each is a single word\]_ (?)
 
 _\[the numbers 20, 400, and 8000 have their own roots, and new roots are used for powers of 8000 thereafter\]_ (?)
 
-_\[because there's no writing, it's likely that there's no word for zero\]_ (?)
-
+_\[it's unlikely that there's no word for zero\]_ (?)
 
 #### A.B.C. Ordinal numbers
 
-\[ordinal numbers follow some regular pattern except for 'first', which is suppletive likely derives from something meaning 'before'\]
+\[ordinal numbers follow some regular pattern except for 'first', which is suppletive; likely derives from something meaning 'before'; other ordinals are formed with a preceding word or prefix\]
 
 #### A.B.C. Fractions
 
-(?)
+Fractional numerals are formed with the _affix ???_ (?), which is attached to the last numeral in the numeral phrase.
+
+????? ??? ???
+?????(?)   ??? ???
+three.FRAC two CLF.INAN
+'two thirds', '2/3'
+
+????? ??? ???
+?????(?)     ???   ???
+sixteen.FRAC seven CLF.INAN
+'seven sixteenths', '7/16'
+
+??? ??? ????? ??? ??? ???
+???  ???    ?????(?) ???    ???      ???
+four twenty six.FRAC twenty thirteen CLF.INAN
+'thirty three eighty-sixths', '33/86'
+
+??? ??? ??? ????? ??? ???
+???   ???          ???  ?????(?)    ??? ???
+three four.hundred nine twenty.FRAC one CLF.INAN
+'one in thousand three hundred eighty', '1/1380'
+
+When the fractional numeral is being used in conjunction with a noun, it is possessed by the noun and acts as the head of the noun phrase.
+
+????? ??????? ??? ??? ??? ???
+??-  ???    ?????(?) -??   ???   ???      ???    ???
+P3PL-be.red four.FRAC-A3PL three CLF.INAN DEF.PL flower
+'Three fourths of the flowers were red'
+
+????? ??????? ??? ??? ??? ???
+??-  ???    ?????(?) -??   ???   ???      ???    ???
+P3PL-be.red four.FRAC-A3SG three CLF.INAN DEF.SG flower
+'Three fourths of the flower were red'
 
 #### A.B.C. Distributive numerals
 
@@ -1555,11 +1608,11 @@ Distributive numerals are formed using the prefix _??-_ (?).
 
 ### A.B. Classifiers
 
-Nearly all nouns in Exwachil cannot be directly quantified with numerals; they must be accompanied by a classifier when they cooccur. While the prototypical use of these classifiers is to quantify nouns in this way, they occur without numerals in some constructions.
+Nearly all nouns in Exwachil cannot be directly quantified with numerals; they must be accompanied by a classifier when they co-occur. While the prototypical use of these classifiers is to quantify nouns in this way, they occur without numerals in some constructions.
 
 #### A.B.C. List of classifiers
 
-Exwachil has (?) (currently 7) classifiers, which are summarized in Table (?) below.
+Exwachil has (?) (currently 7) classifiers, which are summarized below.
 
 | Classifier | Gloss     | Principal uses |
 | ---------- | :-------- | :------------- |
@@ -1569,7 +1622,8 @@ Exwachil has (?) (currently 7) classifiers, which are summarized in Table (?) be
 | ???        | CLF.place | Physical locations, including natural locations such as forests as well as artificial ones such as houses or towns |
 | ???        | CLF.long  | Essentially one-dimensional objects, which may be rigid, such as sticks or bones, or flexible, such as hair or rope |
 | ???        | CLF.flat  | Essentially two-dimensional objects such as plates and most articles of clothing |
-| ???        | CLF.INAN  | General-purpose classifier for inanimates not covered by other classifiers, including essentially three-dimensional objects, dead nonhuman animates, and abstracts |
+| ???        | CLF.INAN  | General-purpose classifier for inanimates not covered by other classifiers, including essentially three-dimensional objects, dead nonhuman(?) animates, and abstracts |
+Figure A. _Classifiers._
 
 #### A.B.C. Classifier usage
 
@@ -1672,6 +1726,8 @@ The order of words in a noun phrase that has all possible modifiers is given bel
     <td>Classifier</td>
   </tr>
 </table>
+Figure A. _The order of elements in a noun phrase._
+
 
     ????? ??? ??? ??? ??? ??? ????? ??? ?????
     ?????       ???   ??? ???   ???      ???  ?????   ??? ?????
@@ -1755,9 +1811,9 @@ There are also the locative copulas (?), (?), and (?), which are used to express
     P3PL:COP.HUM child:A1SG five CLF.HUM
     'I have five children'
 
-    ??? ??? ??? ????? ??? ????? ???
-    ???     ???  ??? ?????         ???    ?????     ???
-    bear(?) that EPI P3SG:COP.NHAN LOC(?) cave:A3SG now
+    ??? ????? ??? ??? ??? ????? ???
+    ??? ?????         ???     ???  ???    ?????     ???
+    EPI P3SG:COP.NHAN bear(?) that LOC(?) cave:A3SG now
     'That bear should be in its cave now'
 
     ??? ??? ??? ????? ????? ??? ???
@@ -1878,37 +1934,30 @@ When the head noun is of any other role, such as the destination of a verb of mo
 
 ### A.B. Relative clauses and shifting
 
-NPs containing relative clauses often influence the order in which constituents appear, owing to the fact that they tend to be comparatively long and/or complex. For brevity, we will call such NPs "heavy". It is generally dispreferred that any arguments or adjuncts occur after especially heavy NPs, which often cause other constituents to appear earlier in the phrase than is typical.
+NPs containing relative clauses often influence the order in which constituents appear, owing to the fact that they tend to be comparatively long and/or complex. For brevity, we will call such NPs "heavy". It is generally dispreferred that any arguments or adjuncts occur after especially heavy NPs, so the former tend to appear earlier in the phrase than is typical when they co-occur.
 
 The examples below demonstrate this principle. The basic, unmarked order of constituents in a clause containing a transitive verb and an adjunct is verb-patient-agent-adjunct.
 
-    ??????? ????? ??? ??? ??? ??? ???
-    ???????            ?????     ??? ???    ??? ???    ???
-    PFV:P3SG:push:A3PL boat:A3PL PL  DEF.SG man LOC(?) river
+    ??????? ????? ??? ??? ??? ???
+    ???????            ?????     ???    ??? ???    ???
+    PFV:P3SG:push:A3PL boat:A3PL DEF.PL man LOC(?) river
     'The men pushed their boat into a river'
 
-The agent may be fronted and precede the verb due to being topicalized or focused without any additional marking, and the adjunct by occur in any position between phrases, but the example above gives the most pragmatically neutral word order. When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the agent to be fronted and appear before the verb, though the adjunct is only somewhat more likely to precede the heavy NP than before.
-
-    ??? ??? ??????? ????? ??? ??? ??????? ??? ???
-    ???    ??? ???????            [?????     ??? ??? ???????]           ???    ???
-    DEF.PL man PFV:P3SG:push:A3PL [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
-    'The men pushed their new boat that they bought into a river'
-
-When the relative clause above is especially heavy, containing adjuncts or its own relative clauses, the adjunct is fronted and appears before it.
-
-    ??? ??? ??????? ??? ??? ????? ??? ??? ??????? ??? ??? ??? ??? ?????????
-    ??? ??? ???????            ???    ???   [?????     ??? ??? ???????           ???    [???    ???  ??? ?????????]]
-    PL  man PFV:P3SG:push:A3PL LOC(?) river [boat:A3PL new REL PFV:P3SG:buy:A3PL LOC(?) [DEF.SG town REL P3SG:visit:HAB:A3PL]]
-    'The men pushed into a river their new boat that they bought in the town that they often visit'
-
-While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more overt arguments or adjuncts. Additionally, the non-pronominal agent is simply shifted to be before the verb in the above examples, but its position may also be shifted using the antipassive voice.
+The agent or patient may be fronted and precede the verb without any additional marking due to being topicalized or focused, respectively, and the adjunct may occur in any position between phrases, but the example above gives the most pragmatically neutral word order. When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the verb to be in the antipassive voice to facilitate fronting of the agent, though the adjunct is only somewhat more likely to precede the heavy NP than before.
 
     ??????? ??? ??? ??? ????? ??? ??? ??????? ??? ???
-    ???????          ??? ??? ??? [?????     ??? ??? ???????]           ???    ???
-    PFV:P3PL:push:AP PL  man OBL [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
+    ???????            ???    ??? ???  [?????     ??? ??? ???????]           ???    ???
+    PFV:P3SG:push:A3PL DEF.PL man with [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
     'The men pushed their new boat that they bought into a river'
 
-Of these two strategies, antipassivization is more pragmatically marked than just changing the order of the constituents.
+When the relative clause above is especially heavy, containing adjuncts or its own relative clauses, the adjunct is also fronted and appears before it.
+
+    ??????? ??? ??? ??? ??? ??? ????? ??? ??? ??????? ??? ??? ??? ??? ?????????
+    ???????          ???     ??? ???    ???   ???  [?????     ??? ??? ???????           ???    [???    ???  ??? ?????????]]
+    PFV:P3PL:push:AP DEF.PL  man LOC(?) river with [boat:A3PL new REL PFV:P3SG:buy:A3PL LOC(?) [DEF.SG town REL P3SG:visit:HAB:A3PL]]
+    'The men pushed into a river their new boat that they bought in the town that they often visit'
+
+While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more overt arguments or adjuncts.
 
 ## <a name="lexicon"></a>A. Lexicon <a href="#table_of_contents">^</a>
 
@@ -1928,6 +1977,7 @@ The kinship terminology of Exwachil reflects a cultural practice of grouping fam
 | father | F      | brother  | B      |
 | parent | P      | daughter | D      |
 | child  | C      | son      | S      |
+Figure A. _Abbreviations used for kinship terms in this section._
 
 The charts on the next two pages compare the kin terms used in Exwachil to their corresponding terms in English. The terms are grouped by the following list of priorities, with priorities higher on the list outranking those below them.
 

@@ -212,6 +212,7 @@ Grey Orcish has 10 vowel phonemes, 7 of them oral and the remaining 3 nasal. The
     <th></th>
   </tr>
 </table>
+
 Figure A. _Vowel phonemes._
 
 There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, postalveolar/palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
@@ -276,6 +277,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
     <th></th>
   </tr>
 </table>
+
 Figure A. Vowel phonemes.
 
 Syllables in the language are maximally (C)(C)V(C). Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
@@ -319,6 +321,7 @@ Nouns have no inflectional morphology aside from a set of possessive suffixes. A
     <td>-??</td>
   </tr>
 </table>
+
 Figure A. _Pronominal possessive suffixes._
 
 Verbs inflect for aspect, mood, and voice, and they agree in person and number with their subjects, agents, and patients. The affixes for these categories are given below with the example verb (?), 'to throw', translated in accordance with the glossing rules outlined in section A.B. (?). Other distinctions of aspect and mood are indicated periphrastically.
@@ -333,6 +336,7 @@ Verbs inflect for aspect, mood, and voice, and they agree in person and number w
 | Subjunctive mood   | ??-                   | _???????_ | 'I would throw it'        |
 | Imperative mood    | ??-                   | _???????_ | 'Throw it'                |
 | Antipassive voice  | -??                   | _???????_ | 'I threw (something)'     |
+
 Figure A. _Examples of aspect, mood, and voice marking with the verb ???, 'to throw'._
 
 <table>
@@ -375,7 +379,8 @@ Figure A. _Examples of aspect, mood, and voice marking with the verb ???, 'to th
     <td>-??</td>
   </tr>
 </table>
-Figure A. Verb agreement affixes for core arguments.
+
+Figure A. _Verb agreement affixes for core arguments._
 
 Of note is that the suffixes for pronominal possession on nouns and agent marking on verbs have identical morphology.
 
@@ -519,6 +524,7 @@ The consonant inventory of Exwachil is shown below.
     <th></th>
   </tr>
 </table>
+
 Figure A. _Consonant phonemes._
 
 #### A.B.C Allophonic variation in consonants
@@ -599,6 +605,7 @@ The vowel inventory of Exwachil is shown below in Table A-B.
     <th></th>
   </tr>
 </table>
+
 Figure A. _Vowel phonemes._
 
 #### A.B.C. Nasal vowels
@@ -671,6 +678,7 @@ In the onset of a syllable, initial /m/, /p/, /b/, /k/, and /g/ may be followed 
         <td>-</td>
     </tr>
 </table>
+
 Figure A. _Possible non-null syllable onsets._
 
 <!-- Table immediately below with height set so that the cells span equally (enough) -->
@@ -698,6 +706,7 @@ Figure A. _Possible non-null syllable onsets._
         <td>onset ending with /j/</td>
     </tr>
 </table>
+
 Figure A. _Possible syllable rimes, which differ based on their preceding onsets._
 
 ### A.B. Sibilant harmony
@@ -755,6 +764,7 @@ Nouns in Exwachil do not inflect for most grammatical categories, including case
     <td>-??</td>
   </tr>
 </table>
+
 Figure A. _Pronominal possessive suffixes._
 
 These suffixes do not attract stress, which stays on the final syllable of the stem. For suffixes that contain a segment in parentheses, that segment is only present when attaching to stems that end in open syllables.
@@ -1130,6 +1140,7 @@ The personal pronouns of Exwachil are summarized in Table _X_ (?) below:
     <td>???</td>
   </tr>
 </table>
+
 Figure A. _Personal pronouns._
 
 The third person pronouns are morphologically and syntactically identical to demonstrative pronouns, which are described in detail in the following section.
@@ -1172,6 +1183,7 @@ The demonstrative pronouns are the same as the third person pronouns from the pr
     <td>???</td>
   </tr>
 </table>
+
 Figure A. _Demonstratives._
 
 These demonstratives have a three-way distance contrast of proximal/medial/distal, which basically correspond to the English demonstratives 'this', 'that', and dated/dialectal 'yon'. Because 'yon' is not recognizable to most English speakers, (?)/(?) will be translated as 'that/those over there', but for brevity they will still be glossed as 'yon'.
@@ -1282,6 +1294,7 @@ Indefinite pronouns in Exwachil are identical to or otherwise derived from the i
     <td><i>???~???</i><br>'whenever'<br>'anytime'</td>
   </tr>
 </table>
+
 Figure A. _Indefinite pronouns._
 
 #### A.B.C. The A-series
@@ -1539,6 +1552,7 @@ Below are the patterns for the cardinal numbers. For the numbers beyond twenty, 
 | 8  | ??? | 18 | ??? |
 | 9  | ??? | 19 | ??? |
 | 10 | ??? | 20 | ??? |
+
 Figure A. _Cardinal numbers from one to twenty._
 
 |     |             |      |                     |
@@ -1554,6 +1568,7 @@ Figure A. _Cardinal numbers from one to twenty._
 | 99  | \[4-20-19\] | 7999 | \[19-400-19-20-19\] |
 | 100 | \[5-20\]    | 8000 | \[8000\]            |
 | 101 | \[5-20-1\]  | 8001 | \[8000-1\]          |
+
 Figure A. _Cardinal numbers from 21 to 8001._
 
 _\[the numbers 11-19 are derived from 10 and 1-9, but the morpheme for the numeral for 10 is reduced and each is a single word\]_ (?)
@@ -1570,37 +1585,37 @@ _\[it's unlikely that there's no word for zero\]_ (?)
 
 Fractional numerals are formed with the _affix ???_ (?), which is attached to the last numeral in the numeral phrase.
 
-????? ??? ???
-?????(?)   ??? ???
-three.FRAC two CLF.INAN
-'two thirds', '2/3'
+    ????? ??? ???
+    ?????(?)   ??? ???
+    three.FRAC two CLF.INAN
+    'two thirds', '2/3'
 
-????? ??? ???
-?????(?)     ???   ???
-sixteen.FRAC seven CLF.INAN
-'seven sixteenths', '7/16'
+    ????? ??? ???
+    ?????(?)     ???   ???
+    sixteen.FRAC seven CLF.INAN
+    'seven sixteenths', '7/16'
 
-??? ??? ????? ??? ??? ???
-???  ???    ?????(?) ???    ???      ???
-four twenty six.FRAC twenty thirteen CLF.INAN
-'thirty three eighty-sixths', '33/86'
+    ??? ??? ????? ??? ??? ???
+    ???  ???    ?????(?) ???    ???      ???
+    four twenty six.FRAC twenty thirteen CLF.INAN
+    'thirty three eighty-sixths', '33/86'
 
-??? ??? ??? ????? ??? ???
-???   ???          ???  ?????(?)    ??? ???
-three four.hundred nine twenty.FRAC one CLF.INAN
-'one in thousand three hundred eighty', '1/1380'
+    ??? ??? ??? ????? ??? ???
+    ???   ???          ???  ?????(?)    ??? ???
+    three four.hundred nine twenty.FRAC one CLF.INAN
+    'one in thousand three hundred eighty', '1/1380'
 
 When the fractional numeral is being used in conjunction with a noun, it is possessed by the noun and acts as the head of the noun phrase.
 
-????? ??????? ??? ??? ??? ???
-??-  ???    ?????(?) -??   ???   ???      ???    ???
-P3PL-be.red four.FRAC-A3PL three CLF.INAN DEF.PL flower
-'Three fourths of the flowers were red'
+    ????? ??????? ??? ??? ??? ???
+    ??-  ???    ?????(?) -??   ???   ???      ???    ???
+    P3PL-be.red four.FRAC-A3PL three CLF.INAN DEF.PL flower
+    'Three fourths of the flowers were red'
 
-????? ??????? ??? ??? ??? ???
-??-  ???    ?????(?) -??   ???   ???      ???    ???
-P3PL-be.red four.FRAC-A3SG three CLF.INAN DEF.SG flower
-'Three fourths of the flower were red'
+    ????? ??????? ??? ??? ??? ???
+    ??-  ???    ?????(?) -??   ???   ???      ???    ???
+    P3PL-be.red four.FRAC-A3SG three CLF.INAN DEF.SG flower
+    'Three fourths of the flower were red'
 
 #### A.B.C. Distributive numerals
 
@@ -1623,6 +1638,7 @@ Exwachil has (?) (currently 7) classifiers, which are summarized below.
 | ???        | CLF.long  | Essentially one-dimensional objects, which may be rigid, such as sticks or bones, or flexible, such as hair or rope |
 | ???        | CLF.flat  | Essentially two-dimensional objects such as plates and most articles of clothing |
 | ???        | CLF.INAN  | General-purpose classifier for inanimates not covered by other classifiers, including essentially three-dimensional objects, dead nonhuman(?) animates, and abstracts |
+
 Figure A. _Classifiers._
 
 #### A.B.C. Classifier usage
@@ -1726,8 +1742,8 @@ The order of words in a noun phrase that has all possible modifiers is given bel
     <td>Classifier</td>
   </tr>
 </table>
-Figure A. _The order of elements in a noun phrase._
 
+Figure A. _The order of elements in a noun phrase._
 
     ????? ??? ??? ??? ??? ??? ????? ??? ?????
     ?????       ???   ??? ???   ???      ???  ?????   ??? ?????
@@ -1977,6 +1993,7 @@ The kinship terminology of Exwachil reflects a cultural practice of grouping fam
 | father | F      | brother  | B      |
 | parent | P      | daughter | D      |
 | child  | C      | son      | S      |
+
 Figure A. _Abbreviations used for kinship terms in this section._
 
 The charts on the next two pages compare the kin terms used in Exwachil to their corresponding terms in English. The terms are grouped by the following list of priorities, with priorities higher on the list outranking those below them.
@@ -2132,6 +2149,7 @@ The charts on the next two pages compare the kin terms used in Exwachil to their
         <td>FZC</td>
     </tr>
 </table>
+
 Figure A. <i>A comparison of kinship terms in Exwachil and English. The left half of this table groups by Exwachil terms as much as possible, and the right half does so with English terms. For 'M<sup>n</sup>ZD<sup>n</sup>' and 'F<sup>n</sup>BS<sup>n</sup>', the superscript indicates that the first and third relations are repeated the same number of times, such as in MZD, FFBSS, MMMZDDD, etc.</i>
 
 <table>
@@ -2214,6 +2232,7 @@ Figure A. <i>A comparison of kinship terms in Exwachil and English. The left hal
         <td>CS</td>
     </tr>
 </table>
+
 Figure A. _Exwachil terms which describe different relations based on ego's gender._
 
 ## <a name="texts"></a>A. Texts <a href="#table_of_contents">^</a>

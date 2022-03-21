@@ -9,41 +9,26 @@
     --accent-light:   hsl(225, 95%, 20%);
 }
 
-body            { background-color: var(--off-grey-dark);  color: var(--off-grey-light); }
-body.light-mode { background-color: var(--off-grey-light); color: var(--off-grey-dark);  }
+body { background-color: var(--off-grey-dark);  color: var(--off-grey-light); }
 
-a                 { color: var(--off-white); }
-body.light-mode a { color: var(--off-black); }
+a { color: var(--off-white); }
 
-h1, h2, h3, h4, h5, h6                 { color: var(--accent-dark); }
-body.light-mode h1, body.light-mode h2,
-body.light-mode h3, body.light-mode h4,
-body.light-mode h5, body.light-mode h6 { color: var(--accent-light); }
+.main-content h1, .main-content h2,
+.main-content h3, .main-content h4,
+.main-content h5, .main-content h6 { color: var(--accent-dark); }
 
-pre {
+.main-content .highlight pre {
     background-color: var(--off-black);
     border: 2px solid var(--accent-dark);
     border-radius: 0.5rem;
 }
-body.light-mode pre {
-    background-color: var(--off-white);
-    border: 2px solid var(--accent-light);
-}
 
-div.highlight                 { background-color: var(--off-grey-dark);  }
-body.light-mode div.highlight { background-color: var(--off-grey-light); }
+div.highlight { background-color: var(--off-grey-dark);  }
 
-pre>code                 { color: var(--box-text-light); }
-body.light-mode pre>code { color: var(--box-text-dark);  }
+.main-content pre>code { color: var(--box-text-light); }
 
-th, td {
+.main-content table th, .main-content table td {
     border: 2px solid var(--accent-dark);
     background-color: var(--off-black);
     color: var(--box-text-light);
-}
-body.light-mode th,
-body.light-mode td {
-    border: 2px solid var(--accent-light);
-    background-color: var(--off-white);
-    color: var(--box-text-dark);
 }

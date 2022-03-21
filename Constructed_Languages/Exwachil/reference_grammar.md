@@ -1,3 +1,5 @@
+<link type="text/css" rel="stylesheet" href="exwachil.css">
+
 # A Grammar of Exwachil
 
 ## <a name="table_of_contents"></a>Table of Contents
@@ -56,7 +58,7 @@
 - [A. Lexicon](#lexicon)
   - [A.B. Content of this section](#lexicon_content)
   - [A.B. Color terms](#color_terms)
-  - [A.B. A.B. Kinship terminology](#kinship_terminology)
+  - [A.B. Kinship terminology](#kinship_terminology)
 - [A. Texts](#texts)
   - [A.B. Content of this section](#texts_content)
 
@@ -112,7 +114,7 @@ Many sentences in Exwachil can be interpreted in more than one way out of contex
     PROG:P3PL:pick.up:A3SG spear and rock be.small
     '(He/she/it) (was/is/will be) picking up (a/some) spear(s) and (a/some) small rock(s)'
 
-Verbs are not marked for tense, so this may refer to a past, present, or future event. Also, the gender of the person is ambiguous, and indefinite inanimate nouns may be either singular or plural. In this way, 'He was picking up a spear and small rocks and 'She is picking up spears and a small rock are both valid translations for the above gloss in the right context. Lastly, all of the parenthetical information in the fourth line makes it very hard to read.
+Verbs are not marked for tense, so this may refer to a past, present, or future event. Also, the gender of the person is ambiguous, and indefinite inanimate nouns may be either singular or plural. In this way, 'He was picking up a spear and small rocks' and 'She is picking up spears and a small rock' are both valid translations for the above gloss in the right context. Lastly, all of the parenthetical information in the fourth line makes it very hard to read.
 
 There are a number of conventions used in this document that exist to make the glosses easier to read, which are listed below:
 
@@ -154,6 +156,8 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | = | clitic boundary, e.g., English _we='ll_ (1PL.NOM=FUT) |
 | . | separator for irreducible morphemes that are represented by multiple glosses, e.g., English _we_ (1PL.NOM). Not used between abbreviations for person, number, and role, so 1PL is used for 1.PL,  2SG for 2.SG, etc., and A3PL is used for 3.PL.A, P3SG for 3.SG.P, etc. |
 | : | separates morphemes where segmentation is irrelevant, usually for brevity |
+
+<br>
 
 |      |                              |      |                             |
 | ---- | ---------------------------- | ---- | --------------------------- |
@@ -381,7 +385,7 @@ Verbs inflect for aspect, mood, and voice, and they agree in person and number w
 | Imperative mood    | ??-                   | _???????_ | 'Throw it'                |
 | Antipassive voice  | -??                   | _???????_ | 'I threw (something)'     |
 
-Figure A. _Examples of aspect, mood, and voice marking with the verb ???, 'to throw'._
+Figure A. _Examples of aspect, mood, and voice marking with the verb (?), 'to throw'._
 
 <table>
   <tr>
@@ -481,7 +485,7 @@ Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?
           PFV:P3SG:open.TR(?):A1SG DEF.SG door and (name) PFV:P3SG:run LOC(?) 1SG
           'I opened the door and Oshã ran up to me'
 
-Polar questions are marked by the interrogative particle ??? at the beginning of the clause, and interrogative words in content questions are fronted.
+Polar questions are marked by the interrogative particle (?) at the beginning of the clause, and interrogative words in content questions are fronted.
 
     (A.#) ??? ????? ??? ???¿
           ??? ?????       ???    ???

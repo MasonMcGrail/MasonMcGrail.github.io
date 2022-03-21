@@ -1,0 +1,49 @@
+:root {
+    --off-white:      hsl(225, 50%, 95%);
+    --off-black:      hsl(225, 50%,  5%);
+    --off-grey-light: hsl(225,  5%, 80%);
+    --off-grey-dark:  hsl(225,  5%, 20%);
+    --box-text-light: hsl(225, 20%, 80%);
+    --box-text-dark:  hsl(225, 20%, 20%);
+    --accent-dark:    hsl(225, 95%, 80%);
+    --accent-light:   hsl(225, 95%, 20%);
+}
+
+body            { background-color: var(--off-grey-dark);  color: var(--off-grey-light); }
+body.light-mode { background-color: var(--off-grey-light); color: var(--off-grey-dark);  }
+
+a                 { color: var(--off-white); }
+body.light-mode a { color: var(--off-black); }
+
+h1, h2, h3, h4, h5, h6                 { color: var(--accent-dark); }
+body.light-mode h1, body.light-mode h2,
+body.light-mode h3, body.light-mode h4,
+body.light-mode h5, body.light-mode h6 { color: var(--accent-light); }
+
+pre {
+    background-color: var(--off-black);
+    border: 2px solid var(--accent-dark);
+    border-radius: 0.5rem;
+}
+body.light-mode pre {
+    background-color: var(--off-white);
+    border: 2px solid var(--accent-light);
+}
+
+div.highlight                 { background-color: var(--off-grey-dark);  }
+body.light-mode div.highlight { background-color: var(--off-grey-light); }
+
+pre>code                 { color: var(--box-text-light); }
+body.light-mode pre>code { color: var(--box-text-dark);  }
+
+th, td {
+    border: 2px solid var(--accent-dark);
+    background-color: var(--off-black);
+    color: var(--box-text-light);
+}
+body.light-mode th,
+body.light-mode td {
+    border: 2px solid var(--accent-light);
+    background-color: var(--off-white);
+    color: var(--box-text-dark);
+}

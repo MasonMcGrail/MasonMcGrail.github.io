@@ -1,6 +1,6 @@
-<link type="text/css" rel="stylesheet" href="exwachil.css">
-
 # A Grammar of Exwachil
+
+<link type="text/css" rel="stylesheet" href="exwachil.css">
 
 ## <a name="table_of_contents"></a>Table of Contents
 

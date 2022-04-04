@@ -48,7 +48,7 @@
   - [A.B. Noun phrase structure](#noun_phrase_structure)
 - [A. Verb phrases](#verb_phrases)
   - [A.B. Verb phrase structure](#verb_phrase_structure)
-  - [A.B. Copular structure](#nominal_locative_predication)
+  - [A.B. Nominal and locative predication](#nominal_locative_predication)
 - [A. Coordination](#coordination)
   - [A.B. Content of this section](#coordination_content)
   - [A.B. Coreferential deletion](#coreferential_deletion)
@@ -64,9 +64,9 @@
 
 ## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
 
-This is a reference grammar for Ekhwachil, a constructed language (conlang) that appears as the main representative of its language family within a larger project. I am writing this grammar to have all of the information in one place, presented in a way that, hopefully, is enjoyable and interesting to read for anyone interested in conlangs or linguistics in general. Ekhwachil is very much an ongoing project, and while the core of the grammar is stable, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. while their number is unknown. Also, the lexicon is severely underdeveloped (see: nonexistent), so strings of question marks are used in place of the words in examples for now.
+This is a reference grammar for Ekhwachil, a constructed language (conlang) that appears as the main representative of its language family in a fictional setting. I am writing this grammar to have all of the information in one place, presented in a way that, hopefully, is enjoyable and interesting to read for anyone interested in conlangs or linguistics in general. Ekhwachil is very much an ongoing project, and while the core of the grammar is stable, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. while their number is unknown. Also, the lexicon is severely underdeveloped (see: nonexistent), so strings of question marks are used in place of the words in examples for now.
 
-This work is meant to be descriptive and not pedagogical; it is meant to thoroughly show its structure rather than serve as a resource for a hypothetical learner. To that end, I will use technical terminology whenever it would be appropriate for a particular description, but I will avoid using more obscure terms. In terms of framework, I will just be using "basic linguistic theory" so that this work is readable to a broad audience and will remain so for years to come.
+This work is meant to be descriptive and not pedagogical; it is meant to thoroughly show the language's structure rather than serve as a resource for a hypothetical learner. To that end, I will use technical terminology whenever it would be appropriate for a particular description, but I will avoid using more obscure terms. In terms of framework, I will just be using "basic linguistic theory" so that this work is readable to a broad audience and will remain so for years to come.
 
 This document is divided into (?) sections. Section A is a brief overview of the language's typology and speakers. Section A describes the phonology and the romanization used throughout this document. Sections A, A, and A cover noun morphology, verb morphology, and adjective morphology, respectively. Section A deals with pronouns. Section A discusses prepositions and particles. Section A describes numerals and classifiers. Sections A and A respectively deal with noun phrases and verb phrases. Section A discusses coordination. Section A describes relative clauses. Lastly, section A covers the lexicon, and section A contains sample texts in Ekhwachil, some original, others translations.
 
@@ -575,25 +575,23 @@ Figure A. _Consonant phonemes._
 
 All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the first rule specifies that /imˈda/ would be realized as \[in̪ˈd̪a\], but /ime̞ˈda/ would be realized as \[ime̞ˈda\] and not \*\[in̪e̞ˈd̪a\].
 
-- /m/ assimilates to /n/ before dental consonants.
-- /n/ assimilates in place before all(?) consonants.
+- /m/ assimilates to \[n\] before dental consonants.
+- /n/ assimilates in place before all obstruents and nasals. It does not become \[ɲ\] before postalveolar consonants.
 - /nj/ and /ŋj/ simplify to \[ɲ\].
 - Plain velars are labialized before rounded vowels.
 - Voiceless stops and affricates may be slightly aspirated word-initially.
+- Voiceless stops have no audible release before their corresponding nasals. For example, /apmi/ is realized as \[ap̚mi\].
 - Voiced stops are fully voiced in all positions, including word-initially.
-- Voiceless obstruents other than /x/ and /xʷ/ become voiced immediately before voiced obstruents. /x/ and /xʷ/ respectively debuccalize to \[h\] and \[hʷ\] in the same position.
-- /dʒ/ may be pronounced \[ʒ\] in free variation (?).
-- After a dental stop, /l/ is realized as \[ɾ\], and the cluster is realized as \[t̪ɾ\] or \[d̪ɾ\].
+- Voiceless obstruents become voiced before voiced obstruents. Velar fricatives also assimilate in place and manner to match the following segment, so /laxbe/ is realized as \[labbe\] (this might instead be morphophonology (?)).
+- /dʒ/ is realized as \[ʒ\] in free variation (?).
 - Plain velars and before labialized consonants and rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\], and /aŋxʷe/ is is realized as \[aŋʷxʷe\].
-- /l/ may be pronounced \[ɾ\] before front vowels in free variation.
+- /l/ is realized as \[ɾ\] before front vowels in free variation, and it is always realized as \[ɾ\] after a dental stop.
 
 #### A.B.C. Romanization notes for consonants
 
 - To represent phones that are not phonemic in Ekhwachil:
   - \[z\] is spelled as ⟨z⟩.
   - \[ʒ\] is spelled as ⟨j⟩, because it does not contrast with /dʒ/.
-  - \[h\] is spelled as ⟨h⟩.
-  - \[hʷ\] is spelled as ⟨hw⟩.
   - \[ɾ\] is spelled as ⟨r⟩ when it is not allophically pronounceable as /l/.
 - Nasal assimilation is indicated, so sequences such as ⟨mt⟩ and ⟨nk⟩ do not occur word-medially as a result of affixation of compounding. They instead reflect their surface forms as ⟨nt⟩ and ⟨ngk⟩.
 - Likewise, voicing assimilation in voiceless obstruents is indicated. For example:
@@ -1436,19 +1434,19 @@ The 'conditional protasis' category refers to indefinites that are used within t
 
 The C-series corresponds to Haspelmath's 'indirect negation' and 'direction negation' categories, and its pronouns are formed by preceding interrogative pronouns with the particle (?), 'even'. In both instances, the indefinite pronoun is within the scope of negation.
 
-    (A.#) ??? ??????? ??? ??? ??? ???
-          ??? ???????              ???  ???  ???    ???
-          NEG PFV:P3SG:buy:A1PL.EX even what LOC(?) there
+    (A.#) ??? ??? ??? ??????? ??? ???
+          ???  ???  ??? ???????              ???    ???
+          even what NEG PFV:P3SG:buy:A1PL.EX LOC(?) there
           'We didn't buy anything there'
 
     (A.#) ??? ??? ????????? ??? ????????? ??? ??? ??? ???¿
           ??? ??? ?????????              ???  ?????????               ???      ??? ???  ???
-          Q   NEG ???(?):P3SG:think:A2SG COMP ABIL:P3SG:climb:P3SG(?) mountain yon even who
+          Q   NEG ???(?):P3SG:think:A2SG COMP ABIL:P3SG:climb:A3SG(?) mountain yon even who
           'You don't think that anyone can climb that mountain?'
 
     (A.#) ??? ????? ??? ??? ??? ??? ????????? ??? ????
-          ??? ?????         ???    ???  ??? ??? ?????????              ??? ????
-          LOC where:A3SG(?) forest even who NEG PROG:P3SG:know:A3SG(?) Q   P3PL:COP.HUM
+          ???    ?????         ???    ???  ??? ??? ?????????         ??? ????
+          LOC(?) where:A3SG(?) forest even who NEG PROG:P3SG:know:AP Q   P3PL:COP.HUM
           'No one knows where they are in the forest'
 
 #### A.B.C. The D-series
@@ -1977,7 +1975,7 @@ In the case where the shared NP is an O in the first clause and an A in the seco
 
 ### <a name="relative_clause_content"></a>A.B. Content of this section (?) <a href="#table_of_contents">^</a>
 
-For the rest of this section, relativized NPs will be surrounded by square brackets when they appear in glosses containing more than just that NP.
+For the rest of this section, relative clauses and their head nouns will be surrounded by square brackets when they appear in glosses containing other words.
 
 Relative clauses in Ekhwachil are placed after the nouns they modify, and they are separated by the relativizer (?) _\[which possibly agrees with the head noun in some way\]_ (?). When the head noun is the patient of the verb in the relative clause, it is only expressed with verb agreement.
 
@@ -1996,7 +1994,7 @@ Relative clauses in Ekhwachil are placed after the nouns they modify, and they a
           DEF.SG man REL PROG:PS3G:carrying:A2PL
           'the man that you're carrying'
 
-Agents cannot be directly relativized. In order to relativize an agent, it must first be promoted to the role of subject by rendering the verb in the antipassive voice. The patient, which is no longer indexed on the verb, can optionally be expressed as an oblique argument.
+Agents cannot be directly relativized. In order to relativize an agent, it must first be promoted to the role of subject by rendering the verb in the antipassive voice. The object, which is no longer indexed on the verb, can optionally be expressed as an oblique argument.
 
     (A.#) ??? ??? ??? ??????? (??? ???)
           ???    ???  ??? ???????            (??? ???)
@@ -2021,7 +2019,7 @@ When the head noun is of any other role, such as the destination of a verb of mo
           'a spear that your sister hunts with'
 
     (A.#) ??? ??? ??? ??????? ??? ?????
-          ???    ???    ??? ???????           ??? ???-??
+          ???    ???    ??? ???????           ??? ???   -??
           DEF.SG boy(?) REL PFV:P3SG:buy:AS3G pig father-A3SG
           'the boy whose father bought a pig'
 
@@ -2029,14 +2027,14 @@ When the head noun is of any other role, such as the destination of a verb of mo
 
 NPs containing relative clauses often influence the order in which constituents appear, owing to the fact that they tend to be comparatively long and/or complex. For brevity, we will call such NPs "heavy". It is generally dispreferred that any arguments or adjuncts occur after especially heavy NPs, so they tend to appear earlier in the phrase than is typical when they co-occur.
 
-The examples below demonstrate this principle. The basic, unmarked order of constituents in a clause containing a transitive verb and an adjunct is verb-patient-agent-adjunct.
+The examples below demonstrate this principle. The basic, unmarked order of constituents in a clause containing a transitive verb and an adjunct is verb-object-agent-adjunct.
 
     (A.#) ??????? ????? ??? ??? ??? ???
           ???????            ?????     ???    ??? ???    ???
           PFV:P3SG:push:A3PL boat:A3PL DEF.PL man LOC(?) river
           'The men pushed their boat into a river'
 
-The agent may be fronted and precede the verb without any additional marking due to being topicalized, respectively, and the adjunct may occur in any position between phrases, but the example above gives the most pragmatically neutral word order. When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the verb to be in the antipassive voice to facilitate fronting of the agent, though the adjunct is only somewhat more likely to precede the heavy NP than before.
+The agent may be fronted and precede the verb without any additional marking due to being topicalized, and the adjunct may occur in any position between phrases, but the example above gives the most pragmatically neutral word order. When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the verb to be in the antipassive voice to facilitate fronting of the agent, though the adjunct is only somewhat more likely to precede the heavy NP than before.
 
     (A.#) ??????? ??? ??? ??? ????? ??? ??? ??????? ??? ???
           ???????            ???    ??? ???  [?????     ??? ??? ???????]           ???    ???

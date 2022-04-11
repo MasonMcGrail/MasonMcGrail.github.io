@@ -326,7 +326,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
   </tr>
 </table>
 
-Figure A. _Consonant phonemes. The post-alveolars and palatals are collapsed just so that the table isn't too long._
+Figure A. _Consonant phonemes. The post-alveolars and palatals are collapsed for reasons of spacing and not phonemic analysis._
 
 Syllables in the language are maximally (C)(C)V(C). Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
 
@@ -365,7 +365,7 @@ Nouns have no inflectional morphology aside from a set of possessive suffixes. A
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>-(l)a</td>
+    <td>-(t)a</td>
     <td>-??</td>
   </tr>
 </table>
@@ -423,7 +423,7 @@ Figure A. _Examples of aspect, mood, and voice marking with the verb (?), 'to th
     <th colspan=2>3rd person</th>
     <td>(e)s-</td>
     <td>??-</td>
-    <td>-(l)a</td>
+    <td>-(t)a</td>
     <td>-??</td>
   </tr>
 </table>
@@ -569,7 +569,7 @@ The consonant inventory of Ekhwachil is shown below.
   </tr>
 </table>
 
-Figure A. _Consonant phonemes._
+Figure A. _Consonant phonemes. The post-alveolars and palatals are collapsed for reasons of spacing and not phonemic analysis._
 
 #### A.B.C Allophonic variation in consonants
 
@@ -813,7 +813,7 @@ Nouns in Ekhwachil do not inflect for most grammatical categories, including cas
   </tr>
   <tr>
     <th colspan=2>3rd person</th>
-    <td>-(l)a</td>
+    <td>-(t)a</td>
     <td>-??</td>
   </tr>
 </table>
@@ -1439,9 +1439,16 @@ The C-series corresponds to Haspelmath's 'indirect negation' and 'direction nega
           even what NEG PFV:P3SG:buy:A1PL.EX LOC(?) there
           'We didn't buy anything there'
 
-    (A.#) ??? ??? ????????? ??? ????????? ??? ??? ??? ???¿
-          ??? ??? ?????????              ???  ?????????               ???      ??? ???  ???
-          Q   NEG ???(?):P3SG:think:A2SG COMP ABIL:P3SG:climb:A3SG(?) mountain yon even who
+    (A.#) ??? ??? ??? ??? ??? ???????
+          ???    ??? ???  ???  ??? ???????
+          DEF.SG boy even what NEG P3SG(?):say:A3SG
+          'The boy didn't say anything'
+
+A C-series pronoun syntactically behaves as though it is focused, even without the focus particle (?), in that it always precedes the verb in the same position as a focused argument, and if it is acting as an agent, the verb is in the antipassive voice.
+
+    (A.#) ??? ??? ????????? ??? ??? ??? ????????? ??? ??? ???¿
+          ??? ??? ?????????              ???  ???  ??? ?????????             ???  ???      ???
+          Q   NEG ???(?):P3SG:think:A2SG COMP even who ABIL:P3SG(?):climb:AP with mountain yon
           'You don't think that anyone can climb that mountain?'
 
     (A.#) ??? ????? ??? ??? ??? ??? ????????? ??? ????
@@ -1896,8 +1903,8 @@ The locative copulas (?), (?), and (?) are used to express locative as well as e
           'That bear should be in its cave now'
 
     (A.#) ????? ??? ??? ??? ???
-          ?????         ???    ???    ??? ???
-          P3SG:COP.INAN basket LOC(?) DEF floor
+          ?????         ???    ???    ???    ???
+          P3SG:COP.INAN basket LOC(?) DEF.SG floor
           'There is a basket on the floor'
 
 These copulae are also used for predicative possession. The syntactic subject is the possessed noun with a Set A marker, and the semantic possessor is the object of the locative preposition (?). Pronominal possessors are expressed only by their corresponding Set A markers.

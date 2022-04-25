@@ -8,16 +8,16 @@
   - [A.B. Goals and use of the language](#goals_and_use)
   - [A.B. Interlinear glosses](#interlinear_glosses)
   - [A.B. Abbreviations](#abbreviations)
-- [A. Overview](#overview)
+- [A. An overview of Ekhwachil](#overview)
   - [A.B. Geographic and demographic information](#geographic_demographic)
-  - [A.B. Overview of Ekhwachil grammar](#overview_of_grammar)
+  - [A.B. Overview of typological features](#overview_of_grammar)
 - [A. Phonology](#phonology)
-  - [A.B. Phonemic inventory and romanization](#phonemic_inventory_romanization)
+  - [A.B. Introduction](#phonology_introduction)
   - [A.B. Consonants](#consonants)
   - [A.B. Vowels](#vowels)
   - [A.B. Word stress](#word_stress)
   - [A.B. Phonotactics](#phonotactics)
-  - [A.B. Sibilant harmony](#sibilant_harmony)
+  - [A.B. Morphophonology](#morphophonology)
 - [A. Noun morphology](#noun_morphology)
   - [A.B. Nominal inflection](#nominal_inflection)
   - [A.B. Nominal derivation](#nominal_derivation)
@@ -119,7 +119,7 @@ Verbs are not marked for tense, so this may refer to a past, present, or future 
 There are a number of conventions used in this document that exist to make the glosses easier to read, which are listed below:
 
 - Most of the time, verbs in the perfective aspect refer to past events, so they will be translated as being in the past tense. Verbs in the imperfective aspects will be translated as being in the present tense.
-- Adjectives, which are essentially similar to stative verbs such as (?) ('to be excited') and (?) ('to be small'), will be glossed without 'be' when they are being used attributively.
+- Adjectives, which are essentially similar to stative verbs such as (?), 'to be excited' and (?), 'to be small', will be glossed without 'be' when they are being used attributively.
 - Indefinite, inanimate nouns will be translated as singular when their number is ambiguous.
 - Third person singular human referents of unknown gender will be variously glossed as 'he', 'she', 'him', 'her', etc. Singular 'they'/'them' will be avoided in translations for clarity.
 
@@ -193,21 +193,36 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 
 <sup>1</sup> _The choice of the labels 'Set A' and 'Set P' is meant to evoke the 'Set A' and 'Set B' person markers in Mayan linguistics because they are similar in form and function. They were named 'A' for 'agent' and 'P' for 'patient' to be more transparent to anyone who is unfamiliar with Mayan linguistics, as well as to distance Ekhwachil from the Mayan language family._
 
-## <a name="overview"></a>A. Overview <a href="#table_of_contents">^</a>
-
-This section is a brief outline of Ekhwachil.
+## <a name="overview"></a>A. An overview of Ekhwachil <a href="#table_of_contents">^</a>
 
 ### <a name="geographic_demographic"></a>A.B. Geographic and demographic information <a href="#table_of_contents">^</a>
 
-Ekhwachil is one of seven members of the (?) language family, and it is spoken by about 21,000 people on the landmass of (?), which is roughly the size of Nepal. (?) is somewhat distant from other landmasses, and due to this as well the nature of surrounding ocean currents, it has no contact with the outside world as of yet.
+Ekhwachil is one of the languages of the (?) branch of the (?) language family. It is spoken by about 17,000 people on the island of (?), which is roughly the size of Sri Lanka. (?) is somewhat distant from other landmasses, and due to this as well the nature of the ocean currents that surround it, it has no contact with the outside world. The languages spoken there only have contact with each other, and Ekhwachil in particular has only had long-standing language contact with its closest relative, (?).
 
-### <a name="overview_of_grammar"></a>A.B. Overview of Ekhwachil grammar <a href="#table_of_contents">^</a>
+#### A.B.C. The name 'Ekhwachil'
+
+The speakers of Ekhwachil have no unique name for their language; _ekhwachil_ is a shortening of _(?) ekhwachil_, which is broken down below.
+
+    ??? ekhwachil
+    ???     ekhwa  -chil
+    DEF.SG language-A1PL.IN
+    'Ekhwachil', literally 'our language'
+
+To a standard speaker of Ekhwachil, who is monolingual and feels a sense of ownership over their language and not others, the use of the definite article and the inclusive possessive suffix together uniquely identify the language. As might be expected, when discussing the language with people outside of the speech community, the exclusive possessive suffix is used instead.
+
+For the sake of brevity, throughout the rest of this work I will be using the term 'Ekhwachil' to refer to both the language itself and members of the ethnolinguistic group that speak it.
+
+#### A.B.C. Culture and lifestyle
+
+(?)
+
+### <a name="overview_of_grammar"></a>A.B. Overview of typological features <a href="#table_of_contents">^</a>
 
 This section briefly details the features of the typology of Ekhwachil that make it distinct from other languages. These include summaries of its phonology, morphology, and syntax, all of which are discussed in greater detail in later sections.
 
 #### A.B.C. Phonology and morphophonology
 
-Grey Orcish has 10 vowel phonemes, 7 of them oral and the remaining 3 nasal. The contrast between close-mid and open-mid vowels is neutralized in unstressed syllables.
+Grey Orcish has 12 vowel phonemes, 7 of them oral and the remaining 5 nasal. The contrast between close-mid and open-mid vowels is neutralized in unstressed syllables.
 
 <table>
   <tr>
@@ -246,9 +261,9 @@ Grey Orcish has 10 vowel phonemes, 7 of them oral and the remaining 3 nasal. The
     <th>ɛ</th>
     <th></th>
     <th>ɔ</th>
+    <th>ɛ̃</th>
     <th></th>
-    <th></th>
-    <th></th>
+    <th>ɔ̃</th>
   </tr>
   <tr>
     <th>Open</th>
@@ -263,14 +278,15 @@ Grey Orcish has 10 vowel phonemes, 7 of them oral and the remaining 3 nasal. The
 
 Figure A. _Vowel phonemes._
 
-There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, postalveolar/palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
+There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, postalveolar, palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
 
 <table>
   <tr>
     <th colspan=2 rowspan=2></th>
     <th rowspan=2>Bilabial</th>
     <th rowspan=2>Dental</th>
-    <th rowspan=2>Post-<br>alveolar/<br>Palatal</th>
+    <th rowspan=2>Post-<br>alveolar</th>
+    <th rowspan=2>Palatal</th>
     <th colspan=2>Velar</th>
     <th rowspan=2>Glottal</th>
   </tr>
@@ -282,6 +298,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
     <th colspan=2>Nasal</th>
     <th>m</th>
     <th>n</th>
+    <th></th>
     <th>ɲ</th>
     <th>ŋ</th>
     <th>ŋʷ</th>
@@ -293,6 +310,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
     <th>p</th>
     <th>t</th>
     <th>tʃ</th>
+    <th></th>
     <th>k</th>
     <th>kʷ</th>
     <th></th>
@@ -302,6 +320,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
     <th>b</th>
     <th>d</th>
     <th>dʒ</th>
+    <th></th>
     <th>g</th>
     <th>gʷ</th>
     <th></th>
@@ -311,6 +330,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
     <th></th>
     <th>s</th>
     <th>ʃ</th>
+    <th></th>
     <th>x</th>
     <th>xʷ</th>
     <th>h</th>
@@ -319,6 +339,7 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
     <th colspan=2>Approximant</th>
     <th></th>
     <th>l</th>
+    <th></th>
     <th>j</th>
     <th></th>
     <th></th>
@@ -326,9 +347,9 @@ There are 21 consonant phonemes in 4 places of articulation (bilabial, dental, p
   </tr>
 </table>
 
-Figure A. _Consonant phonemes. The post-alveolars and palatals are collapsed for reasons of spacing and not phonemic analysis._
+Figure A. _Consonant phonemes._
 
-Syllables in the language are maximally (C)(C)V(C). Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
+Syllables in the language are maximally CCVC. Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
 
 There is limited sibilant harmony present throughout the language. If multiple sibilants occur root-internally, they have the same place of articulation (either all dental /s/ or all postalveolar /ʃ/, /tʃ/, or /dʒ/), and /s/ in prefixes assimilates to /ʃ/ before a root containing any postalveolars.
 
@@ -336,11 +357,15 @@ There is limited sibilant harmony present throughout the language. If multiple s
     ??-???    '[root with /s/](?)'
     ??-???    '[root with a postalveolar sibilant](?)'
 
+#### A.B.C. Word classes
+
+(?)
+
 #### A.B.C. Morphology
 
 Ekhwachil is a predominantly agglutinative and prefixing language, though the few inflectional suffixes that do exist are very common. Verbs are rarely bare, so they can usually be readily distinguished from other parts of speech both syntactically and morphologically.
 
-Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number (singular/plural) is indexed on the verb if it is a core argument, and if animate, it is also pluralized using a preceding particle. A noun's role is either indexed on the verb or indicated using prepositions.
+Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number (singular/plural) is indexed on the verb if it is a core argument, and if animate, it is also pluralized using a preceding particle. A noun's grammatical role is either indexed on the verb or indicated using prepositions.
 
 <table>
   <tr>
@@ -372,7 +397,7 @@ Nouns have no inflectional morphology aside from a set of possessive suffixes. A
 
 Figure A. _Set A pronominal possessive suffixes._
 
-Verbs inflect for aspect, mood, and voice, and they agree in person and number with their S, A, and O arguments. The affixes for these categories are given below with the verb (?), 'to throw', translated in accordance with the glossing rules outlined in section A.B. (?). Other distinctions of aspect and mood are indicated periphrastically.
+Verbs inflect for aspect, mood, and voice, and they agree in person and number with their A and P arguments. The affixes for these categories are given below with the verb (?), 'to throw', translated in accordance with the glossing rules outlined in section A.B. (?). Other distinctions of aspect and mood are indicated periphrastically.
 
 | Aspect/Mood/Voice  | Marking               | Example   | Translation               |
 | ------------------ | --------------------- | --------- | ------------------------- |
@@ -506,20 +531,23 @@ Comparatives are expressed using the preposition (?), 'from'.
 
 ## <a name="phonology"></a>A. Phonology <a href="#table_of_contents">^</a>
 
-### <a name="phonemic_inventory_romanization"></a>A.B. Phonemic inventory and romanization <a href="#table_of_contents">^</a>
+### <a name="phonology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
-The consonant and vowel inventories of Ekhwachil are outlined in the following two sections in both the IPA and the romanization used in this work. If the same symbols used to represent a phoneme in the IPA and the romanization, they are not repeated; otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
+This section is an overview of the phonology of Ekhwachil. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this section I cover details of morphophonology, which mostly deals with assimilatory processes, including sibilant harmony.
+
+While Exwachil does not have a written form, in this work it will be represented with a romanization. The romanization for phonemes will be noted in the tables of the consonant and vowel inventories of the language. If the same symbols used to represent a phoneme in the IPA and the romanization, they are not repeated. Otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
 
 ### <a name="consonants"></a>A.B. Consonants <a href="#table_of_contents">^</a>
 
-The consonant inventory of Ekhwachil is shown below.
+The 21 consonant phonemes of Exwachil have the following places and manners of articulation.
 
 <table>
   <tr>
     <th colspan=2 rowspan=2></th>
     <th rowspan=2>Bilabial</th>
     <th rowspan=2>Dental</th>
-    <th rowspan=2>Post-<br>alveolar/<br>Palatal</th>
+    <th rowspan=2>Post-<br>alveolar</th>
+    <th rowspan=2>Palatal</th>
     <th colspan=2>Velar</th>
   </tr>
   <tr>
@@ -530,6 +558,7 @@ The consonant inventory of Ekhwachil is shown below.
     <th colspan=2>Nasal</th>
     <th>m</th>
     <th>n</th>
+    <th></th>
     <th>ɲ ⟨ny⟩</th>
     <th>ŋ ⟨ng⟩</th>
     <th>ŋʷ ⟨ngw⟩</th>
@@ -540,6 +569,7 @@ The consonant inventory of Ekhwachil is shown below.
     <th>p</th>
     <th>t</th>
     <th>tʃ ⟨ch⟩</th>
+    <th></th>
     <th>k</th>
     <th>kʷ ⟨kw⟩</th>
   </tr>
@@ -548,6 +578,7 @@ The consonant inventory of Ekhwachil is shown below.
     <th>b</th>
     <th>d</th>
     <th>dʒ ⟨j⟩</th>
+    <th></th>
     <th>g</th>
     <th>gʷ ⟨gw⟩</th>
   </tr>
@@ -556,6 +587,7 @@ The consonant inventory of Ekhwachil is shown below.
     <th></th>
     <th>s</th>
     <th>ʃ ⟨sh⟩</th>
+    <th></th>
     <th>x ⟨kh⟩</th>
     <th>xʷ ⟨khw⟩</th>
   </tr>
@@ -563,49 +595,34 @@ The consonant inventory of Ekhwachil is shown below.
     <th colspan=2>Approximant</th>
     <th></th>
     <th>l</th>
+    <th></th>
     <th>j ⟨y⟩</th>
     <th></th>
     <th></th>
   </tr>
 </table>
 
-Figure A. _Consonant phonemes. The post-alveolars and palatals are collapsed for reasons of spacing and not phonemic analysis._
+Figure A. _Consonant phonemes._
 
 #### A.B.C Allophonic variation in consonants
 
-All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the first rule specifies that /imˈda/ would be realized as \[in̪ˈd̪a\], but /ime̞ˈda/ would be realized as \[ime̞ˈda\] and not \*\[in̪e̞ˈd̪a\].
+All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second rule specifies that /ikˈŋa/ would be realized as \[ik̚ˈŋa\], but /ikeˈŋa/ would be realized as \[ikeˈŋa\] and not \*\[ik̚eˈŋa\].
 
-- /m/ assimilates to \[n\] before dental consonants.
-- /n/ assimilates in place before all obstruents and nasals. It does not become \[ɲ\] before postalveolar consonants.
-- /nj/ and /ŋj/ simplify to \[ɲ\].
-- Plain velars are labialized before rounded vowels.
 - Voiceless stops and affricates may be slightly aspirated word-initially.
 - Voiceless stops have no audible release before their corresponding nasals. For example, /apmi/ is realized as \[ap̚mi\].
 - Voiced stops are fully voiced in all positions, including word-initially.
-- Voiceless obstruents become voiced before voiced obstruents. Velar fricatives also assimilate in place and manner to match the following segment, so /laxbe/ is realized as \[labbe\] (this might instead be morphophonology (?)).
 - /dʒ/ is realized as \[ʒ\] in free variation (?).
 - Plain velars and before labialized consonants and rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\], and /aŋxʷe/ is is realized as \[aŋʷxʷe\].
 - /l/ is realized as \[ɾ\] before front vowels in free variation, and it is always realized as \[ɾ\] after a dental stop.
 
 #### A.B.C. Romanization notes for consonants
 
-- To represent phones that are not phonemic in Ekhwachil:
-  - \[z\] is spelled as ⟨z⟩.
-  - \[ʒ\] is spelled as ⟨j⟩, because it does not contrast with /dʒ/.
-  - \[ɾ\] is spelled as ⟨r⟩ when it is not allophically pronounceable as /l/.
-- Nasal assimilation is indicated, so sequences such as ⟨mt⟩ and ⟨nk⟩ do not occur word-medially as a result of affixation of compounding. They instead reflect their surface forms as ⟨nt⟩ and ⟨ngk⟩.
-- Likewise, voicing assimilation in voiceless obstruents is indicated. For example:
-  - /ipga/, pronounced \[ibga\], is spelled as ⟨ibga⟩ and not \*⟨ipga⟩.
-  - /uʃda/, pronounced \[uʒd̪a\], is spelled as ⟨ujda⟩ and not \*⟨ushda⟩.
-- Because /nj/ and /ŋj/ are pronounced as \[ɲ\], they are spelled ⟨ny⟩.
 - Labialization is not indicated where it is not contrastive. For example, because they do not contrast, /gu/ and /gʷu/ are both spelled as ⟨gu⟩ and not \*⟨gwu⟩, and /oŋkʷa/ is spelled as ⟨ongkwa⟩ and not \*⟨ongwkwa⟩.
 - /ŋ/ is always spelled ⟨ng⟩, regardless of environment. For example, ⟨inge⟩, ⟨angko⟩, and ⟨unggwa⟩ respectively represent /iŋe/, /aŋko/, and /uŋgʷa/.
 
 ### <a name="vowels"></a>A.B. Vowels <a href="#table_of_contents">^</a>
 
-The vowel inventory of Ekhwachil is shown below in Table A-B.
-
-**_Table A-B._** _Vowels._
+Exwachil has 12 vowel phonemes, of which 7 are oral and 5 are nasal.
 
 <table>
   <tr>
@@ -644,9 +661,9 @@ The vowel inventory of Ekhwachil is shown below in Table A-B.
     <th>ɛ ⟨è⟩</th>
     <th></th>
     <th>ɔ ⟨ò⟩</th>
+    <th>ɛ̃ ⟨ẽ⟩</th>
     <th></th>
-    <th></th>
-    <th></th>
+    <th>ɔ̃ ⟨õ⟩</th>
   </tr>
   <tr>
     <th>Open</th>
@@ -667,24 +684,27 @@ Nasal vowels contrast with oral vowels. The phonemes /ĩ/, /ã/, and /ũ/ are us
 
 #### A.B.C. Allophonic variation in vowels
 
-The distinction between open-mid /e/ and /o/ with their close-mid counterparts /ɛ/ and /ɔ/ is neutralized in unstressed syllables, where they are realized as \[e̞\] and \[o̞\] by default, but their quality depends on a number of factors. They are commonly pronounced as \[e\] and \[o\] when they are near /i/, /e/, /o/, or /u/ or when they are in open syllables. Conversely, they are commonly pronounced as \[ɛ\] and \[ɔ\] when they are near  /ɛ/, /a/, /ɔ/, or nasal vowels, or when they are in closed syllables, especially those with velar consonants as codas.
+The distinction between open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ is neutralized in unstressed syllables, where they are in complementary distribution.
+
+- Unstressed /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not after /j/. It is pronounced as \[ɛ\] after /j/ as well as in all other closed syllables.
+- Unstressed /o ~ ɔ/ is pronounced as \[o\] in open syllables and before coda /j/, and it is pronounced as \[ɔ\] in all other closed syllables.
+
+In broad transcription, /e ~ ɛ/ and /o ~ ɔ/ will respectively be written as /e/ and /o/.
 
 #### A.B.C. Diphthongs
 
-Every oral vowel other than /i/ and /e/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. The nasal vowels /ã/ and /ũ/ can do the same, nasalizing \[i̯\] and resulting in \[ɐ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
+Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ei̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. Every nasal vowel other than /ĩ/ can do the same, nasalizing \[i̯\] and resulting in \[ɛ̃ĩ̯\], \[ɐ̃ĩ̯\], \[ɔ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
 
-#### A.B.C. Romanization for vowels
+#### A.B.C. Romanization notes for vowels
 
 - Unstressed /e ~ ɛ/ and /o ~ ɔ/ will be respectively romanized as ⟨e⟩ and ⟨o⟩.
 - In accordance with the analysis in the last section, phonetic diphthongs will have their second element spelled as ⟨y⟩, such as in ⟨ay⟩, ⟨oy⟩, and ⟨uy⟩.
 
 ### <a name="word_stress"></a>A.B. Word stress <a href="#table_of_contents">^</a>
 
-Stress in Ekhwachil is not lexically phonemic, with primary stress falling on the last syllable of almost(?) all inflected words. Ekhwachil is a syllable-timed language, so stressed and unstressed syllables have roughly the same length and volume, with the greatest difference between them being pitch.
+Stress in Ekhwachil is not lexically phonemic, with primary stress falling on the last syllable of the stem of almost(?) all words. Stressed and unstressed syllables have roughly the same length and volume, with the greatest difference between them being pitch.
 
-#### A.B.C. Exceptions to stress patterns
-
-Set A markers do not attract stress, which stays on the last syllable of the stem. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
+Notably, set A markers do not attract stress, which stays on the last syllable of the stem. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
 
 ### <a name="phonotactics"></a>A.B. Phonotactics <a href="#table_of_contents">^</a>
 
@@ -708,14 +728,14 @@ Some examples of possible syllables are listed below:
 
 #### A.B.C. Phonotactic restrictions
 
-In the onset of a syllable, initial /m/, /p/, /b/, /k/, and /g/ may be followed by /l/ or /j/, and /t/, /d/, and /s/ may only be followed by /j/. In the coda, /j/ is only permitted if the preceding vowel is not /i/, /e/, or /ĩ/.
+In the onset of a syllable, initial /m/, /p/, /b/, /k/, and /g/ may be followed by /l/ or /j/, while /t/, /d/, and /s/ may only be followed by /j/. In the coda, /j/ is only permitted if the preceding vowel is not /i/, /ĩ/, /ɛ/, or /ɛ̃/.
 
 <table>
     <tr>
         <th colspan=2>Onset</th>
     </tr>
     <tr>
-        <th>(C)</th>
+        <th>C</th>
         <th>(A)</th>
     </tr>
     <tr>
@@ -747,22 +767,40 @@ Figure A. _Possible non-null syllable onsets._
         <th>(A/B)</th>
     </tr>
     <tr style='height: 2rem'>
-        <td rowspan=2>onset not ending with /j/</td>
-        <td>/i/, /ĩ/, /e/</td>
-        <td>/l/, B</td>
-    </tr>
-    <tr style='height: 2rem'>
-        <td rowspan=2>/ɛ/, /a/, /ã/,<br>/ɔ/, /o/, /u/, /ũ/</td>
-        <td rowspan=2>/l/, /j/, B</td>
+        <td>onset not ending with /j/</td>
+        <td>/i/, /ĩ/</td>
+        <td rowspan=2>/l/, B</td>
     </tr>
     <tr style='height: 2rem'>
         <td>onset ending with /j/</td>
+        <td>/ɛ/, /ɛ̃/</td>
+    </tr>
+    <tr style='height: 2rem'>
+        <td>any onset</td>
+        <td>/e/, /a/, /ã/,<br>/ɔ/, /ɔ̃/, /o/, /u/, /ũ/</td>
+        <td>/l/, /j/, B</td>
     </tr>
 </table>
 
-Figure A. _Possible syllable rimes, which differ based on their preceding onsets._
+Figure A. _Possible syllable rimes, which differ based on their preceding onsets. All of the syllable rimes are possible with a null onset._
 
-### <a name="sibilant_harmony"></a>A.B. Sibilant harmony <a href="#table_of_contents">^</a>
+### <a name="morphophonology"></a>A.B. Morphophonology <a href="#table_of_contents">^</a>
+
+This section describes the assimilatory processes of the language that surface as a result of affixation and compounding.
+
+#### A.B.C. Nasal assimilation
+
+The following assimilatory processes occur when nasals immediately precede other consonants.
+
+- /m/ assimilates to \[n\] before dental consonants.
+- /n/ assimilates in place before all obstruents and nasals. Before postalveolar consonants, it it becomes postalveolar \[n̠\] rather than palatal \[ɲ\].
+- /nj/ and /ŋj/ simplify to \[ɲ\].
+
+#### A.B.C. Voicing of voiceless obstruents
+
+Voiceless obstruents become voiced before voiced obstruents. In the case of velar fricatives, they assimilate completely to match the following segment in that position, so /ax.bo/ is realized as \[ab.bo\], /ax.ge/ as \[ag.ge\], etc.
+
+#### A.B.C. Sibilant harmony
 
 A well-formed root in Ekhwachil contains sibilants of only one type. They are either all dental or all postalveolar.
 
@@ -781,6 +819,12 @@ While there are no counterexamples of root-internal harmony in the corpus, some 
 
     ??-???    '[compound with /s/ followed by /tʃ/]'
     ??-???    '[compound with /dʒ/ followed by /s/]'
+
+#### A.B.C. Romanization notes
+
+When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this means that the romanization will reflect nasal assimilation, phonetic gemination due to the velar fricative, as well as sibilant harmony, but it will not reflect voicing of voiceless obstruents.
+
+In the case of the velar fricative, it will be replaced with the symbol for the following segment's voiceless version. This is because otherwise, for example, /ikga/, pronounced [igga], would still be spelled ⟨ikga⟩, while /ixga/, also pronounced [igga], would be spelled ⟨igga⟩. In this example, by spelling it with ⟨k⟩ instead of ⟨g⟩, we avoid spelling homophones differently in the romanization.
 
 ## <a name="noun_morphology"></a>A. Noun morphology <a href="#table_of_contents">^</a>
 
@@ -826,7 +870,23 @@ These suffixes do not attract stress, which stays on the final syllable of the s
 
 (?)
 
-#### A.B.C. Derivational affixes
+#### A.B.C. Agent nominalizer (?)
+
+(?)
+
+#### A.B.C. Patient nominalizer (?)
+
+(?)
+
+#### A.B.C. Instrumental nominalizer (?)
+
+(?)
+
+#### A.B.C. Locative nominalizers (?) and (?)
+
+(?)
+
+#### A.B.C. Action nominalizer (?)
 
 (?)
 <!--
@@ -962,22 +1022,22 @@ For verbs that refer to mental states, such as (?) 'to know' or (?) 'to like', t
 
 The iterative aspect is used to denote repetitions of an event, which may be of short duration or persist for some time. It might variously be translated into English using phrases such as "repeatedly", "over and over", or "for a while", depending on the semantics of the verb. It is marked by full reduplication of the verb stem. _\[unclear on whether this can combine with the other aspects, but the answer is probably yes\]_ (?)
 
-    (A.#) ???????? ???, ??? ????? ???
+    (A.#) ????????, ??? ??? ????? ???
           ??  -???~???  ??? ??? ?????         ???
           P1SG-ITV~call but NEG P3SG:COP.INAN response
           'I called and called, but there was no response'
     
     (A.#) ??????? ?????
-          ??  -???~???   ?????
-          P3SG-ITV~blink ADV:fast
+          ??  -???~???   ???
+          P3SG-ITV~blink fast
           'She blinked rapidly'
 
 This reduplication marks the iterative aspect only for telic verbs. Its other function, which is available to both telic and atelic verbs, is to intensify the verb. Whether the verb is to be read as happening multiple times or intensely is dependent on its telicity as well as context.
 
-    (A.#) ?????????? ??? ??? ??? ???
-          ??  -???~?????      ???  ???     ???    ???
-          P3PL-ITV~throw:A3SG rock into(?) DEF.SG lake
-          'She threw rocks into the lake for a while', or 'She hurled rocks into the lake'
+    (A.#) ??? ???????????? ??? ??? ??? ???
+          ???       ????     -???~?????      ???  ???     ???    ???  ???    ?????  ???
+          yesterday PROG:P3PL-ITV~throw:A3SG rock into(?) DEF.SG lake LOC(?) NMZ:go this
+          'Yesterday, she was throwing rocks into the lake for a while like this', or 'Yesterday, she was hurling rocks into the lake like this'
     
     (A.#) ????????
           ??  -???~???
@@ -986,7 +1046,7 @@ This reduplication marks the iterative aspect only for telic verbs. Its other fu
 
 #### A.B.C. Habitual aspect
 
-The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the rhyme of the last syllable being reduplicated to its right. \[*-lak- > *-lakak-, *-amé- > *-ameé-, etc. (?)\]
+The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the rime of the last syllable being reduplicated to its right. \[*-lak- > *-lakak-, *-amé- > *-ameé-, etc. (?)\]
 
     (A.#) ??????? ????? ??? ??? ???
           ?????       ~??? ?????       ???    ???    ???
@@ -1001,14 +1061,14 @@ The habitual aspect is used to refer to events that happen habitually or customa
 When the subject or agent of the verb is topicalized, this aspect can be interpreted as habitual or gnomic, expressing general truths. A gnomic reading is blocked by the presence of a deictic temporal adverbial and is otherwise conditioned by context.
 
     (A.#) ??? ??? ???????
-          ???    ???     ?????    ~???
-          DEF.SG wolf(?) P3SG:howl~HAB
-          'The wolf howls', or 'Wolves howl'
+          ???    ???   ?????    ~???
+          DEF.SG tiger P3SG:roar~HAB
+          'The tiger roars', or 'Tigers roar'
 
     (A.#) ??? ??? ??? ???????
-          ???           ???    ???     ?????    ~???
-          last.month(?) DEF.SG wolf(?) P3SG:howl~HAB
-          'Last month, the wolf would howl', not *'Last month, wolves howl (as a general truth)'
+          ???           ???    ???   ?????    ~???
+          last.month(?) DEF.SG tiger P3SG:roar~HAB
+          'Last month, the tiger would roar', not *'Last month, tigers roar (as a general truth)'
 
 #### A.B.C. Inchoative aspect
 
@@ -1078,8 +1138,8 @@ Additionally, this particle is used to negate nominal predicates as well as adje
 
     (A.#) ??? ??? ???
           ??? ??? ???
-          yon NEG lion(?)
-          'That over there isn't a lion'
+          yon NEG tiger
+          'That over there isn't a tiger'
 
     (A.#) ??? ????? ??? ??? ??? ??? ??? ???
           ???  ?????         ???    ???     ??? ???    ???   ???
@@ -1150,20 +1210,6 @@ Adjectives appearing without their head nouns take one of two nominalizing prefi
           ???????               ??? ???- ???
           P3PL:ITV:be.dangerous PL  NMLZ-big
           'Big ones are very dangerous'
-
-#### A.B.C. Adverbial inflection
-
-The prefix (?) is used to form manner adverbs from adjectives.
-
-    (A.#) ????? ????? ??? ??? ???
-          ?????        ???-???  ???     ???    ???
-          PFV:P3PL:run ADV-fast PREP(?) DEF.SG river
-          'They ran quickly out of the river'
-
-    (A.#) ??? ????????? ????? ??? ???
-          ??? ?????????           ???-???     ??? ???
-          EPI PROG:P3SG:wait:A3PL ADV-patient PL  fish
-          'It seems to be waiting patiently for some fish'
 
 ## <a name="pronouns"></a>A. Pronouns <a href="#table_of_contents">^</a>
 
@@ -1267,10 +1313,10 @@ These demonstratives have a three-way distance contrast of proximal/medial/dista
           IMP:P3SG:take:A2SG this
           'Take this'
 
-    (A.#) ??????? ??? ??? ???
-          ???????          ???     ???   ???
-          P3SG:ITV:be.big wolf(?) white that
-          'That white wolf is very big'
+    (A.#) ??? ??? ???????
+          ???   ???  ???????
+          tiger that P3SG:ITV:be.big
+          'That tiger is very big'
 
     (A.#) ????? ?????
           ????? ?????
@@ -1298,7 +1344,7 @@ For reflexive constructions, the verb remains transitive and always agrees with 
           PFV:P3SG:wash:A1SG REFL:A1SG
           'I washed myself'
 
-Additionally, (?) can be used as an intensifier, in which case it can be used adnominally or adverbally. _\[adverbial syntax is still undecided\]_ (?)
+Additionally, (?) can be used as an intensifier, in which case it can be used adnominally or adverbally.
 
     (A.#) ????? ??? ??? ????????? ?????
           ?????       ???  ???  ?????????              ?????
@@ -1311,8 +1357,8 @@ Additionally, (?) can be used as an intensifier, in which case it can be used ad
           'The chief himself cooked it for us'
 
     (A.#) ??? ??????? ??? ??? ???
-          ???   ???????            ??? ???    ???
-          chief PFV:P3SG:cook:A3SG for 1PL.IN REFL(?)
+          ???   ???????            ???     ??? ???
+          chief PFV:P3SG:cook:A3SG REFL(?) for 1PL.IN
           'The chief cooked it for us himself'
 
 ### <a name="interrogative_pronouns"></a>A.B. Interrogative pronouns <a href="#table_of_contents">^</a>
@@ -1857,9 +1903,9 @@ To express that two things are the same, they are usually simply juxtaposed with
           'My father was/is/will be a shaman'
 
     (A.#) ??? ??? ??? ???
-          ???    ???     ???    ???
-          DEF.SG wolf(?) animal dangerous
-          'Wolves were/are/will be dangerous animals'
+          ???    ???   ???    ???
+          DEF.SG tiger animal dangerous
+          'Tigers were/are/will be dangerous animals'
 
     (A.#) ??? ?????
           ???  ?????
@@ -1931,6 +1977,28 @@ These copulae are also used for predicative possession. The syntactic subject is
 The conjunction (?) 'and' coordinates two or more noun phrases, verb phrases, or clauses. _\[this might be optional at the clause level\]_ (?)
 
 ### <a name="coreferential_deletion"></a>A.B. Coreferential deletion (?) <a href="#table_of_contents">^</a>
+
+When the verbs in two clauses share at least one argument, that argument can usually be deleted. A verb expects certain kinds of arguments, either explicitly due to agreement or implicitly through its semantics, and if only one of the available arguments can meet those expectations, it can be deleted in the second clause.
+
+Otherwise, when verb agreement and semantics don't make clear how to interpret the second clause when an argument is deleted, there are two patterns of deletion. In the first pattern, which is used when no argument is topicalized, coordination is syntactically ergative; it can be deleted if it is a P in the second clause. In the second pattern, which is used when an argument is topicalized, coordination is syntactically accusative; it can be deleted if it is an S or A in the second clause.
+
+#### <a name="coreferential_deletion_unique"></a>A.B.C. Deleting a grammatically or semantically unique argument <a href="#table_of_contents">^</a>
+
+As in many head-marking languages, an argument can be deleted regardless of its syntactic role when agreement patterns keep the information unambiguous.
+
+    ??????? ??? ??? ?????
+    ???????           ??? ???  ?????
+    PFV:P3PL:see:A1SG and INCH PFV:P1SG:run
+    'I saw them and I started to run'
+
+The same applies for verb semantics and context. In the example below, the two available arguments are the boulder and the tiger, and while syntactically it would be expected that the boulder would be coordinated, instead it is the tiger that is. Because the tiger is animate and the boulder is not, and because the tiger presumably suffered a possibly mortal injury from the boulder having fallen on it, it is the only argument that can satisfy (?), 'to die'.
+
+    ????? ??? ??? ??? ??? ??? ?????
+    ?????         ???    ???     ??? ???   ??? ?????
+    PFV:P3SG:fall DEF.SG boulder LOC tiger and PFV:P3SG:die
+    'The boulder fell on a tiger and it (the tiger) died'
+
+#### <a name="coreferential_deletion_unique"></a>A.B.C. Deleting a non-unique argument <a href="#table_of_contents">^</a>
 
 In unmarked constructions, when two coordinated clauses share a common NP, it can only be deleted in the second clause when it is a P argument in both clauses. In other words, clausal coordination in unmarked constructions is syntactically ergative.
 
@@ -2025,10 +2093,10 @@ When the head noun is of any other role, such as the destination of a verb of mo
           spear REL P3SG:hunt:HAB:AP sister:A2SG OBL that
           'a spear that your sister hunts with'
 
-    (A.#) ??? ??? ??? ??????? ??? ?????
-          ???    ???    ??? ???????           ??? ???   -??
-          DEF.SG boy(?) REL PFV:P3SG:buy:AS3G pig father-A3SG
-          'the boy whose father bought a pig'
+    (A.#) ??? ??? ??? ??????? ?????
+          ???    ???    ??? ???????                 ???   -??
+          DEF.SG boy(?) REL PFV:P1PL.IN:invite:AS3G father-A3SG
+          'the boy whose father invited us'
 
 ### <a name="relative_clause_shifting"></a>A.B. Relative clauses and shifting <a href="#table_of_contents">^</a>
 

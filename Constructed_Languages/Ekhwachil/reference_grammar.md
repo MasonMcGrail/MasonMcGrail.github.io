@@ -204,7 +204,7 @@ Ekhwachil is one of the languages of the (?) branch of the (?) language family. 
 The speakers of Ekhwachil have no unique name for their language; _ekhwachil_ is a shortening of _(?) ekhwachil_, which is broken down below.
 
     ??? ekhwachil
-    ???     ekhwa  -chil
+    ???    ekhwa   -chil
     DEF.SG language-A1PL.IN
     'Ekhwachil', literally 'our language'
 
@@ -288,7 +288,6 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th rowspan=2>Post-<br>alveolar</th>
     <th rowspan=2>Palatal</th>
     <th colspan=2>Velar</th>
-    <th rowspan=2>Glottal</th>
   </tr>
   <tr>
     <th>Plain</th>
@@ -302,7 +301,6 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th>ɲ</th>
     <th>ŋ</th>
     <th>ŋʷ</th>
-    <th></th>
   </tr>
   <tr>
     <th rowspan=2>Stop/<br>Affricate</th>
@@ -313,7 +311,6 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th></th>
     <th>k</th>
     <th>kʷ</th>
-    <th></th>
   </tr>
   <tr>
     <th>Voiced</th>
@@ -323,7 +320,6 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th></th>
     <th>g</th>
     <th>gʷ</th>
-    <th></th>
   </tr>
   <tr>
     <th colspan=2>Fricative</th>
@@ -333,7 +329,6 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th></th>
     <th>x</th>
     <th>xʷ</th>
-    <th>h</th>
   </tr>
   <tr>
     <th colspan=2>Approximant</th>
@@ -341,7 +336,6 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th>l</th>
     <th></th>
     <th>j</th>
-    <th></th>
     <th></th>
     <th></th>
   </tr>
@@ -455,13 +449,13 @@ Figure A. _Examples of aspect, mood, and voice marking with the verb (?), 'to th
 
 Figure A. _Verb agreement affixes for core arguments._
 
-Adjectives are morphologically identical to stative verbs when used predicatively, though unlike some(?) stative verbs and all dynamic verbs, they can be placed after nouns without relativizing  or agreement morphology to be used attributively.
+Adjectives are morphologically identical to stative verbs when used predicatively, though unlike verbs, they can also be used attributively, being placed after nouns without relativizing or agreement morphology. Through zero-derivation and periphrasis, they can also be used adverbially.
 
 Other parts of speech undergo little inflection or derivation.
 
 #### A.B.C. Syntax
 
-Word order in Ekhwachil is overwhelmingly head-initial as well as verb-initial. The head noun of a noun phrase precedes any genitives, adjectives, numerals, or demonstratives that modify it, adpositional phrases are prepositional, and verbs generally precede their arguments. The default word order is verb-object-agent (VOA) for transitive verbs and is verb-subject (VS) for intransitive verbs, though AVO and SV are also common due to topicalization or focus.
+Word order in Ekhwachil is overwhelmingly head-initial as well as verb-initial. The head noun of a noun phrase precedes any genitives, adjectives, numerals, or demonstratives that modify it, adpositional phrases are prepositional, and verbs generally precede their arguments. The default word order is verb-object-agent (VOA) for transitive verbs and is verb-subject (VS) for intransitive verbs, though AVO and SV are also common due to topicalization.
 
 The language is predominantly head-marking, with verbs agreeing with their agents and patients, the heads of possessive noun phrases agreeing with their possessors, and little use of non-finite verb forms. However, other heads are unmarked, such as in adjective phrases and prepositional phrases, and dependent-marking strategies are used for some constructions, such as relative clauses.
 
@@ -686,14 +680,14 @@ Nasal vowels contrast with oral vowels. The phonemes /ĩ/, /ã/, and /ũ/ are us
 
 The distinction between open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ is neutralized in unstressed syllables, where they are in complementary distribution.
 
-- Unstressed /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not after /j/. It is pronounced as \[ɛ\] after /j/ as well as in all other closed syllables.
+- Unstressed /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not when adjacent to /j/. It is pronounced as \[ɛ\] when adjacent to /j/ as well as in all closed syllables.
 - Unstressed /o ~ ɔ/ is pronounced as \[o\] in open syllables and before coda /j/, and it is pronounced as \[ɔ\] in all other closed syllables.
 
 In broad transcription, /e ~ ɛ/ and /o ~ ɔ/ will respectively be written as /e/ and /o/.
 
 #### A.B.C. Diphthongs
 
-Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ei̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. Every nasal vowel other than /ĩ/ can do the same, nasalizing \[i̯\] and resulting in \[ɛ̃ĩ̯\], \[ɐ̃ĩ̯\], \[ɔ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
+Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. Every nasal vowel other than /ĩ/ can do the same, nasalizing \[i̯\] and resulting in \[ɛ̃ĩ̯\], \[ɐ̃ĩ̯\], \[ɔ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
 
 #### A.B.C. Romanization notes for vowels
 
@@ -768,16 +762,12 @@ Figure A. _Possible non-null syllable onsets._
     </tr>
     <tr style='height: 2rem'>
         <td>onset not ending with /j/</td>
-        <td>/i/, /ĩ/</td>
-        <td rowspan=2>/l/, B</td>
-    </tr>
-    <tr style='height: 2rem'>
-        <td>onset ending with /j/</td>
-        <td>/ɛ/, /ɛ̃/</td>
+        <td>/i/, /ĩ/, /e/</td>
+        <td>/l/, B</td>
     </tr>
     <tr style='height: 2rem'>
         <td>any onset</td>
-        <td>/e/, /a/, /ã/,<br>/ɔ/, /ɔ̃/, /o/, /u/, /ũ/</td>
+        <td>/ɛ/, /ɛ̃/, /a/, /ã/,<br>/ɔ/, /ɔ̃/, /o/, /u/, /ũ/</td>
         <td>/l/, /j/, B</td>
     </tr>
 </table>
@@ -935,7 +925,10 @@ Noun-noun compounds where modifying noun is a nationality are also head-initial,
 
 ### <a name="verb_morphology_content"></a>A.B. Content of this section <a href="#table_of_contents">^</a>
 
+(?)
+<!--
 \[in describing different classes of verbs, it should be mentioned that 'to see' and 'to hear', currently, are stative in that they don't take aspect morphology; at least in Mopan, 'to hear' is transitive, but it still takes aspect marking, so this might not hold(?)\]
+-->
 
 ### <a name="verbal_inflection"></a>A.B. Verbal inflection <a href="#table_of_contents">^</a>
 
@@ -1215,7 +1208,7 @@ Adjectives appearing without their head nouns take one of two nominalizing prefi
 
 ### <a name="personal_pronouns"></a>A.B. Personal pronouns <a href="#table_of_contents">^</a>
 
-The personal pronouns of Ekhwachil are summarized in Table _X_ (?) below:
+The personal pronouns of Ekhwachil are summarized below:
 
 <table>
   <tr>
@@ -1324,8 +1317,8 @@ These demonstratives have a three-way distance contrast of proximal/medial/dista
           'Those/they are pretty'
 
     (A.#) ??? ????? ??? ??? ??? ?????¿
-          ??? ???????         ???  ???
-          Q   P3SG:see:A2PL   hill yon
+          ??? ???????       ???  ???
+          Q   P3SG:see:A2PL hill yon
           'Do you see that hill over there?'
 
     (A.#) ???
@@ -1566,7 +1559,7 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
 
 ### <a name="prepositions"></a>A.B. Prepositions <a href="#table_of_contents">^</a>
 
-\[one of the locative prepositions is used for possession, and it is also used to form, for lack of a better term, 'bare genitives' as in "X is Y's"\]
+\[one of the locative prepositions is used for possession, and it is also used to form, for lack of a better term, 'bare genitives' as in "X is Y's"\](?)
 
 ### <a name="particles"></a>A.B. Particles <a href="#table_of_contents">^</a>
 
@@ -2017,7 +2010,7 @@ In unmarked constructions, when two coordinated clauses share a common NP, it ca
           PFV:P3SG:fall.down(?) DEF.SG hunter(?) and PFV:P3SG:kill:A3SG DEF.SG bear
           'The hunter fell down and the bear killed him'
 
-However, when an S or A argument is topicalized, it is that argument that can be deleted in the second clause.
+However, when an S or A argument is topicalized, it is only deleted in the second clause when it is an S or A there as well.
 
     (A.#) ??? ??? ????????? ??? ??? ??? ???????
           ???    ???   ?????????           ???    ??? ??? ???????
@@ -2157,9 +2150,6 @@ The charts on the next two pages compare the kin terms used in Ekhwachil to thei
 
 <table>
     <tr>
-        <th colspan=6>Ekhwachil and English kinship terms</th>
-    </tr>
-    <tr>
         <th colspan=3>Grouped by Ekhwachil terms</th>
         <th colspan=3>Grouped by English terms</th>
     </tr>
@@ -2259,48 +2249,56 @@ The charts on the next two pages compare the kin terms used in Ekhwachil to thei
         <td>FB</td>
     </tr>
     <tr>
+        <td rowspan=3>(?) (H)</td>
+        <td>Z</td>
+        <td>sister</td>
+        <td>(?) (H)</td>
+        <td>Z</td>
+        <td>sister</td>
+    </tr>
+    <tr>
+        <td>M<sup>n</sup>ZD<sup>n</sup></td>
+        <td rowspan=2>cousin</td>
+        <td>(?) (I)</td>
+        <td>B</td>
+        <td>brother</td>
+    </tr>
+    <tr>
+        <td>F<sup>n</sup>BS<sup>n-1</sup>D</td>
         <td rowspan=2>(?) (H)</td>
-        <td>Z</td>
-        <td>sister</td>
-        <td>(?) (H)</td>
-        <td>Z</td>
-        <td>sister</td>
+        <td>M<sup>n</sup>ZD<sup>n</sup></td>
+        <td rowspan=6>cousin</td>
     </tr>
     <tr>
-        <td>M<sup>n</sup>ZD<sup>n</sup></td>
-        <td>cousin</td>
-        <td>(?) (I)</td>
+        <td rowspan=3>(?) (I)</td>
         <td>B</td>
         <td>brother</td>
+        <td>F<sup>n</sup>BS<sup>n-1</sup>D</td>
     </tr>
     <tr>
+        <td>F<sup>n</sup>BS<sup>n</sup></td>
+        <td rowspan=2>cousin</td>
         <td rowspan=2>(?) (I)</td>
-        <td>B</td>
-        <td>brother</td>
-        <td>(?) (H)</td>
-        <td>M<sup>n</sup>ZD<sup>n</sup></td>
-        <td rowspan=4>cousin</td>
+        <td>F<sup>n</sup>BS<sup>n</sup></td>
     </tr>
     <tr>
-        <td>F<sup>n</sup>BS<sup>n</sup></td>
-        <td>cousin</td>
-        <td>(?) (I)</td>
-        <td>F<sup>n</sup>BS<sup>n</sup></td>
+        <td>M<sup>n</sup>ZD<sup>n-1</sup>S</td>
+        <td>M<sup>n</sup>ZD<sup>n-1</sup>S</td>
     </tr>
     <tr>
         <td rowspan=2>(?) (J)</td>
-        <td>MBC</td>
+        <td>M<sup>n</sup>BC<sup>n</sup></td>
         <td rowspan=2>cousin</td>
         <td rowspan=2>(?) (J)</td>
-        <td>MBC</td>
+        <td>M<sup>n</sup>BC<sup>n</sup></td>
     </tr>
     <tr>
-        <td>FZC</td>
-        <td>FZC</td>
+        <td>F<sup>n</sup>ZC<sup>n</sup></td>
+        <td>F<sup>n</sup>ZC<sup>n</sup></td>
     </tr>
 </table>
 
-Figure A. <i>A comparison of kinship terms in Ekhwachil and English. The left half of this table groups by Ekhwachil terms as much as possible, and the right half does so with English terms. For 'M<sup>n</sup>ZD<sup>n</sup>' and 'F<sup>n</sup>BS<sup>n</sup>', the superscript indicates that the first and third relations are repeated the same number of times, such as in MZD, FFBSS, MMMZDDD, etc.</i>
+Figure A. <i>A comparison of kinship terms in Ekhwachil and English that don't differ based on ego's gender. The left half of this table groups by Ekhwachil terms as much as possible, and the right half does so with English terms. For 'M<sup>n</sup>ZD<sup>n</sup>' and 'F<sup>n</sup>BS<sup>n</sup>', the superscript indicates that the first and third relations are repeated</i> n <i>times, such as in MZD, FFBSS, MMMZDDD, etc.</i>
 
 <table>
     <tr>

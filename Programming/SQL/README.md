@@ -1,0 +1,5 @@
+# Ekhwachil dictionary project
+
+The files in this subdirectory are for a multilingual dictionary project for Ekhwachil, a constructed language of mine. Ultimately, I would like to have a working dictionary on this website with the same kind of functionality as [jisho.org](https://jisho.org/) for Japanese, or possibly Sylvia Sotomayor's [online dictionary](http://www.terjemar.net/kelen/Dict/dict0.php) for her language, [Kēlen](http://www.terjemar.net/kelen/kelen.php). Not being able to use PHP and/or SQL directly on GitHub Pages, I will probably make it accessible on the web with JavaScript and JSON instead.
+
+The dictionary will mostly be providing dictionary entries for Ekhwachil terms in English and Japanese, though in the far future I might add French (Québécois). While the language's lexicon is underdeveloped, I will be using nativized English words as placeholders so that I can work on the dictionary as a proof of concept.

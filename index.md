@@ -1,3 +1,6 @@
-## Homepage
+## Homepage (under construction)
 
-Here is the link to the Ekhwachil [reference grammar](Ekhwachil/reference_grammar.html).
+Here are the links to:
+
+* The [reference grammar](Ekhwachil/reference_grammar.html) for Ekhwachil, my main constructed language that I have been working on recently.
+* The [GitHub respository](https://github.com/MasonMcGrail/MasonMcGrail.github.io).

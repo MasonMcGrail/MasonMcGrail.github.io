@@ -22,7 +22,7 @@
   - [A.B. Nominal inflection](#nominal_inflection)
   - [A.B. Nominal derivation](#nominal_derivation)
 - [A. Verb morphology](#verb_morphology)
-  - [A.B. Content of this section](#verb_morphology_content)
+  - [A.B. Introduction](#verb_morphology_introduction)
   - [A.B. Verbal inflection](#verbal_inflection)
   - [A.B. Verbal derivation](#verbal_derivation)
   - [A.B. Verbal template](#verbal_template)
@@ -52,15 +52,23 @@
 - [A. Coordination](#coordination)
   - [A.B. Content of this section](#coordination_content)
   - [A.B. Coreferential deletion](#coreferential_deletion)
+- [A. Compounding and incorporation](#compounding_incorporation)
+  - [A.B. Introduction](#compounding_incorporation_introduction)
+  - [A.B. Compounding](#compounding_incorporation_compounding)
+  - [A.B. Noun incorporation](#compounding_incorporation_incorporation)
 - [A. Relative clauses](#relative_clauses)
-  - [A.B. Content of this section](#relative_clause_content)
-  - [A.B. Relative clauses and shifting](#relative_clause_shifting)
+  - [A.B. Content of this section](#relative_clauses_introduction)
+  - [A.B. Relative clauses and shifting](#relative_clauses_shifting)
 - [A. Lexicon](#lexicon)
   - [A.B. Content of this section](#lexicon_content)
   - [A.B. Color terms](#color_terms)
   - [A.B. Kinship terminology](#kinship_terminology)
 - [A. Texts](#texts)
   - [A.B. Content of this section](#texts_content)
+
+<i>Both this reference grammar and the language itself are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. I have a post explaining that <a href="/Constructed_Languages/copyrighting_a_constructed_language.html">here</a></i>.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 ## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
 
@@ -475,12 +483,12 @@ There is no case marking, and when there are multiple explicit arguments, their 
 
     (A.#) ????????? ??? ??? ??? ???
           ?????????            ???    ???       ???    ???
-          PROG:P3SG:chase:A3SG DEF.SG hunter(?) DEF.SG tiger(?)
+          PROG:P3SG:chase:A3SG DEF.SG hunter(?) DEF.SG tiger
           'The tiger is chasing the hunter'
 
     (A.#) ????????? ??? ??? ??? ???
-          ?????????            ???    ???       ???    ???
-          PROG:P3SG:chase:A3SG DEF.SG tiger(?) DEF.SG hunter(?)
+          ?????????            ???    ???   ???    ???
+          PROG:P3SG:chase:A3SG DEF.SG tiger DEF.SG hunter(?)
           'The hunter is chasing the tiger'
 
 \[unclear what the derivational morphology is for turning intransitive verbs transitive and vice versa, which is different than just using the antipassive\] (?)
@@ -607,6 +615,7 @@ All uses of 'before' and 'after' in the descriptions below refer to segments tha
 - Voiced stops are fully voiced in all positions, including word-initially.
 - /dʒ/ is realized as \[ʒ\] in free variation (?).
 - Plain velars and before labialized consonants and rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\], and /aŋxʷe/ is is realized as \[aŋʷxʷe\].
+- /x/ is realized as \[ç\] in coda position after /i/ and /j/.
 - /l/ is realized as \[ɾ\] before front vowels in free variation, and it is always realized as \[ɾ\] after a dental stop.
 
 #### A.B.C. Romanization notes for consonants
@@ -696,9 +705,9 @@ Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i�
 
 ### <a name="word_stress"></a>A.B. Word stress <a href="#table_of_contents">^</a>
 
-Stress in Ekhwachil is not lexically phonemic, with primary stress falling on the last syllable of the stem of almost(?) all words. Stressed and unstressed syllables have roughly the same length and volume, with the greatest difference between them being pitch.
+Stress in Ekhwachil is not lexically phonemic. Primary stress falls on the last syllable of the stem of almost(?) all words, and secondary stress falls on every alternate syllable such that one with primary stress is never adjacent to one with secondary stress. Stressed and unstressed syllables have roughly the same length and volume, with the greatest difference between them being pitch.
 
-Notably, set A markers do not attract stress, which stays on the last syllable of the stem. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
+Set A markers do not attract stress, which stays on the last syllable of the stem. In practice, this means that almost(?) all words without Set A markers have primary stress on the ultimate syllable, and those with Set A markers have it on either the ultimate or penultimate syllable. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
 
 ### <a name="phonotactics"></a>A.B. Phonotactics <a href="#table_of_contents">^</a>
 
@@ -923,7 +932,7 @@ Noun-noun compounds where modifying noun is a nationality are also head-initial,
 
 ## <a name="verb_morphology"></a>A. Verb morphology <a href="#table_of_contents">^</a>
 
-### <a name="verb_morphology_content"></a>A.B. Content of this section <a href="#table_of_contents">^</a>
+### <a name="verb_morphology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
 (?)
 <!--
@@ -1123,8 +1132,8 @@ In clauses containing negative indefinite pronouns, the predicate is also negate
           'It didn't go anywhere'
 
     (A.#) ??? ??? ??? ??????? ??? ?????
-          ???  ??? ??? ???????             ??? ?????
-          even who NEG PFV:P3SG(?):wait:AP OBL PL:that
+          ???  ??? ??? ???????             ???  ?????
+          even who NEG PFV:P3SG(?):wait:AP with PL:that
           'No one waited for them'
 
 Additionally, this particle is used to negate nominal predicates as well as adjectives.
@@ -1464,9 +1473,9 @@ The 'conditional protasis' category refers to indefinites that are used within t
           if  ???(?):P3SG:COP.NHAN what dangerous IMP(?):P1PL.EX:call:A2PL
           'If there's anything dangerous, call out for us'
 
-    (A.#) ??? ??? ??????? ????? ??? ??? ???, ??? ???????
-          ???  ??? ???????                  ?????     ???    ???     ??? ??? ???????
-          even if  PFV:P3SG:cut.off(?):A3SG head:A3SG DEF.SG monster who EPI SBJV(?):P3SG:survive
+    (A.#) ??? ??? ??????? ??? ??? ??? ???, ??? ???????
+          ???  ??? ???????                  ???  ???    ???     ??? ??? ???????
+          even if  PFV:P3SG:cut.off(?):A3SG head DEF.SG monster who EPI SBJV(?):P3SG:survive
           'Even if someone cut off the monster's head, it should survive'
 
 #### A.B.C. The C-series
@@ -1780,9 +1789,9 @@ When a noun is quantified by a numeral-classifier phrase, it may not be preceded
 When the numeral is greater than 1, the noun is still semantically and grammatically plural, as can be seen in agreement patterns of both verbs and demonstratives.
 
     (A.#) ????????? ??? ??? ??? ?????
-          ??? -???- ?????          ???  ??? ???      ???-???
-          PROG-P3PL-follow:A1PL.EX bird two CLF.NHAN PL- that
-          'We're following those two birds'
+          ??? -???- ?????          ???        ??? ???      ???-???
+          PROG-P3PL-follow:A1PL.EX (bird sp.) two CLF.NHAN PL- that
+          'We're following those two birds(?)'
 
 All nouns can take at least one classifier, though some take multiple. All nonhuman animates usually take the classifier (?), but they take (?) if they are not alive at the point of reference.
 
@@ -1829,7 +1838,7 @@ The only nouns that do not need classifiers to be quantified with numerals are t
           Intended: 'five hour's worth of hunting'
           Actual: 'hunting for five hours'
 
-## <a name="noun_phrases"></a>A. Noun phrases <a href="#table_of_contents">^</a>
+## <a name="noun_phrases"></a>A. The noun phrase <a href="#table_of_contents">^</a>
 
 ### <a name="noun_phrase_structure"></a>A.B. Noun phrase structure <a href="#table_of_contents">^</a>
 
@@ -1876,7 +1885,7 @@ The additive and associative plural particles (?) and (?) cannot occur in the pr
 
 _\[use of a demonstrative for both the head noun and the genitive is not attested in the corpus; possibly allowed, but unnatural and highly pragmatically marked at best\]_ (?)
 
-## <a name="verb_phrases"></a>A. Verb phrases <a href="#table_of_contents">^</a>
+## <a name="verb_phrases"></a>A. The verb phrase <a href="#table_of_contents">^</a>
 
 ### <a name="verb_phrase_structure"></a>A.B. Verb phrase structure <a href="#table_of_contents">^</a>
 
@@ -2001,8 +2010,8 @@ In unmarked constructions, when two coordinated clauses share a common NP, it ca
           'The woman is hugging the man and (he is) smiling'
 
     (A.#) ??????? ??? ??? ??? ??? ?????
-          ???????           ???  ???    ???        ??? ?????
-          PFV:P3SG:hit:A3SG wall DEF.SG boulder(?) and PFV:P3SG:shatter.INTR(?)
+          ???????              ???  ???    ???        ??? ?????
+          PFV:P3SG:strike:A3SG wall DEF.SG boulder(?) and PFV:P3SG:shatter.INTR(?)
           'The boulder hit a wall and (the wall) shattered'
 
     (A.#) ????? ??? ??? ??? ??????? ??? ???
@@ -2018,8 +2027,8 @@ However, when an S or A argument is topicalized, it is only deleted in the secon
           'The woman is hugging the man and (she is) smiling'
 
     (A.#) ??? ??? ??????? ??? ??? ?????
-          ???    ???        ???????           ???  ??? ?????
-          DEF.SG boulder(?) PFV:P3SG:hit:A3SG wall and PFV:P3SG:shatter.INTR(?)
+          ???    ???        ???????              ???  ??? ?????
+          DEF.SG boulder(?) PFV:P3SG:strike:A3SG wall and PFV:P3SG:shatter.INTR(?)
           'The boulder hit a wall and (the boulder) shattered'
 
     (A.#) ??? ??? ????? ??? ??????? ??? ???
@@ -2039,9 +2048,212 @@ In the case where the shared NP is an O in the first clause and an A in the seco
           PFV:P3SG:bite:A3SG DEF.SG scorpion DEF.SG lizard and PFV:P3SG:pierce:A3SG DEF.SG lizard DEF.SG scorpion
           'The lizard bit the scorpion and the scorpion stung the lizard'
 
+## <a name="compounding_incorporation"></a>A. Compounding and incorporation <a href="#table_of_contents">^</a>
+
+### <a name="compounding_incorporation_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
+
+(?)
+
+### <a name="compounding_incorporation_compounding"></a>A.B. Compounding <a href="#table_of_contents">^</a>
+
+(?)
+
+### <a name="compounding_incorporation_incorporation"></a>A.B. Noun incorporation <a href="#table_of_contents">^</a>
+
+In this section, I will be following the terminology put forth in Mithun (1984), perhaps the most widely cited work on noun incorporation (NI). In that framework, Ekhwachil would be described as a language that uses both Type I and Type II NI.
+
+I will first describe NI in general and its use in Ekhwachil before describing both types individually. Then, I will explain why I analyze these constructions as NI, since their realization in Ekhwachil is not so prototypical. For the rest of this section, every example that makes use of NI will appear with a corresponding example that does not use NI for clarity.
+
+#### A.B.C. A brief overview of noun incorporation
+
+In NI, a bare noun is compounded with a verb to derive a new lexical item, which is also a verb. Some examples from English would be _babysit_ and _berry-pick_. In Mithin's framework, she categorizes four types of noun incorporation, such that a language with one type of NI should have all types below it. In Ekhwachil, both Type I and Type II are highly productive.
+
+In Type I NI, the noun and verb combine to form a verb of lower valency, which is usually intransitive.
+
+> Such compounding has a significant effect on the role of the N involved. In _He is berry-picking_, the word berry does not refer to a specific _berry_, nor to a particular bushful of berries: it qualifies the V, describing the type of picking in progress.
+> (Mithun 1984, p. 849)
+
+Type II NI is essentially similar to Type I, except that the verb retains its original valency. Instead of reducing its valency, another argument fills the void left by the incorporated noun. For example, the possessor of an incorporated P argument becomes the new P in the clause.
+
+#### A.B.C. Realization of noun incorporation in Ekhwachil
+
+Noun incorporation in Ekhwachil is realized differently than it is in often-cited polysynthetic languages that have it. The incorporated noun stays as an independent word which retains its own stress and is not phonologically attached to the verb in any way.
+
+    ????? ???
+    ?????           ???
+    PFV:1SG:go.numb leg
+    'My leg fell asleep'
+
+    ????? ??? ?????
+    ?????           ???    ???
+    PFV:3SG:go.numb DEF.SG leg:A1SG
+    'My leg fell asleep'
+
+There are restrictions on what nouns may be incorporated. The vast majority of the time, a noun can only be incorporated if it is inanimate as well as originally a P argument; hypothetical words with meanings like _knife-cut_ or _mainland-go_ are usually ungrammatical, and the few words in the language that incorporate non-P arguments are calqued from other languages. Animate nouns are only incorporated with a small subset of verbs which strongly expect an animate P argument, such as (?), 'to hunt', as well as (?), 'to eat'.
+
+#### A.B.C. Type I incorporation
+
+In Type I noun incorporation, a P argument is incorporated into a transitive or intransitive verb, and the resulting verb is intransitive.
+
+    ??? ??? ??????? ???
+    ???    ???       ???????       ???
+    DEF.SG (bat sp.) PROG:P3SG:eat peach
+    'The bat is peach-eating'
+
+    ??? ??? ????????? ??? ???
+    ???    ???       ?????????          ???    ???
+    DEF.SG (bat sp.) PROG:P3PL:eat:A3SG DEF.PL peach
+    'The bat is eating peaches'
+
+The main purpose of Type I NI is to lexicalize an institutionalized or otherwise recognized activity.
+
+    ????? ??? ???
+    ?????           ???  ???
+    PFV:P1PL.EX:eat rice yesterday
+    'We ate rice yesterday'
+
+    ??????? ??? ??? ???
+    ???????              ???    ???  ???
+    PFV:P3PL:eat:A1PL.EX DEF.PL rice yesterday
+    'We ate rice yesterday'
+
+Since the incorporated noun is no longer indexed on the verb, the number of the incorporated noun becomes ambiguous if it wasn't already.
+
+    ??? ????? ????? ??? ???!
+    ???    ?????        ?????          ??? ???
+    DEF.SG husband:A1SG PFV:P3SG:break arm yesterday
+    'My husband broke his arm(s) yesterday!'
+
+    ??? ????? ??????? ??? ????? ???!
+    ???    ?????        ???????             ???    ?????    ???
+    DEF.SG husband:A1SG PFV:P3SG:break:A3SG DEF.SG arm:A3SG yesterday
+    'My husband broke his arm yesterday!'
+
+There are not many instances of NI involving originally intransitive verbs, but it occurs customarily with weather verbs.
+
+    ??????? ???
+    ???????        ???
+    PROG:3SG:shine sun
+    'The sun is shining' (lit. 'It's sun-shining')
+
+    ??????? ??? ???
+    ???????        ???    ???
+    PROG:3SG:shine DEF.SG sun
+    'The sun is shining'
+
+    ??????? ???
+    ???????              ???
+    PROG:3SG:precipitate rain
+    'It's raining'
+
+    ??????? ??? ???
+    ???????              ???    ???
+    PROG:3SG:precipitate DEF.SG rain
+    'It's raining', or '(The) rain is falling'
+
+With these verbs and all other instances of Type I NI applied to intransitive verbs, no noun can be used as an S argument. Their verb agreement prefixes basically index a dummy subject.
+
+#### A.B.C. Type II incorporation
+
+Type II noun incorporation is much like Type I, but another argument is promoted to become a P argument. The most common use case is incorporating a possessed P argument in order to realize its possessor as a P argument. In particular, when something happens to a body part of a living thing, people tend to pay more attention to how the action affected the possessor rather than the body part itself. The promotion of the possessor to a P argument reflects this preference.
+
+    ??? ??? ??????? ???
+    ???    ???   ???????            ???
+    DEF.SG tiger PFV:P3SG:bite:A3SG neck
+    'The tiger bit its neck'
+
+    ??? ??? ??????? ??? ?????
+    ???    ???   ???????            ???    ?????
+    DEF.SG tiger PFV:P3SG:bite:A3SG DEF.SG neck:A3SG
+    'The tiger bit its neck'
+
+While the case with body parts is the most prototypical, this application of NI is commonly found for any possessed P argument.
+
+    ??????? ???
+    ???????             ???
+    PFV:P2SG:steal:A3PL spear
+    'They stole your spear!'
+
+    ??????? ??? ?????
+    ???????             ???    ?????
+    PFV:P3SG:steal:A3PL DEF.SG spear:A2SG
+    'They stole your spear!'
+
+Because a benefactive recipient is usually realized as the syntactic possessor of the P argument, Type II NI results in what superficially resembles a secundative construction.
+
+    ??????? ???
+    ???????            ???
+    PFV:P1SG:give:A3SG axe
+    'She gave me an axe'
+
+    ??????? ?????
+    ???????            ?????
+    PFV:P3SG:give:A3SG axe:A1SG
+    'She gave me an axe'
+
+The use of Type II NI for this kind of possessor-raising is highly productive to the point of being ubiquitous in natural discourse. In practice, NI is only not used this way when the P argument is unable to be incorporated because it is modified more than minimally, animate, or focused, even though a construction without NI is always grammatical.
+
+    ??????? ??? ??? ???
+    ???????            ???  ???    ???
+    PFV:P1SG:hold:A3SG hand DEF.SG child
+    'The child held my hand'
+
+    ??????? ??? ????? ??? ???
+    ???????            ???    ?????     ???    ???
+    PFV:P3SG:hold:A3SG DEF.SG hand:A1SG DEF.SG child
+    'The child held my hand' (odd because (?) is minimally modified)
+
+    ??????? ??? ????? ??? ??? ???
+    ???????            ???    ?????     ???  ???    ???
+    PFV:P3SG:hold:A3SG DEF.SG hand:A1SG left DEF.SG child
+    'The child held my left hand' (NI unavailable)
+
+    * ??????? ??? ??? ??? ???
+      ???????            ???  ???  ???    ???
+      PFV:P1SG:hold:A3SG hand left DEF.SG child
+      Intended: 'The child held my left hand'
+
+Additionally, transitive verbs resulting from Type II NI can still undergo valency-reducing operations, including the antipassive and passive voices.
+
+    ??????? ??? ??? ??? ??? ??? ???
+    ???????            ???  ???    ???   ???    ??? ???
+    PFV:P3PL:make:A3SG boat DEF.PL chief DEF.SG man young
+    'The young man made a boat for the chiefs'
+
+    ??????? ????? ??? ??? ??? ??? ???
+    ???????            ?????     ???    ???   ???    ???  ???
+    PFV:P3SG:make:A3SG boat:A3PL DEF.PL chief DEF.SG man young
+    'The young man made a boat for the chiefs'
+
+    ??????? ??? ??? ??? ???
+    ???????          ???  ???    ??? ???
+    PFV:P3SG:make:AP boat DEF.SG man young
+    'The young man made (a boat/boats) (for someone/others)'
+
+    ??????? ??? ??? ???
+    ???????                 ???  ???    ???
+    PFV:P3PL:make[:PASS(?)] boat DEF.PL chief
+    'The chiefs were made (a boat/boats)' (lit. 'The chiefs were boat-made')
+
+When applied in NI constructions, these voices have the same restrictions as they normally do. For example, relativizing an A argument requires use of the antipassive voice.
+
+    ??? ????? ??? ????????? ??? ??? ??? ?????
+    ???    ?????   ??? ?????????         ???  ???  ???    ?????
+    person PL:this REL PROG:P3PL:bury:AP rice with DEF.PL family:A3PL
+    'these people who are planting rice for their families'
+
+    ??? ????? ??? ????????? ??? ??? ????? ?????
+    ???    ?????   ??? ?????????         ???  ???    ?????     ?????
+    person PL:this REL PROG:P3PL:bury:AP with DEF.PL rice:A3PL family:A3PL
+    'these people who are planting rice for their families'
+
+#### A.B.C. Reasons for the analysis as noun incorporation
+
+(?)
+
 ## <a name="relative_clauses"></a>A. Relative clauses <a href="#table_of_contents">^</a>
 
-### <a name="relative_clause_content"></a>A.B. Content of this section (?) <a href="#table_of_contents">^</a>
+### <a name="relative_clauses_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
 For the rest of this section, relative clauses and their head nouns will be surrounded by square brackets when they appear in glosses containing other words.
 
@@ -2065,13 +2277,13 @@ Relative clauses in Ekhwachil are placed after the nouns they modify, and they a
 Agents cannot be directly relativized. In order to relativize an agent, it must first be promoted to the role of subject by rendering the verb in the antipassive voice. The object, which is no longer indexed on the verb, can optionally be expressed as an oblique argument.
 
     (A.#) ??? ??? ??? ??????? (??? ???)
-          ???    ???  ??? ???????            (??? ???)
-          DEF.SG girl REL PFV:P3SG:praise:AP (OBL 1PL.EX)
+          ???    ???  ??? ???????            (???  ???)
+          DEF.SG girl REL PFV:P3SG:praise:AP (with 1PL.EX)
           'the girl who praised (us)'
 
     (A.#) ??? ??? ??? ????????? (??? ???)
-          ???    ??? ??? ?????????          (??? ???)
-          DEF.SG man REL PROG:P3SG:carry:AP (OBL 2PL)
+          ???    ??? ??? ?????????          (???  ???)
+          DEF.SG man REL PROG:P3SG:carry:AP (with 2PL)
           'the man who is carrying (you)'
 
 When the head noun is of any other role, such as the destination of a verb of motion, an indirect object, or an instrument, the head noun is explicitly expressed in the relative clause by a resumptive pronoun that is inserted in situ, or in the case of a relativized genitive, realized as a Set A marker.
@@ -2082,8 +2294,8 @@ When the head noun is of any other role, such as the destination of a verb of mo
           'a field that I went to'
 
     (A.#) ??? ??? ????????? ????? ??? ???
-          ???   ??? ?????????        ?????       ??? ???
-          spear REL P3SG:hunt:HAB:AP sister:A2SG OBL that
+          ???   ??? ?????????        ?????       ???  ???
+          spear REL P3SG:hunt:HAB:AP sister:A2SG with that
           'a spear that your sister hunts with'
 
     (A.#) ??? ??? ??? ??????? ?????
@@ -2091,7 +2303,7 @@ When the head noun is of any other role, such as the destination of a verb of mo
           DEF.SG boy(?) REL PFV:P1PL.IN:invite:AS3G father-A3SG
           'the boy whose father invited us'
 
-### <a name="relative_clause_shifting"></a>A.B. Relative clauses and shifting <a href="#table_of_contents">^</a>
+### <a name="relative_clauses_shifting"></a>A.B. Relative clauses and shifting <a href="#table_of_contents">^</a>
 
 NPs containing relative clauses often influence the order in which constituents appear, owing to the fact that they tend to be comparatively long and/or complex. For brevity, we will call such NPs "heavy". It is generally dispreferred that any arguments or adjuncts occur after especially heavy NPs, so they tend to appear earlier in the phrase than is typical when they co-occur.
 

@@ -18,6 +18,7 @@
   - [A.B. Word stress](#word_stress)
   - [A.B. Phonotactics](#phonotactics)
   - [A.B. Morphophonology](#morphophonology)
+  - [A.B. Phonemic analysis](#phonemic_analysis)
 - [A. Noun morphology](#noun_morphology)
   - [A.B. Nominal inflection](#nominal_inflection)
   - [A.B. Nominal derivation](#nominal_derivation)
@@ -38,7 +39,13 @@
   - [A.B. Reflexive pronouns](#reflexive_pronouns)
   - [A.B. Interrogative pronouns](#interrogative_pronouns)
   - [A.B. Indefinite pronouns](#indefinite_pronouns)
+- [A. Articles](#articles)
+  - [A.B. Introduction](#articles_introduction)
+  - [A.B. The definite articles (?) and (?)](#definite_articles)
+  - [A.B. The additive plural article (?)](#additive_plural)
+  - [A.B. The associative plural article (?)](#associative_plural)
 - [A. Prepositions and particles](#prepositions_particles)
+  - [A.B. Introduction](#prepositions_particles_introduction)
   - [A.B. Prepositions](#prepositions)
   - [A.B. Particles](#particles)
 - [A. Numerals and classifiers](#numerals_classifiers)
@@ -69,6 +76,7 @@
 <i>Both this reference grammar and the language itself are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. I have a post explaining that <a href="/Constructed_Languages/copyrighting_a_constructed_language.html">here</a></i>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
 
 ## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
 
@@ -181,25 +189,24 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | AP   | antipassive voice            | NEG  | negation, negative          |
 | ASC  | associative plural           | NHAN | non-human animate           |
 | AUG  | _augmentative_               | NMZ  | nominalizer, nominalization |
-| AUX  | auxiliary verb               | OBL  | oblique                     |
-| CAUS | causative                    | P    | set P (absolutive)<sup>1</sup>           |
-| CESS | cessative aspect             | PFV  | perfective aspect           |
-| CLF  | classifier                   | PL   | plural                      |
-| COMP | complementizer               | PROG | progressive aspect          |
-| COP  | copula                       | PROX | proximal                    |
-| DEF  | definite                     | Q    | question word               |
-| DEM  | demonstrative                | REFL | reflexive                   |
-| DET  | _determiner_                 | REL  | relative, relativizer       |
-| DIM  | _diminutive_                 | SG   | singular                    |
-| DIST | distal                       | STAT | _stative verb_              |
-| EX   | exclusive                    | SBJV | subjunctive mood            |
-| F    | _feminine_                   | TR   | transitive                  |
-| FRAC | fractional number            | VBZ  | _verbalizer_                |
-| FOC  | focus                        |      |                             |
-| HAB  | habitual aspect              |      |                             |
+| CAUS | causative                    | OBL  | oblique                     |
+| CESS | cessative aspect             | P    | set P (absolutive)<sup>1</sup>           |
+| CLF  | classifier                   | PFV  | perfective aspect           |
+| COMP | complementizer               | PL   | plural                      |
+| COP  | copula                       | PROG | progressive aspect          |
+| DEF  | definite                     | PROX | proximal                    |
+| DEM  | demonstrative                | Q    | question word               |
+| DIM  | _diminutive_                 | REFL | reflexive                   |
+| DIST | distal                       | REL  | relative, relativizer       |
+| EX   | exclusive                    | SG   | singular                    |
+| F    | _feminine_                   | STAT | _stative verb_              |
+| FRAC | fractional number            | SBJV | subjunctive mood            |
+| FOC  | focus                        | TR   | transitive                  |
+| HAB  | habitual aspect              | VBZ  | _verbalizer_                |
 | HUM  | human                        |      |                             |
 
 <sup>1</sup> _The choice of the labels 'Set A' and 'Set P' is meant to evoke the 'Set A' and 'Set B' person markers in Mayan linguistics because they are similar in form and function. They were named 'A' for 'agent' and 'P' for 'patient' to be more transparent to anyone who is unfamiliar with Mayan linguistics, as well as to distance Ekhwachil from the Mayan language family._
+
 
 ## <a name="overview"></a>A. An overview of Ekhwachil <a href="#table_of_contents">^</a>
 
@@ -230,7 +237,7 @@ This section briefly details the features of the typology of Ekhwachil that make
 
 #### A.B.C. Phonology and morphophonology
 
-Grey Orcish has 12 vowel phonemes, 7 of them oral and the remaining 5 nasal. The contrast between close-mid and open-mid vowels is neutralized in unstressed syllables.
+Grey Orcish has 12 vowel phonemes, 7 of them oral and the remaining 5 nasal. The contrast between close-mid and open-mid vowels is neutralized in syllables that are unstressed or closed.
 
 <table>
   <tr>
@@ -269,9 +276,9 @@ Grey Orcish has 12 vowel phonemes, 7 of them oral and the remaining 5 nasal. The
     <th>ɛ</th>
     <th></th>
     <th>ɔ</th>
-    <th>ɛ̃</th>
     <th></th>
-    <th>ɔ̃</th>
+    <th></th>
+    <th></th>
   </tr>
   <tr>
     <th>Open</th>
@@ -465,7 +472,7 @@ Other parts of speech undergo little inflection or derivation.
 
 Word order in Ekhwachil is overwhelmingly head-initial as well as verb-initial. The head noun of a noun phrase precedes any genitives, adjectives, numerals, or demonstratives that modify it, adpositional phrases are prepositional, and verbs generally precede their arguments. The default word order is verb-object-agent (VOA) for transitive verbs and is verb-subject (VS) for intransitive verbs, though AVO and SV are also common due to topicalization.
 
-The language is predominantly head-marking, with verbs agreeing with their agents and patients, the heads of possessive noun phrases agreeing with their possessors, and little use of non-finite verb forms. However, other heads are unmarked, such as in adjective phrases and prepositional phrases, and dependent-marking strategies are used for some constructions, such as relative clauses.
+The language is predominantly head-marking, with verbs agreeing with their A and P arguments, the heads of possessive noun phrases agreeing with their possessors, and little use of non-finite verb forms. However, other heads are unmarked, such as in adjective phrases and prepositional phrases, and dependent-marking strategies are used for some constructions, such as relative clauses.
 
 Verb agreement patterns in Ekhwachil are uniformly ergative-absolutive.
 
@@ -531,13 +538,14 @@ Comparatives are expressed using the preposition (?), 'from'.
           P1SG:ITV:be.old from 2SG
           'I am much older than you'
 
+
 ## <a name="phonology"></a>A. Phonology <a href="#table_of_contents">^</a>
 
 ### <a name="phonology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
-This section is an overview of the phonology of Ekhwachil. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this section I cover details of morphophonology, which mostly deals with assimilatory processes, including sibilant harmony.
+This section is an overview of the phonology of Ekhwachil. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this section, I cover details of morphophonology, which mostly deals with assimilatory processes, and I provide some evidence for my analysis of the inventory.
 
-While Exwachil does not have a written form, in this work it will be represented with a romanization. The romanization for phonemes will be noted in the tables of the consonant and vowel inventories of the language. If the same symbols used to represent a phoneme in the IPA and the romanization, they are not repeated. Otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
+While Exwachil does not have a written form, in this work it will be represented with a romanization. The romanization for phonemes will be noted in the tables of its consonant and vowel inventories. If the same symbols used to represent a phoneme in the IPA and the romanization, they are not repeated. Otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
 
 ### <a name="consonants"></a>A.B. Consonants <a href="#table_of_contents">^</a>
 
@@ -664,9 +672,9 @@ Exwachil has 12 vowel phonemes, of which 7 are oral and 5 are nasal.
     <th>ɛ ⟨è⟩</th>
     <th></th>
     <th>ɔ ⟨ò⟩</th>
-    <th>ɛ̃ ⟨ẽ⟩</th>
     <th></th>
-    <th>ɔ̃ ⟨õ⟩</th>
+    <th></th>
+    <th></th>
   </tr>
   <tr>
     <th>Open</th>
@@ -687,7 +695,7 @@ Nasal vowels contrast with oral vowels. The phonemes /ĩ/, /ã/, and /ũ/ are us
 
 #### A.B.C. Allophonic variation in vowels
 
-The distinction between open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ is neutralized in unstressed syllables, where they are in complementary distribution.
+Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ only contrast in open syllables with primary stress. In all other environments, they are in complementary distribution.
 
 - Unstressed /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not when adjacent to /j/. It is pronounced as \[ɛ\] when adjacent to /j/ as well as in all closed syllables.
 - Unstressed /o ~ ɔ/ is pronounced as \[o\] in open syllables and before coda /j/, and it is pronounced as \[ɔ\] in all other closed syllables.
@@ -696,7 +704,7 @@ In broad transcription, /e ~ ɛ/ and /o ~ ɔ/ will respectively be written as /e
 
 #### A.B.C. Diphthongs
 
-Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. Every nasal vowel other than /ĩ/ can do the same, nasalizing \[i̯\] and resulting in \[ɛ̃ĩ̯\], \[ɐ̃ĩ̯\], \[ɔ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
+Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. Every nasal vowel other than /ĩ/ can do the same, nasalizing \[i̯\] and resulting in \[ɐ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
 
 #### A.B.C. Romanization notes for vowels
 
@@ -776,7 +784,7 @@ Figure A. _Possible non-null syllable onsets._
     </tr>
     <tr style='height: 2rem'>
         <td>any onset</td>
-        <td>/ɛ/, /ɛ̃/, /a/, /ã/,<br>/ɔ/, /ɔ̃/, /o/, /u/, /ũ/</td>
+        <td>/ɛ/, /a/, /ã/,<br>/ɔ/, /o/, /u/, /ũ/</td>
         <td>/l/, /j/, B</td>
     </tr>
 </table>
@@ -824,6 +832,11 @@ While there are no counterexamples of root-internal harmony in the corpus, some 
 When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this means that the romanization will reflect nasal assimilation, phonetic gemination due to the velar fricative, as well as sibilant harmony, but it will not reflect voicing of voiceless obstruents.
 
 In the case of the velar fricative, it will be replaced with the symbol for the following segment's voiceless version. This is because otherwise, for example, /ikga/, pronounced [igga], would still be spelled ⟨ikga⟩, while /ixga/, also pronounced [igga], would be spelled ⟨igga⟩. In this example, by spelling it with ⟨k⟩ instead of ⟨g⟩, we avoid spelling homophones differently in the romanization.
+
+### <a name="phonemic_analysis"></a>A.B. Phonemic analysis <a href="#table_of_contents">^</a>
+
+(?)
+
 
 ## <a name="noun_morphology"></a>A. Noun morphology <a href="#table_of_contents">^</a>
 
@@ -930,6 +943,7 @@ Noun-noun compounds where modifying noun is a nationality are also head-initial,
     AAA-BBB                   '???', from AAA '???' and BBB '???'
 -->
 
+
 ## <a name="verb_morphology"></a>A. Verb morphology <a href="#table_of_contents">^</a>
 
 ### <a name="verb_morphology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
@@ -967,9 +981,9 @@ Patients are indexed on the verb using the patient slot, and suffixes are used t
           'I woke up my husband'
 
     (A.#) ??? ??????? ?????¿
-          ??? ?????        -??   ???  -??
-          Q   PFV:P3SG:find-A2SG spear-A2SG
-          'Did you find your spear?'
+          ??? ?????        -??   ???   -??
+          Q   PFV:P3SG:find-A2SG mother-A2SG
+          'Did you find your mother?'
 
 ### <a name="verbal_aspect"></a>A.B. Aspect <a href="#table_of_contents">^</a>
 
@@ -1157,6 +1171,7 @@ Negative imperatives, sometimes called 'prohibitives', are made differently than
           NEG SUBJ-P2SG:go
           'Don't go!'
 
+
 ## <a name="adjective_morphology"></a>A. Adjective morphology <a href="#table_of_contents">^</a>
 
 ### <a name="predicative_adjectives"></a>A.B. Predicative adjectives <a href="#table_of_contents">^</a>
@@ -1212,6 +1227,7 @@ Adjectives appearing without their head nouns take one of two nominalizing prefi
           ???????               ??? ???- ???
           P3PL:ITV:be.dangerous PL  NMLZ-big
           'Big ones are very dangerous'
+
 
 ## <a name="pronouns"></a>A. Pronouns <a href="#table_of_contents">^</a>
 
@@ -1339,12 +1355,39 @@ The contrast between proximal/medial/distal is based on physical distance away f
 
 ### <a name="reflexive_pronouns"></a>A.B. Reflexive pronouns <a href="#table_of_contents">^</a>
 
-For reflexive constructions, the verb remains transitive and always agrees with a third person singular patient, corresponding to the reflexive pronoun (?), which is possessed by the agent.
+For reflexive constructions, the verb becomes intransitive and is immediately followed by the noun (?). This is an instance of Type I noun incorporation, so no words can come between the verb and (?).
 
-    (A.#) ??????? ??? ???
-          ???????            ???  ???
-          PFV:P3SG:wash:A1SG REFL:A1SG
+    (A.#) ????? ???
+          ∅-??-???      ???
+          PFV-P1SG-wash REFL
           'I washed myself'
+
+    (A.#) ??? ??? ????? ????? ??? ???
+          ??? ???    ?????   ?????             ???  ???
+          PL  person this:PL PROG:P3PL:protect REFL just(?)
+          'These people are just protecting themselves'
+
+The reflexive is not used when originally, the A is acting on a P that it possesses, especially when P is part of its body.
+
+    (A.#) ????? ???
+          ?????         ???
+          PFV:P1SG:bite tongue
+          'I bit myself in the tongue', or 'I bit my tongue'
+
+    (A.#) * ??????? ??? ??? ?????
+            ???????            ???  ???    ?????
+            PFV:P3SG:bite:A1SG REFL DEF.SG tongue:A1SG
+            Intended: 'I bit myself in the tongue', or 'I bit my tongue'
+
+    (A.#) ????? ???
+          ?????        ???
+          PFV:P3SG:cut palm(?)
+          'He cut himself in the palm', or 'He cut his (own) palm'
+
+    (A.#) * ??????? ??? ??? ?????
+            ???????           ???  ???    ?????
+            PFV:P3SG:cut:A1SG REFL DEF.SG palm(?):A1SG
+            Intended: 'He cut himself in the palm', or 'He cut his (own) palm'
 
 Additionally, (?) can be used as an intensifier, in which case it can be used adnominally or adverbally.
 
@@ -1420,7 +1463,7 @@ This corresponds only to Haspelmath's 'specific known' category. These pronouns 
 
     (A.#) ??????? ??? ??? ??? ??? ??? ???
           ???????            ???  ???      ???      ???   ???  ???
-          PFV:P3SG:find:A3PL what CLF.NHAN fearsome in(?) cave that
+          PFV:P3SG:find:PASS what CLF.NHAN fearsome in(?) cave that
           'Something fearsome was found in that cave'
 
     (A.#) ??????? ??? ??????? ??? ??? ??? ?????
@@ -1480,33 +1523,33 @@ The 'conditional protasis' category refers to indefinites that are used within t
 
 #### A.B.C. The C-series
 
-The C-series corresponds to Haspelmath's 'indirect negation' and 'direction negation' categories, and its pronouns are formed by preceding interrogative pronouns with the particle (?), 'even'. In both instances, the indefinite pronoun is within the scope of negation.
+The C-series corresponds to Haspelmath's 'indirect negation' and 'direction negation' categories, and its pronouns are formed by preceding interrogative pronouns with the focus particle (?). In both instances, the indefinite pronoun is within the scope of negation.
 
     (A.#) ??? ??? ??? ??????? ??? ???
-          ???  ???  ??? ???????              ???    ???
-          even what NEG PFV:P3SG:buy:A1PL.EX LOC(?) there
+          ??? ???  ??? ???????              ???    ???
+          FOC what NEG PFV:P3SG:buy:A1PL.EX LOC(?) there
           'We didn't buy anything there'
 
     (A.#) ??? ??? ??? ??? ??? ???????
-          ???    ??? ???  ???  ??? ???????
-          DEF.SG boy even what NEG P3SG(?):say:A3SG
+          ???    ??? ??? ???  ??? ???????
+          DEF.SG boy FOC what NEG P3SG(?):say:A3SG
           'The boy didn't say anything'
 
-A C-series pronoun syntactically behaves as though it is focused, even without the focus particle (?), in that it always precedes the verb in the same position as a focused argument, and if it is acting as an agent, the verb is in the antipassive voice.
+Like other focused arguments, a C-series pronoun always precedes the verb, and if it is originally an A, the verb is in the antipassive voice to promote it to the role of S.
 
     (A.#) ??? ??? ????????? ??? ??? ??? ????????? ??? ??? ???¿
-          ??? ??? ?????????              ???  ???  ??? ?????????             ???  ???      ???
-          Q   NEG ???(?):P3SG:think:A2SG COMP even who ABIL:P3SG(?):climb:AP with mountain yon
+          ??? ??? ?????????              ???  ??? ??? ?????????             ???  ???      ???
+          Q   NEG ???(?):P3SG:think:A2SG COMP FOC who ABIL:P3SG(?):climb:AP with mountain yon
           'You don't think that anyone can climb that mountain?'
 
     (A.#) ??? ????? ??? ??? ??? ??? ????????? ??? ????
-          ???    ?????         ???    ???  ??? ??? ?????????         ??? ????
-          LOC(?) where:A3SG(?) forest even who NEG PROG:P3SG:know:AP Q   P3PL:COP.HUM
+          ???    ?????         ???    ??? ??? ??? ?????????         ??? ????
+          LOC(?) where:A3SG(?) forest FOC who NEG PROG:P3SG:know:AP Q   P3PL:COP.HUM
           'No one knows where they are in the forest'
 
 #### A.B.C. The D-series
 
-The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choice' categories, and its pronouns are formed by fully reduplicating interrogative pronouns. _\[Unlike the other series, these pronouns are grammatically plural.\]_ (?)
+The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choice' categories, and its pronouns are formed by fully reduplicating interrogative pronouns. _\[Unlike the other series, (?)\]_ these pronouns are grammatically plural.
 
     (A.#) ????? ????? ??? ??? ??????
           ?????       ?????        ???  ???  ???~???
@@ -1514,13 +1557,13 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
           'This town of ours is older than anywhere (else)'
 
     (A.#) ????????? ????? ?????
-          ?????????               ?????           ???~???
-          ABIL:P3SG:learn:A3PL(?) method(?):weave any~who
+          ?????????            ?????           ???~???
+          ABIL:P3SG:learn:A3PL method(?):weave any~who
           'Anyone can learn how to weave'
 
-    (A.#) ????? ??? ??????? ??? ????? ??? ?????????
-          ?????         ???   ???????       ???  ???~??? ??? ?????????
-          daughter:A1SG young P3SG:talk:HAB with any~who REL SBJV:P3PL:listen:AP
+    (A.#) ??? ????? ??? ??????? ??? ????? ??? ?????????
+          ???    ?????         ???   ???????       ???  ???~??? ??? ?????????
+          DEF.SG daughter:A1SG young P3SG:talk:HAB with any~who REL SBJV:P3PL:listen:AP
           'My young daughter talks to whoever will listen (to her)'
 
 <!--
@@ -1564,21 +1607,20 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
    'any~who ABIL:P3SG:solve:A3SG problem this'
 -->
 
-## <a name="prepositions_particles"></a>A. Prepositions and particles <a href="#table_of_contents">^</a>
 
-### <a name="prepositions"></a>A.B. Prepositions <a href="#table_of_contents">^</a>
+## <a name="articles"></a>A. Articles <a href="#table_of_contents">^</a>
 
-\[one of the locative prepositions is used for possession, and it is also used to form, for lack of a better term, 'bare genitives' as in "X is Y's"\](?)
+### <a name="definite_articles"></a>A.B. The definite articles (?) and (?) <a href="#table_of_contents">^</a>
 
-### <a name="particles"></a>A.B. Particles <a href="#table_of_contents">^</a>
+#### A.B.C. The singular definite article (?)
 
-#### A.B.C. The definite articles (?) and (?)
+(?)
 
-\[these articles are used for both strong and weak definites, but not with nouns that are modified by a determiner or possessed(?); the plural article is not used with indefinites at all\]
+#### A.B.C. The plural definite article (?)
 
-The article (?) is identical to (?) in every way, except the former is used for plural referents.
+(?)
 
-#### A.B.C. The additive plural particle (?)
+### <a name="additive_plural"></a>A.B. The additive plural article (?) <a href="#table_of_contents">^</a>
 
 The particle (?) is used to pluralize animate nouns that are not modified by any determiners. Its use is mandatory when plural reference is intended for such nouns.
 
@@ -1624,7 +1666,7 @@ While (?) is obligatory for animate nouns, it is not permitted for inanimate nou
           PL  machete:A3PL
           Intended: 'their machetes'
 
-#### A.B.C. The associative plural particle (?)    
+### <a name="associative_plural"></a>A.B. The associative plural article (?) <a href="#table_of_contents">^</a>
 
 The particle (?) is used to refer to form associative plurals, which refer to a heterogenous set consisting of an individual and their associates. Basically anyone can be associated with this referential individual, including family, friends, and people who are of only casual or transient acquaintance. This is most commonly used with proper names and kinship terms, and like the additive plural particle, it is restricted to animate nouns.
 
@@ -1633,7 +1675,19 @@ The particle (?) is used to refer to form associative plurals, which refer to a 
           PFV:P3PL:arrive ASC wife:A1SG
           'My wife and her family/friends/associates arrived', or more simply, 'My wife and others arrived'
 
-\[possibly, the definite article used in conjunction with a surname specifically indicates a family(?)\]
+## <a name="prepositions_particles"></a>A. Prepositions and particles <a href="#table_of_contents">^</a>
+
+### <a name="prepositions_particles_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
+
+(?)
+
+### <a name="prepositions"></a>A.B. Prepositions <a href="#table_of_contents">^</a>
+
+\[one of the locative prepositions is used for possession, and it is also used to form, for lack of a better term, 'bare genitives' as in "X is Y's"\](?)
+
+### <a name="particles"></a>A.B. Particles <a href="#table_of_contents">^</a>
+
+(?)
 
 #### A.B.C. The polar question particle (?)
 
@@ -1648,6 +1702,7 @@ The particle (?) is used to form polar questions.
           ???   ???    ???   ?????           ???    ?????        ?????????           ??? ?????           ??? ?????
           after DEF.SG storm PFV:P3SG:return LOC(?) village:A3SG SBJV:P3SG:know:A3SG Q   P3PL:be.safe(?) PL  family.member:A3SG
           'After the storm, she returned to her village to see if her relatives were safe'
+
 
 ## <a name="numerals_classifiers"></a>A. Numerals and classifiers <a href="#table_of_contents">^</a>
 
@@ -1838,6 +1893,7 @@ The only nouns that do not need classifiers to be quantified with numerals are t
           Intended: 'five hour's worth of hunting'
           Actual: 'hunting for five hours'
 
+
 ## <a name="noun_phrases"></a>A. The noun phrase <a href="#table_of_contents">^</a>
 
 ### <a name="noun_phrase_structure"></a>A.B. Noun phrase structure <a href="#table_of_contents">^</a>
@@ -1846,12 +1902,12 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 <table>
   <tr>
-    <td rowspan=2>Article or<br>* plural word</td>
+    <td rowspan=2>Article or<br>*plural word</td>
     <td rowspan=2>Head noun</td>
     <td colspan=2>Adjective phrase</td>
-    <td colspan=2>* Classifier phrase</td>
-    <td rowspan=2>Genitive</td>
+    <td colspan=2>*Classifier phrase</td>
     <td rowspan=2>Demons-<br>trative</td>
+    <td rowspan=2>Genitive</td>
     <td rowspan=2>Relative clause</td>
   </tr>
   <tr>
@@ -1871,19 +1927,15 @@ Figure A. _The order of elements in a noun phrase. Elements marked with an aster
 
 #### A.B.C. Relationships between elements
 
-The additive and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase, which is only restricted in that it cannot end with a demonstrative if the possessed noun also ends with a demonstrative. When both a genitive is present along with a demonstrative, relative clause, or both, it is ambiguous as to whether the demonstrative and/or relative clause is modifying the genitive or the head of the noun phrase.
+The additive and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase that possesses the head. When both a genitive is present along with a relative clause, it is ambiguous as to whether it is modifying the genitive or the head of the noun phrase.
 
-    (A.#) ????? ??? ??? ???
-          ?????       ???   ??? ???
-          dog(?):A3SG black man that
-          'that man's black dog' or 'that black dog of (a/the) man'
-
-    (A.#) ????? ??? ??? ?????
-          ?????     ???   ??? ?????
-          face:A3SG woman REL P3SG:be.beautiful
+    (A.#) ??? ????? ??? ??? ??? ?????
+          ???    ?????     ???    ???   ??? ?????
+          DEF.SG face:A3SG DEF.SG woman REL P3SG:be.beautiful
           'the face of the woman who is beautiful', or 'the woman's face that is beautiful'
 
 _\[use of a demonstrative for both the head noun and the genitive is not attested in the corpus; possibly allowed, but unnatural and highly pragmatically marked at best\]_ (?)
+
 
 ## <a name="verb_phrases"></a>A. The verb phrase <a href="#table_of_contents">^</a>
 
@@ -1972,6 +2024,7 @@ These copulae are also used for predicative possession. The syntactic subject is
           P3PL:COP.INAN eye three CLF.INAN
           'There are three eyes'
 
+
 ## <a name="coordination"></a>A. Coordination <a href="#table_of_contents">^</a>
 
 ### <a name="coordination_content"></a>A.B. Content of this section (?) <a href="#table_of_contents">^</a>
@@ -2002,7 +2055,7 @@ The same applies for verb semantics and context. In the example below, the two a
 
 #### <a name="coreferential_deletion_unique"></a>A.B.C. Deleting a non-unique argument <a href="#table_of_contents">^</a>
 
-In unmarked constructions, when two coordinated clauses share a common NP, it can only be deleted in the second clause when it is a P argument in both clauses. In other words, clausal coordination in unmarked constructions is syntactically ergative.
+There are times when no combination of agreement marking, context, or verbal semantics serves to unambiguously indicate what argument may carry over between two clauses. When this ambiguity occurs, it is usually topicalization that determines which can be deleted in the second clause. In sentences without a topicalized argument, when two coordinated clauses share a common NP, it can only be deleted in the second clause when it is a P in both clauses. In other words, clausal coordination in these constructions is syntactically ergative.
 
     (A.#) ????????? ??? ??? ??? ??? ??? ???????
           ?????????           ???    ??? ???    ???   ??? ???????
@@ -2019,7 +2072,7 @@ In unmarked constructions, when two coordinated clauses share a common NP, it ca
           PFV:P3SG:fall.down(?) DEF.SG hunter(?) and PFV:P3SG:kill:A3SG DEF.SG bear
           'The hunter fell down and the bear killed him'
 
-However, when an S or A argument is topicalized, it is only deleted in the second clause when it is an S or A there as well.
+However, when an S or A is topicalized, it is only deleted in the second clause when it is an S or A there as well.
 
     (A.#) ??? ??? ????????? ??? ??? ??? ???????
           ???    ???   ?????????           ???    ??? ??? ???????
@@ -2048,6 +2101,7 @@ In the case where the shared NP is an O in the first clause and an A in the seco
           PFV:P3SG:bite:A3SG DEF.SG scorpion DEF.SG lizard and PFV:P3SG:pierce:A3SG DEF.SG lizard DEF.SG scorpion
           'The lizard bit the scorpion and the scorpion stung the lizard'
 
+
 ## <a name="compounding_incorporation"></a>A. Compounding and incorporation <a href="#table_of_contents">^</a>
 
 ### <a name="compounding_incorporation_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
@@ -2073,7 +2127,7 @@ In Type I NI, the noun and verb combine to form a verb of lower valency, which i
 > Such compounding has a significant effect on the role of the N involved. In _He is berry-picking_, the word berry does not refer to a specific _berry_, nor to a particular bushful of berries: it qualifies the V, describing the type of picking in progress.
 > (Mithun 1984, p. 849)
 
-Type II NI is essentially similar to Type I, except that the verb retains its original valency. Instead of reducing its valency, another argument fills the void left by the incorporated noun. For example, the possessor of an incorporated P argument becomes the new P in the clause.
+Type II NI is essentially similar to Type I, except that the verb retains its original valency. Instead of reducing its valency, another argument fills the void left by the incorporated noun. For example, the possessor of an incorporated P becomes the new P in the clause.
 
 #### A.B.C. Realization of noun incorporation in Ekhwachil
 
@@ -2089,11 +2143,11 @@ Noun incorporation in Ekhwachil is realized differently than it is in often-cite
     PFV:3SG:go.numb DEF.SG leg:A1SG
     'My leg fell asleep'
 
-There are restrictions on what nouns may be incorporated. The vast majority of the time, a noun can only be incorporated if it is inanimate as well as originally a P argument; hypothetical words with meanings like _knife-cut_ or _mainland-go_ are usually ungrammatical, and the few words in the language that incorporate non-P arguments are calqued from other languages. Animate nouns are only incorporated with a small subset of verbs which strongly expect an animate P argument, such as (?), 'to hunt', as well as (?), 'to eat'.
+There are restrictions on what nouns may be incorporated. The vast majority of the time, a noun can only be incorporated if it is inanimate as well as originally a P; hypothetical words with meanings like _knife-cut_ or _mainland-go_ are usually ungrammatical, and the few words in the language that incorporate non-P arguments are calqued from other languages. Animate nouns are only incorporated with (?), 'to eat', as well as a small subset of verbs which strongly expect an animate P, such as (?), 'to hunt'.
 
 #### A.B.C. Type I incorporation
 
-In Type I noun incorporation, a P argument is incorporated into a transitive or intransitive verb, and the resulting verb is intransitive.
+In Type I noun incorporation, a P is incorporated into a transitive or intransitive verb, and the resulting verb is intransitive.
 
     ??? ??? ??????? ???
     ???    ???       ???????       ???
@@ -2151,11 +2205,11 @@ There are not many instances of NI involving originally intransitive verbs, but 
     PROG:3SG:precipitate DEF.SG rain
     'It's raining', or '(The) rain is falling'
 
-With these verbs and all other instances of Type I NI applied to intransitive verbs, no noun can be used as an S argument. Their verb agreement prefixes basically index a dummy subject.
+With these verbs and all other instances of Type I NI applied to intransitive verbs, no noun can be used as an S. Their verb agreement prefixes basically index a dummy subject.
 
 #### A.B.C. Type II incorporation
 
-Type II noun incorporation is much like Type I, but another argument is promoted to become a P argument. The most common use case is incorporating a possessed P argument in order to realize its possessor as a P argument. In particular, when something happens to a body part of a living thing, people tend to pay more attention to how the action affected the possessor rather than the body part itself. The promotion of the possessor to a P argument reflects this preference.
+Type II noun incorporation is much like Type I, but another argument is promoted to become a P. The most common use case is incorporating a possessed P in order to realize its possessor as a P. In particular, when something happens to a body part of a living thing, people tend to pay more attention to how the action affected the possessor rather than the body part itself. The promotion of the possessor to the role of P reflects this preference.
 
     ??? ??? ??????? ???
     ???    ???   ???????            ???
@@ -2167,7 +2221,7 @@ Type II noun incorporation is much like Type I, but another argument is promoted
     DEF.SG tiger PFV:P3SG:bite:A3SG DEF.SG neck:A3SG
     'The tiger bit its neck'
 
-While the case with body parts is the most prototypical, this application of NI is commonly found for any possessed P argument.
+While the case with body parts is the most prototypical, this application of NI is commonly found for any possessed P.
 
     ??????? ???
     ???????             ???
@@ -2179,7 +2233,7 @@ While the case with body parts is the most prototypical, this application of NI 
     PFV:P3SG:steal:A3PL DEF.SG spear:A2SG
     'They stole your spear!'
 
-Because a benefactive recipient is usually realized as the syntactic possessor of the P argument, Type II NI results in what superficially resembles a secundative construction.
+Because a benefactive recipient is usually realized as the syntactic possessor of the P, Type II NI often results in what superficially resembles a secundative construction.
 
     ??????? ???
     ???????            ???
@@ -2191,7 +2245,7 @@ Because a benefactive recipient is usually realized as the syntactic possessor o
     PFV:P3SG:give:A3SG axe:A1SG
     'She gave me an axe'
 
-The use of Type II NI for this kind of possessor-raising is highly productive to the point of being ubiquitous in natural discourse. In practice, NI is only not used this way when the P argument is unable to be incorporated because it is modified more than minimally, animate, or focused, even though a construction without NI is always grammatical.
+The use of Type II NI for this kind of possessor-raising is highly productive to the point of being ubiquitous in natural discourse. In practice, NI is only not used this way when the P is unable to be incorporated because it is modified more than minimally, animate, or focused, even though a construction without NI is always grammatical.
 
     ??????? ??? ??? ???
     ???????            ???  ???    ???
@@ -2218,7 +2272,7 @@ Additionally, transitive verbs resulting from Type II NI can still undergo valen
     ??????? ??? ??? ??? ??? ??? ???
     ???????            ???  ???    ???   ???    ??? ???
     PFV:P3PL:make:A3SG boat DEF.PL chief DEF.SG man young
-    'The young man made a boat for the chiefs'
+    'The young man made (a boat/boats) for the chiefs'
 
     ??????? ????? ??? ??? ??? ??? ???
     ???????            ?????     ???    ???   ???    ???  ???
@@ -2235,7 +2289,7 @@ Additionally, transitive verbs resulting from Type II NI can still undergo valen
     PFV:P3PL:make[:PASS(?)] boat DEF.PL chief
     'The chiefs were made (a boat/boats)' (lit. 'The chiefs were boat-made')
 
-When applied in NI constructions, these voices have the same restrictions as they normally do. For example, relativizing an A argument requires use of the antipassive voice.
+When applied in NI constructions, these voices have the same restrictions as they normally do. For example, relativizing an A requires use of the antipassive voice.
 
     ??? ????? ??? ????????? ??? ??? ??? ?????
     ???    ?????   ??? ?????????         ???  ???  ???    ?????
@@ -2250,6 +2304,7 @@ When applied in NI constructions, these voices have the same restrictions as the
 #### A.B.C. Reasons for the analysis as noun incorporation
 
 (?)
+
 
 ## <a name="relative_clauses"></a>A. Relative clauses <a href="#table_of_contents">^</a>
 
@@ -2329,6 +2384,7 @@ When the relative clause above is especially heavy, containing adjuncts or its o
           'The men pushed into a river their new boat that they bought in the town that they often visit'
 
 While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more overt arguments or adjuncts.
+
 
 ## <a name="lexicon"></a>A. Lexicon <a href="#table_of_contents">^</a>
 
@@ -2594,6 +2650,7 @@ Figure A. <i>A comparison of kinship terms in Ekhwachil and English that don't d
 </table>
 
 Figure A. _Ekhwachil terms which describe different relations based on ego's gender._
+
 
 ## <a name="texts"></a>A. Texts <a href="#table_of_contents">^</a>
 

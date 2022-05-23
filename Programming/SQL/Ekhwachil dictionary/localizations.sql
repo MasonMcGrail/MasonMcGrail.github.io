@@ -23,7 +23,7 @@ INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'human'), @jpn_id, '人�
 INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'non-human animate'), @jpn_id, '人間以外の有生物');
 INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'plantlike creature'), @jpn_id, '植物のような生き物');
 INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'place'), @jpn_id, '場所');
-INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'long thing'), @jpn_id, '「本」で数えらる物');
-INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'flat thing'), @jpn_id, '「枚」で数えらる物');
+INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'long thing'), @jpn_id, '「本」で数えられる物');
+INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'flat thing'), @jpn_id, '「枚」で数えられる物');
 INSERT INTO classifier VALUE (f_classifier_id(@eng_id, 'inanimate'), @jpn_id, '無生物');
 INSERT INTO word_main_class_translation VALUES (f_word_class_id(@eng_id, 'adjective'), @jpn_id, '形容詞');

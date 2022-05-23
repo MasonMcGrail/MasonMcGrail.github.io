@@ -64,37 +64,44 @@ INSERT INTO word_main_class_translation (translation) VALUE ('verb');
 INSERT INTO word_main_class_translation (translation) VALUE ('noun');
 INSERT INTO word_main_class_translation (translation) VALUE ('adjective');
 
-/*set_
+/*
 Morphophonological patterns of words that take set A markers. Each
-pattern listed is shorthand for the pattern in question, given a maximum
-value of 10 chars in case the naming convention later changes.
+pattern listed is shorthand for the pattern in question.
 
 The current convention:
-* 'A': Ends in a vowel
-* 'KA': Final consonant doesn't change (some stops/affricates and all non-stop
-  non-affricates besides /ŋ/, /x/, and /xʷ/
-* 'GA': Final consonant voices (some non-velar stops/affricates and sometimes
-  /k/)
-* 'KHA'; Before another consonant, final consonant is lost and results in
-  the following consonant geminating (sometimes /x/)
-* 'KWA': Final consonant labializes (sometimes /ŋ/ and /k/)
-* 'GWA': Final consonant voices and labializes (sometimes /k/)
-* 'KHWA': Before another consonant, final consonant is lost and results in
-  the following consonant geminating; otherwise labializes (sometimes /x/)
+- The following patterns are found in words that end in a vowel:
+  - A: inflects with no default epenthetic consonant
+  - PA: inflects as though it ends in /p/, like 'tena' > 'tenapa'
+  - TA: inflects as though it ends in /t/, like 'sone' > 'soneta'
+  - KA: inflects as though it ends in /k/, like 'khashi' > 'khashika'
+  - KWA: inflects as though it ends in /kʷ/, like 'umi' > 'umikwa'
+- The following patterns are found in words that end in a consonant:
+  - LA: inflects as would be expected from its ending, like 'milos' > 'milosa'
+	- Found in all that end in a coda besides sometimes /ŋ/ and sometimes /x/
+  - NGWA: inflects as though it ends in /ŋʷ/, like 'dalang' > 'dalangwa'
+	- Found in some that end in /ŋ/
+  - KHA: as in LA, but the final consonant is deleted if it appears before
+    a voiced obstruent, like 'lakh' > 'lakha', 'laba'
+	- Found in some that end in /x/
+  - KHWA: as in KHA, but inflects as though it ends in /xʷ/, like in
+    'pekh' > 'pekhwa', 'pebi'
+	- Found in some that end in /x/
 */
 CREATE TABLE set_a_pattern (
   set_a_pattern_id TINYINT NOT NULL AUTO_INCREMENT,
-  set_a_pattern VARCHAR(20) NOT NULL,
+  set_a_pattern ENUM('A', 'PA', 'TA', 'KA', 'KWA', 'LA', 'NGWA', 'KHA', 'KHWA') NOT NULL,
   PRIMARY KEY (set_a_pattern_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
   
 INSERT INTO set_a_pattern (set_a_pattern) VALUE ('A');
+INSERT INTO set_a_pattern (set_a_pattern) VALUE ('PA');
+INSERT INTO set_a_pattern (set_a_pattern) VALUE ('TA');
 INSERT INTO set_a_pattern (set_a_pattern) VALUE ('KA');
-INSERT INTO set_a_pattern (set_a_pattern) VALUE ('GA');
-INSERT INTO set_a_pattern (set_a_pattern) VALUE ('KHA');
 INSERT INTO set_a_pattern (set_a_pattern) VALUE ('KWA');
-INSERT INTO set_a_pattern (set_a_pattern) VALUE ('GWA');
-INSERT INTO set_a_pattern (set_a_pattern) VALUE ('KWHA');
+INSERT INTO set_a_pattern (set_a_pattern) VALUE ('LA');
+INSERT INTO set_a_pattern (set_a_pattern) VALUE ('NGWA');
+INSERT INTO set_a_pattern (set_a_pattern) VALUE ('KHA');
+INSERT INTO set_a_pattern (set_a_pattern) VALUE ('KHWA');
 
 
 -- ### ETYMOLOGY TABLES ###

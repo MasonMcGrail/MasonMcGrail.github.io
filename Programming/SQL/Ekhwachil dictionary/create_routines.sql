@@ -230,8 +230,8 @@ CREATE PROCEDURE p_enter_verb_full (
   IN lm VARCHAR(160),    -- lemma
   IN li SMALLINT,        -- lang_id
   IN et_tr VARCHAR(800), -- etymology translation
-  IN ak VARCHAR(80),     -- aktionsart
-  IN sap VARCHAR(20),    -- set a pattern
+  IN ak VARCHAR(80),     -- aktionsart, value like 'dynamic'
+  IN sap VARCHAR(20),    -- set a pattern, value like 'KA'
   IN tr VARCHAR(40)      -- transitivity
 )
 BEGIN
@@ -260,8 +260,8 @@ CREATE PROCEDURE p_enter_noun_full (
   IN lm VARCHAR(160),    -- lemma
   IN li SMALLINT,        -- lang_id
   IN et_tr VARCHAR(800), -- etymology translation
-  IN an VARCHAR(80),     -- animacy
-  IN sap VARCHAR(20)     -- set a pattern
+  IN an VARCHAR(80),     -- animacy, value like 'human'
+  IN sap VARCHAR(20)     -- set a pattern, value like 'KA'
 )
 BEGIN
   INSERT IGNORE INTO lemma (lemma) VALUE (lm);

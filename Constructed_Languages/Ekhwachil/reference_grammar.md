@@ -242,11 +242,10 @@ Ekhwachil has 5 vowel phonemes, which consist of the cross-linguistically common
 <table>
   <tr>
     <th></th>
-  </tr>
-  <tr>
     <th>Front</th>
     <th>Central</th>
     <th>Back</th>
+  </tr>
   <tr>
     <th>Close</th>
     <th>i</th>
@@ -613,11 +612,10 @@ Exwachil has the following 5 vowel phonemes.
 <table>
   <tr>
     <th></th>
-  </tr>
-  <tr>
     <th>Front</th>
     <th>Central</th>
     <th>Back</th>
+  </tr>
   <tr>
     <th>Close</th>
     <th>i</th>

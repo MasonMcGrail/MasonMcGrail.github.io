@@ -237,63 +237,39 @@ This section briefly details the features of the typology of Ekhwachil that make
 
 #### A.B.C. Phonology and morphophonology
 
-Grey Orcish has 12 vowel phonemes, 7 of them oral and the remaining 5 nasal. The contrast between close-mid and open-mid vowels is neutralized in syllables that are unstressed or closed.
+Ekhwachil has 5 vowel phonemes, which consist of the cross-linguistically common set of /i/, /e/, /a/, /o/, and /u/.
 
 <table>
   <tr>
-    <th rowspan=2></th>
-    <th colspan=3>Oral</th>
-    <th colspan=3>Nasal</th>
+    <th></th>
   </tr>
   <tr>
     <th>Front</th>
     <th>Central</th>
     <th>Back</th>
-    <th>Front</th>
-    <th>Central</th>
-    <th>Back</th>
-  </tr>
   <tr>
     <th>Close</th>
     <th>i</th>
     <th></th>
     <th>u</th>
-    <th>ĩ</th>
-    <th></th>
-    <th>ũ</th>
   </tr>
   <tr>
-    <th>Close-mid</th>
-    <th>e</th>
+    <th>Mid</th>
+    <th>e ~ ɛ</th>
     <th></th>
-    <th>o</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-  <tr>
-    <th>Open-mid</th>
-    <th>ɛ</th>
-    <th></th>
-    <th>ɔ</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>o ~ ɔ</th>
   </tr>
   <tr>
     <th>Open</th>
     <th></th>
     <th>a</th>
     <th></th>
-    <th></th>
-    <th>ã</th>
-    <th></th>
   </tr>
 </table>
 
 Figure A. _Vowel phonemes._
 
-There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, postalveolar, palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
+There are 20 consonant phonemes in 5 places of articulation (bilabial, dental, postalveolar, palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
 
 <table>
   <tr>
@@ -313,7 +289,7 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
     <th>m</th>
     <th>n</th>
     <th></th>
-    <th>ɲ</th>
+    <th></th>
     <th>ŋ</th>
     <th>ŋʷ</th>
   </tr>
@@ -358,7 +334,7 @@ There are 21 consonant phonemes in 5 places of articulation (bilabial, dental, p
 
 Figure A. _Consonant phonemes._
 
-Syllables in the language are maximally CCVC. Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
+Syllables in the language are maximally CVC. Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
 
 There is limited sibilant harmony present throughout the language. If multiple sibilants occur root-internally, they have the same place of articulation (either all dental /s/ or all postalveolar /ʃ/, /tʃ/, or /dʒ/), and /s/ in prefixes assimilates to /ʃ/ before a root containing any postalveolars.
 
@@ -514,10 +490,10 @@ Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?
           PFV:P3SG:stand and INCH PFV:P3SG:walk
           'He stood and started to walk away'
 
-    (A.#) ??????? ??? ??? ??? Oshã ????? ??? ???
-          ???????                  ???    ???  ??? Oshã   ?????        ???    ???
+    (A.#) ??????? ??? ??? ??? Oshan ????? ??? ???
+          ???????                  ???    ???  ??? Oshan  ?????        ???    ???
           PFV:P3SG:open.TR(?):A1SG DEF.SG door and (name) PFV:P3SG:run LOC(?) 1SG
-          'I opened the door and Oshã ran up to me'
+          'I opened the door and Oshan ran up to me'
 
 Polar questions are marked by the interrogative particle (?) at the beginning of the clause, and interrogative words in content questions are fronted.
 
@@ -549,7 +525,7 @@ While Exwachil does not have a written form, in this work it will be represented
 
 ### <a name="consonants"></a>A.B. Consonants <a href="#table_of_contents">^</a>
 
-The 21 consonant phonemes of Exwachil have the following places and manners of articulation.
+The 20 consonant phonemes of Exwachil have the following places and manners of articulation.
 
 <table>
   <tr>
@@ -569,7 +545,7 @@ The 21 consonant phonemes of Exwachil have the following places and manners of a
     <th>m</th>
     <th>n</th>
     <th></th>
-    <th>ɲ ⟨ny⟩</th>
+    <th></th>
     <th>ŋ ⟨ng⟩</th>
     <th>ŋʷ ⟨ngw⟩</th>
   </tr>
@@ -616,15 +592,14 @@ Figure A. _Consonant phonemes._
 
 #### A.B.C Allophonic variation in consonants
 
-All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second rule specifies that /ikˈŋa/ would be realized as \[ik̚ˈŋa\], but /ikeˈŋa/ would be realized as \[ikeˈŋa\] and not \*\[ik̚eˈŋa\].
+All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second-to-last rule specifies that /ixka/ would be realized as \[içka\], but /joxka/ would be realized as \[joxka\] and not *\[joçka\].
 
 - Voiceless stops and affricates may be slightly aspirated word-initially.
-- Voiceless stops have no audible release before their corresponding nasals. For example, /apmi/ is realized as \[ap̚mi\].
 - Voiced stops are fully voiced in all positions, including word-initially.
 - /dʒ/ is realized as \[ʒ\] in free variation (?).
 - Plain velars and before labialized consonants and rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\], and /aŋxʷe/ is is realized as \[aŋʷxʷe\].
 - /x/ is realized as \[ç\] in coda position after /i/ and /j/.
-- /l/ is realized as \[ɾ\] before front vowels in free variation, and it is always realized as \[ɾ\] after a dental stop.
+- /l/ is realized as \[ɾ\] before front vowels in free variation.
 
 #### A.B.C. Romanization notes for consonants
 
@@ -633,83 +608,53 @@ All uses of 'before' and 'after' in the descriptions below refer to segments tha
 
 ### <a name="vowels"></a>A.B. Vowels <a href="#table_of_contents">^</a>
 
-Exwachil has 12 vowel phonemes, of which 7 are oral and 5 are nasal.
+Exwachil has the following 5 vowel phonemes.
 
 <table>
   <tr>
-    <th rowspan=2></th>
-    <th colspan=3>Oral</th>
-    <th colspan=3>Nasal</th>
+    <th></th>
   </tr>
   <tr>
     <th>Front</th>
     <th>Central</th>
     <th>Back</th>
-    <th>Front</th>
-    <th>Central</th>
-    <th>Back</th>
-  </tr>
   <tr>
     <th>Close</th>
     <th>i</th>
     <th></th>
     <th>u</th>
-    <th>ĩ</th>
-    <th></th>
-    <th>ũ</th>
   </tr>
   <tr>
-    <th>Close-mid</th>
-    <th>e</th>
+    <th>Mid</th>
+    <th>e ~ ɛ ⟨e⟩</th>
     <th></th>
-    <th>o</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-  <tr>
-    <th>Open-mid</th>
-    <th>ɛ ⟨è⟩</th>
-    <th></th>
-    <th>ɔ ⟨ò⟩</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>o ~ ɔ ⟨o⟩</th>
   </tr>
   <tr>
     <th>Open</th>
     <th></th>
     <th>a</th>
     <th></th>
-    <th></th>
-    <th>ã</th>
-    <th></th>
   </tr>
 </table>
 
 Figure A. _Vowel phonemes._
 
-#### A.B.C. Nasal vowels
-
-Nasal vowels contrast with oral vowels. The phonemes /ĩ/, /ã/, and /ũ/ are usually realized as \[ɪ̃\], \[ɐ̃\], and \[ʊ̃\], respectively, but they do not contrast with \[ĩ\], \[ã\], and \[ũ\].
-
 #### A.B.C. Allophonic variation in vowels
 
-Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ only contrast in open syllables with primary stress. In all other environments, they are in complementary distribution.
+Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ are in complementary distribution.
 
-- Unstressed /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not when adjacent to /j/. It is pronounced as \[ɛ\] when adjacent to /j/ as well as in all closed syllables.
-- Unstressed /o ~ ɔ/ is pronounced as \[o\] in open syllables and before coda /j/, and it is pronounced as \[ɔ\] in all other closed syllables.
-
-In broad transcription, /e ~ ɛ/ and /o ~ ɔ/ will respectively be written as /e/ and /o/.
+- The vowel /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not when adjacent to /j/. It is pronounced as \[ɛ\] when adjacent to /j/ as well as in all closed syllables.
+- The vowel /o ~ ɔ/ is pronounced as \[o\] in open syllables and before coda /j/, and it is pronounced as \[ɔ\] in all other closed syllables.
 
 #### A.B.C. Diphthongs
 
-Every oral vowel other than /i/ and /ɛ/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[ɔi̯\], \[oi̯\], and \[ui̯\]. Every nasal vowel other than /ĩ/ can do the same, nasalizing \[i̯\] and resulting in \[ɐ̃ĩ̯\] and \[ʊ̃ĩ̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/. In accordance with this analysis, they will be written in broad transcription with /j/.
+Every oral vowel other than /i/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[oi̯\], and \[ui̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/.
 
 #### A.B.C. Romanization notes for vowels
 
-- Unstressed /e ~ ɛ/ and /o ~ ɔ/ will be respectively romanized as ⟨e⟩ and ⟨o⟩.
-- In accordance with the analysis in the last section, phonetic diphthongs will have their second element spelled as ⟨y⟩, such as in ⟨ay⟩, ⟨oy⟩, and ⟨uy⟩.
+- Unstressed /e ~ ɛ/ and /o ~ ɔ/ will be respectively romanized as ⟨e⟩ and ⟨o⟩, and those symbols will also be used in broad transcription.
+- In accordance with the analysis in the last section, phonetic diphthongs will have their second element spelled as ⟨y⟩, such as in ⟨ay⟩, ⟨oy⟩, and ⟨uy⟩, and they will be written in broad transcription with ⟨j⟩.
 
 ### <a name="word_stress"></a>A.B. Word stress <a href="#table_of_contents">^</a>
 
@@ -721,51 +666,23 @@ Set A markers do not attract stress, which stays on the last syllable of the ste
 
 The syllable structure of Ekhwachil is as follows:
 
-    (C) (A) V (A/B)
+    (C) V (A/j)
 
     C = any consonant
-    A = any approximant (/l/ or /j/)
     V = any vowel
-    B = /m/, /n/, /ŋ/, or any voiceless obstruent with no secondary articulation
+    A = /m/, /n/, /ŋ/, /s/, /ʃ/, /x/, or /l/
 
 Some examples of possible syllables are listed below:
 
     V       ?       '[word]'
     CV      ??      '[word]'
     V?      ??      '[word]'
-    CAV     ???     '[word]'
     CV?     ???     '[word]'
-    CAV?    ????    '[word]'
 
 #### A.B.C. Phonotactic restrictions
 
-In the onset of a syllable, initial /m/, /p/, /b/, /k/, and /g/ may be followed by /l/ or /j/, while /t/, /d/, and /s/ may only be followed by /j/. In the coda, /j/ is only permitted if the preceding vowel is not /i/, /ĩ/, /ɛ/, or /ɛ̃/.
+In the onset and coda of a syllable, /j/ does not occur if its nucleus is /i/. Every other sequence of segments that follows the syllable structure outlined in the previous section is permitted. Consonant clusters occur, but only at syllable boundaries.
 
-<table>
-    <tr>
-        <th colspan=2>Onset</th>
-    </tr>
-    <tr>
-        <th>C</th>
-        <th>(A)</th>
-    </tr>
-    <tr>
-        <td>/m/, /p/, /b/, /k/, /g/</td>
-        <td>/l/, /j/</td>
-    </tr>
-    <tr>
-        <td>/t/, /d/, /s/</td>
-        <td>/j/</td>
-    </tr>
-    <tr>
-        <td>/n/, /l/, /ɲ/, /tʃ/, /dʒ/, /ʃ/, /j/,<br>/ŋ/, /ŋʷ/, /kʷ/, /gʷ/, /x/, /xʷ/</td>
-        <td>-</td>
-    </tr>
-</table>
-
-Figure A. _Possible non-null syllable onsets._
-
-<!-- Table immediately below with height set so that the cells span equally (enough) -->
 <table>
     <tr>
         <th>Onset</th>
@@ -773,23 +690,23 @@ Figure A. _Possible non-null syllable onsets._
         <th>Coda</th>
     </tr>
     <tr>
-        <th>(C (A))</th>
+        <th>(C)</th>
         <th>V</th>
-        <th>(A/B)</th>
+        <th>(A/j)</th>
     </tr>
-    <tr style='height: 2rem'>
-        <td>onset not ending with /j/</td>
-        <td>/i/, /ĩ/, /e/</td>
-        <td>/l/, B</td>
+    <tr>
+        <td>any onset other than /j/</td>
+        <td>/i/</td>
+        <td>A</td>
     </tr>
-    <tr style='height: 2rem'>
+    <tr>
         <td>any onset</td>
-        <td>/ɛ/, /a/, /ã/,<br>/ɔ/, /o/, /u/, /ũ/</td>
-        <td>/l/, /j/, B</td>
+        <td>/e/, /a/,<br>/o/, /u/</td>
+        <td>A, /j/</td>
     </tr>
 </table>
 
-Figure A. _Possible syllable rimes, which differ based on their preceding onsets. All of the syllable rimes are possible with a null onset._
+Figure A. _Possible syllable shapes, which differ based on their preceding onsets._
 
 ### <a name="morphophonology"></a>A.B. Morphophonology <a href="#table_of_contents">^</a>
 
@@ -800,12 +717,12 @@ This section describes the assimilatory processes of the language that surface a
 The following assimilatory processes occur when nasals immediately precede other consonants.
 
 - /m/ assimilates to \[n\] before dental consonants.
-- /n/ assimilates in place before all obstruents and nasals. Before postalveolar consonants, it it becomes postalveolar \[n̠\] rather than palatal \[ɲ\].
+- /n/ assimilates in place before all occlusives. Before postalveolar consonants, it it becomes postalveolar \[n̠\] rather than palatal \[ɲ\].
 - /nj/ and /ŋj/ simplify to \[ɲ\].
 
-#### A.B.C. Voicing of voiceless obstruents
+#### A.B.C. Voicing of fricatives
 
-Voiceless obstruents become voiced before voiced obstruents. In the case of velar fricatives, they assimilate completely to match the following segment in that position, so /ax.bo/ is realized as \[ab.bo\], /ax.ge/ as \[ag.ge\], etc.
+Both /s/ and /ʃ/ become voiced before voiced obstruents. Rather than voicing, coda /x/ is deleted in this position, so /ax/ + /bo/ is realized as \[a.bo\], /o.ge/ as \[og.ge\], etc.
 
 #### A.B.C. Sibilant harmony
 
@@ -829,9 +746,7 @@ While there are no counterexamples of root-internal harmony in the corpus, some 
 
 #### A.B.C. Romanization notes
 
-When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this means that the romanization will reflect nasal assimilation, phonetic gemination due to the velar fricative, as well as sibilant harmony, but it will not reflect voicing of voiceless obstruents.
-
-In the case of the velar fricative, it will be replaced with the symbol for the following segment's voiceless version. This is because otherwise, for example, /ikga/, pronounced [igga], would still be spelled ⟨ikga⟩, while /ixga/, also pronounced [igga], would be spelled ⟨igga⟩. In this example, by spelling it with ⟨k⟩ instead of ⟨g⟩, we avoid spelling homophones differently in the romanization.
+When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this means that the romanization will reflect nasal assimilation and sibilant harmony, but it will not reflect the voicing of fricatives.
 
 ### <a name="phonemic_analysis"></a>A.B. Phonemic analysis <a href="#table_of_contents">^</a>
 
@@ -1463,7 +1378,7 @@ This corresponds only to Haspelmath's 'specific known' category. These pronouns 
 
     (A.#) ??????? ??? ??? ??? ??? ??? ???
           ???????            ???  ???      ???      ???   ???  ???
-          PFV:P3SG:find:PASS what CLF.NHAN fearsome in(?) cave that
+          PFV:P3SG:PASS:find what CLF.NHAN fearsome in(?) cave that
           'Something fearsome was found in that cave'
 
     (A.#) ??????? ??? ??????? ??? ??? ??? ?????
@@ -2285,8 +2200,8 @@ Additionally, transitive verbs resulting from Type II NI can still undergo valen
     'The young man made (a boat/boats) (for someone/others)'
 
     ??????? ??? ??? ???
-    ???????                 ???  ???    ???
-    PFV:P3PL:make[:PASS(?)] boat DEF.PL chief
+    ???????            ???  ???    ???
+    PFV:P3PL:PASS:make boat DEF.PL chief
     'The chiefs were made (a boat/boats)' (lit. 'The chiefs were boat-made')
 
 When applied in NI constructions, these voices have the same restrictions as they normally do. For example, relativizing an A requires use of the antipassive voice.

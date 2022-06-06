@@ -23,7 +23,7 @@ a { color: var(--off-white); }
     border-radius: 0.5rem;
 }
 
-div.highlight { background-color: var(--off-grey-dark);  }
+div.highlight { background-color: var(--off-grey-dark); }
 
 .main-content pre>code { color: var(--box-text-light); }
 

@@ -64,14 +64,14 @@
   - [A.B. Compounding](#compounding_incorporation_compounding)
   - [A.B. Noun incorporation](#compounding_incorporation_incorporation)
 - [A. Relative clauses](#relative_clauses)
-  - [A.B. Content of this section](#relative_clauses_introduction)
+  - [A.B. Introduction](#relative_clauses_introduction)
   - [A.B. Relative clauses and shifting](#relative_clauses_shifting)
 - [A. Lexicon](#lexicon)
-  - [A.B. Content of this section](#lexicon_content)
+  - [A.B. Introduction](#lexicon_introduction)
   - [A.B. Color terms](#color_terms)
   - [A.B. Kinship terminology](#kinship_terminology)
 - [A. Texts](#texts)
-  - [A.B. Content of this section](#texts_content)
+  - [A.B. Introduction](#texts_introduction)
 
 <i>Both this reference grammar and the language itself are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. I have a post explaining that <a href="/Constructed_Languages/copyrighting_conlangs.html">here</a></i>.
 
@@ -82,7 +82,7 @@
 
 This is a reference grammar for Ekhwachil, a constructed language (conlang) that appears as the main representative of its language family in a fictional setting. I am writing this grammar to have all of the information in one place, presented in a way that, hopefully, is enjoyable and interesting to read for anyone interested in conlangs or linguistics in general. Ekhwachil is very much an ongoing project, and while the core of the grammar is stable, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. while their number is unknown. Also, the lexicon is severely underdeveloped (see: nonexistent), so strings of question marks are used in place of the words in examples for now.
 
-This work is meant to be descriptive and not pedagogical; it is meant to thoroughly show the language's structure rather than serve as a resource for a hypothetical learner. To that end, I will use technical terminology whenever it would be appropriate for a particular description, but I will avoid using more obscure terms. In terms of framework, I will just be using "basic linguistic theory" so that this work is readable to a broad audience and will remain so for years to come.
+This work is meant to be descriptive and not pedagogical; it is meant to thoroughly show the language's structure rather than serve as a resource for a hypothetical learner. To that end, I will use technical terminology whenever it would be appropriate for a particular description, but I will avoid using more obscure terms. In terms of framework, I will just be using 'basic linguistic theory' so that this work is readable to a broad audience and will remain so for years to come.
 
 This document is divided into (?) sections. Section A is a brief overview of the language's typology and speakers. Section A describes the phonology and the romanization used throughout this document. Sections A, A, and A cover noun morphology, verb morphology, and adjective morphology, respectively. Section A deals with pronouns. Section A discusses prepositions and particles. Section A describes numerals and classifiers. Sections A and A respectively deal with noun phrases and verb phrases. Section A discusses coordination. Section A describes relative clauses. Lastly, section A covers the lexicon, and section A contains sample texts in Ekhwachil, some original, others translations.
 
@@ -169,7 +169,7 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | - | - |
 | \- | separator for segmentable morphemes, e.g., English _walk-ed_ (walk-PST) |
 | \~ | separator for a reduplicated element and its stem |
-| = | clitic boundary, e.g., English _we='ll_ (1PL.NOM=FUT) |
+| = | clitic boundary, e.g., English _child='s_ (child=GEN) |
 | . | separator for irreducible morphemes that are represented by multiple glosses, e.g., English _we_ (1PL.NOM). Not used between abbreviations for person, number, and role, so 1PL is used for 1.PL,  2SG for 2.SG, etc., and A3PL is used for 3.PL.A, P3SG for 3.SG.P, etc. |
 | : | separates morphemes where segmentation is irrelevant, usually for brevity |
 
@@ -183,13 +183,12 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | 3    | third person                 | INCH | inchoative aspect           |
 | A    | set A (ergative, possessive)<sup>1</sup>  | IND  | indicative mood             |
 | ABIL | abilitative mood             | INTR | intransitive                |
-| ACT  | active voice                 | ITV  | intensive/iterative         |
-| ADV  | _adverb_                     | M    | _masculine_                 |
-| ANIM | animate                      | MED  | medial                      |
-| AP   | antipassive voice            | NEG  | negation, negative          |
-| ASC  | associative plural           | NHAN | non-human animate           |
-| AUG  | _augmentative_               | NMZ  | nominalizer, nominalization |
-| CAUS | causative                    | OBL  | oblique                     |
+| ADV  | _adverb_                     | ITV  | intensive/iterative         |
+| ANIM | animate                      | M    | _masculine_                 |
+| AP   | antipassive voice            | MED  | medial                      |
+| ASC  | associative plural           | NEG  | negation, negative          |
+| AUG  | _augmentative_               | NHAN | non-human animate           |
+| CAUS | causative                    | NMZ  | nominalizer, nominalization |
 | CESS | cessative aspect             | P    | set P (absolutive)<sup>1</sup>           |
 | CLF  | classifier                   | PFV  | perfective aspect           |
 | COMP | complementizer               | PL   | plural                      |
@@ -212,7 +211,7 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 
 ### <a name="geographic_demographic"></a>A.B. Geographic and demographic information <a href="#table_of_contents">^</a>
 
-Ekhwachil is one of the languages of the (?) branch of the (?) language family. It is spoken by about 17,000 people on the island of (?), which is roughly the size of Sri Lanka. (?) is somewhat distant from other landmasses, and due to this as well the nature of the ocean currents that surround it, it has no contact with the outside world. The languages spoken there only have contact with each other, and Ekhwachil in particular has only had long-standing language contact with its closest relative, (?).
+Ekhwachil is a language of the (?) branch of the (?) language family. It is spoken by about 17,000 people on the island of (?), which is roughly the size of Sri Lanka. (?) is somewhat distant from other landmasses, and due to this as well the nature of the ocean currents that surround it, it has no contact with the outside world. The languages spoken there only have contact with each other, and Ekhwachil in particular has only had long-standing language contact with its closest relative, (?).
 
 #### A.B.C. The name 'Ekhwachil'
 
@@ -223,7 +222,7 @@ The speakers of Ekhwachil have no unique name for their language; _ekhwachil_ is
     DEF.SG language-A1PL.IN
     'Ekhwachil', literally 'our language'
 
-To a standard speaker of Ekhwachil, who is monolingual and feels a sense of ownership over their language and not others, the use of the definite article and the inclusive possessive suffix together uniquely identify the language. As might be expected, when discussing the language with people outside of the speech community, the exclusive possessive suffix is used instead.
+To a standard speaker of Ekhwachil, who is monolingual and feels a sense of ownership over their language and not others, the use of the definite article and the inclusive possessive suffix together uniquely identify the language. As might be expected, when referring to the language with people outside of the speech community, the exclusive possessive suffix is used instead.
 
 For the sake of brevity, throughout the rest of this work I will be using the term 'Ekhwachil' to refer to both the language itself and members of the ethnolinguistic group that speak it.
 
@@ -445,9 +444,9 @@ Other parts of speech undergo little inflection or derivation.
 
 #### A.B.C. Syntax
 
-Word order in Ekhwachil is overwhelmingly head-initial as well as verb-initial. The head noun of a noun phrase precedes any genitives, adjectives, numerals, or demonstratives that modify it, adpositional phrases are prepositional, and verbs generally precede their arguments. The default word order is verb-object-agent (VOA) for transitive verbs and is verb-subject (VS) for intransitive verbs, though AVO and SV are also common due to topicalization.
+Word order in Ekhwachil is overwhelmingly head-initial as well as verb-initial. The head noun of a noun phrase precedes any adjectives, numerals, demonstratives, genitives, or relative clauses that modify it, adpositional phrases are prepositional, and verbs generally precede their arguments. The default word order is verb-object-agent (VOA) for transitive verbs and is verb-subject (VS) for intransitive verbs, though AVO and SV are also common due to topicalization.
 
-The language is predominantly head-marking, with verbs agreeing with their A and P arguments, the heads of possessive noun phrases agreeing with their possessors, and little use of non-finite verb forms. However, other heads are unmarked, such as in adjective phrases and prepositional phrases, and dependent-marking strategies are used for some constructions, such as relative clauses.
+The language is predominantly head-marking, with verbs agreeing with their A and P arguments, the heads of possessive noun phrases agreeing with their possessors, and little use of non-finite verb forms. However, other heads are unmarked, such as in adjective phrases and prepositional phrases, and dependent-marking and zero-marking strategies are used for some constructions, such as for nominal predicates.
 
 Verb agreement patterns in Ekhwachil are uniformly ergative-absolutive.
 
@@ -597,7 +596,7 @@ All uses of 'before' and 'after' in the descriptions below refer to segments tha
 - Voiced stops are fully voiced in all positions, including word-initially.
 - /dʒ/ is realized as \[ʒ\] in free variation (?).
 - Plain velars and before labialized consonants and rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\], and /aŋxʷe/ is is realized as \[aŋʷxʷe\].
-- /x/ is realized as \[ç\] in coda position after /i/ and /j/.
+- /x/ is realized as \[ç\] in coda position after /i/.
 - /l/ is realized as \[ɾ\] before front vowels in free variation.
 
 #### A.B.C. Romanization notes for consonants
@@ -642,17 +641,12 @@ Figure A. _Vowel phonemes._
 
 Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ are in complementary distribution.
 
-- The vowel /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not when adjacent to /j/. It is pronounced as \[ɛ\] when adjacent to /j/ as well as in all closed syllables.
-- The vowel /o ~ ɔ/ is pronounced as \[o\] in open syllables and before coda /j/, and it is pronounced as \[ɔ\] in all other closed syllables.
-
-#### A.B.C. Diphthongs
-
-Every oral vowel other than /i/ can form a phonetic diphthong with \[i̯\] as its second element, resulting in \[ɛi̯\], \[ai̯\], \[oi̯\], and \[ui̯\]. However, these diphthongs consistently behave as though they phonemically end in a coda consonant. Suffixes that change form when attaching to closed syllables treat them as closed, and they are never followed by codas, which is consistent with the fact that in all other closed syllables, codas contain only one segment. These phonetic diphthongs are therefore analyzed here as phonemically being sequences of a vowel plus coda /j/.
+- The vowel /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not after /j/. It is pronounced as \[ɛ\] after /j/ as well as in closed syllables.
+- The vowel /o ~ ɔ/ is pronounced as \[o\] in open syllables and as \[ɔ\] in closed syllables.
 
 #### A.B.C. Romanization notes for vowels
 
 - Unstressed /e ~ ɛ/ and /o ~ ɔ/ will be respectively romanized as ⟨e⟩ and ⟨o⟩, and those symbols will also be used in broad transcription.
-- In accordance with the analysis in the last section, phonetic diphthongs will have their second element spelled as ⟨y⟩, such as in ⟨ay⟩, ⟨oy⟩, and ⟨uy⟩, and they will be written in broad transcription with ⟨j⟩.
 
 ### <a name="word_stress"></a>A.B. Word stress <a href="#table_of_contents">^</a>
 
@@ -679,7 +673,7 @@ Some examples of possible syllables are listed below:
 
 #### A.B.C. Phonotactic restrictions
 
-In the onset and coda of a syllable, /j/ does not occur if its nucleus is /i/. Every other sequence of segments that follows the syllable structure outlined in the previous section is permitted. Consonant clusters occur, but only at syllable boundaries.
+In the onset of a syllable, /j/ does not occur if its nucleus is /i/. Every other sequence of segments that follows the syllable structure outlined in the previous section is permitted. Consonant clusters occur, but only at syllable boundaries.
 
 <table>
     <tr>
@@ -690,17 +684,16 @@ In the onset and coda of a syllable, /j/ does not occur if its nucleus is /i/. E
     <tr>
         <th>(C)</th>
         <th>V</th>
-        <th>(A/j)</th>
+        <th rowspan=2>(A)</th>
     </tr>
     <tr>
         <td>any onset other than /j/</td>
         <td>/i/</td>
-        <td>A</td>
+        <td>any coda</td>
     </tr>
     <tr>
         <td>any onset</td>
         <td>/e/, /a/,<br>/o/, /u/</td>
-        <td>A, /j/</td>
     </tr>
 </table>
 
@@ -2301,7 +2294,7 @@ While the above examples happen to show this with a transitive verb, the same re
 
 ## <a name="lexicon"></a>A. Lexicon <a href="#table_of_contents">^</a>
 
-### <a name="lexicon_content"></a>A.B. Content of this section <a href="#table_of_contents">^</a>
+### <a name="lexicon_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
 ### <a name="color_terms"></a>A.B. Color terms <a href="#table_of_contents">^</a>
 
@@ -2567,6 +2560,6 @@ Figure A. _Ekhwachil terms which describe different relations based on ego's gen
 
 ## <a name="texts"></a>A. Texts <a href="#table_of_contents">^</a>
 
-### <a name="texts_content"></a>A.B. Content of this section (?) <a href="#table_of_contents">^</a>
+### <a name="texts_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
 (?)

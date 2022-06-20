@@ -1,6 +1,6 @@
 # A Grammar of Ekhwachil
 
-<link type="text/css" rel="stylesheet" href="stylesheets/ekhwachil.css">
+<link type="text/css" rel="stylesheet" href="../../stylesheets/ekhwachil.css">
 
 ## <a name="table_of_contents"></a>Table of Contents
 

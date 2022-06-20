@@ -1,6 +1,6 @@
 ### My intentions in using a Creative Commons license for my work
 
-<link type="text/css" rel="stylesheet" href="stylesheets/main.css">
+<link type="text/css" rel="stylesheet" href="../../stylesheets/main.css">
 
 All of my conlangs use a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. I am using this license just to give other creators explicit permission to use them in certain circumstances if they would like to. I don't _expect_ that anyone else would want to transform my work or use it for commercial purposes, but I want people to be able to freely redistribute it. In the event that the above link breaks, I have copied and pasted a summary of the license's permissions and terms below:
 

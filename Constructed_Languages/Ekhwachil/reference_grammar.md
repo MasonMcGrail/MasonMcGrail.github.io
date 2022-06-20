@@ -162,8 +162,6 @@ The term 'subject' is troublesome when describing highly ergative languages like
 
 When discussing semantic roles, I will use the terms 'agentive' and 'patientive' instead.
 
-\[should have a triangular diagram to clearly show all of the above(?)\]
-
 ### <a name="abbreviations"></a>A.B. Abbreviations <a href="#table_of_contents">^</a>
 
 |   |   |
@@ -473,10 +471,6 @@ There is no case marking, and when there are multiple explicit arguments, their 
           PROG:P3SG:chase:A3SG DEF.SG tiger DEF.SG hunter(?)
           'The hunter is chasing the tiger'
 
-\[unclear what the derivational morphology is for turning intransitive verbs transitive and vice versa, which is different than just using the antipassive\] (?)
-
-\[unclear about whether subordinate clauses are nonfinite, which depends on whether the subjunctive can be used by itself in main clauses; either way, they generally follow the main clause\] (?)
-
 Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?), 'and'.
 
     (A.#) ??? ??? ???
@@ -690,11 +684,11 @@ In the onset of a syllable, /j/ does not occur if its nucleus is /i/. Every othe
     <tr>
         <td>any onset other than /j/</td>
         <td>/i/</td>
-        <td>any coda</td>
     </tr>
     <tr>
         <td>any onset</td>
         <td>/e/, /a/,<br>/o/, /u/</td>
+        <td>any coda</td>
     </tr>
 </table>
 
@@ -868,15 +862,9 @@ Noun-noun compounds where modifying noun is a nationality are also head-initial,
 
 (?)
 
-<!--
-\[would be good to have nominalizations for agents and patients\]
-
-\[a fun derivation in Tzeltal is "place where X happens", which has one version for agents and another for patients. For simplicity, subjects of intransitive verbs could pattern like objects of transitives, or intransitives might be split on an unergative/unaccusative divide (as done in Tzeltal)\]
--->
-
 ### <a name="verbal_template"></a>A.B. Verbal template (?) <a href="#table_of_contents">^</a>
 
-A template for transitive verbs in Ekhwachil is given below. _\[indicative/subjunctive still needs a home, and the abilitative, which comes in between agreement prefixes and the verb stem, needs to be mentioned, as do the reduplicative processes]_ (?)
+A template for transitive verbs in Ekhwachil is given below.
 
     Aspect - Patient - Root - Agent/Voice
 
@@ -943,7 +931,7 @@ For verbs that refer to mental states, such as (?) 'to know' or (?) 'to like', t
 
 #### A.B.C. Iterative aspect
 
-The iterative aspect is used to denote repetitions of an event, which may be of short duration or persist for some time. It might variously be translated into English using phrases such as "repeatedly", "over and over", or "for a while", depending on the semantics of the verb. It is marked by full reduplication of the verb stem. _\[unclear on whether this can combine with the other aspects, but the answer is probably yes\]_ (?)
+The iterative aspect is used to denote repetitions of an event, which may be of short duration or persist for some time. It might variously be translated into English using phrases such as "repeatedly", "over and over", or "for a while", depending on the semantics of the verb. It is marked by full reduplication of the verb stem.
 
     (A.#) ????????, ??? ??? ????? ???
           ??  -???~???  ??? ??? ?????         ???
@@ -1118,7 +1106,7 @@ When acting attributively, adjectives lose most verb morphology, including agree
 
 #### A.B.C. Nominal inflection
 
-Adjectives appearing without their head nouns take one of two nominalizing prefixes, (?) or (?), based on the animacy of the omitted noun. _\[these come from the general and nonhuman animate classifiers\]_ (?)
+Adjectives appearing without their head nouns take one of two nominalizing prefixes, (?) or (?), based on the animacy of the omitted noun.
 
     (A.#) ????????? ???????
           ?????????          ???- ?????
@@ -1130,9 +1118,9 @@ Adjectives appearing without their head nouns take one of two nominalizing prefi
           DEF.PL NMLZ-small P3PL:be.delicious from PL:that
           'The small ones taste better than those'
 
-    (A.#) ??????? ??? ?????
-          ???????               ??? ???- ???
-          P3PL:ITV:be.dangerous PL  NMLZ-big
+    (A.#) ??? ????? ???????
+          ???    ???- ??? ???????
+          DEF.PL NMLZ-big P3PL:ITV:be.dangerous
           'Big ones are very dangerous'
 
 
@@ -1619,11 +1607,11 @@ The particle (?) is used to form polar questions.
 
 ### <a name="numerals"></a>A.B. Numerals <a href="#table_of_contents">^</a>
 
-The counting system of Ekhwachil is vigesimal, using ten as a sub-base.
+The counting system of Ekhwachil is decimal.
 
 #### A.B.C. Cardinal numbers
 
-Below are the patterns for the cardinal numbers. For the numbers beyond twenty, they are currently replaced with placeholders for what those numbers will be when the lexemes exist.
+Below are the patterns for the cardinal numbers from 1 to 20.
 
 |    |     |    |     |
 | -- | --- | -- | --- |
@@ -1638,30 +1626,6 @@ Below are the patterns for the cardinal numbers. For the numbers beyond twenty, 
 | 9  | ??? | 19 | ??? |
 | 10 | ??? | 20 | ??? |
 
-Figure A. _Cardinal numbers from one to twenty._
-
-|     |             |      |                     |
-| --- | ----------- | ---- | ------------------- |
-| 21  | \[20-1\]    | 399  | \[19-20-19\]        |
-| 22  | \[20-2\]    | 400  | \[400\]             |
-| 23  | \[20-3\]    | 401  | \[400-1\]           |
-| ... | ...         | ...  | ...                 |
-| 39  | \[20-19\]   | 999  | \[2-400-9-20-19\]   |
-| 40  | \[2-20\]    | 1000 | \[2-400-10-20\]     |
-| 41  | \[2-20-1\]  | 1001 | \[2-400-10-20-1\]   |
-| ... | ...         | ...  | ...                 |
-| 99  | \[4-20-19\] | 7999 | \[19-400-19-20-19\] |
-| 100 | \[5-20\]    | 8000 | \[8000\]            |
-| 101 | \[5-20-1\]  | 8001 | \[8000-1\]          |
-
-Figure A. _Cardinal numbers from 21 to 8001._
-
-_\[the numbers 11-19 are derived from 10 and 1-9, but the morpheme for the numeral for 10 is reduced and each is a single word\]_ (?)
-
-_\[the numbers 20, 400, and 8000 have their own roots, and new roots are used for powers of 8000 thereafter\]_ (?)
-
-_\[it's likely that there's no word for zero\]_ (?)
-
 #### A.B.C. Ordinal numbers
 
 \[ordinal numbers follow some regular pattern except for 'first', which is suppletive; likely derives from something meaning 'before'; other ordinals are formed with a preceding word or prefix\]
@@ -1675,20 +1639,15 @@ Fractional numerals are formed with the affix _???_ (?), which is attached to th
           three.FRAC two CLF.INAN
           'two thirds', '2/3'
 
-    (A.#) ????? ??? ???
-          ?????(?)     ???   ???
-          sixteen.FRAC seven CLF.INAN
+    (A.#) ??? ??? ????? ??? ???
+          ??? ??? ?????    ???   ???
+          ten and six.FRAC seven CLF.INAN
           'seven sixteenths', '7/16'
 
-    (A.#) ??? ??? ????? ??? ??? ???
-          ???  ???    ?????(?) ???    ???      ???
-          four twenty six.FRAC twenty thirteen CLF.INAN
+    (A.#) ??? ??? ????? ??? ??? ??? ???
+          ???   ??? ?????(?) ???   ??? ???   ???
+          eight ten six.FRAC three ten three CLF.INAN
           'thirty three eighty-sixths', '33/86'
-
-    (A.#) ??? ??? ??? ????? ??? ???
-          ???   ???          ???  ?????(?)    ??? ???
-          three four.hundred nine twenty.FRAC one CLF.INAN
-          'one in thousand three hundred eighty', '1/1380'
 
 When the fractional numeral is being used in conjunction with a noun, it is possessed by the noun and acts as the head of the noun phrase.
 
@@ -1845,14 +1804,14 @@ The additive and associative plural particles (?) and (?) cannot occur in the pr
           DEF.SG face:A3SG DEF.SG woman REL P3SG:be.beautiful
           'the face of the woman who is beautiful', or 'the woman's face that is beautiful'
 
-_\[use of a demonstrative for both the head noun and the genitive is not attested in the corpus; possibly allowed, but unnatural and highly pragmatically marked at best\]_ (?)
-
 
 ## <a name="verb_phrases"></a>A. The verb phrase <a href="#table_of_contents">^</a>
 
 ### <a name="verb_phrase_structure"></a>A.B. Verb phrase structure <a href="#table_of_contents">^</a>
 
-The order of words in a verb phrase that has all possible modifiers is given below. _\[Some of these elements are mutually exclusive and do not occur together in the same verb phrase.\]_ (?)
+The order of words in a verb phrase that has all possible modifiers is given below.
+
+(?)
 
 ### <a name="nominal_locative_predication"></a>A.B. Nominal and locative predication <a href="#table_of_contents">^</a>
 
@@ -1940,7 +1899,7 @@ These copulae are also used for predicative possession. The syntactic subject is
 
 ### <a name="coordination_content"></a>A.B. Content of this section (?) <a href="#table_of_contents">^</a>
 
-The conjunction (?) 'and' coordinates two or more noun phrases, verb phrases, or clauses. _\[this might be optional at the clause level\]_ (?)
+The conjunction (?) 'and' coordinates two or more noun phrases, verb phrases, or clauses.
 
 ### <a name="coreferential_deletion"></a>A.B. Coreferential deletion (?) <a href="#table_of_contents">^</a>
 
@@ -2223,7 +2182,7 @@ When applied in NI constructions, these voices have the same restrictions as the
 
 For the rest of this section, relative clauses and their head nouns will be surrounded by square brackets when they appear in glosses containing other words.
 
-Relative clauses in Ekhwachil are placed after the nouns they modify, and they are separated by the relativizer (?) _\[which possibly agrees with the head noun in some way\]_ (?). When the head noun is the patient of the verb in the relative clause, it is only expressed with verb agreement.
+Relative clauses in Ekhwachil are placed after the nouns they modify, and they are separated by the relativizer (?). When the head noun is the patient of the verb in the relative clause, it is only expressed with verb agreement.
 
     (A.#) ??? ??? ???????
           ???  ??? ???????
@@ -2303,7 +2262,7 @@ While the above examples happen to show this with a transitive verb, the same re
 
 ### <a name="color_terms"></a>A.B. Color terms <a href="#table_of_contents">^</a>
 
-\[Basic color terms, derived color terms, more specific color terminology\]
+\[Basic color terms, derived color terms, more specific color terminology\] (?)
 
 ### <a name="kinship_terminology"></a>A.B. Kinship terminology <a href="#table_of_contents">^</a>
 
@@ -2324,8 +2283,6 @@ The charts on the next two pages compare the kin terms used in Ekhwachil to thei
 2. Terms for members of ego's clan come before non-members
 3. Terms for female relatives come before terms for male relatives
 4. Terms for closer relatives come before more distant relatives
-
-\[unclear what the deal is with cousins removed\] (?)
 
 <table>
     <tr>

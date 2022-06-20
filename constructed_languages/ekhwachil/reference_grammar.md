@@ -2,7 +2,7 @@
 
 <link type="text/css" rel="stylesheet" href="../../stylesheets/ekhwachil.css">
 
-## <a name="table_of_contents"></a>Table of Contents
+## <a name="table_of_contents"></a>Table of contents
 
 - [A. Introduction](#introduction)
   - [A.B. Goals and use of the language](#goals_and_use)
@@ -74,7 +74,7 @@
 - [A. Texts](#texts)
   - [A.B. Introduction](#texts_introduction)
 
-<i>Both this reference grammar and the language itself are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. I have a post explaining that <a href="/constructed_canguages/copyrighting_conlangs.html">here</a></i>.
+<i>Both this reference grammar and the language itself are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. I have a post explaining that <a href="/constructed_languages/copyrighting_conlangs.html">here</a></i>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 

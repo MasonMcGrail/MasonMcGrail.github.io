@@ -33,17 +33,23 @@ Advancing yourself means little if it's at the expense of your mental health. Yo
 The following is a list of ways to earn credits. Each option, when completed, earns you either 1 silver or 1 gold, which are the two types of credits. The differences between the two types are detailed in the next section.
 
 #### 3.1. Being on your grind
-*Earns 1 gold*<br>
+
+*Earns 1 gold*
+
 You spend an hour doing paid activity. Paid time off, including taking breaks in the workday and taking parental leave, counts as time spent doing paid activity.
 
 #### 3.2. Developing yourself
-*Earns 1 silver*<br>
+
+*Earns 1 silver*
+
 You make the effort to do an hour's worth of activity that does not make you money but advances you personally or professionally, such as exercising, filling out paperwork, responding to emails, or learning or maintaining skills.
 
 Note that this refers to an hour's *worth* of activity and not just an hour *spent*. Be honest with yourself about whether you did an hour's worth of work or if you were mostly distracted and didn't get much done.
 
 #### 3.3. Sleeping regularly
-*Earns 1 silver*<br>
+
+*Earns 1 silver*
+
 You go to sleep no more than 30 minutes later than you intended, and you start your day no more than 30 minutes after the time you intended.
 
 #### 3.4. Note: Using smaller intervals
@@ -98,7 +104,7 @@ This person might spend all of their silver for 2 hours of time immediately beca
 
 This system is meant to incentivize you to do more of what you think that you should be doing. Each person's goals and priorities are different, and additional ways to earn credits can be made to achieve them.
 
-For example, I included **Sleeping regularly** as a way to earn credits because I was struggling to commit to going to bed at a reasonable hour. Now that I'm rewarded in some way for it, I find it much easier, and I rarely turn in very late.
+For example, I included **Sleeping regularly** as a way to earn credits because I was struggling to commit to going to bed at a reasonable hour. Now that I'm rewarded in some way for it, I find it much easier, and I rarely turn in very late these days.
 
 ### B.1. When you're not paid by the hour
 

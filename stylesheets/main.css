@@ -1,0 +1,30 @@
+:root {
+    --off-white:      hsl(225, 0%, 95%);
+    --off-black:      hsl(225, 0%,  5%);
+    --off-grey-light: hsl(225, 0%, 80%);
+    --off-grey-dark:  hsl(225, 0%, 20%);
+}
+
+body { background-color: var(--off-grey-dark);  color: var(--off-grey-light); }
+
+a { color: var(--off-white); }
+
+.main-content h1, .main-content h2,
+.main-content h3, .main-content h4,
+.main-content h5, .main-content h6 { color: var(--off-grey-light); }
+
+.main-content .highlight pre {
+    background-color: var(--off-black);
+    border: 2px solid var(--off-grey-light);
+    border-radius: 0.5rem;
+}
+
+div.highlight { background-color: var(--off-grey-dark); }
+
+.main-content pre>code { color: var(--off-grey-light); }
+
+.main-content table th, .main-content table td {
+    border: 2px solid var(--off-grey-light);
+    background-color: var(--off-black);
+    color: var(--off-grey-light);
+}

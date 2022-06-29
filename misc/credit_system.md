@@ -62,7 +62,7 @@ Below is a list of things that you can spend 1 credit to buy. Silver can be exch
 
 #### 4.1. Money
 
-You can spend 1 gold to take an amount of money from your reserve  and spend it on whatever you want to buy. This amount is  equal to 5% of what you earn in an hour, on average, in a typical workweek, after taxes.
+You can spend 1 gold to take an amount of money from your reserve  and spend it on whatever you want to buy. This amount is  equal to 5% of what you earn in an hour, on average, in a typical workweek, before taxes.
 
 #### 4.2. Free time 
 
@@ -90,7 +90,7 @@ In allowing credits to be exchanged for money, it was important to have the mone
 
 In one day of work, you might earn 8 gold and spend 2 of it on time, leaving a remainder of 6 gold, and over a 5-day workweek that would be a net gain of 30 gold. Assuming an hourly wage of $20/hour and a rate of 1 gold per 5% of hourly wage, 30 gold would get you $30. In other words, you could treat yourself to something ≤$30 every week, or you could save up for a month to buy something ≤$120.
 
-I set the rate of 5% because I don't want many things in the first place. This is well below the common advice that 20%-30% of your income should be spent on what you want. If, for you, 5% is too low or applying the rate after taxes is too harsh, feel free to increase the rate for your purposes.
+I set the rate of 5% because I don't want many things in the first place. This is well below the common advice that 20%-30% of your income should be spent on what you want. If 5% is too low for you, feel free to increase the rate for your purposes.
 
 #### A.1.2. Time exchange rates
 

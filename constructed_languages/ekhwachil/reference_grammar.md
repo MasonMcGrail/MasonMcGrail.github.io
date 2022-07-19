@@ -179,16 +179,15 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | ∅    | null morpheme                | IMP  | imperative mood             |
 | 1    | first person                 | IN   | inclusive                   |
 | 2    | second person                | INAN | inanimate                   |
-| 3    | third person                 | INCH | inchoative aspect           |
-| A    | set A (ergative, possessive)<sup>1</sup>  | IND  | indicative mood             |
-| ABIL | abilitative mood             | INTR | intransitive                |
-| ADV  | _adverb_                     | ITV  | intensive/iterative         |
-| ANIM | animate                      | M    | _masculine_                 |
-| AP   | antipassive voice            | MED  | medial                      |
-| ASC  | associative plural           | NEG  | negation, negative          |
-| AUG  | _augmentative_               | NHAN | non-human animate           |
-| CAUS | causative                    | NMZ  | nominalizer, nominalization |
-| CESS | cessative aspect             | P    | set P (absolutive)<sup>1</sup>           |
+| 3    | third person                 | INC  | inceptive aspect            |
+| A    | set A (ergative, possessive)<sup>1</sup>  | INTR | intransitive                |
+| ABIL | abilitative mood             | ITV  | intensive/iterative         |
+| ADV  | _adverb_                     | M    | _masculine_                 |
+| ANIM | animate                      | MED  | medial                      |
+| AP   | antipassive voice            | NEG  | negation, negative          |
+| ASC  | associative plural           | NHAN | non-human animate           |
+| AUG  | _augmentative_               | NMZ  | nominalizer, nominalization |
+| CAUS | causative                    | P    | set P (absolutive)<sup>1</sup>           |
 | CLF  | classifier                   | PFV  | perfective aspect           |
 | COMP | complementizer               | PL   | plural                      |
 | COP  | copula                       | PROG | progressive aspect          |
@@ -479,8 +478,8 @@ Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?
           'blood and sweat'
 
     (A.#) ????? ??? ??? ?????
-          ?????          ??? ???  ?????
-          PFV:P3SG:stand and INCH PFV:P3SG:walk
+          ?????          ??? ??? ?????
+          PFV:P3SG:stand and INC PFV:P3SG:walk
           'He stood and started to walk away'
 
     (A.#) ??????? ??? ??? ??? ??? Oshan ????? ??? ???
@@ -882,7 +881,7 @@ Patients are indexed on the verb using the patient slot, and suffixes are used t
 
 ### <a name="verbal_aspect"></a>A.B. Aspect <a href="#table_of_contents">^</a>
 
-Dynamic verbs may be marked for one or more of the following six aspects: perfective, progressive, iterative, habitual, inchoative, and cessative. Morphologically, these aspects are variously marked by null, prefixes, reduplication, and preverbal particles. Their main functions are described below.
+Dynamic verbs may be marked for one or more of the following five aspects: perfective, progressive, iterative, habitual, and inceptive. Morphologically, these aspects are variously marked by null, prefixes, and reduplication. Their main functions are described below.
 
 #### A.B.C. Perfective aspect
 
@@ -895,7 +894,7 @@ The perfective aspect is used to refer to events that are conceived of as a boun
 
 #### A.B.C. Progressive aspect
 
-The progressive aspect is generally used to refer to events that are incomplete, in progress, or otherwise ongoing. It is marked by the prefix (?).
+The progressive aspect is generally used with dynamic verbs to refer to events that are incomplete, in progress, or otherwise ongoing. It is marked by the prefix (?).
 
     (A.#) ??????? ??? ??????? ??? ?????
           ???????       ???  ??-  ?????      ??? ?????
@@ -957,16 +956,16 @@ This reduplication marks the iterative aspect only for telic verbs. Its other fu
 
 #### A.B.C. Habitual aspect
 
-The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the rime of the last syllable being reduplicated to its right. \[*-lak- > *-lakak-, *-amé- > *-ameé-, etc. (?)\]
+The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the rime of the last syllable being reduplicated to its right. When the last syllable of the verb stem is open, instead the last entire last syllable is reduplicated. \[*-lak- > *-lakak-, *-ome- > *-omeme-, etc. (?)\]
 
     (A.#) ??????? ????? ??? ??? ???
           ?????       ~??? ?????       ???    ???    ???
           P3SG:wake.up~HAB mother:A1SG LOC(?) DEF.SG sunrise(?)
           'My mother wakes up at sunrise'
 
-    (A.#) ??? ????????? ?????
-          ???          ?????                ~???-??   ?????
-          last.year(?) P3SG:carry.on.back(?)~HAB-A2SG son:A2SG
+    (A.#) ???, ????????? ??? ?????
+          ???          ?????                ~???-??   ???    ?????
+          last.year(?) P3SG:carry.on.back(?)~HAB-A2SG DEF.SG son:A2SG
           'Last year, you would carry your son on your back'
 
 When the subject or agent of the verb is topicalized, this aspect can be interpreted as habitual or gnomic, expressing general truths. A gnomic reading is blocked by the presence of a deictic temporal adverbial and is otherwise conditioned by context.
@@ -981,43 +980,46 @@ When the subject or agent of the verb is topicalized, this aspect can be interpr
           last.month(?) DEF.SG tiger P3SG:roar~HAB
           'Last month, the tiger would roar', not *'Last month, tigers roar (as a general truth)'
 
-#### A.B.C. Inchoative aspect
+#### A.B.C. Inceptive aspect
 
-The inchoative aspect is used to refer to events that are beginning or starting. This aspect is expressed with a preceding word, and it can be combined with other aspects to make more granular distinctions. For stative verbs, it indicates entry into that state and has a meaning similar to the English "to become".
+The inceptive aspect is used to refer to events that are beginning or starting. This aspect is expressed with a preceding word, and it is marked by the prefix ??. For dynamic verbs, it combines freely with the habitual and iterative aspects, but it can only combine with the progressive aspect with periphrasis.
 
-    (A.#) ??? ????? ??? ???
-          ???  ?????        ???    ???
-          INCH PFV:P3SG:run DEF.SG girl
+    (A.#) ??????? ??? ???
+          ??- ?????    ???    ???
+          INC-P3SG:run DEF.SG girl
           'The girl started to run'
 
-    (A.#) ??? ??????? ??? ???
-          ???  ???????       ???    ???
-          INCH PROG:P3SG:run DEF.SG girl
-          'The girl is starting to run'
+    (A.#) ????????? ??? ??? ???
+          ??- ???????       ??? ???    ???
+          INC-P3SG:wake:HAB LOC DEF.SG dawn
+          'He started waking up at dawn'
 
-    (A.#) ??? ?????
-          ???  ?????
-          INCH P3PL:be.afraid
+    (A.#) ??? ??????? ??? ??? ??-???????
+          ???   ???????               ???    ???   ??- ???????
+          after PFV:P3SG:suck(?):A1SG DEF.SG smoke INC-P1SG:ITV:cough
           'They become afraid/fearful'
 
-#### A.B.C. Cessative aspect
+    (A.#) ????????? ??? ??? ??? ???
+          ?????????            ???    ??? ???    ???
+          PROG:P3SG:begin:A3SG DEF.SG run DEF.SG girl
+          'The girl is starting to run'
 
-The cessative aspect is used to refer to events that are ending. This aspect has the same syntactic properties as the inchoative aspect, and it can likewise be used with other aspects.
+For stative verbs, it indicates entry into that state and has a meaning similar to the English "to become". More precisely, it might be said that this prefix marks both the inceptive and inchoative aspects, but I will continue to refer to its aspectual range as just 'inceptive' for simplicity. Unlike for dynamic verbs, it does not combine with other aspects.
 
-    (A.#) ??? ????? ??? ???
-          ???  ?????        ???    ???
-          CESS PFV:P3SG:run DEF.SG girl
-          'The girl stopped running'
+    (A.#) ???????
+          ??- ?????
+          INC-P3PL:be.afraid
+          'They became afraid'
 
-    (A.#) ??? ??????? ??? ???
-          ???  ???????       ???    ???
-          CESS PROG:P3SG:run DEF.SG girl
-          'The girl is ceasing to run'
+    (A.#) ??? ??????? ??? ??? ???
+          ??? ??- ?????        ???    ???    ???
+          FUT INC-P3SG:be.easy LOC(?) DEF.SG summer
+          'It will be easier in the summer'
 
-    (A.#) ??? ?????
-          ???  ?????
-          CESS P3PL:be.afraid
-          'They stopped being afraid/fearful'
+    (A.#) ??? ??? ???????
+          ???    ???     ??- ?????
+          DEF.SG outside INC-P3SG:be.dark
+          'It got dark outside'
 
 ### <a name="verbal_negation"></a>A.B. Negation <a href="#table_of_contents">^</a>
 
@@ -1053,8 +1055,8 @@ Additionally, this particle is used to negate nominal predicates as well as adje
           'That over there isn't a tiger'
 
     (A.#) ??? ????? ??? ??? ??? ??? ??? ???
-          ???  ?????         ???    ???     ??? ???    ???   ???
-          INCH PFV:P3SG:walk DEF.SG bear(?) NEG afraid to(?) 1PL.EX
+          ??? ?????         ???    ???     ??? ???    ???   ???
+          INC PFV:P3SG:walk DEF.SG bear(?) NEG afraid to(?) 1PL.EX
           'The unafraid bear started to walk towards us'
 
 #### A.B.C. Negative imperatives
@@ -1104,23 +1106,23 @@ When acting attributively, adjectives lose most verb morphology, including agree
 
 ### <a name="adjectival_inflection"></a>A.B. Adjectival inflection <a href="#table_of_contents">^</a>
 
-#### A.B.C. Nominal inflection
+#### A.B.C. Adjectives without head nouns
 
-Adjectives appearing without their head nouns take one of two nominalizing prefixes, (?) or (?), based on the animacy of the omitted noun.
+An attributive adjective may occur with no overt head noun when the noun is contextually retrievable or considered unimportant. When this happens, the bare adjective stands as the head of the noun phrase and can take Set A markers like a noun.
 
-    (A.#) ????????? ???????
-          ?????????          ???- ?????
-          IMP:P3SG:give:A2SG NMLZ-red:A1SG(?)
+    (A.#) ????????? ?????
+          ?????????          ?????
+          IMP:P3SG:give:A2SG red:A1SG
           'Give me a red one'
 
-    (A.#) ??? ????? ????? ??? ?????
-          ???    ???- ???   ?????             ???  ?????
-          DEF.PL NMLZ-small P3PL:be.delicious from PL:that
+    (A.#) ??? ??? ????? ??? ?????
+          ???    ???   ?????             ???  ?????
+          DEF.PL small P3PL:be.delicious from PL:that
           'The small ones taste better than those'
 
-    (A.#) ??? ????? ???????
-          ???    ???- ??? ???????
-          DEF.PL NMLZ-big P3PL:ITV:be.dangerous
+    (A.#) ??? ??? ???????
+          ???    ??? ???????
+          DEF.PL big P3PL:ITV:be.dangerous
           'Big ones are very dangerous'
 
 
@@ -1287,8 +1289,8 @@ The reflexive is not used when originally, the A is acting on a P that it posses
 Additionally, (?) can be used as an intensifier, in which case it can be used adnominally or adverbally.
 
     (A.#) ????? ??? ??? ????????? ?????
-          ?????       ???  ???  ?????????              ?????
-          sister:A1SG REFL INCH PROG:P3SG:grow(?):A3SG bamboo.forest(?):A3SG
+          ?????       ???  ??? ?????????              ?????
+          sister:A1SG REFL INC PROG:P3SG:grow(?):A3SG bamboo.forest(?):A3SG
           'My sister is starting to grow her own bamboo forest(?)'
 
     (A.#) ??? ??? ??????? ??? ???
@@ -1836,12 +1838,7 @@ To express that two things are the same, they are usually simply juxtaposed with
           that responsibility:A1PL.EX
           'It/that is our responsibility'
 
-In line with other predicates, they will generally be translated as being in the present tense throughout this document except in the examples immediately above. Even without an overt copula, the nominal predicate takes non-inflectional verb morphology, including the negative particle (?), the inchoative aspect particle (?), and the mood particles (?) and (?). They can also be relativized in the same way.
-
-    (A.#) ??? ????? ??? ??? ??? ???
-          ???    ?????         ??? ???  ???    ???
-          DEF.SG daughter:A2PL EPI INCH leader noble
-          'Your daughter should be a noble leader'
+In line with other predicates, they will generally be translated as being in the present tense throughout this document except in the examples immediately above. Even without an overt copula, the nominal predicate takes non-inflectional verb morphology, including the negative particle (?), and the mood particles (?) and (?). They can also be relativized in the same way.
 
     (A.#) ??? ??? ??? ???
           ??? ??? ??? ???
@@ -1907,13 +1904,15 @@ When the verbs in two clauses share at least one argument, that argument can usu
 
 Otherwise, when verb agreement and semantics don't make clear how to interpret the second clause when an argument is deleted, there are two patterns of deletion. In the first pattern, which is used when no argument is topicalized, coordination is syntactically ergative; it can be deleted if it is a P in the second clause. In the second pattern, which is used when an argument is topicalized, coordination is syntactically accusative; it can be deleted if it is an S or A in the second clause.
 
+In practice, this is a strong tendency rather than an absolute rule. More accurately, the patterns describe the default interpretation without further context, but the interpretation can change if more information is made available.
+
 #### <a name="coreferential_deletion_unique"></a>A.B.C. Deleting a grammatically or semantically unique argument <a href="#table_of_contents">^</a>
 
 As in many head-marking languages, an argument can be deleted regardless of its syntactic role when agreement patterns keep the information unambiguous.
 
     ??????? ??? ??? ?????
-    ???????           ??? ???  ?????
-    PFV:P3PL:see:A1SG and INCH PFV:P1SG:run
+    ???????           ??? ??? ?????
+    PFV:P3PL:see:A1SG and INC PFV:P1SG:run
     'I saw them and I started to run'
 
 The same applies for verb semantics and context. In the example below, the two available arguments are the boulder and the tiger, and while syntactically it would be expected that the boulder would be coordinated, instead it is the tiger that is. Because the tiger is animate and the boulder is not, and because the tiger presumably suffered a possibly mortal injury from the boulder having fallen on it, it is the only argument that can satisfy (?), 'to die'.

@@ -43,7 +43,7 @@
   - [A.B. Introduction](#articles_introduction)
   - [A.B. The proper article (?)](#proper_article)
   - [A.B. The definite articles (?) and (?)](#definite_articles)
-  - [A.B. The additive plural article (?)](#additive_plural)
+  - [A.B. The indefinite plural article (?)](#indefinite_plural)
   - [A.B. The associative plural article (?)](#associative_plural)
 - [A. Prepositions and particles](#prepositions_particles)
   - [A.B. Introduction](#prepositions_particles_introduction)
@@ -458,7 +458,7 @@ Verb agreement patterns in Ekhwachil are uniformly ergative-absolutive.
           PFV-P3SG-wait:A1PL.EX
           'We waited for him'
 
-There is no case marking, and when there are multiple explicit arguments, their roles are made clear through word order.
+There is no case marking, and when there are multiple explicit arguments, their roles are usually made clear through word order.
 
     (A.#) ????????? ??? ??? ??? ???
           ?????????            ???    ???       ???    ???
@@ -482,10 +482,10 @@ Noun phrases, verb phrases, and clauses can be coordinated by the conjunction (?
           PFV:P3SG:stand and INC PFV:P3SG:walk
           'He stood and started to walk away'
 
-    (A.#) ??????? ??? ??? ??? ??? Oshan ????? ??? ???
-          ???????                  ???    ???  ??? ???  Oshan  ?????        ???    ???
+    (A.#) ??????? ??? ??? ??? ??? Osha ????? ??? ???
+          ???????                  ???    ???  ??? ???  Osha   ?????        ???    ???
           PFV:P3SG:open.TR(?):A1SG DEF.SG door and PROP (name) PFV:P3SG:run LOC(?) 1SG
-          'I opened the door and Oshan ran up to me'
+          'I opened the door and Osha ran up to me'
 
 Polar questions are marked by the interrogative particle (?) at the beginning of the clause, and interrogative words in content questions are fronted.
 
@@ -511,7 +511,7 @@ Comparatives are expressed using the preposition (?), 'from'.
 
 ### <a name="phonology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
-This section is an overview of the phonology of Ekhwachil. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this section, I cover details of morphophonology, which mostly deals with assimilatory processes, and I provide some evidence for my analysis of the inventory.
+This section is an overview of the phonology of Ekhwachil. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this section, I cover details of morphophonology, which mostly deals with one assimilatory process, and I provide some evidence for my analysis of the inventory.
 
 While Exwachil does not have a written form, in this work it will be represented with a romanization. The romanization for phonemes will be noted in the tables of its consonant and vowel inventories. If the same symbols used to represent a phoneme in the IPA and the romanization, they are not repeated. Otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
 
@@ -584,19 +584,17 @@ Figure A. _Consonant phonemes._
 
 #### A.B.C Allophonic variation in consonants
 
-All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second-to-last rule specifies that /ixka/ would be realized as \[içka\], but /ikax/ would be realized as \[ikax\] and not *\[ikaç\].
+All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second-to-last rule specifies that /aku/ would be realized as \[akʷu\], but /xinu/ would be realized as \[xinu\] and not *\[xʷinu\].
 
 - Voiceless stops and affricates may be slightly aspirated word-initially.
 - Voiced stops are fully voiced in all positions, including word-initially.
 - /dʒ/ is realized as \[ʒ\] in free variation (?).
-- Plain velars and before labialized consonants and rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\], and /aŋxʷe/ is is realized as \[aŋʷxʷe\].
-- /x/ is realized as \[ç\] in coda position after /i/.
+- Plain velars before rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\].
 - /l/ is realized as \[ɾ\] before front vowels in free variation.
 
 #### A.B.C. Romanization notes for consonants
 
-- Labialization is not indicated where it is not contrastive. For example, because they do not contrast, /gu/ and /gʷu/ are both spelled as ⟨gu⟩ and not \*⟨gwu⟩, and /oŋkʷa/ is spelled as ⟨ongkwa⟩ and not \*⟨ongwkwa⟩.
-- /ŋ/ is always spelled ⟨ng⟩, regardless of environment. For example, ⟨inge⟩, ⟨angko⟩, and ⟨unggwa⟩ respectively represent /iŋe/, /aŋko/, and /uŋgʷa/.
+- Labialization is not indicated where it is not contrastive. For example, because they do not contrast, /gu/ and /gʷu/ are both spelled as ⟨gu⟩ and not \*⟨gwu⟩.
 
 ### <a name="vowels"></a>A.B. Vowels <a href="#table_of_contents">^</a>
 
@@ -635,8 +633,8 @@ Figure A. _Vowel phonemes._
 
 Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ are in complementary distribution.
 
-- The vowel /e ~ ɛ/ is pronounced as \[e\] in open syllables and before coda /j/, but not after /j/. It is pronounced as \[ɛ\] after /j/ as well as in closed syllables.
-- The vowel /o ~ ɔ/ is pronounced as \[o\] in open syllables and as \[ɔ\] in closed syllables.
+- The vowel /e ~ ɛ/ is pronounced as \[e\] in stressed syllables, but not after /j/. After /j/ and in unstressed syllables, it is pronounced as \[e ~ ɛ\] in free variation.
+- The vowel /o ~ ɔ/ is pronounced as \[o\] in stressed syllables and as \[o ~ ɔ\] in unstressed syllables in free variation.
 
 #### A.B.C. Romanization notes for vowels
 
@@ -646,39 +644,24 @@ Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ are in compl
 
 Stress in Ekhwachil is not lexically phonemic. Primary stress falls on the last syllable of the stem of almost(?) all words, and secondary stress falls on every alternate syllable such that one with primary stress is never adjacent to one with secondary stress. Stressed and unstressed syllables have roughly the same length and volume, with the greatest difference between them being pitch.
 
-Set A markers do not attract stress, which stays on the last syllable of the stem. In practice, this means that almost(?) all words without Set A markers have primary stress on the ultimate syllable, and those with Set A markers have it on either the ultimate or penultimate syllable. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
+Set A markers do not attract stress, which stays on the last syllable of the stem. In practice, this means that almost(?) all words without Set A markers have primary stress on the ultimate syllable, and those with Set A markers have it on either the penultimate or antepenultimate syllable. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
 
 ### <a name="phonotactics"></a>A.B. Phonotactics <a href="#table_of_contents">^</a>
 
-The syllable structure of Ekhwachil is as follows:
-
-    (C) V (A/j)
-
-    C = any consonant
-    V = any vowel
-    A = /m/, /n/, /ŋ/, /s/, /ʃ/, /x/, or /l/
-
-Some examples of possible syllables are listed below:
-
-    V       ?       '[word]'
-    CV      ??      '[word]'
-    V?      ??      '[word]'
-    CV?     ???     '[word]'
+The syllable structure of Ekhwachil is (C)V; a syllable may have any one consonant in the onset, and it must have one vowel in the nucleus. Consonant clusters do not occur, and neither vowel length nor consonant length are phonemic.
 
 #### A.B.C. Phonotactic restrictions
 
-In the onset of a syllable, /j/ does not occur if its nucleus is /i/. Every other sequence of segments that follows the syllable structure outlined in the previous section is permitted. Consonant clusters occur, but only at syllable boundaries.
+In the onset of a syllable, /j/ does not occur if its nucleus is /i/. Every other sequence of segments that follows the syllable structure outlined in the previous section is permitted. 
 
 <table>
     <tr>
         <th>Onset</th>
         <th>Nucleus</th>
-        <th>Coda</th>
     </tr>
     <tr>
         <th>(C)</th>
         <th>V</th>
-        <th rowspan=2>(A)</th>
     </tr>
     <tr>
         <td>any onset other than /j/</td>
@@ -687,7 +670,6 @@ In the onset of a syllable, /j/ does not occur if its nucleus is /i/. Every othe
     <tr>
         <td>any onset</td>
         <td>/e/, /a/,<br>/o/, /u/</td>
-        <td>any coda</td>
     </tr>
 </table>
 
@@ -695,19 +677,7 @@ Figure A. _Possible syllable shapes, which differ based on their preceding onset
 
 ### <a name="morphophonology"></a>A.B. Morphophonology <a href="#table_of_contents">^</a>
 
-This section describes the assimilatory processes of the language that surface as a result of affixation and compounding.
-
-#### A.B.C. Nasal assimilation
-
-The following assimilatory processes occur when nasals immediately precede other consonants.
-
-- /m/ assimilates to \[n\] before dental consonants.
-- /n/ assimilates in place before all occlusives. Before postalveolar consonants, it it becomes postalveolar \[n̠\] rather than palatal \[ɲ\].
-- /nj/ and /ŋj/ simplify to \[ɲ\].
-
-#### A.B.C. Voicing of fricatives
-
-Both /s/ and /ʃ/ become voiced before voiced obstruents. Rather than voicing, coda /x/ is deleted in this position, so /ax/ + /bo/ is realized as \[a.bo\], /o.ge/ as \[og.ge\], etc.
+This section describes the assimilatory processes of the language that surface as a result of affixation and compounding. Because the limited phonotactics prevent consonant clusters, most common assimilatory processes such as nasal assimilation do not occur. The only process that can be observed in a kind of sibilant harmony that is present throughout the language.
 
 #### A.B.C. Sibilant harmony
 
@@ -718,7 +688,7 @@ A well-formed root in Ekhwachil contains sibilants of only one type. They are ei
     ???     '[root with /ʃ/]' (?)
     *???    '[example root that is disallowed]' (?)
 
-For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any postalveolar consonants, regardless of the number of intervening segments. Prefixes containing the postalveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become dental in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /(e)s/.
+For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any postalveolar consonants, regardless of the number of intervening segments. Prefixes containing the postalveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become dental in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /s(e)/.
 
     ??-???    '[root with no sibilants]'
     ??-???    '[root with /s/]'
@@ -731,7 +701,7 @@ While there are no counterexamples of root-internal harmony in the corpus, some 
 
 #### A.B.C. Romanization notes
 
-When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this means that the romanization will reflect nasal assimilation and sibilant harmony, but it will not reflect the voicing of fricatives.
+When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this just means that the romanization will reflect sibilant harmony.
 
 ### <a name="phonemic_analysis"></a>A.B. Phonemic analysis <a href="#table_of_contents">^</a>
 
@@ -869,14 +839,14 @@ A template for transitive verbs in Ekhwachil is given below.
 
 Patients are indexed on the verb using the patient slot, and suffixes are used to index agents onto the verb as well as to mark voice. Pronominal agent suffixes on verbs and possessive suffixes on nouns are formally identical.
 
-    (A.#) ??????? ?????
-          ?????        -??   ???    -???
-          PFV:P3SG:wake-A1SG husband-A1SG
+    (A.#) ??????? ??? ?????
+          ?????        -??   ???    ???    -???
+          PFV:P3SG:wake-A1SG DEF.SG husband-A1SG
           'I woke up my husband'
 
-    (A.#) ??? ??????? ?????¿
-          ??? ?????        -??   ???   -??
-          Q   PFV:P3SG:find-A2SG mother-A2SG
+    (A.#) ??? ??????? ???? ????¿
+          ??? ?????        -??   ???    ???   -??
+          Q   PFV:P3SG:find-A2SG DEF.SG mother-A2SG
           'Did you find your mother?'
 
 ### <a name="verbal_aspect"></a>A.B. Aspect <a href="#table_of_contents">^</a>
@@ -913,9 +883,9 @@ The progressive aspect is generally used with dynamic verbs to refer to events t
 
 For verbs that refer to mental states, such as (?) 'to know' or (?) 'to like', the progressive is used to refer to being in that mental state. Using one of these verbs in the perfective aspect refers to entry into its state.
 
-    (A.#) ??? ????????? ???????¿
-          ??? ??-  ???????        ???????
-          Q   PROG-P3SG:know:A2PL method(?):make:A3SG
+    (A.#) ??? ????????? ??? ???????¿
+          ??? ??-  ???????        ???    ???????
+          Q   PROG-P3SG:know:A2PL DEF.SG method(?):make:A3SG
           'Do you know how to make it?'
 
     (A.#) ????????? ??? ??? ??? ???
@@ -956,11 +926,11 @@ This reduplication marks the iterative aspect only for telic verbs. Its other fu
 
 #### A.B.C. Habitual aspect
 
-The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the rime of the last syllable being reduplicated to its right. When the last syllable of the verb stem is open, instead the last entire last syllable is reduplicated. \[*-lak- > *-lakak-, *-ome- > *-omeme-, etc. (?)\]
+The habitual aspect is used to refer to events that happen habitually or customarily. _\[unclear if this or the progressive aspect is more appropriate for 'living'\]_ (?). It is marked by partial reduplication of the verb stem, with the last VC sequence being reduplicated to its right. \[*-leka > *-lekeka, *-ome- > *-omome-, etc. (?)\]
 
-    (A.#) ??????? ????? ??? ??? ???
-          ?????       ~??? ?????       ???    ???    ???
-          P3SG:wake.up~HAB mother:A1SG LOC(?) DEF.SG sunrise(?)
+    (A.#) ??????? ??? ????? ??? ??? ???
+          ?????       ~??? ???    ?????       ???    ???    ???
+          P3SG:wake.up~HAB DEF.SG mother:A1SG LOC(?) DEF.SG sunrise(?)
           'My mother wakes up at sunrise'
 
     (A.#) ???, ????????? ??? ?????
@@ -972,17 +942,17 @@ When the subject or agent of the verb is topicalized, this aspect can be interpr
 
     (A.#) ??? ??? ???????
           ???    ???   ?????    ~???
-          DEF.SG tiger P3SG:roar~HAB
-          'The tiger roars', or 'Tigers roar'
+          DEF.PL tiger P3PL:roar~HAB
+          'The tigers roar', or 'Tigers roar'
 
     (A.#) ??? ??? ??? ???????
           ???           ???    ???   ?????    ~???
-          last.month(?) DEF.SG tiger P3SG:roar~HAB
-          'Last month, the tiger would roar', not *'Last month, tigers roar (as a general truth)'
+          last.month(?) DEF.PL tiger P3PL:roar~HAB
+          'Last month, the tigers would roar', not *'Last month, tigers roar (as a general truth)'
 
 #### A.B.C. Inceptive aspect
 
-The inceptive aspect is used to refer to events that are beginning or starting. This aspect is expressed with a preceding word, and it is marked by the prefix ??. For dynamic verbs, it combines freely with the habitual and iterative aspects, but it can only combine with the progressive aspect with periphrasis.
+The inceptive aspect is used to refer to events that are beginning or starting. It is marked by the prefix (?). For dynamic verbs, it combines freely with the habitual and iterative aspects, but it can only combine with the progressive aspect periphrastically.
 
     (A.#) ??????? ??? ???
           ??- ?????    ???    ???
@@ -1055,8 +1025,8 @@ Additionally, this particle is used to negate nominal predicates as well as adje
           'That over there isn't a tiger'
 
     (A.#) ??? ????? ??? ??? ??? ??? ??? ???
-          ??? ?????         ???    ???     ??? ???    ???   ???
-          INC PFV:P3SG:walk DEF.SG bear(?) NEG afraid to(?) 1PL.EX
+          ??? ?????         ???    ???     ??? ???    ???    ???
+          INC PFV:P3SG:walk DEF.SG bear(?) NEG afraid LOC(?) 1PL.EX
           'The unafraid bear started to walk towards us'
 
 #### A.B.C. Negative imperatives
@@ -1359,22 +1329,22 @@ Figure A. _Indefinite pronouns._
 This corresponds only to Haspelmath's 'specific known' category. These pronouns refer to indefinites that are both specific and known to the speaker. This series is formed by taking an interrogative pronoun and following it with an appropriate classifier.
 
     (A.#) ??????? ??? ??? ??? ??? ??? ??? ???
-          ???????            ???  ???      ???      ???   ???    ???  ???
-          PFV:P3SG:PASS:find what CLF.NHAN fearsome in(?) DEF.SG cave that
+          ???????            ???  ???      ???      ???    ???    ???  ???
+          PFV:P3SG:PASS:find what CLF.NHAN fearsome LOC(?) DEF.SG cave that
           'Something fearsome was found in that cave'
 
-    (A.#) ??????? ??? ??????? ??? ??? ??? ?????
-          ???????                ???  ???????       ??? ???     ???  ?????
-          PFV:P3SG:watch(?):A1SG COMP PROG:P3SG:run who CLF.HUM from house:A3SG
+    (A.#) ??????? ??? ??????? ??? ??? ??? ??? ?????
+          ???????                ???  ???????       ??? ???     ???  ???    ?????
+          PFV:P3SG:watch(?):A1SG COMP PROG:P3SG:run who CLF.HUM from DEF.SG house:A3SG
           'I watched someone running out of his house'
 
 #### A.B.C. The B-series
 
 The B-series corresponds to four of Haspelmath's categories: 'specific unknown', 'irrealis non-specific', 'polar question', and 'conditional protasis'. The pronouns of this series are identical in form to the interrogative pronouns. Like its name suggests, the 'specific unknown' category refers to indefinites that are specific but unknown to the speaker.
 
-    (A.#) ????? ??? ????? ???
-          ?????      ???  ?????         ???
-          sound:A3SG COMP PFV:P3SG:fall what
+    (A.#) ??? ????? ??? ????? ???
+          ???    ?????      ???  ?????         ???
+          DEF.SG sound:A3SG COMP PFV:P3SG:fall what
           'sound of something falling'
 
     (A.#) ??? ????????? ???
@@ -1396,9 +1366,9 @@ The 'irrealis non-specific' category refers to indefinites that are both non-spe
 
 The 'polar question' category refers to indefinites that are used in affirmative polar questions.
 
-    (A.#) ?????! ??? ?????¿ ??? ??????? ???¿
-          ?????     ??? ?????        ??? ???????               ???
-          face:A2SG Q   P2SG:be.good Q   PFV:P2SG:hurt:A3SG(?) who
+    (A.#) ??? ?????¿ ??? ??????? ???¿
+          ??? ?????        ??? ???????               ???
+          Q   P2SG:be.good Q   PFV:P2SG:hurt:A3SG(?) who
           'Your face! Are you okay? Did someone hurt you?'
 
     (A.#) ??? ??????? ??? ??? ??? ???¿
@@ -1429,7 +1399,7 @@ The C-series corresponds to Haspelmath's 'indirect negation' and 'direction nega
 
     (A.#) ??? ??? ??? ??? ??? ???????
           ???    ??? ??? ???  ??? ???????
-          DEF.SG boy FOC what NEG P3SG(?):say:A3SG
+          DEF.SG boy FOC what NEG P3SG:say:A3SG
           'The boy didn't say anything'
 
 Like other focused arguments, a C-series pronoun always precedes the verb, and if it is originally an A, the verb is in the antipassive voice to promote it to the role of S.
@@ -1446,16 +1416,16 @@ Like other focused arguments, a C-series pronoun always precedes the verb, and i
 
 #### A.B.C. The D-series
 
-The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choice' categories, and its pronouns are formed by fully reduplicating interrogative pronouns. _\[Unlike the other series, (?)\]_ these pronouns are grammatically plural.
+The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choice' categories, and its pronouns are formed by fully reduplicating interrogative pronouns. Unlike the other series (?), these pronouns are grammatically plural.
 
-    (A.#) ????? ??? ????? ??? ??? ??????
-          ?????       ???    ?????        ???  ???  ???~???
-          P3SG:be.old DEF.SG town:A1PL.EX this from any~where
+    (A.#) ??? ????? ??? ????? ??? ??????
+          ???    ?????        ???  ?????       ???  ???~???
+          DEF.SG town:A1PL.EX this P3SG:be.old from any~where
           'This town of ours is older than anywhere (else)'
 
-    (A.#) ????????? ????? ?????
-          ?????????            ?????           ???~???
-          ABIL:P3SG:learn:A3PL method(?):weave any~who
+    (A.#) ????????? ??? ????? ?????
+          ?????????            ???    ?????           ???~???
+          ABIL:P3SG:learn:A3PL DEF.SG method(?):weave any~who
           'Anyone can learn how to weave'
 
     (A.#) ??? ????? ??? ??????? ??? ????? ??? ?????????
@@ -1521,7 +1491,7 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
 
 (?)
 
-### <a name="additive_plural"></a>A.B. The additive plural article (?) <a href="#table_of_contents">^</a>
+### <a name="indefinite_plural"></a>A.B. The indefinite plural article (?) <a href="#table_of_contents">^</a>
 
 The particle (?) is used to pluralize animate nouns that are not modified by any determiners. Its use is mandatory when plural reference is intended for such nouns.
 
@@ -1532,7 +1502,7 @@ The particle (?) is used to pluralize animate nouns that are not modified by any
 
     (A.#) ??????? ??? ???
           ???????              ??? ???
-          PFV:P3SG:pierce:A3SG PL  bee
+          PFV:P3SG:pierce:A3PL PL  bee
           'Bees stung him'
 
     (A.#) ??? ??? ??? ???
@@ -1557,9 +1527,9 @@ While (?) is obligatory for animate nouns, it is not permitted for inanimate nou
           PFV:P3PL:make:A1PL.EX PL  bowl LOC(?) DEF.SG room that
           Intended: 'We made bowls in that room'
 
-    (A.#) ?????
-          ?????
-          machete:A3PL
+    (A.#) ??? ?????
+          ???    ?????
+          DEF.PL machete:A3PL
           'their machete(s)'
 
     (A.#) * ??? ?????
@@ -1569,11 +1539,11 @@ While (?) is obligatory for animate nouns, it is not permitted for inanimate nou
 
 ### <a name="associative_plural"></a>A.B. The associative plural article (?) <a href="#table_of_contents">^</a>
 
-The particle (?) is used to refer to form associative plurals, which refer to a heterogenous set consisting of an individual and their associates. Basically anyone can be associated with this referential individual, including family, friends, and people who are of only casual or transient acquaintance. This is most commonly used with proper names and kinship terms, and like the additive plural particle, it is restricted to animate nouns.
+The particle (?) is used to refer to form associative plurals, which refer to a heterogenous set consisting of an individual and their associates. Basically anyone can be associated with this referential individual, including family, friends, and people who are of only casual or transient acquaintance. This is most commonly used with proper names and kinship terms, and like the indefinite plural particle, it is restricted to animate nouns.
 
-    (A.#) ????? ??? ?????
-          ?????           ??? ?????
-          PFV:P3PL:arrive ASC wife:A1SG
+    (A.#) ????? ??? ??? ?????
+          ?????           ??? ???    ?????
+          PFV:P3PL:arrive ASC DEF.SG wife:A1SG
           'My wife and her family/friends/associates arrived', or more simply, 'My wife and others arrived'
 
 ## <a name="prepositions_particles"></a>A. Prepositions and particles <a href="#table_of_contents">^</a>
@@ -1599,9 +1569,9 @@ The particle (?) is used to form polar questions.
           Q   P3PL:COP.HUM LOC(?) here
           'Are they here?'
 
-    (A.#) ??? ??? ???, ????? ??? ????? ????????? ??? ????? ??? ?????
-          ???   ???    ???   ?????           ???    ?????        ?????????           ??? ?????           ??? ?????
-          after DEF.SG storm PFV:P3SG:return LOC(?) village:A3SG SBJV:P3SG:know:A3SG Q   P3PL:be.safe(?) PL  family.member:A3SG
+    (A.#) ??? ??? ???, ????? ??? ??? ????? ????????? ??? ????? ??? ?????
+          ???   ???    ???   ?????           ???    ???    ?????        ?????????           ??? ?????           ??? ?????
+          after DEF.SG storm PFV:P3SG:return LOC(?) DEF.SG village:A3SG SBJV:P3SG:know:A3SG Q   P3PL:be.safe(?) PL  family.member:A3SG
           'After the storm, she returned to her village to see if her relatives were safe'
 
 
@@ -1701,7 +1671,7 @@ All classifiers can be directly quantified by numerals, and a numeral-classifier
           house three CLF.INAN
           'three houses'
 
-When a noun is quantified by a numeral-classifier phrase, it may not be preceded by the additive plural particle (?), even when the numeral is greater than 1.
+When a noun is quantified by a numeral-classifier phrase, it may not be preceded by the indefinite plural particle (?), even when the numeral is greater than 1.
 
     (A.#) ??? ???
           ??? ???
@@ -1734,9 +1704,9 @@ All nouns can take at least one classifier, though some take multiple. All nonhu
 
 Additionally, nonhuman animates that are essentially one- or two-dimensional can take the shape-based classifiers (?) and (?), respectively, with little change in meaning, aside from the fact that animals quantified with them may be alive or dead.
 
-    (A.#) ????? ??? ??? ???/??? ??? ??? ?????!
-          ?????         ???       ??? ???/???           ??? ???   ?????
-          P3SG:COP.NHAN manta.ray one CLF.NHAN/CLF.flat LOC under boat:A2PL
+    (A.#) ????? ??? ??? ???/??? ??? ??? ??? ?????!
+          ?????         ???       ??? ???/???           ??? ???   ???    ?????
+          P3SG:COP.NHAN manta.ray one CLF.NHAN/CLF.flat LOC under DEF.SG boat:A2PL
           'There's a manta ray under your boat!'
 
 Anything that is especially close to being one- or two-dimensional can always take the relevant classifier, but things that are less prototypical can only take the classifier when they are closer to being the shape than is expected. For example, (?) can always be used to quantify snakes, but it would be generally unacceptable to use for dogs. However, (?) might be used to refer to a dachshund to draw attention to how much longer it is than most other dogs. It also might be used to refer to a particularly lanky person to draw attention to their proportions. This more or less metaphorical usage is quite marked and is restricted to less formal registers.
@@ -1799,7 +1769,7 @@ Figure A. _The order of elements in a noun phrase. Elements marked with an aster
 
 #### A.B.C. Relationships between elements
 
-The additive and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase that possesses the head. When both a genitive is present along with a relative clause, it is ambiguous as to whether it is modifying the genitive or the head of the noun phrase.
+The indefinite and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase. When both a genitive and a relative clause are present, it is ambiguous as to whether it is modifying the genitive or the head of the noun phrase.
 
     (A.#) ??? ????? ??? ??? ??? ?????
           ???    ?????     ???    ???   ??? ?????
@@ -1828,9 +1798,9 @@ To express that two things are the same, they are usually simply juxtaposed with
           father:A1SG shaman
           'My father was/is/will be a shaman'
 
-    (A.#) ??? ??? ??? ???
-          ???    ???   ???    ???
-          DEF.SG tiger animal dangerous
+    (A.#) ??? ??? ??? ??? ???
+          ???    ???   ??? ???    ???
+          DEF.PL tiger PL  animal dangerous
           'Tigers were/are/will be dangerous animals'
 
     (A.#) ??? ?????
@@ -1937,9 +1907,9 @@ There are times when no combination of agreement marking, context, or verbal sem
           'The boulder hit a wall and (the wall) shattered'
 
     (A.#) ????? ??? ??? ??? ??????? ??? ???
-          ?????                 ???    ???       ??? ???????            ???    ???
-          PFV:P3SG:fall.down(?) DEF.SG hunter(?) and PFV:P3SG:kill:A3SG DEF.SG bear
-          'The hunter fell down and the bear killed him'
+          ?????          ???    ???       ??? ???????            ???    ???
+          PFV:P3SG:stand DEF.SG hunter(?) and PFV:P3SG:kill:A3SG DEF.SG bear
+          'The hunter stood up and the bear killed him'
 
 However, when an S or A is topicalized, it is only deleted in the second clause when it is an S or A there as well.
 
@@ -1954,9 +1924,9 @@ However, when an S or A is topicalized, it is only deleted in the second clause 
           'The boulder hit a wall and (the boulder) shattered'
 
     (A.#) ??? ??? ????? ??? ??????? ??? ???
-          ???    ???       ?????                 ??? ???????            ???    ???
-          DEF.SG hunter(?) PFV:P3SG:fall.down(?) and PFV:P3SG:kill:A3SG DEF.SG bear
-          'The hunter fell down and killed the bear'
+          ???    ???       ?????          ??? ???????            ???    ???
+          DEF.SG hunter(?) PFV:P3SG:stand and PFV:P3SG:kill:A3SG DEF.SG bear
+          'The hunter stood up and killed the bear'
 
 In the case where the shared NP is an O in the first clause and an A in the second, it may be deleted if the verb in the second clause is rendered in the antipassive voice, but it is equally possible to just restate the argument.
 
@@ -2021,11 +1991,11 @@ In Type I noun incorporation, a P is incorporated into a transitive or intransit
     ??? ??? ??????? ???
     ???    ???       ???????       ???
     DEF.SG (bat sp.) PROG:P3SG:eat peach
-    'The bat is peach-eating'
+    'The bat is eating peaches'
 
     ??? ??? ????????? ??? ???
-    ???    ???       ?????????          ???    ???
-    DEF.SG (bat sp.) PROG:P3PL:eat:A3SG DEF.PL peach
+    ???    ???       ?????????          ??? ???
+    DEF.SG (bat sp.) PROG:P3PL:eat:A3SG PL  peach
     'The bat is eating peaches'
 
 The main purpose of Type I NI is to lexicalize an institutionalized or otherwise recognized activity.
@@ -2165,9 +2135,9 @@ When applied in NI constructions, these voices have the same restrictions as the
     DEF.PL person PL:this REL PROG:P3PL:bury:AP rice with DEF.PL family:A3PL
     'these people who are planting rice for their families'
 
-    ??? ??? ????? ??? ????????? ??? ??? ????? ?????
-    ???    ???    ?????   ??? ?????????         ???  ???    ?????     ?????
-    DEF.PL person PL:this REL PROG:P3PL:bury:AP with DEF.PL rice:A3PL family:A3PL
+    ??? ??? ????? ??? ????????? ??? ????? ??? ?????
+    ???    ???    ?????   ??? ?????????         ???  ?????     ???    ?????
+    DEF.PL person PL:this REL PROG:P3PL:bury:AP with rice:A3PL DEF.PL family:A3PL
     'these people who are planting rice for their families'
 
 #### A.B.C. Reasons for the analysis as noun incorporation
@@ -2233,23 +2203,23 @@ NPs containing relative clauses often influence the order in which constituents 
 
 The examples below demonstrate this principle. The basic, unmarked order of constituents in a clause containing a transitive verb and an adjunct is verb-object-agent-adjunct.
 
-    (A.#) ??????? ????? ??? ??? ??? ???
-          ???????            ?????     ???    ??? ???    ???
-          PFV:P3SG:push:A3PL boat:A3PL DEF.PL man LOC(?) river
+    (A.#) ??????? ??? ????? ??? ??? ??? ???
+          ???????            ???    ?????     ???    ??? ???    ???
+          PFV:P3SG:push:A3PL DEF.SG boat:A3PL DEF.PL man LOC(?) river
           'The men pushed their boat into a river'
 
 The agent may be fronted and precede the verb without any additional marking due to being topicalized, and the adjunct may occur in any position between phrases, but the example above gives the most pragmatically neutral word order. When the NP involving the boat is made heavier by modifying it with an adjective and a relative clause, it causes the verb to be in the antipassive voice to facilitate fronting of the agent, though the adjunct is only somewhat more likely to precede the heavy NP than before.
 
-    (A.#) ??????? ??? ??? ??? ????? ??? ??? ??????? ??? ???
-          ???????            ???    ??? ???  [?????     ??? ??? ???????]           ???    ???
-          PFV:P3SG:push:A3PL DEF.PL man with [boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
+    (A.#) ??????? ??? ??? ??? ??? ????? ??? ??? ??????? ??? ???
+          ???????          ???    ??? ???  [???    ?????     ??? ??? ???????]           ???    ???
+          PFV:P3PL:push:AP DEF.PL man with [DEF.SG boat:A3PL new REL PFV:P3SG:buy:A3PL] LOC(?) river
           'The men pushed their new boat that they bought into a river'
 
 When the relative clause above is especially heavy, containing adjuncts or its own relative clauses, the adjunct is also fronted and appears before it.
 
-    (A.#) ??????? ??? ??? ??? ??? ??? ????? ??? ??? ??????? ??? ??? ??? ??? ?????????
-          ???????          ???    ??? ???    ???   ???  [?????     ??? ??? ???????           ???    [???    ???  ??? ?????????]]
-          PFV:P3PL:push:AP DEF.PL man LOC(?) river with [boat:A3PL new REL PFV:P3SG:buy:A3PL LOC(?) [DEF.SG town REL P3SG:visit:HAB:A3PL]]
+    (A.#) ??????? ??? ??? ??? ??? ??? ??? ????? ??? ??? ??????? ??? ??? ??? ??? ?????????
+          ???????          ???    ??? ???    ???   ???  [???    ?????     ??? ??? ???????           ???    [???    ???  ??? ?????????]]
+          PFV:P3PL:push:AP DEF.PL man LOC(?) river with [DEF.PL boat:A3PL new REL PFV:P3SG:buy:A3PL LOC(?) [DEF.SG town REL P3SG:visit:HAB:A3PL]]
           'The men pushed into a river their new boat that they bought in the town that they often visit'
 
 While the above examples happen to show this with a transitive verb, the same reordering can also be observed whenever any verb is followed by two or more overt arguments or adjuncts.

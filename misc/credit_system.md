@@ -132,7 +132,7 @@ When **Developing yourself** through exercise, you earn twice as many silver. In
 
 ### B.2. When you're not paid by the hour
 
-You may be paid an annual salary and not have an hourly wage. In this case, treat the average amount you make divided by your average number of worked hours in a typical week. So, if in an average week you work for 40 hours and make $1200, your hourly wage would be $30 an hour.
+You may be paid an annual salary and not have an hourly wage. In this case, take the average amount you make divided by your average number of worked hours in a typical week. So, if in an average week you work for 40 hours and make $1200, your hourly wage would be $30 an hour.
 
 Then, because your income is not proportional to how long you worked, neither is your gold. You automatically earn a full day's worth of gold at the end of every workday, regardless of how long you worked.
 

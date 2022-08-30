@@ -209,7 +209,7 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 
 ### <a name="geographic_demographic"></a>A.B. Geographic and demographic information <a href="#table_of_contents">^</a>
 
-Ekhwachi is a language of the (?) branch of the (?) language family. It is spoken by about 17,000 people on the island of (?), which is roughly the size of Sri Lanka. (?) is somewhat distant from other landmasses, and due to this as well the nature of the ocean currents that surround it, it has no contact with the outside world. The languages spoken there only have contact with each other, and Ekhwachi in particular has only had long-standing language contact with its closest relative, (?).
+Ekhwachi is a language of the (?) branch of the (?) language family. It is spoken by about 17,000 people on the island of (?), which is roughly the size of Sri Lanka. (?) is somewhat distant from other landmasses, and due to this as well the nature of the ocean currents that surround it, it has no contact with the outside world. The languages spoken there only have contact with each other, and Ekhwachi in particular has only had regular, long-term language contact with its closest relative, (?).
 
 #### A.B.C. The name 'Ekhwachi'
 
@@ -1078,21 +1078,21 @@ When acting attributively, adjectives lose most verb morphology, including agree
 
 #### A.B.C. Adjectives without head nouns
 
-An attributive adjective may occur with no overt head noun when the noun is contextually retrievable or considered unimportant. When this happens, the bare adjective stands as the head of the noun phrase and can take Set A markers like a noun.
+When a noun is contextually retrievable or considered unimportant, it can be omitted. When an omitted noun is modified by an adjective, an appropriate classifier must take its place to be modified. When this happens, the classifier stands as the head of the noun phrase and can take Set A markers like a noun.
 
-    (A.#) ????????? ?????
-          ?????????          ?????
-          IMP:P3SG:give:A2SG red:A1SG
+    (A.#) ????????? ????? ???
+          ?????????          ?????         ???
+          IMP:P3SG:give:A2SG CLF.INAN:A1SG red
           'Give me a red one'
 
-    (A.#) ??? ??? ????? ??? ?????
-          ???    ???   ?????             ???  ?????
-          DEF.PL small P3PL:be.delicious from PL:that
+    (A.#) ??? ??? ??? ????? ??? ?????
+          ???    ???      ???   ?????             ???  ?????
+          DEF.PL CLF.INAN small P3PL:be.delicious from PL:that
           'The small ones taste better than those'
 
-    (A.#) ??? ??? ???????
-          ???    ??? ???????
-          DEF.PL big P3PL:ITV:be.dangerous
+    (A.#) ??? ??? ??? ???????
+          ???    ???      ??? ???????
+          DEF.PL CLF.NHAN big P3PL:ITV:be.dangerous
           'Big ones are very dangerous'
 
 
@@ -1218,7 +1218,7 @@ These demonstratives have a three-way distance contrast of proximal/medial/dista
           PL:yon
           'those over there'
 
-The contrast between proximal/medial/distal is based on physical distance away from the speaker and doesn't account for the listener's position. In practice, the medial demonstratives are used most commonly for referents near the listener because the listener is rarely close or far enough away that the other forms would be appropriate. The medial demonstratives are also commonly used to refer to things that have already been mentioned in discourse.
+The contrast between proximal/medial/distal is based on physical distance away from the speaker and doesn't account for the listener's position. In practice, the medial demonstratives are used most commonly for referents near the listener because the listener is rarely close or far enough away that the other forms would be appropriate.
 
 ### <a name="reflexive_pronouns"></a>A.B. Reflexive pronouns <a href="#table_of_contents">^</a>
 
@@ -1740,7 +1740,7 @@ The only nouns that do not need classifiers to be quantified with numerals are t
 
 ### <a name="noun_phrase_structure"></a>A.B. Noun phrase structure <a href="#table_of_contents">^</a>
 
-The order of words in a noun phrase that has all possible modifiers is given below. In the corpus, there are no examples of a noun phrase with all possible modifier slots filled, but they can be constructed or elicited.
+The order of words in a noun phrase that has all possible modifiers is given below. All of these modifiers always come in this order. In the corpus, there are no examples of a noun phrase with all possible modifier slots filled, but they can be constructed or elicited.
 
 <table>
   <tr>
@@ -1762,19 +1762,21 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 Figure A. _The order of elements in a noun phrase. Elements marked with an asterisk are mutually exclusive and do not occur together in the same noun phrase._
 
-    (A.#) ??? ????? ??? ??? ??? ??? ??? ????? ??? ?????
+    (A.#) ??? ????? ??? ??? ??? ??? ????? ??? ??? ?????
           ???    ?????       ???   ???    ???   ???      ?????   ???  ??? ?????
           DEF.PL branch:A3SG heavy too(?) three CLF.long PL:this tree REL PFV:P3PL:fall
           'these three too-heavy branches of a tree that fell'
-
-#### A.B.C. Relationships between elements
-
-The indefinite and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive may only be expressed if the head noun has a possessive suffix. This genitive is itself a full noun phrase. When both a genitive and a relative clause are present, it is ambiguous as to whether it is modifying the genitive or the head of the noun phrase.
+          
+In the above example, it can only be the branches that fell and not the tree because of the number agreement on the verb. However, when both a genitive and a relative clause are present, it may be ambiguous as to whether it is modifying the genitive or the head of the noun phrase if verb agreement doesn't clarify.
 
     (A.#) ??? ????? ??? ??? ??? ?????
           ???    ?????     ???    ???   ??? ?????
           DEF.SG face:A3SG DEF.SG woman REL P3SG:be.beautiful
           'the face of the woman who is beautiful', or 'the woman's face that is beautiful'
+
+#### A.B.C. Relationships between elements
+
+The indefinite and associative plural particles (?) and (?) cannot occur in the presence of a classifier. Additionally, a genitive, which is itself a full noun phrase, may only be expressed if the head noun has a possessive suffix.
 
 
 ## <a name="verb_phrases"></a>A. The verb phrase <a href="#table_of_contents">^</a>

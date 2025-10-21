@@ -1,4 +1,4 @@
-# A Grammar of Ekhwachi
+# A Grammar of Nga'ō
 
 <link type="text/css" rel="stylesheet" href="../../stylesheets/nga'ō.css">
 
@@ -10,9 +10,18 @@
   - [1.3. Interlinear glosses](#interlinear_glosses)
     - [1.3.1. Additional conventions](#additional_conventions)
     - [1.3.2. A note on terms for syntactic arguments](#terms_syntactic_arguments)
-- [A. An overview of Ekhwachi](#overview)
-  - [A.B. Geographic and demographic information](#geographic_demographic)
-  - [A.B. Overview of typological features](#overview_of_grammar)
+- [2. An overview of Ekhwachi](#overview)
+  - [2.1. Introduction](#overview_introduction)
+  - [2.2. The language and its setting](#language_setting)
+    - [2.2.1. The name of the language and its language family](#language_name)
+    - [2.2.2. Ethnography and demography](#ethnography_demography)
+    - [2.2.3. Sociolinguistic status](#sociolinguistic_status)
+    - [2.2.4. Dialects](#overview_dialects)
+  - [2.3. Overview of typological features](#overview_typology)
+    - [2.3.1. Phonology and morphology](#overview_phonology)
+    - [2.3.2. Word classes](#word_classes)
+    - [2.3.3. Morphology and morphosyntax](#overview_morphology)
+    - [2.3.4. Syntax](#overview_syntax)
 - [A. Phonology](#phonology)
   - [A.B. Introduction](#phonology_introduction)
   - [A.B. Consonants](#consonants)
@@ -193,7 +202,7 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | ATT   | attenuative                  | P     | patient, absolutive argument     |
 | BEN   | benefactive preposition      | PFV   | perfective                       |
 | CAUS  | causative                    | PL    | plural                           |
-| COM   | comitative                   | PN    | proper article (cf. proper noun) |
+| COM   | comitative preposition       | PN    | proper article (cf. proper noun) |
 | COMP  | complementizer               | POSS  | possessive suffix                |
 | COP   | copula                       | PST   | past tense                       |
 | DEF   | definite                     | Q     | question particle                |
@@ -204,36 +213,44 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 | FUT   | future                       |       |                                  |
 | HORT  | hortatitive                  |       |                                  |
 
-## <a name="overview"></a>A. An overview of Ekhwachi <a href="#table_of_contents">^</a>
 
-### <a name="geographic_demographic"></a>A.B. Geographic and demographic information <a href="#table_of_contents">^</a>
+## <a name="overview"></a>2. An overview of Nga'ō <a href="#table_of_contents">^</a>
 
-Ekhwachi is a language of the (?) branch of the (?) language family. It is spoken by about 17,000 people on the island of (?), which is roughly the size of Sri Lanka. (?) is somewhat distant from other landmasses, and due to this as well the nature of the ocean currents that surround it, it has no contact with the outside world. The languages spoken there only have contact with each other, and Ekhwachi in particular has only had regular, long-term language contact with its closest relative, (?).
+### <a name="overview_introduction"></a>2.1. Introduction <a href="#table_of_contents">^</a>
 
-#### A.B.C. The name 'Ekhwachi'
+This chapter provides an overview of Nga'ō, including the origins of the name of the language and the demographic information of its speakers, as well as descriptions of its various typological features.
 
-The speakers of Ekhwachi have no unique name for their language; _ekhwachi_ is a shortening of _(?) ekhwachi_, which is broken down below.
+### <a name="language_setting"></a>2.2. The language and its setting <a href="#table_of_contents">^</a>
 
-    ??? ekhwachi
-    ???    ekhwa   -chi
-    DEF.SG language-1PL.IN.POSS
-    'Ekhwachi', literally 'our language'
+#### <a name="language_name"></a>2.2.1. The name of the language and its language family <a href="#table_of_contents">^</a>
 
-To a standard speaker of Ekhwachi, who is monolingual and feels a sense of ownership over their language and not others, the use of the definite article and the inclusive possessive suffix together uniquely identify the language. As might be expected, when referring to the language with people outside of the speech community, the exclusive possessive suffix is used instead.
+The language Nga'ō is a member of the **\[?\]** language family, along with its relatives Viñuviñu and Wabgūn. **Nga'ō** is the term that speakers of the language generally use to refer to themselves as a distinct ethnolinguistic group. As the name of their language, it is a clipping of **\[DEF.SG\] \[TONGUE\] Nga'ō** 'the Nga'ō language'. In this work, I will use the term for both the language and its speakers, and I will do the same for Viñuviñu and Wabgūn.
 
-For the sake of brevity, throughout the rest of this work I will be using the term 'Ekhwachi' to refer to both the language itself and members of the ethnolinguistic group that speak it.
+Within the **\[?\]** language family, Nga'ō and Viñuviñu form one branch while Wabgūn forms its own separate branch. Nga'ō and Viñuviñu are relatively closely related and are similar in most ways, though there are some fundamental differences in their syntax and discourse pragmatics in particular that cause mutual intelligibility to be low. Wabgūn, having been isolated from the other two for millennia, shares some lexical and morphological similarities with them, but they are otherwise vastly different.
 
-#### A.B.C. Culture and lifestyle
+#### <a name="ethnography_demography"></a>2.2.2. Ethnography and demography <a href="#table_of_contents">^</a>
 
-(?)
+Nga'ō is spoken by about **\[?\]** people on the island of Nakaya, which is roughly the size of the island of Ireland. Most speakers of Nga'ō are found in the southern part of Nakaya, along the eastern coast, and on an archipelago off of that coast. Most of the rest of the island is occupied by the Viñuviñu, while the Wabgūn live on a much smaller island to the southeast. The Nga'ō have no real long-term contact with the Wabgūn, but they have extensive contact and history with the Viñuviñu.
 
-### <a name="overview_of_grammar"></a>A.B. Overview of typological features <a href="#table_of_contents">^</a>
+#### <a name="sociolinguistic_status"></a>2.2.3. Sociolinguistic status <a href="#table_of_contents">^</a>
 
-This section briefly details the features of the typology of Ekhwachi that make it distinct from other languages. These include summaries of its phonology, morphology, and syntax, all of which are discussed in greater detail in later sections.
+Most Nga'ō are monolingual, with the exception of some communities near Viñuviñu-occupied regions. Neither group has had long-term contact with the Wabgūn, and there are no known cases of advanced multilingualism involving their language. There is no pidgin in common to both groups of speakers, and most communication with the Wabgūn has been limited to unstructured gesturing, so 'bilingualism' in this section refers to Nga'ō-Viñuviñu bilingualism only.
 
-#### A.B.C. Phonology and morphophonology
+Geographically, bilingualism is most common in a Nga'ō enclave in the central region of the island, and it is virtually nonexistent in the heart of the southern region and on the eastern archipelago. Elsewhere, bilingualism is rare but not vanishingly so; it is somewhat more common among Nga'ō men, both because they tend to have lifestyles that involve more traveling, and because interethnic marriage more commonly involves a Nga'ō man and a Viñuviñu woman than vice versa, though even those marriages are rare in most communities. A number of Nga'ō who learn Viñuviñu as adults do so to a relatively high level of proficiency, but most tend to struggle with its foreign syntax and discourse pragmatics, and they tend to avoid constructions that don't also work in Nga'ō. Truly high proficiency in both languages is usually only achieved by those who were raised in bilingual households.
 
-Ekhwachi has 5 vowel phonemes, which consist of the cross-linguistically common set of /i/, /e/, /a/, /o/, and /u/.
+#### <a name="overview_dialects"></a>2.2.4. Dialects <a href="#table_of_contents">^</a>
+
+Nga'ō has two large dialects and ten much smaller ones. In descending order by number of speakers, the dialects are: Southern, Mountain, Western, Central, Eastern, and the seven dialects spoken throughout the archipelago off the coast. In this work, I deal extensively only with the Southern dialect, which is spoken in a large southern portion of the island.
+
+Some of the dialects differ only slightly, mostly phonologically and lexically, while others differ quite significantly. In particular, the Southern and Mountain dialects differ little, as do the archipelago dialects amongst themselves. However, the archipelago dialects as a group differ more markedly from the mainland dialects, and the Central dialect is very different from the all of the others due to heavy influence from Viñuviñu. I leave the details to the non-Southern dialects in Appendix **\[?\]**.
+
+### <a name="overview_typology"></a>2.3. Overview of typological features <a href="#table_of_contents">^</a>
+
+This section briefly details the features of Nga'ō that make it distinct from other languages. These include summaries of its phonology, morphology, and syntax, all of which are discussed in greater detail in their respective chapters.
+
+#### <a name="overview_phonology"></a>2.3.1. Phonology and morphophonology <a href="#table_of_contents">^</a>
+
+Nga'ō has 5 vowel phonemes, which consist of the cross-linguistically common set of /i, e, a, o, u/. Each may be long or short with no significant change in quality, and they have little allophonic variation. There are also four closing diphthongs: /ai̯, au̯, oi̯, eu̯/.
 
 <table>
   <tr>
@@ -262,184 +279,202 @@ Ekhwachi has 5 vowel phonemes, which consist of the cross-linguistically common 
   </tr>
 </table>
 
-Figure A. _Vowel phonemes._
+Figure A. _Vowels._
 
-There are 20 consonant phonemes in 5 places of articulation (bilabial, dental, postalveolar, palatal, and velar), which form 2 series (voiceless and voiced). All of the velars have plain and labialized versions.
+There are 11 consonant phonemes in 5 places of articulation (labial, coronal, palatal, velar, and glottal), which do not contrast in voicing, aspiration, secondary articulation, or length. The table below does not include additional allophones.
 
 <table>
   <tr>
-    <th colspan=2 rowspan=2></th>
-    <th rowspan=2>Bilabial</th>
-    <th rowspan=2>Dental</th>
-    <th rowspan=2>Post-<br>alveolar</th>
-    <th rowspan=2>Palatal</th>
-    <th colspan=2>Velar</th>
+    <th></th>
+    <th>Labial</th>
+    <th>Coronal</th>
+    <th>Palatal</th>
+    <th>Velar</th>
+    <th>Glottal</th>
   </tr>
   <tr>
-    <th>Plain</th>
-    <th>Labialized</th>
-  </tr>
-  <tr>
-    <th colspan=2>Nasal</th>
+    <th>Nasal</th>
     <th>m</th>
     <th>n</th>
     <th></th>
-    <th></th>
     <th>ŋ</th>
-    <th>ŋʷ</th>
+    <th></th>
   </tr>
   <tr>
-    <th rowspan=2>Stop/<br>Affricate</th>
-    <th>Voiceless</th>
+    <th>Plosive</th>
     <th>p</th>
     <th>t</th>
-    <th>tʃ</th>
     <th></th>
     <th>k</th>
-    <th>kʷ</th>
+    <th>ʔ</th>
   </tr>
   <tr>
-    <th>Voiced</th>
-    <th>b</th>
-    <th>d</th>
-    <th>dʒ</th>
-    <th></th>
-    <th>g</th>
-    <th>gʷ</th>
-  </tr>
-  <tr>
-    <th colspan=2>Fricative</th>
+    <th>Fricative</th>
     <th></th>
     <th>s</th>
-    <th>ʃ</th>
     <th></th>
-    <th>x</th>
-    <th>xʷ</th>
+    <th></th>
+    <th></th>
   </tr>
   <tr>
-    <th colspan=2>Approximant</th>
-    <th></th>
-    <th>l</th>
+    <th>Approximant</th>
+    <th>w</th>
     <th></th>
     <th>j</th>
     <th></th>
     <th></th>
   </tr>
+  <tr>
+    <th>Tap</th>
+    <th></th>
+    <th>ɾ</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
 </table>
 
-Figure A. _Consonant phonemes._
+Figure A. _Consonants (allophones omitted)._
 
-Syllables in the language are maximally CVC. Word stress is generally on the last syllable of a word, though there is a set of inflectional suffixes that do not shift the stress of the word, which stays on the penultimate syllable.
+Syllables in the language are of the form (C)V(C). V may be a short or long monophthong, or it may be a diphthong. The onset of the syllable may be any single consonant, and the coda may be a homorganic nasal, /s/, /ʔ/ (realized as \[h\]), or the first half of a geminate. Primary stress consistently falls on the last syllable of a word, including after derivation and affixation. However, there is a set of common postclitics that do not draw stress from the words they attach to.
 
-There is limited sibilant harmony present throughout the language. If multiple sibilants occur root-internally, they have the same place of articulation (either all dental /s/ or all postalveolar /ʃ/, /tʃ/, or /dʒ/), and /s/ in prefixes assimilates to /ʃ/ before a root containing any postalveolars.
+#### <a name="word_classes"></a>2.3.2. Word classes <a href="#table_of_contents">^</a>
 
-    ??-???    '[root with no sibilants](?)'
-    ??-???    '[root with /s/](?)'
-    ??-???    '[root with a postalveolar sibilant](?)'
+The main word classes in Nga'ō are noun, verb, and adjective. Very many roots can be used as two or three of these classes (ex. **\[?\]** in isolation can mean 'death' or 'die'), but they can be distinguished by their syntactic behavior, and to a lesser degree by their morphology. These three word classes are open classes, while all other word classes are closed classes.
 
-#### A.B.C. Word classes
+Verbs are either dynamic or stative, but the two subclasses have extensive overlap. Sometimes small changes in morphology or syntax can be used to identify a verb as one or the other, but at other times they are indistinguishable. Dynamic verbs refer to actions that involve changes of state, and they take the full range of verbal morphology. Stative verbs refer to unchanging states and are a subset of imperfective verbs, nearly all are derived from dynamic verbs, and they take a restricted subset of verbal morphology.
 
-(?)
+Adjectives have two subclasses, verbal and nominal, which closely resemble stative verbs and nouns, respectively. Whether an adjective is verbal or nominal is lexical, but in general, adjectives referring to more permanent or long-lasting states, such as **\[?\]** 'long', are nominal, while those referring to more transient states, such as **\[?\]** 'happy', are verbal. Verbal adjectives are essentially identical to stative verbs, except that they're not usually derived from dynamic verbs, they aren't marked for their arguments when used attributively, and they can be used adverbially without periphrasis. Nominal adjectives are likewise almost identical to nouns, except that they don't take articles when used predicatively, and they can be intensified with reduplication.
 
-#### A.B.C. Morphology
+In pronouns, there are three persons and two numbers; third person pronouns are unrelated to demonstrative pronouns, which have a 3-way proximal/medial/distal distinction. Interrogative pronouns are morphologically identical to some indefinite pronouns, such that **\[?\]** in isolation can mean 'what' or 'something', for example.
 
-Ekhwachi is a predominantly agglutinative and prefixing language, though the few inflectional suffixes that do exist are very common. Verbs are rarely bare, so they can usually be readily distinguished from other parts of speech both syntactically and morphologically.
+There are only a small number of 'true' prepositions, which don't share any morphology with other parts of speech. Other prepositional functions are handled by relational nouns, which are grammatically possessed by other nouns to express spatial and temporal relationships, such as **\[LOC stomach LOC DEF.SG volcano]** 'inside the volcano' from **\[stomach\]** 'stomach'.
 
-Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number (singular/plural) is indexed on the verb if it is a core argument, and if animate, it is also pluralized using a preceding particle. A noun's grammatical role is either indexed on the verb or indicated using prepositions.
+Other small word classes, all of which are closed, include articles, conjunctions, numerals, and particles. Particles include most uninflecting words that only have grammatical meaning, such as markers for negation, polar questions, focus, evidentiality, and relativization.
+
+#### <a name="overview_morphology"></a>2.3.3. Morphology and morphosyntax <a href="#table_of_contents">^</a>
+
+Most parts of speech in Nga'ō inflect rather little, with the exception of verbs. Most inflectional morphology is done with prefixes and a few suffixes, mostly agglutinative, though reduplication is also quite common. Noun incorporation is a highly productive morphological process.
+
+##### 2.3.3.1. Inflectional morphology
+
+Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number is ambiguous in isolation, but it's commonly marked as singular or plural elsewhere in the phrase or clause, such as with definite articles.
 
 <table>
   <tr>
-    <th colspan=2></th>
+    <th></th>
     <th>Singular</th>
     <th>Plural</th>
   </tr>
   <tr>
-    <th rowspan=2>1st person</th>
-    <th>Exclusive</th>
-    <td rowspan=2>-??</td>
-    <td>-(ch)il</td>
-  </tr>
-  <tr>
-    <th>Inclusive</th>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th colspan=2>2nd person</th>
+    <th>1st person</th>
     <td>-??</td>
     <td>-??</td>
   </tr>
   <tr>
-    <th colspan=2>3rd person</th>
-    <td>-(t)a</td>
+    <th>2nd person</th>
+    <td>-??</td>
+    <td>-??</td>
+  </tr>
+  <tr>
+    <th>3rd person</th>
+    <td>-??</td>
     <td>-??</td>
   </tr>
 </table>
 
-Figure A. _Pronominal possessive suffixes._
+Figure A. _Possessive suffixes._
 
-Verbs inflect for aspect, mood, and voice, and they agree in person and number with their A and P arguments. The affixes for these categories are given below with the verb (?), 'to throw', translated in accordance with the glossing rules outlined in section A.B. (?). Other distinctions of aspect and mood are indicated periphrastically.
+| Nga'ō      | English                 | Nga'ō      | English               |
+| ---------- | ----------------------- | ---------- | --------------------- |
+| ??? ???-?? | 'my hands'              | ??? ???-?? | 'our hands'           |
+| ??? ???-?? | 'your (singular) hands' | ??? ???-?? | 'your (plural) hands' |
+| ??? ???-?? | 'its hands'             | ??? ???-?? | 'their hands'         |
 
-| Aspect/Mood/Voice  | Marking               | Example   | Translation               |
-| ------------------ | --------------------- | --------- | ------------------------- |
-| Perfective aspect  | ∅                     | _???????_ | 'I threw it'              |
-| Progressive aspect | ??-                   | _???????_ | 'I am throwing it'        |
-| Habitual aspect    | partial reduplication | _???????_ | 'I throw it'              |
-| Iterative aspect   | full reduplication    | _???????_ | 'I throw it (repeatedly)' |
-| Abilitative mood   | ??-                   | _???????_ | 'I can throw it'          |
-| Subjunctive mood   | ??-                   | _???????_ | 'I would throw it'        |
-| Imperative mood    | ??-                   | _???????_ | 'Throw it'                |
-| Antipassive voice  | -??                   | _???????_ | 'I threw (something)'     |
+If a noun's grammatical role is marked, it is marked by some combination of verbal marking, prepositions, and word order. Verbs agree with their A arguments, while P arguments are not marked on the verb if they appear in the clause as full NPs; they otherwise appear as clitics on the verb.
+
+    ????????? ??? ??? **???** ??? **???** ??? ?????
+    ??-??-???-??         ???    ???   **???**        ???  **???** ???    ???-??
+    PST-PFV-peel-3PL.ERG DEF.PL peach **LOC.DEF.SG** boat **ABL** DEF.PL knife-3PL.POSS
+    'They peeled the peaches on the boat with their knives'
+
+    ??? ??? ????????? ??? **???**
+    ???    ???    ??-??-???-??         ???    **???**
+    DEF.SG hunter PST-PFV-kill-3SG.ERG DEF.SG **pheasant**
+    'The hunter killed the pheasant'
+
+    ??? ??? ????????? ???**??**
+    ???    ???    ??-??-???-??=**??**
+    DEF.SG hunter PST-PFV-kill-3SG.ERG=**3SG.ABS**
+    'The hunter killed it'
+
+In addition to this marking of A and P, verbs inflect for tense, aspect, mood, and voice. The examples below show how some of these inflectional categories are realized.
+
+| ?????    | 'It throws'              | ??????? | 'It wants to throw'     |
+| ???????  | 'It will throw'          | ??????? | 'It throws (something)' |
+| ???????  | 'It was throwing'        | ??????? | 'It throws for'         |
+| ???????  | 'It throws (repeatedly)' | ?????   | 'Throw!'                |
+| ???????? | 'It hurls'               |         |                         |
 
 Figure A. _Examples of aspect, mood, and voice marking with the verb (?), 'to throw'._
 
-<table>
-  <tr>
-    <th rowspan=2 colspan=2></th>
-    <th colspan=2>Absolutive / Patient</th>
-    <th colspan=2>Ergative / Agent</th>
-  </tr>
-  <tr>
-    <th>Singular</th>
-    <th>Plural</th>
-    <th>Singular</th>
-    <th>Plural</th>
-  </tr>
-  <tr>
-    <th rowspan=2>1st person</th>
-    <th>Exclusive</th>
-    <td rowspan=2>??-</td>
-    <td>??-</td>
-    <td rowspan=2>-??</td>
-    <td>-(ch)il</td>
-  </tr>
-  <tr>
-    <th>Inclusive</th>
-    <td>??-</td>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th colspan=2>2nd person</th>
-    <td>??-</td>
-    <td>??-</td>
-    <td>-??</td>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th colspan=2>3rd person</th>
-    <td>(e)s-</td>
-    <td>??-</td>
-    <td>-(t)a</td>
-    <td>-??</td>
-  </tr>
-</table>
+Adjectives don't have unique morphology, instead sharing morphology with verbs or nouns. Aside from demonstratives and articles, which have number agreement, only nouns, verbs, and adjectives have inflectional or derivational morphology.
 
-Figure A. _Verb agreement affixes for core arguments._
+##### 2.3.3.2. Head- and dependent-marking
 
-Adjectives are morphologically identical to stative verbs when used predicatively, though unlike verbs, they can also be used attributively, being placed after nouns without relativizing or agreement morphology. Through zero-derivation and periphrasis, they can also be used adverbially.
+Nga'ō is predominantly head-marking, with pronominal P arguments and possessors being marked on verbs and possessed nouns, respectively. The verbal marking is admittedly not prototypical given the markers' status as anaphoric clitics rather than agreement affixes.
 
-Other parts of speech undergo little inflection or derivation.
+    ????? ??? ??? ??? ???
+    ???-??            ???    ??? ???        ???
+    celebrate-3PL.ERG DEF.SG end LOC.DEF.SG journey
+    'They're celebrating the end of the journey'
 
-#### A.B.C. Syntax
+    ???????
+    ???-??=**??**
+    celebrate-3PL.ERG=**3SG.ABS**
+    'They're celebrating it'
+
+    ??? ???**??**
+    ??? ???-**??**
+    DEF.SG father-**1SG.POSS**
+    'my father'
+
+However, most other heads are unmarked, such as in adjective phrases and prepositional phrases. Dependent-marking is also found in some constructions, such as demonstratives agreeing in number with their head nouns, as well as in possession for non-pronominal possessors.
+
+    ??? ??? **???**, ??? ??? **???**
+    ???    ???   **???**  ???    ???   **???**
+    DEF.SG story **that** DEF.PL story **that.PL**
+    'that story, those stories'
+
+    ??? ??? **???**, ??? ??? **???**
+    ???    ???    **???**  ???    ???    **???**
+    DEF.SG farmer **that** DEF.PL farmer **that.PL**
+    'that story, those stories'
+
+    ??? ??? **???** ??? ???
+    ???    ???    **???** ???    ???
+    DEF.SG father **LOC** DEF.SG woman
+    'the woman's father'
+
+Relative clauses could also be considered dependent-marked, with the view that the referential noun in the dependent clause is being reduced to a pronoun or pronominal affix.
+
+    ??? ??? ?????????**??** ???
+    ???    ???  ??-??-???-??=**??**              ???
+    DEF.PL fish PST-PFV-hunt-1SG.ERG=**3PL.ABS** yesterday
+    'the fish that I caught yesterday'
+
+    ??? ??? ??????? ??? **???**
+    ???    ???   ??~???=?? ??? **???**
+    DEF.SG knife ANTIP~cut=1SG.ABS ABL **3SG**
+    'the knife that I cut with'
+
+##### 2.3.3.3. Morphosyntactic alignment
+
+In terms of alignment, the language is thoroughly ergative-absolutive. Patterns of verbal person marking in Nga'ō are uniformly morphologically ergative.
+
+...
+
+#### <a name="overview_syntax"></a>2.3.4. Syntax <a href="#table_of_contents">^</a>
 
 Word order in Ekhwachi is overwhelmingly head-initial as well as verb-initial. The head noun of a noun phrase precedes any adjectives, numerals, demonstratives, genitives, or relative clauses that modify it, adpositional phrases are prepositional, and verbs generally precede their arguments. The default word order is verb-object-agent (VOA) for transitive verbs and is verb-subject (VS) for intransitive verbs, though AVO and SV are also common due to topicalization.
 

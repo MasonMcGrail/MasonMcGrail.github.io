@@ -1,0 +1,34 @@
+:root {
+    --off-white:      hsl(0, 50%, 95%);
+    --off-black:      hsl(0, 50%,  5%);
+    --off-grey-light: hsl(0,  5%, 80%);
+    --off-grey-dark:  hsl(0,  5%, 20%);
+    --box-text-light: hsl(0, 20%, 80%);
+    --box-text-dark:  hsl(0, 20%, 20%);
+    --accent-dark:    hsl(0, 95%, 80%);
+    --accent-light:   hsl(0, 95%, 20%);
+}
+
+body { background-color: var(--off-grey-dark);  color: var(--off-grey-light); }
+
+a { color: var(--off-white); }
+
+.main-content h1, .main-content h2,
+.main-content h3, .main-content h4,
+.main-content h5, .main-content h6 { color: var(--accent-dark); }
+
+.main-content .highlight pre {
+    background-color: var(--off-black);
+    border: 2px solid var(--accent-dark);
+    border-radius: 0.5rem;
+}
+
+div.highlight { background-color: var(--off-grey-dark); }
+
+.main-content pre>code { color: var(--box-text-light); }
+
+.main-content table th, .main-content table td {
+    border: 2px solid var(--accent-dark);
+    background-color: var(--off-black);
+    color: var(--box-text-light);
+}

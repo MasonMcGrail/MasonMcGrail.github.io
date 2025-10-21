@@ -1,13 +1,15 @@
 # A Grammar of Ekhwachi
 
-<link type="text/css" rel="stylesheet" href="../../stylesheets/ekhwachi.css">
+<link type="text/css" rel="stylesheet" href="../../stylesheets/nga'ō.css">
 
 ## <a name="table_of_contents"></a>Table of contents
 
-- [A. Introduction](#introduction)
-  - [A.B. Goals and use of the language](#goals_and_use)
-  - [A.B. Interlinear glosses](#interlinear_glosses)
-  - [A.B. Abbreviations](#abbreviations)
+- [1. Introduction](#introduction)
+  - [1.1. Goals of the language](#language_goals)
+  - [1.2. Use of the language](#language_use)
+  - [1.3. Interlinear glosses](#interlinear_glosses)
+    - [1.3.1. Additional conventions](#additional_conventions)
+    - [1.3.2. A note on terms for syntactic arguments](#terms_syntactic_arguments)
 - [A. An overview of Ekhwachi](#overview)
   - [A.B. Geographic and demographic information](#geographic_demographic)
   - [A.B. Overview of typological features](#overview_of_grammar)
@@ -79,79 +81,81 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 
-## <a name="introduction"></a>A. Introduction <a href="#table_of_contents">^</a>
+## <a name="introduction"></a>1. Introduction <a href="#table_of_contents">^</a>
 
-This is a reference grammar for Ekhwachi, a constructed language (conlang) that appears as the main representative of its language family in a fictional setting. I am writing this grammar to have all of the information in one place, presented in a way that, hopefully, is enjoyable and interesting to read for anyone interested in conlangs or linguistics in general. Ekhwachi is very much an ongoing project, and while the core of the grammar is stable, much of the rest is in flux. Anything marked with "(?)" needs more attention and is likely to change, and each section and subsection is currently prefixed with "A.", "A.B.", etc. while their number is unknown. Also, the lexicon is severely underdeveloped (see: nonexistent), so strings of question marks are used in place of the words in examples for now.
+This is a reference grammar for Nga'ō, formerly known as Ekhwachi, a constructed language (conlang) that appears as the main representative of its language family in a fictional setting that I work on from time to time. I am writing this grammar to have all of the information in one place, presented in a way that, hopefully, is enjoyable and interesting to read for someone interested in conlangs or linguistics in general. Nga'ō is very much an ongoing project, and while the core of the grammar is stable, much of the rest is in flux. Anything marked with '[?]' needs more attention and is likely to change. Also, the lexicon is severely underdeveloped (see: nonexistent), so strings of question marks are used in place of the words in examples for the time being.
 
-This work is meant to be descriptive and not pedagogical; it is meant to thoroughly show the language's structure rather than serve as a resource for a hypothetical learner. To that end, I will use technical terminology whenever it would be appropriate for a particular description, but I will avoid using more obscure terms. In terms of framework, I will just be using 'basic linguistic theory' so that this work is readable to a broad audience and will remain so for years to come.
+This work is meant to be descriptive and not pedagogical, showing the language's structure rather than serving as a resource for a hypothetical learner. To that end, I will be using technical terminology whenever it would suit a particular description, but I will avoid using needlessly obscure terms. In terms of framework, I will just be using 'basic linguistic theory' so that this work is readable to a broad audience and will remain so even as contemporary theories change.
 
-This document is divided into (?) sections. Section A is a brief overview of the language's typology and speakers. Section A describes the phonology and the romanization used throughout this document. Sections A, A, and A cover noun morphology, verb morphology, and adjective morphology, respectively. Section A deals with pronouns. Section A discusses prepositions and particles. Section A describes numerals and classifiers. Sections A and A respectively deal with noun phrases and verb phrases. Section A discusses coordination. Section A describes relative clauses. Lastly, section A covers the lexicon, and section A contains sample texts in Ekhwachi, some original, others translations.
+This document is divided into \ref{chap:texts} chapters, including this introduction. Chapter \ref{chap:overview} is a brief overview of the language's typology and speakers. Chapter \ref{chap:phonology} describes the phonology and the romanization used throughout this document. Chapters \ref{chap:nouns}, \ref{chap:verb_morphology}, and \ref{chap:adjectives} cover the morphology of nouns, verbs, and adjectives, respectively. Chapter \ref{chap:pronouns} deals with pronouns, chapter \ref{chap:articles} with articles. Chapter \ref{chap:prepositions_particles} discusses prepositions and particles. Chapter \ref{chap:numerals} describes numerals. Chapter \ref{chap:verb_phrases} covers verb phrases. Chapters \ref{chap:clausal_syntax} and \ref{chap:coordination} respectively deal with clausal syntax and coordination. Chapter \ref{chap:noun_incorporation} discusses noun incorporation, and chapter \ref{chap:relative_clauses} describes relative clauses. Chapter 16 covers derivation. Lastly, chapter \ref{chap:lexicon} deals with the lexicon, and chapter \ref{chap:texts} contains sample texts in Nga'ō, some original, others translations.
 
-### <a name="goals_and_use"></a>A.B. Goals and use of the language <a href="#table_of_contents">^</a>
+### <a name="language_goals"></a>1.1. Goals and use of the language <a href="#table_of_contents">^</a>
 
-Ekhwachi's primary goal is naturalism. In practice, it is a personal language that I will occasionally use as a naming language. It is the first of 8 languages in its setting that I intend to flesh out, as well as my first conlang that is more than a sketch. To make it stand out from the other 7 languages, I outlined some defining features of the grammar, most of which are described in more detail in section (?). Ekhwachi was intended to be:
+The primary goal of Nga'ō is naturalism. It is the first of 4 languages in its setting that I intend to flesh out, as well as my first conlang that is more than a sketch. To make it stand out from the other 3 languages, I have outlined some defining features of the grammar, most of which are described in more detail in chapter \ref{chap:overview}. With Nga'ō, I wanted to make a language that has:
 
-* Highly ergative, as well as syntactically ergative for many constructions;
-* Mostly head-marking with polypersonal agreement, but not polysynthetic;
-* Extremely head-initial, as well as verb-initial, in terms of basic syntax;
-* Relatively easy to pronounce in terms of phonology and phonotactics;
-* Mostly regular, being roughly as irregular as a language such as Japanese.
+* A high degree of morphological and syntactic ergativity, with a few exceptions;
+* Extremely head-initial, as well as verb-initial, basic syntax;
+* Morphosyntax that is generally analytics or head-marking, but not to the point of being polysynthetic;
+* Relatively easy phonology and phonotactics;
+* A degree of irregularity that is non-negligible but still manageable.
 
-### <a name="interlinear_glosses"></a>A.B. Interlinear glosses <a href="#table_of_contents">^</a>
+The main natural language inspirations for Nga'ō were Fijian and the Polynesian languages, as well as the Mayan languages, of which I most commonly referenced Tzotzil.
 
-The interlinear glosses used for examples in this work are basically consistent with the Leipzig Glossing Rules. They will be formatted in the following way:
+### <a name="language_use"></a>1.2. Use of the language <a href="#table_of_contents">^</a>
 
-    Line 1: the text in the romanization for Ekhwachi (in italics)
-    Line 2: the words in the above text, which may be broken up into morphemes (in italics)
-    Line 3: a morpheme-by-morpheme gloss of the above text, vertically aligned with it
-    Line 4: an English translation of the above text, in quotes
+While the setting of Nga'ō has enough depth and history for writing fiction, I am not much of a writer, and I do not have any firm plans to write anything using it. I plan to use the language for fun, as well as to test natural language processing techniques, but I mostly just want it to exist so I can look at it and feel accomplished.
+
+When the language and its setting are sufficiently developed, I plan to make an extended lexicon for it that contains words for concepts from our world so that I can use it more broadly in my own life without constantly running into lexical gaps. In particular, the technology in the setting is about as advanced as what our world had a millennium ago, so it is not possible to talk about anything from plastic to computers without an extended lexicon.
+
+I consider all of the pre-expansion words and their senses 'official Nga'ō' and everything in the expanded lexicon 'unofficial Nga'ō'. Most of this extended lexicon is derived from existing words in Nga'ō through compounding, derivation, or metaphorical extension rather than borrowing, but for proper nouns and other words that cannot be derived, I borrowed words from an existing natural language. I paired each of my 4 main languages with a natural language for this purpose, and for Nga'ō, this language is Finnish. For example, after being filtered through the language's phonology, the Nga'ō words for Japan and Poland are respectively **Yapani** and **Puora**, from Finnish *Japani* and *Puola*.
+
+### <a name="interlinear_glosses"></a>1.3. Interlinear glosses <a href="#table_of_contents">^</a>
+
+The interlinear glosses used for examples in this work are basically consistent with the Leipzig Glossing Rules. They will be formatted like in the following example:
 
 For example:
 
-    ??????? ??? ????? ???
-    ???????                  ???    ?????             ???
-    PFV:3SG.ABS:meet:1SG.ERG DEF.SG daughter:2PL.POSS yesterday
-    'I saw your daughter yesterday'
+    ????? ??? ????? ???
+    ???-??       ???    ???-??          ???
+    wait-1SG.ERG DEF.PL friend-3PL.POSS tomorrow
+    'I'll be waiting for their friends tomorrow'
 
-For clarity's sake, most of the time I will not divide the words in the second line into their constituent morphemes. When particular morphemes or words are being highlighted, they will be separated from other morphology using hyphens and vertically aligned with what they correspond to on the third line. The following draws attention to the possessive suffix in the above example:
+For clarity's sake, most of the time I will not divide the words in the second line into their constituent morphemes. When particular morphemes or words are being highlighted, they will be surrounded by two asterisks and separated from other morphology using hyphens or similar. The following draws attention to the possessive suffix in the above example:
 
-    ??????? ??? ????? ???
-    ???????                  ???    ???     -??       ???
-    PFV:3SG.ABS:meet:1SG.ERG DEF.SG daughter-2PL.POSS yesterday
-    'I saw your daughter yesterday'
+    ????? ??? ???-**??** ???
+    ???-??       ???    ???-**??**          ???
+    wait-1SG.ERG DEF.PL friend-**3PL.POSS** tomorrow
+    'I'll be waiting for **their** friends tomorrow'
 
-Additionally, regarding the translation given in the fourth line, naturalness will be prioritized over accuracy. For instance, there is a clusivity distinction in the first person plural in Ekhwachi, but this distinction will generally be ignored in translations, which will not say 'we/us (inclusive)' or 'we/us (not including you)' except when discussing clusivity.
+#### <a name="additional_conventions"></a>1.3.1. Additional conventions <a href="#table_of_contents">^</a>
 
-#### A.B.C. Additional conventions
+Many sentences in Nga'ō can be interpreted in multiple ways out of context. Consider the following example:
 
-Many sentences in Ekhwachi can be interpreted in more than one way out of context. Consider the following example:
+    ??????? ????? ??? ??? ???
+    ??-??-???     ???=??      ???        ???   ???
+    PST-PFV-throw net=3SG.ABS LOC.DEF.SG water be.cold
+    '(He/she) cast (a/some) net(s) into the cold water'
 
-    ????????? ??? ??? ??? ???
-    ?????????                    ???   ??? ???  ???
-    PROG:3PL.ABS:pick.up:3SG.ERG spear and rock be.small
-    '(He/she/it) (was/is/will be) picking up (a/some) spear(s) and (a/some) small rock(s)'
+The gender of the thrower is ambiguous, and **[?]** 'net' in this case can be singular or plural. In this way, 'He cast a net into the cold water' and 'She cast some nets into the cold water' are both valid translations for the above gloss in the right context.
 
-Verbs are not marked for tense, so this may refer to a past, present, or future event. Also, the gender of the person is ambiguous, and indefinite inanimate nouns may be either singular or plural. In this way, 'He was picking up a spear and small rocks' and 'She is picking up spears and a small rock' are both valid translations for the above gloss in the right context. Lastly, all of the parenthetical information in the fourth line makes it very hard to read.
+The parenthetical information in the fourth line makes it harder to read, so instead of using many parentheticals, I will be using the following conventions to make reading the glosses easier:
 
-There are a number of conventions used in this document that exist to make the glosses easier to read, which are listed below:
-
-- Most of the time, verbs in the perfective aspect refer to past events, so they will be translated as being in the past tense. Verbs in the imperfective aspects will be translated as being in the present tense.
-- Adjectives, which are essentially similar to stative verbs such as (?), 'to be excited' and (?), 'to be small', will be glossed without 'be' when they are being used attributively.
-- Indefinite, inanimate nouns will be translated as singular when their number is ambiguous.
-- Third person singular human referents of unknown gender will be variously glossed as 'he', 'she', 'him', 'her', etc. Singular 'they'/'them' will be avoided in translations for clarity.
+* Nouns will be translated as plural when their number is ambiguous.
+* Human referents of unknown gender will be variously glossed as 'he', 'she', 'him', 'her', etc. Singular 'they/them' would also be appropriate but will be avoided in these translations for clarity.
+* Many adjectives, such as **\[?\]** 'to be excited' and **\[?\]** 'to be hungry', are similar to stative verbs. These will be glossed without 'be' when being used attributively.
 
 Below is the gloss from above written using these conventions:
 
-    ????????? ??? ??? ??? ???
-    ?????????                    ???   ??? ???  ???
-    PROG:3PL.ABS:pick.up:3SG.ERG spear and rock small
-    'She is picking up a spear and a small rock'
+    ??????? ????? ??? ??? ???
+    ??-??-???     ???=??      ???        ???   ???
+    PST-PFV-throw net=3SG.ABS LOC.DEF.SG water cold
+    'She cast nets into the cold water'
 
-Of course, these conventions will be ignored when necessary. Events that clearly take place in the future will be translated as being in the future tense, and nouns that are clearly plural will be translated as plural. When an example is being used to demonstrate some feature of the language, it will contain all of the information that it needs to fulfill its purpose.
+Of course, these conventions will be ignored when necessary. When an example is being used to demonstrate some feature of the language, it will contain all of the information that it needs to do so.
 
-#### A.B.C. A note on terms for syntactic arguments
+#### <a name="terms_syntactic_arguments"></a>1.3.2. A note on terms for syntactic arguments <a href="#table_of_contents">^</a>
 
-The term 'subject' is troublesome when describing highly ergative languages like Ekhwachi. In this work, I will use the term 'subject' only for intransitive subjects, and I will use the term 'agent' for transitive subjects. Often, intransitive subjects and direct objects will pattern the same way, so I will also use the term 'patient' when they do. The table below summarizes how I will use terms for syntactic roles in this work.
+The term 'subject' is troublesome when describing ergative languages like Nga'ō. In this work, I will use the term 'subject/S' only for intransitive subjects, and I will use the term 'agent/A' for transitive subjects. Often, intransitive subjects and direct objects will pattern the same way, so I will also use the term 'patient/P' when they do. The table below summarizes how I will use terms for syntactic roles in this work.
 
 | Term      | Symbol | Use                                   |
 | --------- | ------ | ------------------------------------- |
@@ -162,7 +166,7 @@ The term 'subject' is troublesome when describing highly ergative languages like
 
 When discussing semantic roles, I will use the terms 'agentive' and 'patientive' instead.
 
-### <a name="abbreviations"></a>A.B. Abbreviations <a href="#table_of_contents">^</a>
+### A.B. Abbreviations <a href="#table_of_contents">^</a>
 
 |   |   |
 | - | - |
@@ -174,35 +178,31 @@ When discussing semantic roles, I will use the terms 'agentive' and 'patientive'
 
 <br>
 
-|      |                              |      |                             |
-| ---- | ---------------------------- | ---- | --------------------------- |
-| ∅    | null morpheme                | IMP  | imperative mood             |
-| 1    | first person                 | IN   | inclusive                   |
-| 2    | second person                | INAN | inanimate                   |
-| 3    | third person                 | INC  | inceptive aspect            |
-| A    | agent, ergative argument     | INTR | intransitive                |
-| ABIL | abilitative mood             | ITV  | intensive/iterative         |
-| ABS  | absolutive                   | MED  | medial                      |
-| ADV  | _adverb_                     | NEG  | negation, negative          |
-| ANIM | animate                      | NHAN | non-human animate           |
-| AP   | antipassive voice            | NMZ  | nominalizer, nominalization |
-| ASC  | associative plural           | P    | patient, absolutive argument|
-| AUG  | _augmentative_               | PFV  | perfective aspect           |
-| CAUS | causative                    | PL   | plural                      |
-| CLF  | classifier                   | PROG | progressive aspect          |
-| COMP | complementizer               | PROP | proper noun/name            |
-| COP  | copula                       | PROX | proximal                    |
-| DEF  | definite                     | Q    | question word               |
-| DEM  | demonstrative                | REFL | reflexive                   |
-| DIM  | _diminutive_                 | REL  | relative, relativizer       |
-| DIST | distal                       | SG   | singular                    |
-| ERG  | ergative                     | STAT | _stative verb_              |
-| EX   | exclusive                    | SBJV | subjunctive mood            |
-| FRAC | fractional number            | TR   | transitive                  |
-| FOC  | focus                        | VBZ  | _verbalizer_                |
-| HAB  | habitual aspect              |      |                             |
-| HUM  | human                        |      |                             |
-
+|       |                              |       |                                  |
+| ----- | ---------------------------- | ----- | -------------------------------- |
+| ∅     | null morpheme                | IDEO  | ideophone                        |
+| 1     | first person                 | IMP   | imperative                       |
+| 2     | second person                | INDF  | indefinite                       |
+| 3     | third person                 | INFER | inferential evidential           |
+| A     | agent, ergative argument     | INTS  | intesive; durative-iterative     |
+| ABIL  | abilitative mood             | IPFV  | imperfective                     |
+| ABL   | ablative preposition         | ITER  | iterative                        |
+| ABS   | absolutive                   | LOC   | locative preposition             |
+| ANTIP | antipassive                  | MED   | mediopassive                     |
+| APPL  | applicative                  | NEG   | negative                         |
+| ATT   | attenuative                  | P     | patient, absolutive argument     |
+| BEN   | benefactive preposition      | PFV   | perfective                       |
+| CAUS  | causative                    | PL    | plural                           |
+| COM   | comitative                   | PN    | proper article (cf. proper noun) |
+| COMP  | complementizer               | POSS  | possessive suffix                |
+| COP   | copula                       | PST   | past tense                       |
+| DEF   | definite                     | Q     | question particle                |
+| DESID | desiderative                 | REFL  | reflexive                        |
+| EPI   | epistemic modality           | SG    | singular                         |
+| ERG   | ergative                     |       |                                  |
+| FOC   | focus                        |       |                                  |
+| FUT   | future                       |       |                                  |
+| HORT  | hortatitive                  |       |                                  |
 
 ## <a name="overview"></a>A. An overview of Ekhwachi <a href="#table_of_contents">^</a>
 
@@ -1475,6 +1475,8 @@ The D-series corresponds to Haspelmath's 'standard of comparison' and 'free choi
 
 
 ## <a name="articles"></a>A. Articles <a href="#table_of_contents">^</a>
+
+### <a name="articles_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
 
 ### <a name="proper_article"></a>A.B. The proper article (?) <a href="#table_of_contents">^</a>
 

@@ -3,7 +3,6 @@
     --off-black:  hsl(0, 50%,  5%);
     --grey-light: hsl(0,  5%, 85%);
     --grey-dark:  hsl(0,  5%, 15%);
-    --box-text:   hsl(0, 20%, 85%);
     --accent:     hsl(0, 95%, 85%);
 }
 
@@ -23,10 +22,10 @@ a { color: var(--links); }
 
 div.highlight { background-color: var(--grey-dark); }
 
-.main-content pre>code { color: var(--box-text); }
+.main-content pre>code { color: var(--grey-light); }
 
 .main-content table th, .main-content table td {
     border: 2px solid var(--accent);
     background-color: var(--off-black);
-    color: var(--box-text);
+    color: var(--grey-light);
 }

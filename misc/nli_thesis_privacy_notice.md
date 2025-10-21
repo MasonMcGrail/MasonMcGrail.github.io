@@ -1,5 +1,7 @@
 # Privacy notice
 
+<link type="text/css" rel="stylesheet" href="../stylesheets/main.css">
+
 This page serves as a privacy notice for the corpora [The Advanced Finnish Learners’ Corpus (LAS2)](http://urn.fi/urn:nbn:fi:lb-201407167) and [International Corpus of Learner Finnish (ICLFI)](http://urn.fi/urn:nbn:fi:lb-20140730163) in my master's thesis in the Cloud-Driven Artificial Intelligence program at Centria UAS. Both are available at [Kielipankki](https://www.kielipankki.fi/), also called the Language Bank in English.
 
 ## Persons responsible and contact information

@@ -1,34 +1,32 @@
 :root {
-    --off-white:      hsl(0, 50%, 95%);
+    --links:          hsl(0, 50%, 60%);
     --off-black:      hsl(0, 50%,  5%);
-    --off-grey-light: hsl(0,  5%, 80%);
-    --off-grey-dark:  hsl(0,  5%, 20%);
-    --box-text-light: hsl(0, 20%, 80%);
-    --box-text-dark:  hsl(0, 20%, 20%);
-    --accent-dark:    hsl(0, 95%, 80%);
-    --accent-light:   hsl(0, 95%, 20%);
+    --grey-light: hsl(0,  5%, 85%);
+    --grey-dark:  hsl(0,  5%, 15%);
+    --box-text:       hsl(0, 20%, 85%);
+    --accent:         hsl(0, 95%, 85%);
 }
 
-body { background-color: var(--off-grey-dark);  color: var(--off-grey-light); }
+body { background-color: var(--grey-dark);  color: var(--grey-light); }
 
-a { color: var(--off-white); }
+a { color: var(--links); }
 
 .main-content h1, .main-content h2,
 .main-content h3, .main-content h4,
-.main-content h5, .main-content h6 { color: var(--accent-dark); }
+.main-content h5, .main-content h6 { color: var(--accent); }
 
 .main-content .highlight pre {
     background-color: var(--off-black);
-    border: 2px solid var(--accent-dark);
+    border: 2px solid var(--accent);
     border-radius: 0.5rem;
 }
 
-div.highlight { background-color: var(--off-grey-dark); }
+div.highlight { background-color: var(--grey-dark); }
 
 .main-content pre>code { color: var(--box-text-light); }
 
 .main-content table th, .main-content table td {
-    border: 2px solid var(--accent-dark);
+    border: 2px solid var(--accent);
     background-color: var(--off-black);
     color: var(--box-text-light);
 }

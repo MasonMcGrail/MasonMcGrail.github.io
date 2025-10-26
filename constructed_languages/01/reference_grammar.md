@@ -10,6 +10,7 @@
   - [1.3. Interlinear glosses](#interlinear_glosses)
     - [1.3.1. Additional conventions](#additional_conventions)
     - [1.3.2. A note on terms for syntactic arguments](#terms_syntactic_arguments)
+  - [1.4. Abbreviations](#abbreviations)
 - [2. An overview of Nga'ō](#overview)
   - [2.1. Introduction](#overview_introduction)
   - [2.2. The language and its setting](#language_setting)
@@ -37,9 +38,20 @@
     - [3.5.2. Word stress](#word_stress)
   - [3.6. Morphophonology](#morphophonology)
     - [3.6.1. Vowel raising](#vowel_raising)
-- [A. Noun morphology](#noun_morphology)
-  - [A.B. Nominal inflection](#nominal_inflection)
-  - [A.B. Nominal derivation](#nominal_derivation)
+- [4. Nouns and noun phrases](#nouns)
+  - [4.1. Introduction](#nouns_introduction)
+  - [4.2 Number and definiteness](#number_definiteness)
+  - [4.3. Possessive suffixes](#possessive_suffixes)
+    - [4.3.1. Allomorphy in the first person](#allomorphy_first_person)
+    - [4.3.2. Allomorphy in the second person](#allomorphy_second_person)
+    - [4.3.3. Allomorphy in the third person](#allomorphy_third_person)
+    - [4.3.4. Some useful patterns in allomorphy](#allomorphy_patterns)
+  - [4.4. Noun phrase structure](#noun_phrases)
+    - [4.4.1. Articles](#noun_phrases_articles)
+    - [4.4.2. Adjectives](#noun_phrases_adjectives)
+    - [4.4.3. Numerals and demonstratives](#noun_phrases_numerals_demonstratives)
+    - [4.4.4. Possessors and prepositional phrases](#noun_phrases_prepositionals)
+    - [4.4.5. Relative clauses](#noun_phrases_relative_clauses)
 - [A. Verb morphology](#verb_morphology)
   - [A.B. Introduction](#verb_morphology_introduction)
   - [A.B. Verbal inflection](#verbal_inflection)
@@ -182,7 +194,7 @@ The term 'subject' is troublesome when describing ergative languages like Nga'ō
 
 When discussing semantic roles, I will use the terms 'agentive' and 'patientive' instead.
 
-### A.B. Abbreviations <a href="#table_of_contents">^</a>
+### <a name="abbreviations"></a>1.4. Abbreviations <a href="#table_of_contents">^</a>
 
 |   |   |
 | - | - |
@@ -301,13 +313,13 @@ Most parts of speech in Nga'ō inflect rather little, with the exception of verb
 
 ##### 2.3.3.1. Inflectional morphology
 
-Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number is ambiguous in isolation, but it's commonly marked as singular or plural elsewhere in the phrase or clause, such as with definite articles. Those below are given with the base form of the suffix, with allomorphs below.
+Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number is ambiguous in isolation, but it's commonly marked as singular or plural elsewhere in the phrase or clause, such as with definite articles.The table below lists the possessive suffixes. If a cell has two rows, the top row is the most common allomorph, and the bottom row are the other allomorphs. This allomorphy is explained further in the following subsections.
 
 |                | Singular | Plural |
 | -------------- | -------- | ------ |
-| **1st person** | -ra <br> *-r(a/e/o), -l(a/e/o), -t(a/e/o)* | -'ang <br> *-'ang, -ssang* |
+| **1st person** | -ra <br> *-re, -ro, -ta* | -'ang <br> *-'-ssang* |
 | **2nd person** |     -ong |    -mi |
-| **3rd person** | -su <br> *-s, -su, ssu* | -pi <br> *-pi, -ppi* |
+| **3rd person** | -su <br> *-s, ssu* | -pe <br> *-ppe* |
 
 Figure A. _Possessive suffixes._
 
@@ -468,18 +480,18 @@ Non-topicalized arguments usually coordinate ergatively.
 However, topicalized arguments generally pattern accusatively; a topicalized S or A coordinates as an S or A in a second clause.
 
     **Eng ???** ????????? eng ??? ???  ???????????
-    **eng  ???**  ??- ??-??? -??      eng    ???   ???  ??- ??- ??-??? =??
+    **eng  ???**  ??-  ??-???-??      eng    ???   ???  ??- ??- ??-??? =??
     DEF.SG lizard PST-PFV-see-3SG.ERG DEF.SG crane and PST-PFV-MED-stop=3SG.ABS
     'The lizard saw the crane and it (the lizard) stopped'
 
 S and A arguments, but not O arguments, can be topicalized without being marked morphologically or prosodically. Below, **\[?\]** in the second example are not overtly marked when topicalized, while the **\[?\]** in the third example has an additional prosodic pause and is now marked on the verb.
 
-    ???-?? nī ??? eng ???
+    ????? nī ??? eng ???
     ???-??      nī     ??? eng    ???
     eat-3PL.ERG DEF.PL rat DEF.SG ginger.root
     'The rats are eating the ginger!'
 
-    **Nī ???** ???-?? eng ???
+    **Nī ???** ????? eng ???
     **nī     ???** ???-??      eng    ???
     **DEF.PL rat** eat-3PL.ERG DEF.SG ginger.root
     'The rats are eating the ginger!'
@@ -719,113 +731,173 @@ The explanation is similar for the first person singular ergative/possessive suf
 
 In the cases where /e, o/ raise to /i, u/, there was historically a sound change where /i, u/ lowered to /e, o/ before nasal codas. This was prevented if the syllable happened to be opened through the addition of a suffix beginning with a vowel, as happens for the second person singular and causative forms.
 
-From a diachronic perspective, it would be more accurate to call this lowering rather than raising, but I grouped these together under `raising' because it appears that way synchronically and is easier to explain.
+From a diachronic perspective, it would be more accurate to call this lowering rather than raising, but I grouped these together under 'raising' because it appears that way synchronically and is easier to explain.
 
 
-## <a name="noun_morphology"></a>A. Noun morphology <a href="#table_of_contents">^</a>
+## <a name="nouns"></a>4. Nouns and noun phrases <a href="#table_of_contents">^</a>
 
-### <a name="nominal_inflection"></a>A.B. Nominal inflection <a href="#table_of_contents">^</a>
+### <a name="nouns_introduction"></a>4.1. Introduction <a href="#table_of_contents">^</a>
 
-#### A.B.C. Possessive suffixes
+Nouns in Nga'ō have little inflectional morphology, only having a set of possessive suffixes. They do not inflect for number or definiteness, which is instead marked on other words in the phrase and/or clause, especially on articles.
 
-Nouns in Ekhwachi do not inflect for most grammatical categories, including case, number, and gender. The only instance of nominal inflection is the following set of possessive suffixes, which agree in person, number, and when relevant, clusivity of the noun's possessor.
+### <a name="number_definiteness"></a>4.2. Number and definiteness <a href="#table_of_contents">^</a>
+
+Nouns do not inflect for number or definiteness, which is instead indicated with articles and/or demonstratives in the same phrase. All nouns other than pronouns, including proper nouns, almost always obligatorily occur with articles, so number and definiteness are almost always clear in practice.
+
+    Eng/wa/nī/??? ???
+    eng/   wa/     nī/    ???     ???
+    DEF.SG/INDF.SG/DEF.PL/INDF.PL crane
+    'the/a/some crane(s)'
+
+When a noun occurs with a demonstrative, it usually occurs with a definite article.
+
+    **Eng** ??? **???**, **nī** ??? **???**
+    **eng**    ???   **???**     **nī**     ???   **???**
+    **DEF.SG** smith **this.SG** **DEF.PL** smith **those**
+    'this smith, those smiths'
+
+Nouns only occur without articles in two constructions. When a noun is incorporated, it is not modified in any way, including by articles.
+
+    ??? ??????????? ??? ???
+    ???   ??- ??-  ??~???   -??     eng    ???
+    then PST-PFV-INTS~close-3SG.ERG DEF.SG door
+    'Then he slammed the door'
+
+    ??? ????????? ?????
+    ???   ??- ??-  ??~???   ??? =??
+    then PST-PFV-INTS~close door=3SG.ABS
+    'Then he slammed the door'
+
+Otherwise, articles do not occur with nouns when they are modified by indefinite or interrogative pronouns.
+
+    ??? ????????? wa ???
+    ???  ??- ??-???-??      wa      ???
+    Q   PST-PFV-use-2SG.ERG INDF.SG hammer
+    'Did you use a hammer?'
+
+    ??? **???** ?????????
+    ???    **???**   ??- ??-???-??
+    hammer **what** PST-PFV-use-2SG.ERG
+    'Which hammer did you use?'
+
+### <a name="possessive_suffixes"></a>4.3. Possessive suffixes <a href="#table_of_contents">^</a>
+
+There are two constructions used in possessive phrases, based on whether the possessor is pronominal or a common noun. When the possessor is pronominal, the possessed noun takes one of the following possessive suffixes, which agree in person and number with the possessor.
+
+The table below summarizes the suffixes for all persons and numbers. Except for the second person forms, these exhibit a significant amount of allomorphy. If a cell has two rows, the top row is the most common allomorph, and the bottom row are the other allomorphs. This allomorphy is explained further in the following subsections.
+
+|                | Singular | Plural |
+| -------------- | -------- | ------ |
+| **1st person** | -ra <br> *-re, -ro, -ta* | -'ang <br> *-'-ssang* |
+| **2nd person** |     -ong |    -mi |
+| **3rd person** | -su <br> *-s, ssu* | -pe <br> *-ppe* |
+
+#### <a name="allomorphy_first_person"></a>4.3.1. Allomorphy in the first person <a href="#table_of_contents">^</a>
+
+The most common realization for the first person singular suffix is **-ra**, but due to the raising rule mentioned in [3.6.1.](#vowel_raising), it often surfaces as **-re** or **-ro** if the preceding syllable contains /i(ː)/ or /u(ː)/. After nasal codas, it surfaces as **-ta**.
+
+For the first personal plural, the basic form of the suffix is **-'ang**. It surfaces as **-ssang** if the stem ends in a non-nasal coda, replacing that consonant.
+
+    eng ???**??**
+    eng    ??? -**??**
+    DEF.SG bowl-**3SG.POSS**
+    'her bowl'
+
+    nī ???**??**
+    nī     ???    -**??**
+    DEF.PL machete-**3PL.POSS**
+    'their machetes'
+
+When the possessor is a common noun, it occurs after the possessed noun as the object of the preposition **no** or its portmanteau forms **neng**/**na**.
+
+    nī ??? **no** eng ???
+    nī     ???  **no**  eng    ???
+    DEF.PL claw **LOC** DEF.SG crab
+    'the crab's claws'
+
+    nī ??? **no** nī ???
+    nī     ???      **no**  nī     ???
+    DEF.PL position **LOC** DEF.PL army
+    'the positions of the armies'
+
+    nī ??? **neng** ???
+    nī     ???  **neng**       ???-??
+    DEF.PL aunt **LOC.DEF.SG** man-FSG.POSS
+    'my husband's aunts'
+
+#### <a name="allomorphy_second_person"></a>4.3.2. Allomorphy in the second person <a href="#table_of_contents">^</a>
+
+The second person suffixes exhibit basically no allomorphy. That said, some words have a stem-final consonant that surfaces before the second person singular suffix, which can complicate its formation. This stem consonant is lexical and unpredictable.
+
+#### <a name="allomorphy_third_person"></a>4.3.3. Allomorphy in the third person <a href="#table_of_contents">^</a>
+
+The third person singular suffix is **-s** for stems ending in vowels, **-su** for stems ending in **-s** or **-ng**, and **-ssu** for stems ending in another consonant. This other consonant may be **-h**, or it might be a **-(p/t/k)** that only surfaces in some inflectional forms; in both cases, **-ssu** replaces the final consonant.
+
+The third person plural suffix is normally **-pe**. It surfaces as **-ppe** in the same circumstances in which the third person singular suffix surfaces as **-ssu**.
+
+#### <a name="allomorphy_patterns"></a>4.3.4. Some useful patterns in allomorphy <a href="#table_of_contents">^</a>
+
+The first person singular suffixes are completely predictable based on the shape of the lemma, and the second person suffixes are invariant. The first person plural and third person suffixes have a fair amount of allomorphy, but because they are all just based on stem-final coda consonants, there are only a few combinations of them that exist:
+
+- **-ssu**, **-ssang**, **-ppe**. Occurs for stems ending in **-h/p/t/k**, which in many cases is a consonant that only occurs during inflection. These suffixes replace the stem consonant.
+- **-su**, **-sang**, **-pe**. Occurs for stems ending in **-s**, replacing it.
+- **-su**, **-'ang**, **-pe**. Occurs for stems ending in **-ng**, replacing it.
+- **-s**, **-'ang**, **-pe**. Occurs for other stems ending in a vowel.
+
+### <a name="noun_phrases"></a>4.4. Noun phrase structure <a href="#table_of_contents">^</a>
+
+The order of words in a noun phrase that has all possible modifiers is given below. All of these modifiers always come in this order.
 
 <table>
   <tr>
-    <th colspan=2></th>
-    <th>Singular</th>
-    <th>Plural</th>
-  </tr>
-  <tr>
-    <th rowspan=2>1st person</th>
-    <th>Exclusive</th>
-    <td rowspan=2>-??</td>
-    <td>-(ch)il</td>
-  </tr>
-  <tr>
-    <th>Inclusive</th>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th colspan=2>2nd person</th>
-    <td>-??</td>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th colspan=2>3rd person</th>
-    <td>-(t)a</td>
-    <td>-??</td>
+    <th>Article</th>
+    <th>Noun</th>
+    <th>Adjective phrase</th>
+    <th>Numeral phrase</th>
+    <th>Demonstrative</th>
+    <th>Possessor</th>
+    <th>Prepositional phrase</th>
+    <th>Relative clause</th>
   </tr>
 </table>
 
-Figure A. _Pronominal possessive suffixes._
+The example below demonstrates what it looks like when all possible modifiers are used at once, which due to its complexity and specificity is mostly hypothetical.
 
-These suffixes do not attract stress, which stays on the final syllable of the stem. For suffixes that contain a segment in parentheses, that segment is only present when attaching to stems that end in open syllables.
+    Nī ??? ??? ??? ??? na ??? neng ??? ?????????
+    nī     ???    ???   ???   ???     na          ???  neng       ???       ??- ??-???=??
+    DEF.PL branch heavy three this.PL LOC.INDF.SG tree LOC.DEF.SG river PST-PFV-fall=3PL.ABS
+    'these three heavy branches of a tree in the river, which fell'
 
-### <a name="nominal_derivation"></a>A.B. Nominal derivation <a href="#table_of_contents">^</a>
+It can only be the branches that fell and not the tree or the river because of the plural number agreement on the verb. However, like English, the attachment of the prepositional phrase is ambiguous, so it is unclear whether the branches or the tree are in the river. Also, when both a genitive and a relative clause are present, it may be ambiguous as to whether the latter is modifying the genitive or the head of the noun phrase if verb agreement does not clarify.
 
-(?)
+    nī ??? no nī ??? ?????
+    nī     ???  no  nī     ???   ???         =??
+    DEF.PL face LOC DEF.PL woman be.beautiful=3PL.ABS
+    'the faces of the woman who are beautiful', or 'the women's faces that are beautiful'
 
-#### A.B.C. Agent nominalizer (?)
+### <a name="noun_phrases_articles"></a>4.4.1. Articles <a href="#table_of_contents">^</a>
 
-(?)
+Before the rest of the noun phrase, a noun is almost always preceded by an article, which marks the noun's number and definiteness. The articles that are used here include:
 
-#### A.B.C. Patient nominalizer (?)
+- The definite articles **eng** and **nī**
+- The indefinite articles **wa** and **\[?\]**
+- The proper article **e**
 
-(?)
+### <a name="noun_phrases_adjectives"></a>4.4.2. Adjectives <a href="#table_of_contents">^</a>
 
-#### A.B.C. Instrumental nominalizer (?)
+Attributive adjectives always occur after the nouns they modify. Within the adjective phrase, nominal adjectives precede verbal adjectives, and words that modify adjectives occur after them.
 
-(?)
+### <a name="noun_phrases_numerals_demonstratives"></a>4.4.3. Numerals and demonstratives <a href="#table_of_contents">^</a>
 
-#### A.B.C. Locative nominalizers (?) and (?)
+Both numerals and demonstratives occur after the nouns they modify, in that order.
 
-(?)
+### <a name="noun_phrases_prepositionals"></a>4.4.4. Possessors and prepositional phrases <a href="#table_of_contents">^</a>
 
-#### A.B.C. Action nominalizer (?)
+Common nouns possessing the head noun are placed after the head noun, separated by the preposition **no** or its portmanteau forms **neng**/**na**. In a structurally similar way, attributive prepositional phrases follow the head noun.
 
-(?)
-<!--
-_\[would have one or two methods (probably one) of forming intransitive verbs from nouns. Probably affixal, but it could also be done with reduplication. The example given for Tzeltal is "song" goes to "to sing", so it might be something like "do \[noun\]"\]_ (?)
--->
+If the preposition is **no**, the reading can be ambiguous. For example. **\[??? ??? no ??? ???\]** can mean 'the water in the lake' or 'the water of the lake'.
 
-#### A.B.C. Compounding
-
-Endocentric compounds consisting of a head noun and an attributive adjective are always head-initial.
-
-    AAA-BBB    'blue heron(?)', from AAA 'heron' and BBB 'blue'
-    AAA-BBB    'green parrot(?)', from AAA 'parrot' and BBB 'green'
-
-For endocentric compounds consisting of a head and one or more modifiers, the head generally precedes any modifiers. However, there are two different kinds of endocentric noun-noun compounds, which differ in head placement. Noun-noun compounds formed by simply juxtaposing roots are head-final.
-
-    AAA-BBB    'mountain tiger', from AAA 'mountain' and BBB 'tiger'
-    AAA-BBB    'flying squirrel(?)', from AAA 'wing' and BBB 'squirrel'
-
-Diachronically, these compounds are older and reflect a stage in the language when genitives preceded their heads, and such compounds are a closed class, with many of them synchronically analyzed as being monomorphemic due to sound changes obscuring their etymology. The other kind of noun-noun compound is head-initial, and it is formed by prosodically pronouncing a basic possessive phrase as one word.
-
-    AAA-3SG.POSS-BBB                 'peach fuzz', from AAA 'facial hair' and BBB 'peach'
-    AAA-3SG.POSS-BBB-CCC             'barn owl', from AAA 'owl', BBB 'mask', and CCC 'white'
-    AAA-3SG.POSS-BBB-3SG.POSS-CCC    'ant-mimicking spider', from AAA 'spider, BBB 'shape', CCC 'ant'
-
-These have been analyzed as compounds because in terms of pronunciation and syntax, they behave as single words. In particular, the definite articles (?) and (?) normally do not occur with the heads of possessive phrases, but they occur freely with compounds.
-
-    (A.#) ??? ???????????
-          ???    ???????????
-          DEF.SG owl:3SG.POSS:mask:white
-          'the barn owl'
-
-    (A.#) * ??? ????? ??? ???
-          ???    ?????    ???  ???
-          DEF.SG owl:3SG.POSS mask white
-          Intended: 'the owl of a white mask', or 'the white mask's owl'
-
-This kind of compounding is more productive, and any new noun-noun compounds are formed using it.
-
-<!--
-Noun-noun compounds where modifying noun is a nationality are also head-initial, but they do not require the possessive affixes. [some other things might not either(?)]
-
-    AAA-BBB                   '???', from AAA '???' and BBB '???'
--->
+### <a name="noun_phrases_relative_clauses"></a>4.4.5. Relative clauses <a href="#table_of_contents">^</a>
 
 
 ## <a name="verb_morphology"></a>A. Verb morphology <a href="#table_of_contents">^</a>

@@ -10,7 +10,7 @@
   - [1.3. Interlinear glosses](#interlinear_glosses)
     - [1.3.1. Additional conventions](#additional_conventions)
     - [1.3.2. A note on terms for syntactic arguments](#terms_syntactic_arguments)
-- [2. An overview of Ekhwachi](#overview)
+- [2. An overview of Nga'ō](#overview)
   - [2.1. Introduction](#overview_introduction)
   - [2.2. The language and its setting](#language_setting)
     - [2.2.1. The name of the language and its language family](#language_name)
@@ -22,14 +22,21 @@
     - [2.3.2. Word classes](#word_classes)
     - [2.3.3. Morphology and morphosyntax](#overview_morphology)
     - [2.3.4. Syntax](#overview_syntax)
-- [A. Phonology](#phonology)
-  - [A.B. Introduction](#phonology_introduction)
-  - [A.B. Consonants](#consonants)
-  - [A.B. Vowels](#vowels)
-  - [A.B. Word stress](#word_stress)
-  - [A.B. Phonotactics](#phonotactics)
-  - [A.B. Morphophonology](#morphophonology)
-  - [A.B. Phonemic analysis](#phonemic_analysis)
+- [3. Phonology](#phonology)
+  - [3.1. Introduction](#phonology_introduction)
+  - [3.2. Consonants](#consonants)
+    - [3.2.1. Allophonic variation in consonants](#allophony_consonants)
+    - [3.2.2. Romanization notes for consonants](#romanization_consonants)
+  - [3.3. Vowels](#vowels)
+    - [3.3.1. Allophonic variation in vowels](#allophony_vowels)
+    - [3.3.2. Romanization notes for vowels](#romanization_vowels)
+  - [3.4. Phonotactics](#phonotactics)
+    - [3.4.1. Glottal stop insertion](#glottal_stop_insertion)
+  - [3.5. Prosody](#prosody)
+    - [3.5.1. Syllable weight](#syllable_weight)
+    - [3.5.2. Word stress](#word_stress)
+  - [3.6. Morphophonology](#morphophonology)
+    - [3.6.1. Vowel raising](#vowel_raising)
 - [A. Noun morphology](#noun_morphology)
   - [A.B. Nominal inflection](#nominal_inflection)
   - [A.B. Nominal derivation](#nominal_derivation)
@@ -252,87 +259,23 @@ This section briefly details the features of Nga'ō that make it distinct from o
 
 Nga'ō has 5 vowel phonemes, which consist of the cross-linguistically common set of /i, e, a, o, u/. Each may be long or short with no significant change in quality, and they have little allophonic variation. There are also four closing diphthongs: /ai̯, au̯, oi̯, eu̯/.
 
-<table>
-  <tr>
-    <th></th>
-    <th>Front</th>
-    <th>Central</th>
-    <th>Back</th>
-  </tr>
-  <tr>
-    <th>Close</th>
-    <th>i</th>
-    <th></th>
-    <th>u</th>
-  </tr>
-  <tr>
-    <th>Mid</th>
-    <th>e ~ ɛ</th>
-    <th></th>
-    <th>o ~ ɔ</th>
-  </tr>
-  <tr>
-    <th>Open</th>
-    <th></th>
-    <th>a</th>
-    <th></th>
-  </tr>
-</table>
+|       | Front | Central | Back |
+| ----- | ----- | ------- | ---- |
+| Close | i     |         | u    |
+| Mid   | e     |         | o    |
+| Open  |       | a       |      |
 
 Figure A. _Vowels._
 
 There are 11 consonant phonemes in 5 places of articulation (labial, coronal, palatal, velar, and glottal), which do not contrast in voicing, aspiration, secondary articulation, or length. The table below does not include additional allophones.
 
-<table>
-  <tr>
-    <th></th>
-    <th>Labial</th>
-    <th>Coronal</th>
-    <th>Palatal</th>
-    <th>Velar</th>
-    <th>Glottal</th>
-  </tr>
-  <tr>
-    <th>Nasal</th>
-    <th>m</th>
-    <th>n</th>
-    <th></th>
-    <th>ŋ</th>
-    <th></th>
-  </tr>
-  <tr>
-    <th>Plosive</th>
-    <th>p</th>
-    <th>t</th>
-    <th></th>
-    <th>k</th>
-    <th>ʔ</th>
-  </tr>
-  <tr>
-    <th>Fricative</th>
-    <th></th>
-    <th>s</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-  <tr>
-    <th>Approximant</th>
-    <th>w</th>
-    <th></th>
-    <th>j</th>
-    <th></th>
-    <th></th>
-  </tr>
-  <tr>
-    <th>Tap</th>
-    <th></th>
-    <th>ɾ</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-</table>
+|                 | Labial | Coronal | Palatal | Velar | Glottal |
+| --------------- | ------ | ------- | ------- | ----- | ------- |
+| **Nasal**       | m      | n       |         | ŋ     |         |
+| **Plosive**     | p      | t       |         | k     | ʔ       |
+| **Fricative**   |        | s       |         |       |         |
+| **Approximant** |        |         | j       | w     |         |
+| **Tap**         |        | ɾ       |         |       |         |
 
 Figure A. _Consonants (allophones omitted)._
 
@@ -358,42 +301,25 @@ Most parts of speech in Nga'ō inflect rather little, with the exception of verb
 
 ##### 2.3.3.1. Inflectional morphology
 
-Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number is ambiguous in isolation, but it's commonly marked as singular or plural elsewhere in the phrase or clause, such as with definite articles.
+Nouns have no inflectional morphology aside from a set of possessive suffixes. A noun's number is ambiguous in isolation, but it's commonly marked as singular or plural elsewhere in the phrase or clause, such as with definite articles. Those below are given with the base form of the suffix, with allomorphs below.
 
-<table>
-  <tr>
-    <th></th>
-    <th>Singular</th>
-    <th>Plural</th>
-  </tr>
-  <tr>
-    <th>1st person</th>
-    <td>-??</td>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th>2nd person</th>
-    <td>-??</td>
-    <td>-??</td>
-  </tr>
-  <tr>
-    <th>3rd person</th>
-    <td>-??</td>
-    <td>-??</td>
-  </tr>
-</table>
+|                | Singular | Plural |
+| -------------- | -------- | ------ |
+| **1st person** | -ra <br> *-r(a/e/o), -l(a/e/o), -t(a/e/o)* | -'ang <br> *-'ang, -ssang* |
+| **2nd person** |     -ong |    -mi |
+| **3rd person** | -su <br> *-s, -su, ssu* | -pi <br> *-pi, -ppi* |
 
 Figure A. _Possessive suffixes._
 
-| Nga'ō      | English                 | Nga'ō      | English               |
-| ---------- | ----------------------- | ---------- | --------------------- |
-| ??? ???-?? | 'my hands'              | ??? ???-?? | 'our hands'           |
-| ??? ???-?? | 'your (singular) hands' | ??? ???-?? | 'your (plural) hands' |
-| ??? ???-?? | 'its hands'             | ??? ???-?? | 'their hands'         |
+| Nga'ō     | English                 | Nga'ō     | English               |
+| --------- | ----------------------- | --------- | --------------------- |
+| nī ???-?? | 'my hands'              | nī ???-?? | 'our hands'           |
+| nī ???-?? | 'your (singular) hands' | nī ???-?? | 'your (plural) hands' |
+| nī ???-?? | 'its hands'             | nī ???-?? | 'their hands'         |
 
 If a noun's grammatical role is marked, it is marked by some combination of verbal marking, prepositions, and word order. Verbs agree with their A arguments, while P arguments are not marked on the verb if they appear in the clause as full NPs; they otherwise appear as clitics on the verb.
 
-    ????????? nī ??? **???** ??? **neng** nī ?????
+    ????????? nī ??? **neng** ??? **???** nī ?????
      ??- ??-??? -??      nī     ???   **neng**       ???  **???** nī     ???  -??
     PST-PFV-peel-3PL.ERG DEF.PL peach **LOC.DEF.SG** boat **ABL** DEF.PL knife-3PL.POSS
     'They peeled the peaches on the boat with their knives'
@@ -410,6 +336,8 @@ If a noun's grammatical role is marked, it is marked by some combination of verb
 
 In addition to this marking of A and P, verbs inflect for tense, aspect, mood, and voice. The examples below show how some of these inflectional categories are realized.
 
+|          |                          |         |                         |
+| -------- | ------------------------ | ------- | ----------------------- |
 | ?????    | 'It throws'              | ??????? | 'It wants to throw'     |
 | ???????  | 'It will throw'          | ??????? | 'It throws (something)' |
 | ???????  | 'It was throwing'        | ??????? | 'It throws for'         |
@@ -556,7 +484,7 @@ S and A arguments, but not O arguments, can be topicalized without being marked 
     **DEF.PL rat** eat-3PL.ERG DEF.SG ginger.root
     'The rats are eating the ginger!'
 
-    Eng ??? ?????**??** nī ???
+    Eng ???, ?????**??** nī ???
     eng    ???         ???-??     =**??**      nī     ???
     DEF.SG ginger.root eat-3PL.ERG=**3SG.ABS** DEF.PL rat
     'The rats are eating the ginger!'
@@ -589,210 +517,209 @@ The default word order is verb-agent-object (VAO) for transitive verbs and verb-
     **DEF.SG child** PST-hold-3SG.ERG INDF.SG rock
     'The child was holding a rock'
 
-Similarly, AVO, OVA and SV orders result from an argument being focused, which is additionally marked with the preceding particle \textbf{[?]}. The order AOV occurs when A is topicalized and O is focused.
+Similarly, AVO, OVA and SV orders result from an argument being focused, which is additionally marked with the preceding particle **\[?\]**. The order AOV occurs when A is topicalized and O is focused.
 
-...
+    ??????? eng ??? ??? eng ???
+     ??- ??-???  eng    ???       ??? eng    ???
+    PST-PFV-fall DEF.SG pineapple ABL DEF.SG table
+    'The pineapple fell off of the table'
+
+    **??? eng ???** ??????? ??? eng ???
+    **??? eng    ???**       ??- ??-???   ??? eng    ???
+    **FOC DEF.SG pineapple** PST-PFV-fall ABL DEF.SG table
+    '**The pineapple** fell off of the table'
+
+    ??????????? eng ??? nī ????? ???
+     ??- ??-??? -??  -??      eng    ???  nī     ???  -??       ???
+    PST-PFV-burn-CAUS-3SG.ERG DEF.SG fire DEF.PL glove-3SG.POSS new
+    'The fire burned her new gloves'
+
+    **??? eng ???** ??????????? nī ????? ???
+    **??? eng    ???**   ??- ??-??? -??  -??      nī     ???  -??       ???
+    **FOC DEF.SG fire** PST-PFV-burn-CAUS-3SG.ERG DEF.PL glove-3SG.POSS new
+    '**The fire** burned her new gloves'
+
+    **??? nī ????? ???** ??????????? eng ???
+    **??? nī     ???  -??       ???**  ??- ??-??? -??  -??      eng    ???
+    **FOC DEF.PL glove-3SG.POSS new** PST-PFV-burn-CAUS-3SG.ERG DEF.SG fire
+    'The fire burned **her new gloves**'
+
+    **Eng ???** **??? nī ????? ???** ???????????
+    **eng    ???**  **??? nī     ???  -??       ???**  ??- ??-??? -??  -??
+    **DEF.SG fire** **FOC DEF.PL glove-3SG.POSS new** PST-PFV-burn-CAUS-3SG.ERG
+    'The fire burned **her new gloves**'
+
+It is worth noting that focus constructions can be syntactically ambiguous; the second- and third-to-last examples have the exact same structure, and both could alternatively mean 'Her new gloves burned the fire' if the number agreement on the verb matched. Number agreement, context, and semantics normally prevent such nonsensical readings, so this ambiguity is rarely a problem in practice.
+
+Interrogative words in nonpolar questions are fronted to the beginning of the sentence, only following a topicalized element if one is present. When an interrogative word is part of a larger phrase, the entire phrase is fronted.
+
+    **???** ???????
+    **???**    ??-   ??~???
+    **who** DESID-ANTIP~help
+    'Who wants to help?'
+
+    **???** ????????? ???
+    **???**  ??- ??-???-??      ???
+    **who** PST-PFV-cut-3SG.ERG this
+    'Who cut this?'
+
+    **???** ?????
+    **???**  ???-??
+    **what** eat-2SG.ERG
+    'What are you eating?'
+
+    **???** ????????? eng ???
+    **???**    ??- ??-??? -??      eng    ???
+    **where** PST-PFV-find-3PL.ERG DEF.SG cave
+    'Where did your cousins find the cave?'
+
+    **??? ???** ?????????
+    **??? ???**   ??-??? -??     =??
+    **ABL what** PFV-make-3PL.ERG=3SG.ABS
+    'What will they make it with?'
+
+    **No ???** ??? eng ??? ???
+    **no ???**   ??? eng    ???   ???
+    **LOC what** COP DEF.SG canoe this
+    'Whose canoe is this?'
+
+    Eng ??? no **???** ?????????
+    eng    ???   no  **???**  ??- ??- ??-???
+    DEF.SG house LOC **who** PST-PFV-MED-burn
+    'Whose house is burning?'
+
+This fronting has the same potential for ambiguity as in focus constructions.
 
 
-## <a name="phonology"></a>A. Phonology <a href="#table_of_contents">^</a>
+## <a name="phonology"></a>3. Phonology <a href="#table_of_contents">^</a>
 
-### <a name="phonology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
+### <a name="phonology_introduction"></a>3.1. Introduction <a href="#table_of_contents">^</a>
 
-This section is an overview of the phonology of Ekhwachi. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this section, I cover details of morphophonology, which mostly deals with one assimilatory process, and I provide some evidence for my analysis of the inventory.
+This chapter is an overview of the phonology of Nga'ō. I first describe the consonants and their allophonic variation before doing the same for vowels, then I describe stress rules and phonotactics. At the end of this chapter, I provide some evidence for my analysis of the inventory.
 
-While Exwachil does not have a written form, in this work it will be represented with a romanization. The romanization for phonemes will be noted in the tables of its consonant and vowel inventories. If the same symbols used to represent a phoneme in the IPA and the romanization, they are not repeated. Otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
+Nga'ō has its own orthography, but in this work it will be represented with a romanization. The romanization for phonemes will be noted in the tables of its consonant and vowel inventories. If the same symbols are used to represent a phoneme in the IPA and the romanization, they are not repeated. Otherwise, the IPA symbols are on the left, and the symbols used in the romanization are on the right in angle brackets.
 
-### <a name="consonants"></a>A.B. Consonants <a href="#table_of_contents">^</a>
+### <a name="consonants"></a>3.2. Consonants <a href="#table_of_contents">^</a>
 
-The 20 consonant phonemes of Exwachil have the following places and manners of articulation.
+The 11 consonant phonemes of Nga'ō have the following places and manners of articulation. The 3 additional consonants in parentheses only appear as allophones.
 
-<table>
-  <tr>
-    <th colspan=2 rowspan=2></th>
-    <th rowspan=2>Bilabial</th>
-    <th rowspan=2>Dental</th>
-    <th rowspan=2>Post-<br>alveolar</th>
-    <th rowspan=2>Palatal</th>
-    <th colspan=2>Velar</th>
-  </tr>
-  <tr>
-    <th>Plain</th>
-    <th>Labialized</th>
-  </tr>
-  <tr>
-    <th colspan=2>Nasal</th>
-    <th>m</th>
-    <th>n</th>
-    <th></th>
-    <th></th>
-    <th>ŋ ⟨ng⟩</th>
-    <th>ŋʷ ⟨ngw⟩</th>
-  </tr>
-  <tr>
-    <th rowspan=2>Stop/<br>Affricate</th>
-    <th>Voiceless</th>
-    <th>p</th>
-    <th>t</th>
-    <th>tʃ ⟨ch⟩</th>
-    <th></th>
-    <th>k</th>
-    <th>kʷ ⟨kw⟩</th>
-  </tr>
-  <tr>
-    <th>Voiced</th>
-    <th>b</th>
-    <th>d</th>
-    <th>dʒ ⟨j⟩</th>
-    <th></th>
-    <th>g</th>
-    <th>gʷ ⟨gw⟩</th>
-  </tr>
-  <tr>
-    <th colspan=2>Fricative</th>
-    <th></th>
-    <th>s</th>
-    <th>ʃ ⟨sh⟩</th>
-    <th></th>
-    <th>x ⟨kh⟩</th>
-    <th>xʷ ⟨khw⟩</th>
-  </tr>
-  <tr>
-    <th colspan=2>Approximant</th>
-    <th></th>
-    <th>l</th>
-    <th></th>
-    <th>j ⟨y⟩</th>
-    <th></th>
-    <th></th>
-  </tr>
-</table>
+|                 | Labial | Coronal | Post-alveolar | Palatal | Velar   | Glottal |
+| --------------- | ------ | ------- | ------------- | ------- | ------- | ------- |
+| **Nasal**       | m      | n       |               | ŋ ⟨ng⟩   |         |         |
+| **Plosive**     | p      | t       | (t͡ʃ ⟨ch⟩)      |         | k       | ʔ       |
+| **Fricative**   |        | s       | (ʃ ⟨sh⟩)       | (ç ⟨h⟩)  | (x ⟨h⟩) | (h ⟨h⟩)  |
+| **Approximant** |        | (l ⟨r⟩)  |               | j ⟨y⟩    | w       |         |
+| **Tap**         |        | ɾ ⟨r⟩    |               |         |         |         |
 
 Figure A. _Consonant phonemes._
 
-#### A.B.C Allophonic variation in consonants
+#### <a name="allophony_consonants"></a>3.2.1. Allophonic variation in consonants <a href="#table_of_contents">^</a>
 
-All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second-to-last rule specifies that /aku/ would be realized as \[akʷu\], but /xinu/ would be realized as \[xinu\] and not *\[xʷinu\].
+All uses of 'before' and 'after' in the descriptions below refer to segments that are immediately adjacent. For example, the second-to-last rule specifies that /tiku/ would be realized as \[t͡ʃiku\], but /tuki/ would be realized as \[tuki\] and not *\[t͡ʃuki\].
 
-- Voiceless stops and affricates may be slightly aspirated word-initially.
-- Voiced stops are fully voiced in all positions, including word-initially.
-- /dʒ/ is realized as \[ʒ\] in free variation (?).
-- Plain velars before rounded vowels labialize, and they do not contrast with phonemically labialized velars in this position. For example, /ko/ is realized as \[kʷo\].
-- /l/ is realized as \[ɾ\] before front vowels in free variation.
+- A nasal coda assimilates in place with a following consonant, including across word boundaries. It is realized as \[m\] before /m, p/, \[n\] before /n, t, s, ɾ, j/, and \[ŋ\] before /ŋ, k, w, ʔ/, and word-finally.
+- The default realizations of /n/ and /t/ are dental \[n̪\] and \[t̪\]. /t/ and /s/ palatalize before before /i/, becoming palato-alveolar \[t͡ʃ\] and \[ʃ\] respectively.
+- The sequence /sj/, which occurs at syllable boundaries, is realized as \[ʃ\]. The same is not observed for */tj/ because that sequence does not occur.
+- The glottal stop /ʔ/ is allophonically realized as \[ç ~ x ~ h\] in coda position. It is realized as /ç/ after /i/ and before /j/; otherwise it is realized as \[x ~ h\] in free variation, with \[x\] being somewhat more common.
+- /ɾ/ is realized as \[l̪\] word-initially, as well as after nasals and /h/. Otherwise, it is realized as \[ɾ\] before front vowels, and it may be realized as \[ɾ\] or \[l̪\] before back vowels in free variation. Its realization as \[ɾ\] is always alveolar.
+- The geminate affricate \[t͡ʃː\] is pronounced with its stop portion doubled rather than its fricative.
+- The sequence /ŋi/ is realized as \[ni\].
 
-#### A.B.C. Romanization notes for consonants
+#### <a name="romanization_consonants"></a>3.2.2. Romanization notes for consonants <a href="#table_of_contents">^</a>
 
-- Labialization is not indicated where it is not contrastive. For example, because they do not contrast, /gu/ and /gʷu/ are both spelled as ⟨gu⟩ and not \*⟨gwu⟩.
+- Nasal codas are always romanized to reflect their surface realizations in isolation, even if they would change across word boundaries. For example, the definite article is romanized as ⟨eng⟩, even when pronounced as \[en\] as in **eng tushi** 'the water' or **eng i\[?\]** 'the ???'}, or \[em\] as in **eng puh** 'the cut'. Additionally, the sequence \[ŋk\] is romanized as ⟨ngk⟩, as in **tangki** 'squid'.
+- The allophonic palatalization of /t/ and /s/ before /i/, and the realization of /sj/ as \[ʃ\], are indicated in the romanization. \[t͡ʃ\] and \[ʃ\] are respectively romanized as ⟨ch⟩ and ⟨sh⟩.
+- Geminates are romanized by doubling the symbol for the consonant. In the case of digraphs, the first is doubled, as in ⟨pp⟩, ⟨nng⟩, and ⟨cch⟩ for /pː/, /ŋː/, and \[t͡ʃː\].
+- The sequence \[ni\] is romanized as ⟨ni⟩ regardless of whether it is underlyingly /ni/ or /ŋi/, except across word boundaries.
+- When /ɾ/ is mandatorily realized as \[l̪\], it is romanized as ⟨l⟩.
 
-### <a name="vowels"></a>A.B. Vowels <a href="#table_of_contents">^</a>
+### <a name="vowels"></a>3.3. Vowels <a href="#table_of_contents">^</a>
 
-Exwachil has the following 5 vowel phonemes.
+Nga'ō has the following 5 vowel phonemes. Each may be long or short with no significant change in quality.
 
-<table>
-  <tr>
-    <th></th>
-    <th>Front</th>
-    <th>Central</th>
-    <th>Back</th>
-  </tr>
-  <tr>
-    <th>Close</th>
-    <th>i</th>
-    <th></th>
-    <th>u</th>
-  </tr>
-  <tr>
-    <th>Mid</th>
-    <th>e ~ ɛ ⟨e⟩</th>
-    <th></th>
-    <th>o ~ ɔ ⟨o⟩</th>
-  </tr>
-  <tr>
-    <th>Open</th>
-    <th></th>
-    <th>a</th>
-    <th></th>
-  </tr>
-</table>
+|       | Front | Central | Back |
+| ----- | ----- | ------- | ---- |
+| Close | i     |         | u    |
+| Mid   | e     |         | o    |
+| Open  |       | a       |      |
 
 Figure A. _Vowel phonemes._
 
-#### A.B.C. Allophonic variation in vowels
+In addition to the above monophthongs, there are four diphthongs: /ai̯/, /au̯/, /oi̯/, and /eu̯̯/. The diphthongs /ei̯/ and /ou̯/ are notably absent; they were also present until relatively recently, when they respectively simplified to /eː/ and /oː/. The remaining four are analyzed as diphthongs here because the two portions are not broken by stress or pauses; they are stressed or unstressed together as a unit, and they count as one syllable for the purpose of stress assignment. Phonemically, diphthongs are bimoraic and are equivalent to long vowels for most purposes.
 
-Open-mid /e/ and /o/ and their close-mid counterparts /ɛ/ and /ɔ/ are in complementary distribution.
+#### <a name="allophony_vowels"></a>3.3.1. Allophonic variation in vowels <a href="#table_of_contents">^</a>
 
-- The vowel /e ~ ɛ/ is pronounced as \[e\] in stressed syllables, but not after /j/. After /j/ and in unstressed syllables, it is pronounced as \[e ~ ɛ\] in free variation.
-- The vowel /o ~ ɔ/ is pronounced as \[o\] in stressed syllables and as \[o ~ ɔ\] in unstressed syllables in free variation.
+The vowels /e/ and /o/ are pronouced as \[e, o\] in stressed syllables and as \[e ~ ɛ\] and \[o ~ ɔ\] in unstressed syllables in free variation.
 
-#### A.B.C. Romanization notes for vowels
+#### <a name="romanization_vowels"></a>3.3.2. Romanization notes for vowels <a href="#table_of_contents">^</a>
 
-- Unstressed /e ~ ɛ/ and /o ~ ɔ/ will be respectively romanized as ⟨e⟩ and ⟨o⟩, and those symbols will also be used in broad transcription.
+- Unstressed /e/ and /o/ are respectively romanized as ⟨e⟩ and ⟨o⟩, and those symbols will also be used in broad transcription.
+- Long vowels are written with macrons: /iː/ as ⟨ī⟩, /aː/ as ⟨ā⟩, etc.
+- The diphthongs /au̯/, /ai̯/, /oi̯/, and /eu̯̯/ are romanized as sequences of vowels: ⟨au⟩, ⟨ai⟩, ⟨oi⟩, and ⟨eu⟩.
 
-### <a name="word_stress"></a>A.B. Word stress <a href="#table_of_contents">^</a>
+### <a name="phonotactics"></a>3.4. Phonotactics <a href="#table_of_contents">^</a>
 
-Stress in Ekhwachi is not lexically phonemic. Primary stress falls on the last syllable of the stem of almost(?) all words, and secondary stress falls on every alternate syllable such that one with primary stress is never adjacent to one with secondary stress. Stressed and unstressed syllables have roughly the same length and volume, with the greatest difference between them being pitch.
+Nga'ō phonotactics are relatively. A syllable can have an onset of up to one consonant, and its nucleus can be a short or long monophthong or a diphthong. Syllables may end with /h/, /s/, or /ŋ/, and all non-glottal occlusives and sibilants can be geminated word-internally. In addition, the sequences /ji, je, wu, wo/ do not occur.
 
-Possessive and ergative suffixes do not attract stress, which stays on the last syllable of the stem. In practice, this means that almost(?) all words without these suffixes have primary stress on the ultimate syllable, and those with them have it on either the penultimate or antepenultimate syllable. In this way, stress is technically contrastive, as there are minimal pairs that differ only in primary stress placement, such as /??.??.ˈ??/, '\[wordA\]', and /??.ˈ??.??/, '\[wordB-A???\]' (?).
+#### <a name="glottal_stop_insertion"></a>3.4.1. Glottal stop insertion <a href="#table_of_contents">^</a>
 
-### <a name="phonotactics"></a>A.B. Phonotactics <a href="#table_of_contents">^</a>
+An epenthetic glottal stop is added to the beginning of words that phonemically begin with vowels. This glottal stop is phonetically indistinguishable from a phonemic glottal stop, but the two are distinguished by their different morphological behavior. In particular, words beginning with a phonemic glottal stop are always treated as beginning with consonants, while words beginning with epenthetic glottal stops are sometimes treated as starting with vowels.
 
-The syllable structure of Ekhwachi is (C)V; a syllable may have any one consonant in the onset, and it must have one vowel in the nucleus. Consonant clusters do not occur, and neither vowel length nor consonant length are phonemic.
+### <a name="prosody"></a>3.5. Prosody <a href="#table_of_contents">^</a>
 
-#### A.B.C. Phonotactic restrictions
+#### <a name="syllable_weight"></a>3.5.1. Syllable weight <a href="#table_of_contents">^</a>
 
-In the onset of a syllable, /j/ does not occur if its nucleus is /i/. Every other sequence of segments that follows the syllable structure outlined in the previous section is permitted. 
+Each syllable in Nga'ō is either light or heavy, which is determined by how many moras it contains. This distinction is mostly important for poetic purposes rather than for things such as stress assignment.
 
-<table>
-    <tr>
-        <th>Onset</th>
-        <th>Nucleus</th>
-    </tr>
-    <tr>
-        <th>(C)</th>
-        <th>V</th>
-    </tr>
-    <tr>
-        <td>any onset other than /j/</td>
-        <td>/i/</td>
-    </tr>
-    <tr>
-        <td>any onset</td>
-        <td>/e/, /a/,<br>/o/, /u/</td>
-    </tr>
-</table>
+A (C)V sequence is one mora and is a light syllable, while every other syllable shape is a heavy syllable. The sequences CVV and CVC are both two moras, and the longest possible syllable, CVVC, is three moras. All of these can be broken down into CV, V, and C moras, as summarized in the table below.
 
-Figure A. _Possible syllable shapes, which differ based on their preceding onsets._
+#### <a name="word_stress"></a>3.5.2. Word stress <a href="#table_of_contents">^</a>
 
-### <a name="morphophonology"></a>A.B. Morphophonology <a href="#table_of_contents">^</a>
+Stress in Nga'ō is predictable and not lexically phonemic. Primary stress falls on the last syllable of a word after inflection and derivation. Secondary stress falls on every preceding alternate syllable such that the syllable with primary stress is never adjacent to one with secondary stress. Stressed and unstressed syllables of the same weight have roughly the same duration and volume, with the greatest difference between them being pitch.
 
-This section describes the assimilatory processes of the language that surface as a result of affixation and compounding. Because the limited phonotactics prevent consonant clusters, most common assimilatory processes such as nasal assimilation do not occur. The only process that can be observed in a kind of sibilant harmony that is present throughout the language.
+While inflectional and derivational suffixes attract stress, clitics do not. These include the absolutive clitics as well as the applicative marker.
 
-#### A.B.C. Sibilant harmony
+### <a name="morphophonology"></a>3.6. Morphophonology <a href="#table_of_contents">^</a>
 
-A well-formed root in Ekhwachi contains sibilants of only one type. They are either all dental or all postalveolar.
+This section describes the morphophonological processes of the language that surface as a result of affixation and compounding. Because the limited phonotactics prevent consonant clusters, assimilatory processes mostly involve vowels and other segments.
 
-    ???     '[root with no sibilants]' (?)
-    ???     '[root with /s/]' (?)
-    ???     '[root with /ʃ/]' (?)
-    *???    '[example root that is disallowed]' (?)
+#### <a name="vowel_raising"></a>3.6.1. Vowel raising <a href="#table_of_contents">^</a>
 
-For all prefixes containing /s/, /s/ assimilates to /ʃ/ when attaching to stems that contain any postalveolar consonants, regardless of the number of intervening segments. Prefixes containing the postalveolars /ʃ/, /tʃ/, or /dʒ/ do not assimilate to become dental in the same way. This is possibly most commonly observed with the third person singular absolutive prefix, which has the underlying form /s(e)/.
+There is a morphophonological process whereby short /a/ sometimes becomes /e/ or /o/, or short /e, o/ become /i, u/. This happens most frequently with the ergative/possessive suffixes, as well as the causative suffix. Less commonly, /e, o/ may raise to /i, u/ based on whether or not they occur in light syllables. This process only occurs when attaching suffixes, not prefixes or clitics.
 
-    ??-???    '[root with no sibilants]'
-    ??-???    '[root with /s/]'
-    ??-???    '[root with /ʃ/]'
+##### 3.6.2.1. Raising from /a/ or /e, /o/
 
-While there are no counterexamples of root-internal harmony in the corpus, some words contain multiple roots with sibilants and are disharmonic, such as the compound (?). For such words, prefixes assimilate to the first sibilant in the word.
+Short /a/ in a light syllable immediately following /i(ː), u(ː)/ becomes /e, o/. This syllable is the last in the stem or the word. The simplest case of this is with the first person singular ergative/possessive suffix, which by default is **-ra** (ex. **tanga**: **tanga-ra**) but has the allomorphs **-re** and **-ro**. For example, the words **tanga** 'woman, wife', **ani** '\[?\]', and **kasnu** '\[?\]' have the possessive forms **tanga-r<ins>a</ins>**, **ani-r<ins>e</ins>**, and **kansu-r<ins>o</ins>**.
 
-    ??-???    '[compound with /s/ followed by /tʃ/]'
-    ??-???    '[compound with /dʒ/ followed by /s/]'
+For the first person singular suffix in particular, this allomorphy always occurs and is completely predictable based on the preceding vowel. It is the only suffix where the vowel changes because it happens to be the only one where the suffix is a light syllable containing a short /a/.
 
-#### A.B.C. Romanization notes
+Otherwise, the most common instance of this raising is that the word has already undergone this process, but it is undone when most suffixes are added. For example, **chine** '\[?\]' and **tūso** '\[?\]' become **chin<ins>a</ins>-ra** and **tūs<ins>a</ins>-ra** with the same suffix.
 
-When phonemes are realized differently as a result of morphophonological processes, this change is indicated in the romanization when the phoneme's place or manner of articulation changes. In practice, this just means that the romanization will reflect sibilant harmony.
+##### 3.6.2.2. Raising from /e, o/ to /i, u/
 
-### <a name="phonemic_analysis"></a>A.B. Phonemic analysis <a href="#table_of_contents">^</a>
+Short /e, o/ in stem-final syllables sometimes become /i, u/ after attaching suffixes if they are still in light syllables after inflection. This primarily happens with the second person singular ergative/possessive suffix and the causative suffix. For example, **shio** 'paint' has the forms **shios-su** 'his/her/its paint' and **shi<ins>u</ins>-tong** 'your (sg.) paint'. This occurs in a few inflection classes: one for words where there is a consonant in the stem that is absent in the base form but which surfaces when adding suffixes, and one for words ending in **-eng** or **-ong**.
 
-(?)
+##### 3.6.2.3. Patterns of raising
+
+The examples below illustrate the main patterns of raising, including the case where no raising happens at all.
+
+|   | Lemma | 1SG.ERG | 2SG.ERG | 3SG.ERG | CAUS | MED + 3SG.ABS |
+| - | ----- | ------- | ------- | ------- | ---- | ------------- |
+| **No raising** | tanga | tanga-ra | tango-ong | tanga-s | - | - |
+| **Undone: /a/ to /e/** | chin<ins>e</ins> | china-ra | chino-ong | china-s | china-ih | wan-chin<ins>e</ins>=ki |
+| **1SG only: /a/ to /o/** | kasnu | kasnu-r<ins>o</ins> | kasn-ong | kasnu-s | kasn-ih | wang-kasnu=ki |
+| **-eng: /e/ to /i/** | uneng | unen-ta | un<ins>i</ins>n-ong | unen-su | un<ins>i</ins>n-ih | wan-uneng=ki |
+| **-o: /o/ to /u/** | shio | shio-ra | shi<ins>u</ins>t-ong | shios-su | shi<ins>u</ins>ch-ih | wan-shio=ki |
+
+##### 3.6.2.4. Diachronic origin
+
+This process arose from a sound change where /a/ raised after stressed /i(ː)/ and /u(ː)/. For example, modern **uto** at the time was pronounced \[ˈu.ða\] and then became \[ˈu.ðo\]. This change in vowel quality remained after another sound change where stress shifted to the last syllable of the word. The old vowel resurfaces in forms like **uta-ra** because the presence of those suffixes had shifted the stress to the right (at the time, \[u.ˈða.ɾa\]), so the vowel-raising sound change did not apply to those forms.
+
+The explanation is similar for the first person singular ergative/possessive suffix: the vowel raised when it was after stressed /i(ː)/ and /u(ː)/, before the stress later shifted. The first person plural ergative/possessive suffix **-'ang** also has short /a/, but it does not vary as in the singular because it is and was a closed syllable, which meant that stress was already on that syllable at the time of the sound change (\[ˌu.ða.ˈhaŋ\]).
+
+In the cases where /e, o/ raise to /i, u/, there was historically a sound change where /i, u/ lowered to /e, o/ before nasal codas. This was prevented if the syllable happened to be opened through the addition of a suffix beginning with a vowel, as happens for the second person singular and causative forms.
+
+From a diachronic perspective, it would be more accurate to call this lowering rather than raising, but I grouped these together under `raising' because it appears that way synchronically and is easier to explain.
 
 
 ## <a name="noun_morphology"></a>A. Noun morphology <a href="#table_of_contents">^</a>

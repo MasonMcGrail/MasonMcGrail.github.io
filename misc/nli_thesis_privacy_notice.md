@@ -6,8 +6,9 @@ This page serves as a privacy notice for the corpora [The Advanced Finnish Learn
 
 ## Persons responsible and contact information
 
-The data controller and main point of contact for this project is myself. My name is officially Mason McGrail, but I am in the process of changing it to Niko Kälinen, and I prefer to be addressed by that name.
-You can contact me about this project by email, using either my personal email <nikokalinen@gmail.com> or my school email <mason.mcgrail@centria.fi>. The latter may no longer exist in the future after my name change is complete, in which case <niko.kalinen@centria.fi> would be my new email. As I will lose access to both after graduation in mid-2026, my personal email would be the most reliable way to reach me.
+The data controller and main point of contact for this project is myself. My name is officially Mason McGrail, but I am in the process of changing it to Niko Kälinen, and I prefer to be addressed by that name. Professor Aliasghar Khavasi at Centria UAS is a responsible researcher in this project, acting as my advisor.
+
+You can contact me about this project by email, using either my personal email <nikokalinen@gmail.com> or my school email <mason.mcgrail@centria.fi>. The latter may no longer exist in the future after my name change is complete, in which case <niko.kalinen@centria.fi> would be my new email. As I will lose access to both after graduation in mid-2026, my personal email would be the most reliable way to reach me in general. Professor Khavasi's email is <aliasghar.khavasi@centria.fi>.
 
 ## Purpose of processing personal data
 
@@ -56,4 +57,4 @@ Information on data subjects' rights in different situations can be found on the
 
 If data subjects have questions about their own personal data relating to these resources, they should contact Kielipankki. General information on the processing of personal data in Kielipankki can be found in their [Data Protection Statement](https://www.kielipankki.fi/data-protection-statement/).
 
-*Page created October 21st 2025, last updated October 21st 2025*
+*Page created October 21st 2025, last updated October 27sth 2025*

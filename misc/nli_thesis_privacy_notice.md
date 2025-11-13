@@ -42,15 +42,17 @@ For both corpora, the metadata available on the Kielipankki website and on [clar
 
 The data will by processed and received internally only by myself and my supervisor. The data will be at least partially processed on my personal computer, but if there are no barriers to use, it may also be processed with the CSC and/or the AWS Stockholm region. The data will be processed in accordance with data-processing agreements, only in the EU/EEA. There will be no other recipients.
 
-## Transferring data outside the EEA
+## Transferring data outside the EEA; EU-only telemetry
 
-In accordance with the GDPR, this data will only be processed within the EU/EEA, and it will not be transferred elsewhere.
+In accordance with the GDPR, this data will only be processed within the EU/EEA, and it will not be transferred elsewhere. MFA, encryption, audit logging; no cross-region replication or non-EU logging/telemetry.
 
-## Retention period of personal data
+## Retention period and deletion of personal data
 
-The personal data in the corpora will only be stored for as long as my thesis is incomplete, and it will be deleted thereafter. The exact date at which my thesis will be complete is unclear, but at the very latest, I will continue to store it until 1.7.2025. I will delete it earlier if possible, and in accordance with the datasets' policies, I will not, for example, reproduce the data on Github, a cloud drive, or similar.
+The personal data in the corpora will only be stored for as long as my thesis is incomplete, and it will be deleted thereafter. The exact date at which my thesis will be complete is unclear, but at the very latest, I will continue to store it until 1.7.2026. I will delete it earlier if possible, and in accordance with the datasets' policies, I will not, for example, reproduce the data on Github, a cloud drive, or similar.
 
-To ensure that the data is properly deleted, I will deallocate it from the hard drive, overwrite it with cipher.exe, and then factory-reset the computer.
+As for deletion:
+* Local: full-disk encryption + secure wipe
+* Cloud: object delete + version/purge; delete backups; destroy KMS keys.
 
 ## How data subjects can exercise their rights in relation to personal data
 
@@ -62,6 +64,6 @@ A data subject may also contact Centria's DPO regarding this project's processin
 
 ## Licenses and restrictions
 
-CLARIN RES: BY, NC, INF, PRIV, DEP; ICLFI additionally LOC and NORED. This project adheres to these terms strictly.
+CLARIN RES: BY, NC, INF, PRIV, DEP; ICLFI additionally LOC and NORED. This project adheres to these terms strictly. In accordance with the INF, I will notify Kielipankki upon publication.
 
-*Page created October 21st 2025, last updated November 12th 2025*
+*Page created October 21st 2025, last updated November 13th 2025*

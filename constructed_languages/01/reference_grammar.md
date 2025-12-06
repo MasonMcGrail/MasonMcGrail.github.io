@@ -42,21 +42,23 @@
   - [4.1. Introduction](#nouns_introduction)
   - [4.2 Number and definiteness](#number_definiteness)
   - [4.3. Possessive suffixes](#possessive_suffixes)
-    - [4.3.1. Allomorphy in the first person](#allomorphy_first_person)
-    - [4.3.2. Allomorphy in the second person](#allomorphy_second_person)
-    - [4.3.3. Allomorphy in the third person](#allomorphy_third_person)
-    - [4.3.4. Some useful patterns in allomorphy](#allomorphy_patterns)
+    - [4.3.1. Ablaut from second person singular '-ong'](#erg_2sg_ablaut)
+    - [4.3.2. Allomorphy in the first person](#erg_1st_allomorphy)
+    - [4.3.3. Allomorphy in the second person](#erg_2nd_allomorphy)
+    - [4.3.4. Allomorphy in the third person](#erg_3rd_allomorphy)
+    - [4.3.5. Some useful patterns in allomorphy](#erg_allomorphy_patterns)
   - [4.4. Noun phrase structure](#noun_phrases)
     - [4.4.1. Articles](#noun_phrases_articles)
     - [4.4.2. Adjectives](#noun_phrases_adjectives)
     - [4.4.3. Numerals and demonstratives](#noun_phrases_numerals_demonstratives)
     - [4.4.4. Possessors and prepositional phrases](#noun_phrases_prepositionals)
     - [4.4.5. Relative clauses](#noun_phrases_relative_clauses)
-- [A. Verb morphology](#verb_morphology)
-  - [A.B. Introduction](#verb_morphology_introduction)
-  - [A.B. Verbal inflection](#verbal_inflection)
-  - [A.B. Verbal derivation](#verbal_derivation)
-  - [A.B. Verbal template](#verbal_template)
+- [5. Verb morphology](#verb_morphology)
+  - [5.1. Introduction](#verb_morphology_introduction)
+  - [5.2. Verb template](#verb_template)
+  - [5.3. Absolutive clitics (P clitics)](#p_clitics)
+    - [5.3.1. Analysis at clitics](#p_clitic_analysis)
+  - [5.4. Ergative agreement](#erg_agreement)
   - [A.B. Aspect](#verbal_aspect)
   - [A.B. Negation](#verbal_negation)
 - [A. Adjective morphology](#adjective_morphology)
@@ -143,26 +145,32 @@ The interlinear glosses used for examples in this work are basically consistent 
 
 For example:
 
-    ????? nī ????? ???
-    ??? -??      nī     ???   -??       ???
-    wait-1SG.ERG DEF.PL friend-3PL.POSS tomorrow
-    'I'll be waiting for their friends tomorrow'
+<pre>
+????? nī ????? ???
+??? -??      nī     ???   -??       ???
+wait-1SG.ERG DEF.PL friend-3PL.POSS tomorrow
+'I'll be waiting for their friends tomorrow'
+</pre>
 
-For clarity's sake, most of the time I will not divide the words in the second line into their constituent morphemes. When particular morphemes or words are being highlighted, they will be surrounded by two asterisks and separated from other morphology using hyphens or similar. The following draws attention to the possessive suffix in the above example:
+For clarity's sake, most of the time I will not divide the words in the second line into their constituent morphemes. When particular morphemes or words are being highlighted, they will be bolded; the following draws attention to the possessive suffix in the above example:
 
-    ????? nī ???-**??** ???
-    ??? -??      nī     ???   -**??**       ???
-    wait-1SG.ERG DEF.PL friend-**3PL.POSS** tomorrow
-    'I'll be waiting for **their** friends tomorrow'
+<pre>
+????? nī ???<b>??</b> ???
+??? -??      nī     ???   -<b>??</b>       ???
+wait-1SG.ERG DEF.PL friend-</b>3PL.POSS</b> tomorrow
+'I'll be waiting for </b>their</b> friends tomorrow'
+</pre>
 
 #### <a name="additional_conventions"></a>1.3.1. Additional conventions <a href="#table_of_contents">^</a>
 
 Many sentences in Nga'ō can be interpreted in multiple ways out of context. Consider the following example:
 
-    ??????? ????? neng ??? ???
-     ??-?? -???   ???=??      neng       ???   ???
-    PST-PFV-throw net=3SG.ABS LOC.DEF.SG water be.cold
-    '(He/she) cast (a/some) net(s) into the cold water'
+<pre>
+??????? ????? neng ??? ???
+ ??-?? -???   ???=??      neng       ???   ???
+PST-PFV-throw net=3SG.ABS LOC.DEF.SG water be.cold
+'(He/she) cast (a/some) net(s) into the cold water'
+</pre>
 
 The gender of the thrower is ambiguous, and **[?]** 'net' in this case can be singular or plural. In this way, 'He cast a net into the cold water' and 'She cast some nets into the cold water' are both valid translations for the above gloss in the right context.
 
@@ -174,10 +182,12 @@ The parenthetical information in the fourth line makes it harder to read, so ins
 
 Below is the gloss from above written using these conventions:
 
-    ??????? ????? neng ??? ???
-     ??-?? -???   ???=??      neng       ???   ???
-    PST-PFV-throw net=3SG.ABS LOC.DEF.SG water cold
-    'She cast nets into the cold water'
+</pre>
+??????? ????? neng ??? ???
+ ??-?? -???   ???=??      neng       ???   ???
+PST-PFV-throw net=3SG.ABS LOC.DEF.SG water cold
+'She cast nets into the cold water'
+</pre>
 
 Of course, these conventions will be ignored when necessary. When an example is being used to demonstrate some feature of the language, it will contain all of the information that it needs to do so.
 
@@ -317,9 +327,9 @@ Nouns have no inflectional morphology aside from a set of possessive suffixes. A
 
 |                | Singular | Plural |
 | -------------- | -------- | ------ |
-| **1st person** | -ra <br> *-re, -ro, -ta* | -'ang <br> *-'-ssang* |
+| **1st person** | -ra <br> _-re, -ro, -ta_ | -'ang <br> _-ssang_ |
 | **2nd person** |     -ong |    -mi |
-| **3rd person** | -su <br> *-s, ssu* | -pe <br> *-ppe* |
+| **3rd person** | -s <br> _-su, ssu_ | -pe <br> _-ppe_ |
 
 Figure A. _Possessive suffixes._
 
@@ -331,20 +341,22 @@ Figure A. _Possessive suffixes._
 
 If a noun's grammatical role is marked, it is marked by some combination of verbal marking, prepositions, and word order. Verbs agree with their A arguments, while P arguments are not marked on the verb if they appear in the clause as full NPs; they otherwise appear as clitics on the verb.
 
-    ????????? nī ??? **neng** ??? **???** nī ?????
-     ??- ??-??? -??      nī     ???   **neng**       ???  **???** nī     ???  -??
-    PST-PFV-peel-3PL.ERG DEF.PL peach **LOC.DEF.SG** boat **ABL** DEF.PL knife-3PL.POSS
-    'They peeled the peaches on the boat with their knives'
+<pre>
+????????? nī ??? <b>neng</b> ??? <b>???</b> nī ?????
+ ??- ??-??? -??      nī     ???   <b>neng</b>       ???  <b>???</b> nī     ???  -??
+PST-PFV-peel-3PL.ERG DEF.PL peach <b>LOC.DEF.SG</b> boat <b>ABL</b> DEF.PL knife-3PL.POSS
+'They peeled the peaches on the boat with their knives'
 
-    Eng ??? ????????? eng **???**
-    eng    ???     ??- ??-??? -??      eng    **???**
-    DEF.SG hunter PST-PFV-kill-3SG.ERG DEF.SG **pheasant**
-    'The hunter killed the pheasant'
+Eng ??? ????????? eng <b>???</b>
+eng    ???     ??- ??-??? -??      eng    <b>???</b>
+DEF.SG hunter PST-PFV-kill-3SG.ERG DEF.SG <b>pheasant</b>
+'The hunter killed the pheasant'
 
-    Eng ??? ????????? ???**??**
-    eng    ???     ??- ??-??? -??     =**??**
-    DEF.SG hunter PST-PFV-kill-3SG.ERG=**3SG.ABS**
-    'The hunter killed it'
+Eng ??? ????????? ???<b>??</b>
+eng    ???     ??- ??-??? -??     =<b>??</b>
+DEF.SG hunter PST-PFV-kill-3SG.ERG=<b>3SG.ABS</b>
+'The hunter killed it'
+</pre>
 
 In addition to this marking of A and P, verbs inflect for tense, aspect, mood, and voice. The examples below show how some of these inflectional categories are realized.
 
@@ -364,142 +376,160 @@ Adjectives don't have unique morphology, instead sharing morphology with verbs o
 
 Nga'ō is predominantly head-marking, with pronominal P arguments and possessors being marked on verbs and possessed nouns, respectively. The verbal marking is admittedly not prototypical given the markers' status as anaphoric clitics rather than agreement affixes.
 
-    ????? ??? ??? ??? ???
-    ???      -??      eng    ??? neng       ???
-    celebrate-3PL.ERG DEF.SG end LOC.DEF.SG journey
-    'They're celebrating the end of the journey'
+<pre>
+????? ??? ??? ??? ???
+???      -??      eng    ??? neng       ???
+celebrate-3PL.ERG DEF.SG end LOC.DEF.SG journey
+'They're celebrating the end of the journey'
 
-    ???????
-    ???      -??     =**??**
-    celebrate-3PL.ERG=**3SG.ABS**
-    'They're celebrating it'
+?????<b>??</b>
+???      -??     =<b>??</b>
+celebrate-3PL.ERG=<b>3SG.ABS</b>
+'They're celebrating it'
 
-    eng ???**??**
-    eng ???      -**??**
-    DEF.SG father-**1SG.POSS**
-    'my father'
+eng ???<b>??</b>
+eng ???      -<b>??</b>
+DEF.SG father-<b>1SG.POSS</b>
+'my father'
+</pre>
 
 However, most other heads are unmarked, such as in adjective phrases and prepositional phrases. Dependent-marking is also found in some constructions, such as demonstratives agreeing in number with their head nouns, as well as in possession for non-pronominal possessors.
 
-    Eng ??? **???**, nī ??? **???**
-    eng    ???   **???**  nī    ???   **???**
-    DEF.SG story **that** DEF.PL story **that.PL**
-    'that story, those stories'
+<pre>
+Eng ??? <b>???</b>, nī ??? <b>???</b>
+eng    ???   <b>???</b>  nī    ???   <b>???</b>
+DEF.SG story <b>that</b> DEF.PL story <b>that.PL</b>
+'that story, those stories'
 
-    Eng ??? **???**, ??? nī **???**
-    eng    ???    **???**  nī    ???    **???**
-    DEF.SG farmer **that** DEF.PL farmer **that.PL**
-    'that story, those stories'
+Eng ??? <b>???</b>, ??? nī <b>???</b>
+eng    ???    <b>???</b>  nī    ???    <b>???</b>
+DEF.SG farmer <b>that</b> DEF.PL farmer <b>that.PL</b>
+'that story, those stories'
 
-    Eng ??? **no** eng ???
-    eng    ???    **no** eng    ???
-    DEF.SG father **LOC** DEF.SG woman
-    'the woman's father'
+Eng ??? <b>no</b> eng ???
+eng    ???    <b>no</b> eng    ???
+DEF.SG father <b>LOC</b> DEF.SG woman
+'the woman's father'
+</pre>
 
 Relative clauses could also be considered dependent-marked, with the view that the referential noun in the dependent clause is being reduced to a pronoun or pronominal affix.
 
-    Nī ??? ?????????**??** ???
-    nī     ???   ??- ??-??? -??     =**??**      ???
-    DEF.PL fish PST-PFV-hunt-1SG.ERG=**3PL.ABS** yesterday
-    'the fish that I caught yesterday'
+<pre>
+Nī ??? ?????????<b>??</b> ???
+nī     ???   ??- ??-??? -??     =<b>??</b>      ???
+DEF.PL fish PST-PFV-hunt-1SG.ERG=<b>3PL.ABS</b> yesterday
+'the fish that I caught yesterday'
 
-    Eng ??? ??????? ??? **???**
-    eng    ???      ??~???=??      ??? **???**
-    DEF.SG knife ANTIP~cut=1SG.ABS ABL **3SG**
-    'the knife that I cut with'
+Eng ??? ??????? ??? <b>???</b>
+eng    ???      ??~???=??      ??? <b>???</b>
+DEF.SG knife ANTIP~cut=1SG.ABS ABL <b>3SG</b>
+'the knife that I cut with'
+</pre>
 
 ##### 2.3.3.3. Morphosyntactic alignment
 
 In terms of alignment, the language is thoroughly ergative-absolutive. Patterns of verbal person marking in Nga'ō are uniformly morphologically ergative.
 
-    ???????**??**
-     ??- ??-???  =**??**
-    PST-PFV-sleep=**3SG.ABS**
-    'He slept'
+<pre>
+???????<b>??</b>
+ ??- ??-???  =<b>??</b>
+PST-PFV-sleep=<b>3SG.ABS</b>
+'He slept'
 
-    ???????**??****??**
-     ??- ??-??? -**??**     =**??**
-    PST-PFV-wait-**1PL.ERG**=**3SG.ABS**
-    'We waited for him'
+???????<b>??</b><b>??</b>
+ ??- ??-??? -<b>??</b>     =<b>??</b>
+PST-PFV-wait-<b>1PL.ERG</b>=<b>3SG.ABS</b>
+'We waited for him'
 
-    ???????**??****??**
-     ??- ??-??? -**??**     =**??**
-    PST-PFV-wait-**3SG.ERG**=**1PL.ABS**
-    'He waited for us'
+???????<b>??</b><b>??</b>
+ ??- ??-??? -<b>??</b>     =<b>??</b>
+PST-PFV-wait-<b>3SG.ERG</b>=<b>1PL.ABS</b>
+'He waited for us'
+</pre>
 
 There is no case marking, and when there are multiple explicit arguments, their roles are usually made clear through word order.
 
-    ????? eng ??? eng ???
-    ???  -??      eng    ???    eng    ???
-    chase-3SG.ERG DEF.SG jaguar DEF.SG hunter
-    'The jaguar is chasing the hunter'
+<pre>
+????? eng ??? eng ???
+???  -??      eng    ???    eng    ???
+chase-3SG.ERG DEF.SG jaguar DEF.SG hunter
+'The jaguar is chasing the hunter'
 
-    ????? eng ??? eng ???
-    ???  -??      eng    ???    eng    ???
-    chase-3SG.ERG DEF.SG hunter DEF.SG jaguar
-    'The hunter is chasing the jaguar'
+????? eng ??? eng ???
+???  -??      eng    ???    eng    ???
+chase-3SG.ERG DEF.SG hunter DEF.SG jaguar
+'The hunter is chasing the jaguar'
+</pre>
 
 The language is also syntactically ergative, treating A and P arguments differently in relativization. An A argument cannot be relativized directly; it must first be promoted to an S argument using the antipassive voice, which can be seen in the examples below.
 
 ##### 2.3.3.4. Relativization
 
-    Eng ??? ??? ???
-    eng    ???   ??? ???
-    DEF.SG metal COP heavy
-    '(The) metal is heavy'
+<pre>
+Eng ??? ??? ???
+eng    ???   ??? ???
+DEF.SG metal COP heavy
+'(The) metal is heavy'
 
-    ??????? eng ??? ???
-     ??-??? -??      eng    ???  ???
-    PST-open-3SG.ERG DEF.SG door rock
-    'She was opening the stone door'
+??????? eng ??? ???
+ ??-??? -??      eng    ???  ???
+PST-open-3SG.ERG DEF.SG door rock
+'She was opening the stone door'
 
-    Eng    ???  ???   ?????????
-    eng    ???  ???   ??-??? -??     =??
-    DEF.SG door rock PST-open-3SG.ERG=3SG.ABS
-    'the stone door that she was opening'
+Eng    ???  ???   ?????????
+eng    ???  ???   ??-??? -??     =??
+DEF.SG door rock PST-open-3SG.ERG=3SG.ABS
+'the stone door that she was opening'
 
-    Eng ??? ??**??**????? ??? eng ??? ???
-    eng    ???    ??-   **??**~??? =??      ??? eng    ???  ???
-    DEF.SG woman PST-**ANTIP**~open=3SG.ABS ABL DEF.SG door rock
-    'the woman who was opening the stone door'
+Eng ??? ??<b>??</b>????? ??? eng ??? ???
+eng    ???    ??-   <b>??</b>~??? =??      ??? eng    ???  ???
+DEF.SG woman PST-<b>ANTIP</b>~open=3SG.ABS ABL DEF.SG door rock
+'the woman who was opening the stone door'
 
-    * Eng ??? ??????? eng ??? ???
-      eng    ???    ??-??? -??      eng    ???  ???
-      DEF.SG woman PST-open-3SG.ERG DEF.SG door rock
-      Intended: 'the woman who was opening the stone door'
+* Eng ??? ??????? eng ??? ???
+  eng    ???    ??-??? -??      eng    ???  ???
+  DEF.SG woman PST-open-3SG.ERG DEF.SG door rock
+  Intended: 'the woman who was opening the stone door'
+</pre>
 
 ##### 2.3.3.5. Coordination
 
 Non-topicalized arguments usually coordinate ergatively.
 
-    ????????? eng ??? **eng ???** ???  ???????????
-     ??- ??-???-??      eng    ???    **eng    ???**   ???  ??- ??- ??-??? =??
-    PST-PFV-see-3SG.ERG DEF.SG lizard **DEF.SG crane** and PST-PFV-MED-stop=3SG.ABS
-    'The lizard saw the crane and it (the crane) stopped'
+<pre>
+????????? eng ??? <b>eng ???</b> ???  ???????????
+ ??- ??-???-??      eng    ???    <b>eng    ???</b>   ???  ??- ??- ??-??? =??
+PST-PFV-see-3SG.ERG DEF.SG lizard <b>DEF.SG crane</b> and PST-PFV-MED-stop=3SG.ABS
+'The lizard saw the crane and it (the crane) stopped'
+</pre>
 
 However, topicalized arguments generally pattern accusatively; a topicalized S or A coordinates as an S or A in a second clause.
 
-    **Eng ???** ????????? eng ??? ???  ???????????
-    **eng  ???**  ??-  ??-???-??      eng    ???   ???  ??- ??- ??-??? =??
-    DEF.SG lizard PST-PFV-see-3SG.ERG DEF.SG crane and PST-PFV-MED-stop=3SG.ABS
-    'The lizard saw the crane and it (the lizard) stopped'
+<pre>
+<b>Eng ???</b> ????????? eng ??? ???  ???????????
+<b>eng  ???</b>  ??-  ??-???-??      eng    ???   ???  ??- ??- ??-??? =??
+<b>DEF.SG lizard</b> PST-PFV-see-3SG.ERG DEF.SG crane and PST-PFV-MED-stop=3SG.ABS
+'The lizard saw the crane and it (the lizard) stopped'
+</pre>
 
 S and A arguments, but not O arguments, can be topicalized without being marked morphologically or prosodically. Below, **\[?\]** in the second example are not overtly marked when topicalized, while the **\[?\]** in the third example has an additional prosodic pause and is now marked on the verb.
 
-    ????? nī ??? eng ???
-    ???-??      nī     ??? eng    ???
-    eat-3PL.ERG DEF.PL rat DEF.SG ginger.root
-    'The rats are eating the ginger!'
+<pre>
+????? nī ??? eng ???
+???-??      nī     ??? eng    ???
+eat-3PL.ERG DEF.PL rat DEF.SG ginger.root
+'The rats are eating the ginger!'
 
-    **Nī ???** ????? eng ???
-    **nī     ???** ???-??      eng    ???
-    **DEF.PL rat** eat-3PL.ERG DEF.SG ginger.root
-    'The rats are eating the ginger!'
+<b>Nī ???</b> ????? eng ???
+<b>nī     ???</b> ???-??      eng    ???
+<b>DEF.PL rat</b> eat-3PL.ERG DEF.SG ginger.root
+'The rats are eating the ginger!'
 
-    Eng ???, ?????**??** nī ???
-    eng    ???         ???-??     =**??**      nī     ???
-    DEF.SG ginger.root eat-3PL.ERG=**3SG.ABS** DEF.PL rat
-    'The rats are eating the ginger!'
+Eng ???, ?????<b>??</b> nī ???
+eng    ???         ???-??     =<b>??</b>      nī     ???
+DEF.SG ginger.root eat-3PL.ERG=<b>3SG.ABS</b> DEF.PL rat
+'The rats are eating the ginger!'
+</pre>
 
 These restrictions on topicalizable arguments, and their behavior in coordination, are the only instances of nominative-accusative alignment in Nga'ō.
 
@@ -509,96 +539,102 @@ Word order in Nga'ō is overwhelmingly head-initial, both at the phrase level an
 
 The default word order is verb-agent-object (VAO) for transitive verbs and verb-subject (VS) for intransitive verbs, though AVO and SV are also common in discourse due to topicalization.
 
-    ??????? nī ???
-     ??- ??-???  nī     ???
-    PST-PFV-wake DEF.PL girl
-    'The girls woke up'
+<pre>
+??????? nī ???
+ ??- ??-???  nī     ???
+PST-PFV-wake DEF.PL girl
+'The girls woke up'
 
-    **Nī ???** ???????
-    **nī   ???**     ??- ??-???
-    **DEF.PL girl** PST-PFV-wake
-    'The girls woke up'
+<b>Nī ???</b> ???????
+<b>nī   ???</b>     ??- ??-???
+<b>DEF.PL girl</b> PST-PFV-wake
+'The girls woke up'
 
-    ??????? eng ??? wa ???
-     ??-??? -??      eng    ???   wa      ???
-    PST-hold-3SG.ERG DEF.SG child INDF.SG rock
-    'The child was holding a rock'
+??????? eng ??? wa ???
+ ??-??? -??      eng    ???   wa      ???
+PST-hold-3SG.ERG DEF.SG child INDF.SG rock
+'The child was holding a rock'
 
-    **Eng ???** ??????? wa ???
-    **eng    ???** ??-??? -??         wa      ???
-    **DEF.SG child** PST-hold-3SG.ERG INDF.SG rock
-    'The child was holding a rock'
+<b>Eng ???</b> ??????? wa ???
+<b>eng    ???</b>    ??-??? -??      wa      ???
+<b>DEF.SG child</b> PST-hold-3SG.ERG INDF.SG rock
+'The child was holding a rock'
+</pre>
 
 Similarly, AVO, OVA and SV orders result from an argument being focused, which is additionally marked with the preceding particle **\[?\]**. The order AOV occurs when A is topicalized and O is focused.
 
-    ??????? eng ??? ??? eng ???
-     ??- ??-???  eng    ???       ??? eng    ???
-    PST-PFV-fall DEF.SG pineapple ABL DEF.SG table
-    'The pineapple fell off of the table'
+<pre>
+??????? eng ??? ??? eng ???
+ ??- ??-???  eng    ???       ??? eng    ???
+PST-PFV-fall DEF.SG pineapple ABL DEF.SG table
+'The pineapple fell off of the table'
 
-    **??? eng ???** ??????? ??? eng ???
-    **??? eng    ???**       ??- ??-???   ??? eng    ???
-    **FOC DEF.SG pineapple** PST-PFV-fall ABL DEF.SG table
-    '**The pineapple** fell off of the table'
+<b>??? eng ???</b> ??????? ??? eng ???
+<b>??? eng    ???</b>       ??- ??-???   ??? eng    ???
+<b>FOC DEF.SG pineapple</b> PST-PFV-fall ABL DEF.SG table
+'<b>The pineapple</b> fell off of the table'
 
-    ??????????? eng ??? nī ????? ???
-     ??- ??-??? -??  -??      eng    ???  nī     ???  -??       ???
-    PST-PFV-burn-CAUS-3SG.ERG DEF.SG fire DEF.PL glove-3SG.POSS new
-    'The fire burned her new gloves'
+??????????? eng ??? nī ????? ???
+ ??- ??-??? -??  -??      eng    ???  nī     ???  -??       ???
+PST-PFV-burn-CAUS-3SG.ERG DEF.SG fire DEF.PL glove-3SG.POSS new
+'The fire burned her new gloves'
 
-    **??? eng ???** ??????????? nī ????? ???
-    **??? eng    ???**   ??- ??-??? -??  -??      nī     ???  -??       ???
-    **FOC DEF.SG fire** PST-PFV-burn-CAUS-3SG.ERG DEF.PL glove-3SG.POSS new
-    '**The fire** burned her new gloves'
+<b>??? eng ???</b> ??????????? nī ????? ???
+<b>??? eng    ???</b>   ??- ??-??? -??  -??      nī     ???  -??       ???
+<b>FOC DEF.SG fire</b> PST-PFV-burn-CAUS-3SG.ERG DEF.PL glove-3SG.POSS new
+'<b>The fire</b> burned her new gloves'
 
-    **??? nī ????? ???** ??????????? eng ???
-    **??? nī     ???  -??       ???**  ??- ??-??? -??  -??      eng    ???
-    **FOC DEF.PL glove-3SG.POSS new** PST-PFV-burn-CAUS-3SG.ERG DEF.SG fire
-    'The fire burned **her new gloves**'
+<b>??? nī ????? ???</b> ??????????? eng ???
+<b>??? nī     ???  -??       ???</b>  ??- ??-??? -??  -??      eng    ???
+<b>FOC DEF.PL glove-3SG.POSS new</b> PST-PFV-burn-CAUS-3SG.ERG DEF.SG fire
+'The fire burned <b>her new gloves</b>'
 
-    **Eng ???** **??? nī ????? ???** ???????????
-    **eng    ???**  **??? nī     ???  -??       ???**  ??- ??-??? -??  -??
-    **DEF.SG fire** **FOC DEF.PL glove-3SG.POSS new** PST-PFV-burn-CAUS-3SG.ERG
-    'The fire burned **her new gloves**'
+<b>Eng ???</b> <b>??? nī ????? ???</b> ???????????
+<b>eng    ???</b>  <b>??? nī     ???  -??       ???</b>  ??- ??-??? -??  -??
+<b>DEF.SG fire</b> <b>FOC DEF.PL glove-3SG.POSS new</b> PST-PFV-burn-CAUS-3SG.ERG
+'The fire burned <b>her new gloves</b>'
+</pre>
 
 It is worth noting that focus constructions can be syntactically ambiguous; the second- and third-to-last examples have the exact same structure, and both could alternatively mean 'Her new gloves burned the fire' if the number agreement on the verb matched. Number agreement, context, and semantics normally prevent such nonsensical readings, so this ambiguity is rarely a problem in practice.
 
 Interrogative words in nonpolar questions are fronted to the beginning of the sentence, only following a topicalized element if one is present. When an interrogative word is part of a larger phrase, the entire phrase is fronted.
 
-    **???** ???????
-    **???**    ??-   ??~???
-    **who** DESID-ANTIP~help
-    'Who wants to help?'
+<pre>
+<b>???</b> ???????
+<b>???</b>    ??-   ??~???
+<b>who</b> DESID-ANTIP~help
+'Who wants to help?'
 
-    **???** ????????? ???
-    **???**  ??- ??-???-??      ???
-    **who** PST-PFV-cut-3SG.ERG this
-    'Who cut this?'
+<b>???</b> ????????? ???
+<b>???</b>  ??- ??-???-??      ???
+<b>who</b> PST-PFV-cut-3SG.ERG this
+'Who cut this?'
 
-    **???** ?????
-    **???**  ???-??
-    **what** eat-2SG.ERG
-    'What are you eating?'
+<b>???</b> ?????
+<b>???</b>  ???-??
+<b>what</b> eat-2SG.ERG
+'What are you eating?'
 
-    **???** ????????? eng ???
-    **???**    ??- ??-??? -??      eng    ???
-    **where** PST-PFV-find-3PL.ERG DEF.SG cave
-    'Where did your cousins find the cave?'
+<b>???</b> ????????? eng ???
+<b>???</b>    ??- ??-??? -??      eng    ???
+<b>where</b> PST-PFV-find-3PL.ERG DEF.SG cave
+'Where did your cousins find the cave?'
 
-    **??? ???** ?????????
-    **??? ???**   ??-??? -??     =??
-    **ABL what** PFV-make-3PL.ERG=3SG.ABS
-    'What will they make it with?'
+<b>??? ???</b> ?????????
+<b>??? ???</b>   ??-??? -??     =??
+<b>ABL what</b> PFV-make-3PL.ERG=3SG.ABS
+'What will they make it with?'
 
-    **No ???** ??? eng ??? ???
-    **no ???**   ??? eng    ???   ???
-    **LOC what** COP DEF.SG canoe this
-    'Whose canoe is this?'
+<b>No ???</b> ??? eng ??? ???
+<b>no ???</b>   ??? eng    ???   ???
+<b>LOC what</b> COP DEF.SG canoe this
+'Whose canoe is this?'
 
-    Eng ??? no **???** ?????????
-    eng    ???   no  **???**  ??- ??- ??-???
-    DEF.SG house LOC **who** PST-PFV-MED-burn
-    'Whose house is burning?'
+Eng ??? no <b>???</b> ?????????
+eng    ???   no  <b>???</b>  ??- ??- ??-???
+DEF.SG house LOC <b>who</b> PST-PFV-MED-burn
+'Whose house is burning?'
+</pre>
 
 This fronting has the same potential for ambiguity as in focus constructions.
 
@@ -699,7 +735,7 @@ This section describes the morphophonological processes of the language that sur
 
 There is a morphophonological process whereby short /a/ sometimes becomes /e/ or /o/, or short /e, o/ become /i, u/. This happens most frequently with the ergative/possessive suffixes, as well as the causative suffix. Less commonly, /e, o/ may raise to /i, u/ based on whether or not they occur in light syllables. This process only occurs when attaching suffixes, not prefixes or clitics.
 
-##### 3.6.2.1. Raising from /a/ or /e, /o/
+##### 3.6.1.1. Raising from /a/ or /e, /o/
 
 Short /a/ in a light syllable immediately following /i(ː), u(ː)/ becomes /e, o/. This syllable is the last in the stem or the word. The simplest case of this is with the first person singular ergative/possessive suffix, which by default is **-ra** (ex. **tanga**: **tanga-ra**) but has the allomorphs **-re** and **-ro**. For example, the words **tanga** 'woman, wife', **ani** '\[?\]', and **kasnu** '\[?\]' have the possessive forms **tanga-r<ins>a</ins>**, **ani-r<ins>e</ins>**, and **kansu-r<ins>o</ins>**.
 
@@ -707,11 +743,11 @@ For the first person singular suffix in particular, this allomorphy always occur
 
 Otherwise, the most common instance of this raising is that the word has already undergone this process, but it is undone when most suffixes are added. For example, **chine** '\[?\]' and **tūso** '\[?\]' become **chin<ins>a</ins>-ra** and **tūs<ins>a</ins>-ra** with the same suffix.
 
-##### 3.6.2.2. Raising from /e, o/ to /i, u/
+##### 3.6.1.2. Raising from /e, o/ to /i, u/
 
 Short /e, o/ in stem-final syllables sometimes become /i, u/ after attaching suffixes if they are still in light syllables after inflection. This primarily happens with the second person singular ergative/possessive suffix and the causative suffix. For example, **shio** 'paint' has the forms **shios-su** 'his/her/its paint' and **shi<ins>u</ins>-tong** 'your (sg.) paint'. This occurs in a few inflection classes: one for words where there is a consonant in the stem that is absent in the base form but which surfaces when adding suffixes, and one for words ending in **-eng** or **-ong**.
 
-##### 3.6.2.3. Patterns of raising
+##### 3.6.1.3. Patterns of raising
 
 The examples below illustrate the main patterns of raising, including the case where no raising happens at all.
 
@@ -719,11 +755,11 @@ The examples below illustrate the main patterns of raising, including the case w
 | - | ----- | ------- | ------- | ------- | ---- | ------------- |
 | **No raising** | tanga | tanga-ra | tango-ong | tanga-s | - | - |
 | **Undone: /a/ to /e/** | chin<ins>e</ins> | china-ra | chino-ong | china-s | china-ih | wan-chin<ins>e</ins>=ki |
-| **1SG only: /a/ to /o/** | kasnu | kasnu-r<ins>o</ins> | kasn-ong | kasnu-s | kasn-ih | wang-kasnu=ki |
+| **1SG only: /a/ to /o/** | kasnu | kasnu-r<ins>o</ins> | kasno-ong | kasnu-s | kasn-ih | wang-kasnu=ki |
 | **-eng: /e/ to /i/** | uneng | unen-ta | un<ins>i</ins>n-ong | unen-su | un<ins>i</ins>n-ih | wan-uneng=ki |
 | **-o: /o/ to /u/** | shio | shio-ra | shi<ins>u</ins>t-ong | shios-su | shi<ins>u</ins>ch-ih | wan-shio=ki |
 
-##### 3.6.2.4. Diachronic origin
+##### 3.6.1.4. Diachronic origin
 
 This process arose from a sound change where /a/ raised after stressed /i(ː)/ and /u(ː)/. For example, modern **uto** at the time was pronounced \[ˈu.ða\] and then became \[ˈu.ðo\]. This change in vowel quality remained after another sound change where stress shifted to the last syllable of the word. The old vowel resurfaces in forms like **uta-ra** because the presence of those suffixes had shifted the stress to the right (at the time, \[u.ˈða.ɾa\]), so the vowel-raising sound change did not apply to those forms.
 
@@ -744,41 +780,49 @@ Nouns in Nga'ō have little inflectional morphology, only having a set of posses
 
 Nouns do not inflect for number or definiteness, which is instead indicated with articles and/or demonstratives in the same phrase. All nouns other than pronouns, including proper nouns, almost always obligatorily occur with articles, so number and definiteness are almost always clear in practice.
 
-    Eng/wa/nī/??? ???
-    eng/   wa/     nī/    ???     ???
-    DEF.SG/INDF.SG/DEF.PL/INDF.PL crane
-    'the/a/some crane(s)'
+<pre>
+Eng/wa/nī/??? ???
+eng/   wa/     nī/    ???     ???
+DEF.SG/INDF.SG/DEF.PL/INDF.PL crane
+'the/a/some crane(s)'
+</pre>
 
 When a noun occurs with a demonstrative, it usually occurs with a definite article.
 
-    **Eng** ??? **???**, **nī** ??? **???**
-    **eng**    ???   **???**     **nī**     ???   **???**
-    **DEF.SG** smith **this.SG** **DEF.PL** smith **those**
-    'this smith, those smiths'
+<pre>
+<b>Eng</b> ??? <b>???</b>, <b>nī</b> ??? <b>???</b>
+<b>eng</b>    ???   <b>???</b>     <b>nī</b>     ???   <b>???</b>
+<b>DEF.SG</b> smith <b>this.SG</b> <b>DEF.PL</b> smith <b>those</b>
+'this smith, those smiths'
+</pre>
 
 Nouns only occur without articles in two constructions. When a noun is incorporated, it is not modified in any way, including by articles.
 
-    ??? ??????????? ??? ???
-    ???   ??- ??-  ??~???   -??     eng    ???
-    then PST-PFV-INTS~close-3SG.ERG DEF.SG door
-    'Then he slammed the door'
+<pre>
+??? ??????????? ??? ???
+???   ??- ??-  ??~???   -??     eng    ???
+then PST-PFV-INTS~close-3SG.ERG DEF.SG door
+'Then he slammed the door'
 
-    ??? ????????? ?????
-    ???   ??- ??-  ??~???   ??? =??
-    then PST-PFV-INTS~close door=3SG.ABS
-    'Then he slammed the door'
+??? ????????? ?????
+???   ??- ??-  ??~???   ??? =??
+then PST-PFV-INTS~close door=3SG.ABS
+'Then he slammed the door'
+</pre>
 
 Otherwise, articles do not occur with nouns when they are modified by indefinite or interrogative pronouns.
 
-    ??? ????????? wa ???
-    ???  ??- ??-???-??      wa      ???
-    Q   PST-PFV-use-2SG.ERG INDF.SG hammer
-    'Did you use a hammer?'
+<pre>
+??? ????????? wa ???
+???  ??- ??-???-??      wa      ???
+Q   PST-PFV-use-2SG.ERG INDF.SG hammer
+'Did you use a hammer?'
 
-    ??? **???** ?????????
-    ???    **???**   ??- ??-???-??
-    hammer **what** PST-PFV-use-2SG.ERG
-    'Which hammer did you use?'
+??? <b>???</b> ?????????
+???    <b>???</b>   ??- ??-???-??
+hammer <b>what</b> PST-PFV-use-2SG.ERG
+'Which hammer did you use?'
+</pre>
 
 ### <a name="possessive_suffixes"></a>4.3. Possessive suffixes <a href="#table_of_contents">^</a>
 
@@ -788,61 +832,71 @@ The table below summarizes the suffixes for all persons and numbers. Except for 
 
 |                | Singular | Plural |
 | -------------- | -------- | ------ |
-| **1st person** | -ra <br> *-re, -ro, -ta* | -'ang <br> *-'-ssang* |
+| **1st person** | -ra <br> _-re, -ro, -ta_ | -'ang <br> _-ssang_ |
 | **2nd person** |     -ong |    -mi |
-| **3rd person** | -su <br> *-s, ssu* | -pe <br> *-ppe* |
+| **3rd person** | -s <br> _-su, ssu_ | -pe <br> _-ppe_ |
 
-#### <a name="allomorphy_first_person"></a>4.3.1. Allomorphy in the first person <a href="#table_of_contents">^</a>
+<pre>
+eng ???<b>??</b>
+eng    ??? -<b>??</b>
+DEF.SG bowl-<b>3SG.POSS</b>
+'her bowl'
 
-The most common realization for the first person singular suffix is **-ra**, but due to the raising rule mentioned in [3.6.1.](#vowel_raising), it often surfaces as **-re** or **-ro** if the preceding syllable contains /i(ː)/ or /u(ː)/. After nasal codas, it surfaces as **-ta**.
-
-For the first personal plural, the basic form of the suffix is **-'ang**. It surfaces as **-ssang** if the stem ends in a non-nasal coda, replacing that consonant.
-
-    eng ???**??**
-    eng    ??? -**??**
-    DEF.SG bowl-**3SG.POSS**
-    'her bowl'
-
-    nī ???**??**
-    nī     ???    -**??**
-    DEF.PL machete-**3PL.POSS**
-    'their machetes'
+nī ???<b>??</b>
+nī     ???    -<b>??</b>
+DEF.PL machete-<b>3PL.POSS</b>
+'their machetes'
+</pre>
 
 When the possessor is a common noun, it occurs after the possessed noun as the object of the preposition **no** or its portmanteau forms **neng**/**na**.
 
-    nī ??? **no** eng ???
-    nī     ???  **no**  eng    ???
-    DEF.PL claw **LOC** DEF.SG crab
-    'the crab's claws'
+<pre>
+nī ??? <b>no</b> eng ???
+nī     ???  <b>no</b>  eng    ???
+DEF.PL claw <b>LOC</b> DEF.SG crab
+'the crab's claws'
 
-    nī ??? **no** nī ???
-    nī     ???      **no**  nī     ???
-    DEF.PL position **LOC** DEF.PL army
-    'the positions of the armies'
+nī ??? <b>no</b> nī ???
+nī     ???      <b>no</b>  nī     ???
+DEF.PL position <b>LOC</b> DEF.PL army
+'the positions of the armies'
 
-    nī ??? **neng** ???
-    nī     ???  **neng**       ???-??
-    DEF.PL aunt **LOC.DEF.SG** man-FSG.POSS
-    'my husband's aunts'
+nī ??? <b>neng</b> ?????
+nī     ???  <b>neng</b>       ???-??
+DEF.PL aunt <b>LOC.DEF.SG</b> man-1SG.POSS
+'my husband's aunts'
+</pre>
 
-#### <a name="allomorphy_second_person"></a>4.3.2. Allomorphy in the second person <a href="#table_of_contents">^</a>
+#### <a name="erg_2sg_ablaut"></a>4.3.1. Ablaut from second person singular '-ong' <a href="#table_of_contents">^</a>
+
+Most of these suffixes are agglutinative and attach transparently and simply to the stem, but the second person singular suffix **-ong** sometimes causes vowel changes in the stem. Namely, in stems ending in short **-a** or **-u** (and less frequently **-e**), that vowel assimilates into an **-o**, creating a long vowel.
+
+#### <a name="erg_1st_allomorphy"></a>4.3.2. Allomorphy in the first person <a href="#table_of_contents">^</a>
+
+The most common realization for the first person singular suffix is **-ra**, but due to the raising rule mentioned in <a href="#vowel_raising">3.6.1.</a>, it often surfaces as **-re** or **-ro** if the preceding syllable contains /i(ː)/ or /u(ː)/. After nasal codas, it surfaces as **-ta**.
+
+For the first personal plural, the basic form of the suffix is **-'ang**. It surfaces as **-ssang** if the stem ends in a non-nasal coda, replacing that consonant.
+
+#### <a name="erg_2nd_allomorphy"></a>4.3.3. Allomorphy in the second person <a href="#table_of_contents">^</a>
 
 The second person suffixes exhibit basically no allomorphy. That said, some words have a stem-final consonant that surfaces before the second person singular suffix, which can complicate its formation. This stem consonant is lexical and unpredictable.
 
-#### <a name="allomorphy_third_person"></a>4.3.3. Allomorphy in the third person <a href="#table_of_contents">^</a>
+#### <a name="erg_3rd_allomorphy"></a>4.3.4. Allomorphy in the third person <a href="#table_of_contents">^</a>
 
-The third person singular suffix is **-s** for stems ending in vowels, **-su** for stems ending in **-s** or **-ng**, and **-ssu** for stems ending in another consonant. This other consonant may be **-h**, or it might be a **-(p/t/k)** that only surfaces in some inflectional forms; in both cases, **-ssu** replaces the final consonant.
+The third person singular suffix is **-s** for stems ending in vowels, **-su** for stems ending **-ng**, and **-ssu** for stems ending in another consonant. This other consonant may be **-h** or **-s**, or it might be a **-(p/t/k)** that only surfaces in some inflectional forms; in both cases, **-ssu** replaces the final consonant.
 
 The third person plural suffix is normally **-pe**. It surfaces as **-ppe** in the same circumstances in which the third person singular suffix surfaces as **-ssu**.
 
-#### <a name="allomorphy_patterns"></a>4.3.4. Some useful patterns in allomorphy <a href="#table_of_contents">^</a>
+#### <a name="erg_allomorphy_patterns"></a>4.3.5. Some useful patterns in allomorphy <a href="#table_of_contents">^</a>
 
-The first person singular suffixes are completely predictable based on the shape of the lemma, and the second person suffixes are invariant. The first person plural and third person suffixes have a fair amount of allomorphy, but because they are all just based on stem-final coda consonants, there are only a few combinations of them that exist:
+The first person singular suffixes are completely predictable based on the shape of the lemma, and the second person plural suffix is invariant. The first person plural and third person suffixes have a fair amount of allomorphy, but because they are all just based on stem-final coda consonants, there are only a few combinations of them that exist:
 
-- **-ssu**, **-ssang**, **-ppe**. Occurs for stems ending in **-h/p/t/k**, which in many cases is a consonant that only occurs during inflection. These suffixes replace the stem consonant.
-- **-su**, **-sang**, **-pe**. Occurs for stems ending in **-s**, replacing it.
-- **-su**, **-'ang**, **-pe**. Occurs for stems ending in **-ng**, replacing it.
-- **-s**, **-'ang**, **-pe**. Occurs for other stems ending in a vowel.
+* **-ssu**, **-ssang**, **-ppe**. Occurs for stems ending in **-h/p/t/k**, which in many cases is a consonant that only occurs during inflection. These suffixes replace the stem consonant.
+* **-su**, **-sang**, **-pe**. Occurs for stems ending in **-s**, not replacing it.
+* **-su**, **-'ang**, **-pe**. Occurs for stems ending in **-ng**, not replacing it.
+* **-s**, **-'ang**, **-pe**. Occurs for stems ending in a vowel. This does not include stems ending in a silent consonant that were mentioned in the first bullet point.
+
+The stem changes that occur with the second person singular suffix cannot be categorized as easily, but the main generalization is that a stem-final short **-a**, **-u**, and **-e** always assimilate, but the presence of a silent consonant prevents this assimilation.
 
 ### <a name="noun_phrases"></a>4.4. Noun phrase structure <a href="#table_of_contents">^</a>
 
@@ -863,17 +917,21 @@ The order of words in a noun phrase that has all possible modifiers is given bel
 
 The example below demonstrates what it looks like when all possible modifiers are used at once, which due to its complexity and specificity is mostly hypothetical.
 
-    Nī ??? ??? ??? ??? na ??? neng ??? ?????????
-    nī     ???    ???   ???   ???     na          ???  neng       ???       ??- ??-???=??
-    DEF.PL branch heavy three this.PL LOC.INDF.SG tree LOC.DEF.SG river PST-PFV-fall=3PL.ABS
-    'these three heavy branches of a tree in the river, which fell'
+<pre>
+Nī ??? ??? ??? ??? na ??? neng ??? ?????????
+nī     ???    ???   ???   ???     na          ???  neng       ???       ??- ??-???=??
+DEF.PL branch heavy three this.PL LOC.INDF.SG tree LOC.DEF.SG river PST-PFV-fall=3PL.ABS
+'these three heavy branches of a tree in the river, which fell'
+</pre>
 
 It can only be the branches that fell and not the tree or the river because of the plural number agreement on the verb. However, like English, the attachment of the prepositional phrase is ambiguous, so it is unclear whether the branches or the tree are in the river. Also, when both a genitive and a relative clause are present, it may be ambiguous as to whether the latter is modifying the genitive or the head of the noun phrase if verb agreement does not clarify.
 
-    nī ??? no nī ??? ?????
-    nī     ???  no  nī     ???   ???         =??
-    DEF.PL face LOC DEF.PL woman be.beautiful=3PL.ABS
-    'the faces of the woman who are beautiful', or 'the women's faces that are beautiful'
+<pre>
+nī ??? no nī ??? ?????
+nī     ???  no  nī     ???   ???         =??
+DEF.PL face LOC DEF.PL woman be.beautiful=3PL.ABS
+'the faces of the woman who are beautiful', or 'the women's faces that are beautiful'
+</pre>
 
 ### <a name="noun_phrases_articles"></a>4.4.1. Articles <a href="#table_of_contents">^</a>
 
@@ -900,40 +958,359 @@ If the preposition is **no**, the reading can be ambiguous. For example. **\[???
 ### <a name="noun_phrases_relative_clauses"></a>4.4.5. Relative clauses <a href="#table_of_contents">^</a>
 
 
-## <a name="verb_morphology"></a>A. Verb morphology <a href="#table_of_contents">^</a>
+## <a name="verb_morphology"></a>5. Verb morphology <a href="#table_of_contents">^</a>
 
-### <a name="verb_morphology_introduction"></a>A.B. Introduction <a href="#table_of_contents">^</a>
+### <a name="verb_morphology_introduction"></a>5.1. Introduction <a href="#table_of_contents">^</a>
 
-(?)
+This chapter covers verbal morphology in more detail. This morphology is the most complex of all parts of speech by far, as verbs agreeing with A arguments in person and number, and inflect for tense, aspect, mood, voice, as well as a few minor categories. Verbs also serve as hosts for clitics for the applicative voice and pronominal P arguments.
 <!--
 \[in describing different classes of verbs, it should be mentioned that 'to see' and 'to hear', currently, are stative in that they don't take aspect morphology; at least in Mopan, 'to hear' is transitive, but it still takes aspect marking, so this might not hold(?)\]
 -->
 
-### <a name="verbal_inflection"></a>A.B. Verbal inflection <a href="#table_of_contents">^</a>
+### <a name="verb_template"></a>5.2. Verb template <a href="#table_of_contents">^</a>
 
-(?)
+Verbal clitics, prefixes, and suffixes in Nga'ō always attach to the verb and each other in a fixed order in. None of these markers are mandatory, with the exception that transitive verbs require ergative suffixes. A template for verbs in Nga'ō is given below, with each position numbered in order. If a marker has allomorphs, the most common ones are given first.
 
-### <a name="verbal_derivation"></a>A.B. Verbal derivation <a href="#table_of_contents">^</a>
+<table>
+  <tr>
+    <th>Position</th>
+    <th>Element</th>
+    <th>Marker</th>
+  </tr>
+  <tr>
+    <td rowspan=2>0</td>
+    <td>Desiderative</td>
+    <td>??-</td>
+  </tr>
+  <tr>
+    <td>Abilitative</td>
+    <td>??-</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Past tense</td>
+    <td><b>to-, to'-, t-</b></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Perfective aspect</td>
+    <td><b>i-, l-</b></td>
+  </tr>
+  <tr>
+    <td rowspan=2>3</td>
+    <td>Mediopassive voice</td>
+    <td><b>wang-</b></td>
+  </tr>
+  <tr>
+    <td>Antipassive voice</td>
+    <td>Reduplication</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Iterative aspect</td>
+    <td>Reduplication</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><b>Stem</b></td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Attenuative</td>
+    <td>Reduplication</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Causative voice</td>
+    <td><b>-ih, -'ih</b></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Ergative</td>
+    <td>(Various)</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Applicative voice</td>
+    <td>=??</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Absolutive</td>
+    <td>(Various)</td>
+  </tr>
+</table>
 
-(?)
+Table 5.1. _Verb template._
 
-### <a name="verbal_template"></a>A.B. Verbal template (?) <a href="#table_of_contents">^</a>
+The various absolutive and ergative markers are summarized separately in the table below. For clarity, only the most common allomorph is given in each cell, but the other allomorphs can be found in the corresponding section.
 
-A template for transitive verbs in Ekhwachi is given below.
+<table>
+  <tr>
+    <th rowspan=2></th>
+    <th colspan=2>Absolutive</th>
+    <th colspan=2>Ergative</th>
+  </tr>
+  <tr>
+    <th>Singular</th>
+    <th>Plural</th>
+    <th>Singular</th>
+    <th>Plural</th>
+  </tr>
+  <tr>
+    <td>1st person</td>
+    <td><b>=ro</b></td>
+    <td><b>=yang</b></td>
+    <td><b>-ra</b></td>
+    <td><b>-'ang</b></td>
+  </tr>
+  <tr>
+    <td>2nd person</td>
+    <td><b>=yo</b></td>
+    <td><b>=meng</b></td>
+    <td><b>-ong</b></td>
+    <td><b>-'mi</b></td>
+  </tr>
+  <tr>
+    <td>3rd person</td>
+    <td><b>=ki</b></td>
+    <td><b>=peng</b></td>
+    <td><b>-s</b></td>
+    <td><b>-pe</b></td>
+  </tr>
+  <tr>
+    <td>Reflexive</td>
+    <td colspan=2><b>=??</b></td>
+    <td colspan=2><b>-</b></td>
+  </tr>
+</table>
 
-    Aspect - Patient - Root - Agent/Voice
+Table 5.2. _Markers for core arguments._
 
-Patients are indexed on the verb using the patient slot, and suffixes are used to index agents onto the verb as well as to mark voice. Pronominal agent suffixes on verbs and possessive suffixes on nouns are formally identical.
+### <a name="p_clitics"></a>5.3. Absolutive clitics (P clitics) <a href="#table_of_contents">^</a>
 
-    (A.#) ??????? ??? ?????
-          ?????           -??      ???    ???    -???
-          PFV:3SG.ABS:wake-1SG.ERG DEF.SG husband-1SG.POSS
-          'I woke up my husband'
+Verbs do not agree with their P arguments, but there is a set of anaphoric clitics that appear when their corresponding P arguments are not present in clauses as full NPs and are instead rendered as pronouns. Throughout this document, I will generally call these 'P clitics' for brevity and occasionally 'absolutive clitics' for clarity.
 
-    (A.#) ??? ??????? ???? ????¿
-          ??? ?????           -??      ???    ???   -??
-          Q   PFV:3SG.ABS:find-2SG.ERG DEF.SG mother-2SG.POSS
-          'Did you find your mother?'
+<table>
+  <tr>
+    <th></th>
+    <th>Singular</th>
+    <th>Plural</th>
+  </tr>
+  <tr>
+    <td>1st person</td>
+    <td><b>=ro</b></td>
+    <td><b>=yang</b></td>
+  </tr>
+  <tr>
+    <td>2nd person</td>
+    <td><b>=yo</b></td>
+    <td><b>=meng</b></td>
+  </tr>
+  <tr>
+    <td>3rd person</td>
+    <td><b>=ki</b></td>
+    <td><b>=peng</b></td>
+  </tr>
+  <tr>
+    <td>Reflexive</td>
+    <td colspan=2><b>=??</b></td>
+  </tr>
+</table>
+
+Table 5.2. _Absolutive clitics._
+
+The surface forms of some of these clitics may be slightly different due to allophony described in <a href="#allophony_consonants">3.2.1</a>. Namely, the /ɾ/ of the first person singular is realized as \[l\] after a nasal or glottal consonant, and the sequence /sj/ that results from a word ending in /s/ taking a second person singular or first person plural clitic is pronounced as \[ʃ\].
+
+<pre>
+??? <b>nī ???</b>
+???   <b>nī     ???</b>
+sleep <b>DEF.PL child</b>
+'The children are sleeping'
+
+???<b>??</b>
+???=<b>??</b>
+sleep=<b>3PL.ABS</b>
+'They're sleeping'
+
+????????? <b>eng ???</b>
+ ??- ??-??? -??      <b>eng    ???</b>
+PST-PFV-drop-1SG.ERG <b>DEF.SG peach</b>
+'I dropped the peach'
+
+?????????<b>??</b>
+ ??- ??-??? -??      <b>??</b>
+PST-PFV-drop-1SG.ERG=<b>3SG.ABS</b>
+'I dropped it'
+</pre>
+
+These clitics do not appear when P is topicalized, focused, or an interrogative word.
+
+<pre>
+?????<b>??</b> ?? ???
+ ??-???    =<b>??</b>      ??  ???
+PST-succeed=<b>1PL.ABS</b> LOC this
+'We'll succeed in this'
+
+<b>???</b> ????? ?? ???
+<b>???</b> ??-???     ??  ???
+<b>1PL</b> PST-succeed LOC this
+'We'll succeed in this'
+
+<b>??? ???</b> ????? ?? ???
+<b>??? ???</b> ??-???     ??  ???
+<b>FOC 1PL</b> PST-succeed LOC this
+'<b>We'll</b> succeed in this'
+
+<b>???</b> ????? ?? ???
+<b>???</b> ??-???     ??  ???
+<b>who</b> PST-succeed LOC this
+'Who will succeed in this?'
+</pre>
+
+Note that the second of the above examples is grammatical, but pragmatically it is only marginally acceptable to topicalize a pronoun in this way.
+
+When a P argument is relativized, it is reduced to a pronoun in the relative clause, and so it is always realized with a P clitic.
+
+<pre>
+E  Ka'ūri ???
+e  Ka'ūri ???
+PN K.     die
+'Ka'ūri is dying'
+
+E  Ka'ūri ???<b>??</b>
+e  Ka'ūri ???=<b>??</b>
+PN K.     die=<b>3SG.ABS</b>
+'Ka'ūri, who is dying'
+
+????? nī ??? ??? ???
+ ???-??      nī     ??? ???   ???
+make-3PL.ERG DEF.PL axe steel here
+'They make the steel axes here'
+
+nī ??? ??? ?????<b>??</b> ???
+nī     ??? ???    ???-??=<b>??</b>           ???
+DEF.PL axe steel make-3PL.ERG=<b>3SG.ABS</b> here
+'the steel axes that they make here'
+</pre>
+
+##### The reflexive clitic '=??'
+
+The reflexive clitic **=??** is somewhat different from the others in that it does not distinguish person or number. It is used for reflexive constructions when the agent and patient of the verb are the same.
+
+<pre>
+?????????<b>??</b>
+ ??- ??-??? -??     =<b>??</b>
+PST-PFV-wash-1SG.ERG=<b>REFL</b>
+'I washed myself'
+
+??? ???????????<b>??</b>
+???  ??- ??-??? -??  -??     =<b>??</b>
+Q   PST-PST-burn-CAUS-2SG.ERG=<b>REFL</b>
+'Did you burn yourself?'
+
+Eng ??? ??? ??? ?????<b>??</b>
+eng    ???   ???  ???   ???    -??=<b>??</b>
+DEF.SG idiot that INFER deceive-3SG.ERG=<b>REFL</b>
+'That idiot is fooling himself'
+
+?????????<b>??</b> ?? eng ???
+ ??- ??-???-??     =<b>??</b>   ??  eng    ???
+PST-PFV-dry-3SG.ERG=<b>REFL</b> ABL DEF.SG cloth
+'She dried herself with the cloth'
+
+????????? ???, ??? ?????????<b>??</b>
+   ??- ??-???-??      ???  ???  ??- ??-??? -??     =<b>??</b>
+DESID-PST-say-1SG.ERG what but PST-PFV-stop-1SG.ERG=<b>REFL</b>
+'I wanted to say something, but I stopped myself'
+</pre>
+
+When the sole argument of the verb is plural, the event may be interpreted as reflexive or reciprocal.
+
+<pre>
+?????<b>??</b>
+???    -??     =<b>??</b>
+destroy-2PL.ERG=<b>REFL</b>
+'You're destroying each other' or 'You're destroying yourselves'
+
+?????????<b>??</b>
+ ??- ??-???  -??     =<b>??</b>
+PST-PFV-paint-1PL.ERG=<b>REFL</b>
+'We painted each other' or 'We painted ourselves'
+
+?????????<b>??</b>
+ ??-???    -??  -??     =<b>??</b>
+PST-comfort-CAUS-1PL.ERG=<b>REFL</b>
+'They were comforting each other' or 'They were comforting themselves'
+</pre>
+
+This marker is not used when A is acting on an O that it possesses, especially when O is part of its body. When this is the case, O is stated as a separate NP.
+
+<pre>
+????????? <b>eng ?????</b>
+ ??- ??-??? -??      <b>eng    ???-??</b>
+PST-PFV-bite-3SG.ERG <b>DEF.SG tongue-1SG.POSS</b>
+'I bit myself in the tongue' or 'I bit my tongue'
+
+????????? <b>eng ?????</b>
+ ??- ??-???-??      <b>eng    ???-??</b>
+PST-PFV-cut-3SG.ERG <b>DEF.SG palm-3SG.POSS</b>
+'He cut him palm'
+
+??????????? <b>eng ?????</b> ?? eng ???
+ ??- ??-???    -??  -??      <b>eng    ???-??</b>       ??  eng    ???
+PST-PFV-be.free-CAUS-3SG.ERG <b>DEF.SG leg-3SG.POSS</b> ABL DEF.SG trap
+'It freed its leg from the trap'
+</pre>
+
+### <a name="p_clitic_analysis"></a>5.3.1. Analysis at clitics <a href="#table_of_contents">^</a>
+
+The markers that I call 'P clitics' have much of the same behavior as suffixes, and it is tempting to simply include them in the list of other suffixed that were outlined in Table 5.1. Namely, they are bound morphemes that only attach to verbal hosts and undergo the same morphophonological processes as suffixes, rather than those that occur at word boundaries. Additionally, they are clearly bound in that they cannot occur by themselves; in answering a question such as _Who cares?_, the response can be a full pronoun such as \[?\] or \[?\] but cannot be a postverbal marker such as \[?\] or \[?\].
+
+While all of the above is true, I posit that these are clitics rather than suffixes for a few main reasons. The first is that they are only present when a full NP that they would correspond to is not present in the clause. In that way, they exist in complimentary distribution with full NPs, and so their syntactic distribution defines them as clitics rather than prefixes.
+
+Additionally, these markers are not only found attached to verbs themselves, but also incorporated nouns. Because these nouns are syntactically part of the verb phrase, it is the case that these clitics attach to the end of the verb phrase rather than the verb itself.
+
+Lastly, unlike virtually all inflectional and derivational suffixes, these markers do not attract stress. This suggests that speakers consider them separate words syntactically even though they are phonologically dependent on their hosts.
+
+### <a name="erg_agreement"></a>5.4. Ergative agreement <a href="#table_of_contents">^</a>
+
+Transitive verbs agree with their agents in person and number with the following set of suffixes. Except for the second person forms, these exhibit a significant amount of allomorphy, which is explained later in this section.
+
+|                | Singular | Plural |
+| -------------- | -------- | ------ |
+| **1st person** | -ra <br> _-re, -ro, -ta_ | -'ang <br> _-ssang_ |
+| **2nd person** |     -ong |    -mi |
+| **3rd person** | -s <br> _-su, ssu_ | -pe <br> _-ppe_ |
+
+Unlike the P clitics, this is proper agreement, in that these suffixes are present even when A is overtly present in the clause as a full NP.
+
+<pre>
+???????<b>??</b> nī ??? eng ???
+ ??- ??-???-<b>??</b>      nī     ???   eng    ???
+PST-PFV-cut-<b>3PL.ERG</b> DEF.PL woman DEF.SG rope
+'The women cut the rope'
+
+?????<b>??</b>?? eng ???
+ ??-???  -<b>??</b>     =??      eng    ???
+PFV-judge-<b>3PL.ERG</b>=3PL.ABS DEF.SG chief
+'The chief will judge them'
+</pre>
+
+These suffixes and possessive suffixes on nouns are formally identical. The allomorphy that they display was described in more detail in section [4.3](#possessive_suffixes).
+
+<pre>
+???<b>??</b> eng ???<b>??</b>
+??? -<b>??</b>      eng    ???-<b>??</b>
+wake-<b>1SG.ERG</b> DEF.SG man-<b>1SG.POSS</b>
+'I wake up my husband'
+
+??? ???<b>??</b> eng ???<b>??</b>
+???  ???-<b>??</b>      eng    ???-<b>??</b>
+Q   seek-<b>2SG.ERG</b> DEF.SG mother-<b>2SG.ERG</b>
+'Are you looking for your mother'
+</pre>
 
 ### <a name="verbal_aspect"></a>A.B. Aspect <a href="#table_of_contents">^</a>
 

@@ -57,8 +57,9 @@
   - [5.1. Introduction](#verb_morphology_introduction)
   - [5.2. Verb template](#verb_template)
   - [5.3. Absolutive clitics (P clitics)](#p_clitics)
-    - [5.3.1. Analysis at clitics](#p_clitic_analysis)
+    - [5.3.1. Analysis as clitics](#p_clitic_analysis)
   - [5.4. Ergative agreement](#erg_agreement)
+  - [5.5. 5.5. Tense](#verb_tense)
   - [A.B. Aspect](#verbal_aspect)
   - [A.B. Negation](#verbal_negation)
 - [A. Adjective morphology](#adjective_morphology)
@@ -873,7 +874,7 @@ Most of these suffixes are agglutinative and attach transparently and simply to 
 
 #### <a name="erg_1st_allomorphy"></a>4.3.2. Allomorphy in the first person <a href="#table_of_contents">^</a>
 
-The most common realization for the first person singular suffix is **-ra**, but due to the raising rule mentioned in <a href="#vowel_raising">3.6.1.</a>, it often surfaces as **-re** or **-ro** if the preceding syllable contains /i(ː)/ or /u(ː)/. After nasal codas, it surfaces as **-ta**.
+The most common realization for the first person singular suffix is **-ra**, but due to the raising rule mentioned in [3.6.1.](#vowel_raising), it often surfaces as **-re** or **-ro** if the preceding syllable contains /i(ː)/ or /u(ː)/. After nasal codas, it surfaces as **-ta**.
 
 For the first personal plural, the basic form of the suffix is **-'ang**. It surfaces as **-ssang** if the stem ends in a non-nasal coda, replacing that consonant.
 
@@ -1121,7 +1122,7 @@ Verbs do not agree with their P arguments, but there is a set of anaphoric cliti
 
 Table 5.2. _Absolutive clitics._
 
-The surface forms of some of these clitics may be slightly different due to allophony described in <a href="#allophony_consonants">3.2.1</a>. Namely, the /ɾ/ of the first person singular is realized as \[l\] after a nasal or glottal consonant, and the sequence /sj/ that results from a word ending in /s/ taking a second person singular or first person plural clitic is pronounced as \[ʃ\].
+The surface forms of some of these clitics may be slightly different due to allophony described in [3.2.1](#allophony_consonants). Namely, the /ɾ/ of the first person singular is realized as \[l\] after a nasal or glottal consonant, and the sequence /sj/ that results from a word ending in /s/ taking a second person singular or first person plural clitic is pronounced as \[ʃ\].
 
 <pre>
 ??? <b>nī ???</b>
@@ -1264,7 +1265,7 @@ PST-PFV-be.free-CAUS-3SG.ERG <b>DEF.SG leg-3SG.POSS</b> ABL DEF.SG trap
 'It freed its leg from the trap'
 </pre>
 
-### <a name="p_clitic_analysis"></a>5.3.1. Analysis at clitics <a href="#table_of_contents">^</a>
+### <a name="p_clitic_analysis"></a>5.3.1. Analysis as clitics <a href="#table_of_contents">^</a>
 
 The markers that I call 'P clitics' have much of the same behavior as suffixes, and it is tempting to simply include them in the list of other suffixed that were outlined in Table 5.1. Namely, they are bound morphemes that only attach to verbal hosts and undergo the same morphophonological processes as suffixes, rather than those that occur at word boundaries. Additionally, they are clearly bound in that they cannot occur by themselves; in answering a question such as _Who cares?_, the response can be a full pronoun such as \[?\] or \[?\] but cannot be a postverbal marker such as \[?\] or \[?\].
 
@@ -1311,6 +1312,10 @@ wake-<b>1SG.ERG</b> DEF.SG man-<b>1SG.POSS</b>
 Q   seek-<b>2SG.ERG</b> DEF.SG mother-<b>2SG.ERG</b>
 'Are you looking for your mother'
 </pre>
+
+### <a name="verb_tense"></a>5.5. Tense <a href="#table_of_contents">^</a>
+
+Verbs have two morphological tenses: past and nonpast. The nonpast tense is unmarked, while the past tense is marked by the prefix **to-**. This prefix surfaces as **to'-** before a long vowel and as **t-** before a word starting with **o-** followed by a geminate, such as **onni** '???'.
 
 ### <a name="verbal_aspect"></a>A.B. Aspect <a href="#table_of_contents">^</a>
 

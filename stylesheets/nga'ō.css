@@ -23,6 +23,7 @@ a { color: var(--links); }
 div.highlight { background-color: var(--grey-dark); }
 
 .main-content pre>code { color: var(--grey-light); }
+.main-content pre { color: var(--grey-light); }
 
 .main-content table th, .main-content table td {
     border: 2px solid var(--accent);

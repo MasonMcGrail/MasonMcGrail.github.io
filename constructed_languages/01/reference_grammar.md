@@ -59,7 +59,7 @@
   - [5.3. Absolutive clitics (P clitics)](#p_clitics)
     - [5.3.1. Analysis as clitics](#p_clitic_analysis)
   - [5.4. Ergative agreement](#erg_agreement)
-  - [5.5. 5.5. Tense](#verb_tense)
+  - [5.5. Tense](#verb_tense)
   - [A.B. Aspect](#verbal_aspect)
   - [A.B. Negation](#verbal_negation)
 - [A. Adjective morphology](#adjective_morphology)

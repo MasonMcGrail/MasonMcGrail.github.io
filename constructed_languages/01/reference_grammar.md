@@ -851,6 +851,8 @@ The table below summarizes the suffixes for all persons and numbers. Except for 
 | **2nd person** |     -ong |    -mi |
 | **3rd person** | -s <br> _-su, ssu_ | -pe <br> _-ppe_ |
 
+<br>
+
 <pre>
 eng ???<b>??</b>
 eng    ??? -<b>??</b>
@@ -1930,6 +1932,8 @@ A particular reduplication pattern applied to verbs marks the attenuative, indic
 | (placeholder) esaipo  | '\[?\]' | esaipo**wipo**  | '\[?\]' |
 | (placeholder) wani    | '\[?\]' | wani**pani**    | '\[?\]' |
 | (placeholder) totta   | '\[?\]' | totta**ppa**    | '\[?\]' |
+
+<br>
 
 <pre>
 ?????<b>??</b>ki ???

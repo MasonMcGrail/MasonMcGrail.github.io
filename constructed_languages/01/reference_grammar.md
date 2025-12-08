@@ -83,7 +83,7 @@
   - [6.4. Idiosyncracies and subpatterns in classes](#adjective_patterns)
   - [6.5. Predicative adjectives](#predicative_adjectives)
   - [6.6. Attributive adjectives](#attributive_adjectives)
-  - [A.B. Adjectival inflection](#adjectival_inflection)
+  - [6.7. Adjectives without head nouns](#adjectives_without_nouns)
 - [A. Pronouns](#pronouns)
   - [A.B. Personal pronouns](#personal_pronouns)
   - [A.B. Demonstrative pronouns](#demonstrative_pronouns)
@@ -2059,9 +2059,7 @@ INDF.SG day INTS~hot
 'a very hot day'
 </pre>
 
-### <a name="adjectival_inflection"></a>A.B. Adjectival inflection <a href="#table_of_contents">^</a>
-
-#### A.B.C. Adjectives without head nouns
+### <a name="adjectives_without_nouns"></a>6.7. Adjectives without head nouns <a href="#table_of_contents">^</a>
 
 When a noun is contextually retrievable or considered unimportant, it can be omitted. When this happens, the rest of the phrase remains the same; the presence of an article makes it clear that the adjective is acting as the head of the noun phrase. The adjective has all of the morphological properties of a noun, including possessive suffixes.
 

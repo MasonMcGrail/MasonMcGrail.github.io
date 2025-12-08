@@ -76,9 +76,13 @@
     - [5.8.1. Other expressions of desire](#other_desires)
   - [5.9. Abilitative](#verb_abilitative)
   - [5.10. Attenuative](#verb_attenuative)
-- [A. Adjective morphology](#adjective_morphology)
-  - [A.B. Predicative adjectives](#predicative_adjectives)
-  - [A.B. Attributive adjectives](#attributive_adjectives)
+- [6. Adjectives](#adjectives)
+  - [6.1. Introduction](#adjectives_introduction)
+  - [6.2. Verbal adjectives](#verbal_adjectives)
+  - [6.3. Nominal adjectives](#nomimal_adjectives)
+  - [6.4. Idiosyncracies and subpatterns in classes](#adjective_patterns)
+  - [6.5. Predicative adjectives](#predicative_adjectives)
+  - [6.6. Attributive adjectives](#attributive_adjectives)
   - [A.B. Adjectival inflection](#adjectival_inflection)
 - [A. Pronouns](#pronouns)
   - [A.B. Personal pronouns](#personal_pronouns)
@@ -1967,63 +1971,116 @@ be.hungry~<b>ATT</b>=1SG.ABS but ABIL-ANTIP~wait=1SG.ABS
 </pre>
 
 
+## <a name="adjectives"></a>6. Adjectives <a href="#table_of_contents">^</a>
 
+### <a name="adjectives_introduction"></a>6.1. Introduction <a href="#table_of_contents">^</a>
 
-## <a name="adjective_morphology"></a>A. Adjective morphology <a href="#table_of_contents">^</a>
+Nga'ō has a two classes of adjectives, verbal and nominal adjectives. Both types are only weakly differentiated from verbs and nouns, respectively, and they are relatively simple when used attributively, not agreeing with their head nouns in any way. They are morphologically distinct enough that they could be considered different word classes, but they have enough similarities that I chose to combine them here.
 
-### <a name="predicative_adjectives"></a>A.B. Predicative adjectives <a href="#table_of_contents">^</a>
+### <a name="verbal_adjectives"></a>6.2. Verbal adjectives <a href="#table_of_contents">^</a>
+
+Verbal adjectives generally refer to properties that are temporary or unstable, or which cause an emotional or otherwise psychological reaction in whatever experiences that property.
+
+| Type of property                   | Examples                                                                                   |
+| ---------------------------------- | ------------------------------------------------------------------------------------------ |
+| physiological and emotional states | **\[?\]** 'hungry', **\[?\]** 'thirsty', **\[?\]** 'excited', **\[?\]** 'scared'           |
+| weather-like phenomena             | **\[?\]** 'hot', **\[?\]** 'cold', **\[?\]** 'bright', **\[?\]** 'dark'                    |
+| character traits                   | **\[?\]** 'curious', **\[?\]** 'patient', **\[?\]** 'cruel', **\[?\]** 'greedy'            |
+| emotionally provocative qualities  | **\[?\]** 'beautiful', **\[?\]** 'pungent', **\[?\]** 'dangerous', **\[?\]** 'frustrating' |
+| value judgments                    | **\[?\]** 'bad', **\[?\]** 'perfect', **\[?\]** 'strange', **\[?\]** 'important'           |
+
+These adjectives are effectively identical to stative verbs when used predicatively, but they differ in other areas. In particular, stative verbs take P clitics when used attributively in relative clauses while verbal adjectives take no marking, and verbal adjectives have an optional adverbial inflection while stative verbs do not.
+
+### <a name="nomimal_adjectives"></a>6.3. Nominal adjectives <a href="#table_of_contents">^</a>
+
+Nominal adjectives generally refer to properties that are permanent or otherwise stable across time.
+
+| Type of property          | Examples                                                                    |
+| ------------------------- | --------------------------------------------------------------------------- |
+| material                  | **\[?\]** 'stone', **\[?\]** 'gold', **\[?\]** 'iron', **\[?\]** 'wood'     |
+| shape, size, color        | **\[?\]** 'big', **\[?\]** 'short', **\[?\]** 'thick', **\[?\]** 'yellow'   |
+| other physical properties | **\[?\]** 'healthy', **\[?\]** 'soft', **\[?\]** 'rough', **\[?\]** 'young' |
+| ethnic and spatial terms  | **Nga'ō** 'Nga'ō', **\[?\]** 'low', **\[?\]** 'near', **\[?\]** 'southern'  |
+
+Like verbal adjectives with stative verbs, nominal adjectives are very similar to nouns but not identical. Like verbal adjectives, they have an adverbial inflection that other parts of speech lack. Nominal adjectives also differ from nouns in that they do not take articles when used predicatively.
+
+### <a name="adjective_patterns"></a>6.4. Idiosyncracies and subpatterns in classes <a href="#table_of_contents">^</a>
+
+It is worth mentioning that emotionally provocative properties are especially likely to have antonyms in different classes. Usually, a negative property is verbal and its opposite is nominal, because the positive property is taken for granted to be part of the status quo. For example, **\[?\]** 'sick' and **\[?\]** 'complicated' are verbal while **\[?\]** 'healthy' and **\[?\]** 'simple' are nominal.
+
+In a similar way, some dialects categorize cognate adjectives as belonging to different classes when they have competing associations. For example, the adjective **\[?\]** 'sharp' is verbal in the Southern, Mountain, and Western dialects, but it is nominal in the other dialects. In theory, the focus in the focus dialects is on the emotional response of caution or fear when near a sharp object or the temporary nature of sharpness as things dull with repeated use, while in the latter dialects the focus is on how the property is unchanging over time, and there is less emphasis on the potential danger.
+
+That said, the associations between the different classes are mostly subconscious, and speakers treat these classes as fixed, not purposefully switching classes to emphasize something being more permanent or provocative than usual, for example. Some speakers of the Central and Western dialects identify some adjectives as interchangeably belonging to either class due to language contact with Viñuviñu, but this absent in other dialects.
+
+### <a name="predicative_adjectives"></a>6.5. Predicative adjectives <a href="#table_of_contents">^</a>
 
 When used predicatively, adjectives are syntactically and morphologically identical to stative verbs.
 
-    (A.#) ??? ??????? ??? ??? ??? ?????????
-          ??? ???????             ???    ???   ??? ?????????
-          EPI 3SG.ABS:ITV:be.wide DEF.SG house REL PROG:3SG.ABS:build:2PL.ERG
-          'It looks like the house that you're building will be very spacious'
+<pre>
+??? ???
+??? ???
+NEG be.stubborn
+'Don't be stubborn!'
 
-    (A.#) ??? ???????!
-          ??? ???????
-          NEG SBJV:2SG:be.stubborn
-          'Don't be stubborn!'
+??? ??? eng ??? ???
+??? ???  eng    ???   ???
+COP thin DEF.SG glass that
+'That glass is thin'
 
-### <a name="attributive_adjectives"></a>A.B. Attributive adjectives <a href="#table_of_contents">^</a>
+Nī ??? ??? ??? ???
+nī     ???  ??? ???    ???
+DEF.PL leaf COP yellow already
+'The leaves are already yellow'
+
+??? ????? ???
+??? ???≈??      ???
+NEG COP≈3PL.ABS old
+'They're not old'
+</pre>
+
+### <a name="attributive_adjectives"></a>6.6. Attributive adjectives <a href="#table_of_contents">^</a>
 
 When acting attributively, adjectives lose most verb morphology, including agreement morphology and aspect marking, and they must immediately follow the noun that they modify. However, they can be negated and intensified using the same morphology as verbs.
 
-    (A.#) ??? ??? ???
-          ??? ???   ???
-          PL  woman tall
-          'tall women'
+<pre>
+Nī ??? ???
+nī     ???   ???
+DEF.PL woman tall
+'the tall women'
 
-    (A.#) ??? ??? ???
-          ???   ??? ???
-          water NEG clean
-          'unclean water'
+Eng ??? <b>???</b> ???
+eng    ???   <b>???</b> ???
+DEF.SG water <b>NEG</b> clean
+'the unclean water'
 
-    (A.#) ??? ?????
-          ??? ???~???
-          day ITV~hot
-          'very hot day'
+Wa ??? ?????
+wa      ??? ??~  ???
+INDF.SG day INTS~hot
+'a very hot day'
+</pre>
 
 ### <a name="adjectival_inflection"></a>A.B. Adjectival inflection <a href="#table_of_contents">^</a>
 
 #### A.B.C. Adjectives without head nouns
 
-When a noun is contextually retrievable or considered unimportant, it can be omitted. When an omitted noun is modified by an adjective, an appropriate classifier must take its place to be modified. When this happens, the classifier stands as the head of the noun phrase and can take possessive suffixes like a noun.
+When a noun is contextually retrievable or considered unimportant, it can be omitted. When this happens, the rest of the phrase remains the same; the presence of an article makes it clear that the adjective is acting as the head of the noun phrase. The adjective has all of the morphological properties of a noun, including possessive suffixes.
 
-    (A.#) ????????? ????? ??? ???
-          ?????????                ?????            ???
-          IMP:3SG.ABS:give:2SG.ERG CLF.INAN:1SG.ERG red
-          'Give me a red one'
+<pre>
+??????? wa ???
+??? =??  =??      wa      ???
+give=APPL=1SG.ABS INDF.SG easy
+'Give me an easy one'
 
-    (A.#) ??? ??? ??? ????? ??? ?????
-          ???    ???      ???   ?????                ???  ?????
-          DEF.PL CLF.INAN small 3PL.ABS:be.delicious from PL:that
-          'The small ones taste better than those'
+Nī ??? ??? ??? nī ???
+nī     ???   ???       ??? nī     ???
+DEF.PL small be.bitter ABL DEF.PL big
+'The small ones are more bitter than the big ones'
 
-    (A.#) ??? ??? ??? ???????
-          ???    ???      ??? ???????
-          DEF.PL CLF.NHAN big 3PL.ABS:ITV:be.dangerous
-          'Big ones are very dangerous'
+Nī ??? ?????
+nī     ??? ??~  ???
+DEF.PL red INTS~dangerous
+'Red ones are very dangerous'
+</pre>
 
 
 ## <a name="pronouns"></a>A. Pronouns <a href="#table_of_contents">^</a>
